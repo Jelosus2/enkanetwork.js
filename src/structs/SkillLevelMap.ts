@@ -1,9 +1,9 @@
 import { Skill } from "./Skill"
 
 export class SkillLevelMap {
-  normalAttacks: Skill
-  elementalSkill: Skill
-  elementalBurst: Skill
+  normalAttacks: Skill // changed
+  elementalSkill: Skill // changed
+  elementalBurst: Skill // changed
 
   constructor(data: any) {
     this.normalAttacks = new Skill(data[Object.keys(data)[0]], +Object.keys(data)[0])

@@ -1,11 +1,11 @@
 import { WeaponStatsAPI } from "../types"
 
 export class WeaponStats {
-  appendPropId: string
+  stat: string // changed
   statValue: number
 
   constructor(data: WeaponStatsAPI) {
-    this.appendPropId = data.appendPropId
+    this.stat = data.appendPropId
     this.statValue = data.statValue
   }
 }

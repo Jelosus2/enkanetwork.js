@@ -6,9 +6,9 @@ import { ReliquarySubstats } from "./ReliquarySubstats"
 export class ReliquaryFlat {
   nameTextMapHash: string
   setNameTextMapHash: string
-  rankLevel: number
-  reliquaryMainstat: ReliquaryMainstat 
-  reliquarySubstats: ReliquarySubstats[]
+  stars: number // changed
+  artifactMainstat: ReliquaryMainstat // changed 
+  artifactSubstats: ReliquarySubstats[] // changed
   itemType: string
   icon: IconLinks
   equipType: string
@@ -16,9 +16,9 @@ export class ReliquaryFlat {
   constructor(data: ReliquaryFlatAPI) {
     this.nameTextMapHash = data.nameTextMapHash
     this.setNameTextMapHash = data.setNameTextMapHash
-    this.rankLevel = data.rankLevel
-    this.reliquaryMainstat = new ReliquaryMainstat(data.reliquaryMainstat)
-    this.reliquarySubstats = data.reliquarySubstats.map((data) => new ReliquarySubstats(data))
+    this.stars = data.rankLevel
+    this.artifactMainstat = new ReliquaryMainstat(data.reliquaryMainstat)
+    this.artifactSubstats = data.reliquarySubstats.map((data) => new ReliquarySubstats(data))
     this.itemType = data.itemType
     this.icon = new IconLinks(data.icon)
     this.equipType = data.equipType

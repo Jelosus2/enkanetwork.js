@@ -34,17 +34,17 @@ export class AssetNameFinder {
     return new NamecardHash(namecardId)
   }
 
-  getConstellationHash(talentId: string | number) {
+  getConstellationHash(constellationId: string | number) {
+    if (!constellationId) throw new AssetFinderError('constellationId parameter is required')
+    if (isNaN(+constellationId)) throw new AssetFinderError('The constellation id must be an integer')
+
+    return new TalentHash(constellationId)
+  }
+
+  getTalentHash(talentId: string | number) {
     if (!talentId) throw new AssetFinderError('talentId parameter is required')
     if (isNaN(+talentId)) throw new AssetFinderError('The talent id must be an integer')
 
-    return new TalentHash(talentId)
-  }
-
-  getTalentHash(skillId: string | number) {
-    if (!skillId) throw new AssetFinderError('skillId parameter is required')
-    if (isNaN(+skillId)) throw new AssetFinderError('The skill id must be an integer')
-
-    return new SkillHash(skillId)
+    return new SkillHash(talentId)
   }
 }

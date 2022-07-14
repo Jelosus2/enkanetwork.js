@@ -2,14 +2,15 @@ import { AssetFinderError } from "../errors/AssetFinderError"
 import { CharacterImages } from "../structs/Utils/CharacterImages"
 import { NamecardImages } from "../structs/Utils/NamecardImages"
 import { TalentImages } from "../structs/Utils/TalentImages"
-import { characters, namecards, skills, talents } from "../utils"
+import { WeaponImages } from "../structs/Utils/WeaponImages"
+import { characters, namecards, skills, talents, weapons } from "../utils"
 
 export class AssetImageFinder {
   constructor() {}
 
-  character(avatarId: string | number) {
-    if (!avatarId) throw new AssetFinderError('You must provide the avatar id')
-    return new CharacterImages(characters[avatarId])
+  character(characterId: string | number) {
+    if (!characterId) throw new AssetFinderError('You must provide the character id')
+    return new CharacterImages(characters[characterId])
   }
 
   namecard(namecardId: string | number) {
@@ -18,15 +19,27 @@ export class AssetImageFinder {
     return new NamecardImages(namecards[namecardId])
   }
 
-  talent(skillId: string | number) {
-    if (!skillId) throw new AssetFinderError('You must provide the talent id')
+  talent(talentId: string | number) {
+    if (!talentId) throw new AssetFinderError('You must provide the talent id')
     
-    return new TalentImages(skills[skillId])
+    return new TalentImages(skills[talentId])
   }
 
-  constellations(talentId: string | number) {
-    if (!talentId) throw new AssetFinderError('You must provide the constellation id')
+  constellation(constellationId: string | number) {
+    if (!constellationId) throw new AssetFinderError('You must provide the constellation id')
     
-    return new TalentImages(talents[talentId])
+    return new TalentImages(talents[constellationId])
+  }
+
+  weapon(weaponId: string | number) {
+    if (!weaponId) throw new AssetFinderError('You must provide the weapon id')
+    
+    return new WeaponImages(weapons[weaponId])
+  }
+
+  toLink(imageName: string) {
+    if (!imageName) throw new AssetFinderError('You must provide the image name')
+
+    return `https://enka.shinshin.moe/ui/${imageName}.png`
   }
 }

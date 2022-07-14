@@ -3,12 +3,12 @@ import { ReliquaryFlat } from "./ReliquaryFlat"
 import { ReliquaryInfo } from "./ReliquaryInfo"
 
 export class Reliquary {
-  itemId: number
+  artifactId: number // changed
   reliquary: ReliquaryInfo 
   flat: ReliquaryFlat 
 
   constructor(data: ReliquaryAPI) {
-    this.itemId = data.itemId
+    this.artifactId = data.itemId
     this.reliquary = new ReliquaryInfo(data.reliquary)
     this.flat = new ReliquaryFlat(data.flat)
   }

@@ -1,11 +1,11 @@
 import { ReliquarySubstatsAPI } from "../types"
 
 export class ReliquarySubstats {
-  appendPropId: string
+  stat: string // changed
   statValue: number
 
   constructor(data: ReliquarySubstatsAPI) {
-    this.appendPropId = data.appendPropId
+    this.stat = data.appendPropId
     this.statValue = data.statValue
   }
 }

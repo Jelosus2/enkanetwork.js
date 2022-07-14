@@ -1,5 +1,5 @@
 {
-  "name": "enkanetwork",
+  "name": "enkanetwork.js",
   "version": "1.0.0",
   "description": "An API wrapper for the API of the Enka.Network website",
   "main": "dist/index.js",

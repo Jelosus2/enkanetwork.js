@@ -6,25 +6,25 @@ import { PropMap } from "./PropMap"
 import { SkillLevelMap } from "./SkillLevelMap"
 
 export class CharactersInfo {
-  avatarId: number
+  characterId: number // changed
   propMap: PropMap
-  fightPropMap: FightPropMap
-  talentIdList: number[] | null
+  stats: FightPropMap // changed
+  constellationsIdList: number[] | null // changed
   skillDepotId: number
   inherentProudSkillList: number[]
-  skillLevelMap: SkillLevelMap 
+  talentsLevelMap: SkillLevelMap // changed
   equipList: EquipList 
   fetterInfo: FetterInfo 
   costumeId: number | null
 
   constructor(data: CharactersInfoAPI) {
-    this.avatarId = data.avatarId
+    this.characterId = data.avatarId
     this.propMap = new PropMap(data.propMap)
-    this.fightPropMap = new FightPropMap(data.fightPropMap)
-    this.talentIdList = data.talentIdList ? data.talentIdList : null
+    this.stats = new FightPropMap(data.fightPropMap)
+    this.constellationsIdList = data.talentIdList ? data.talentIdList : null
     this.skillDepotId = data.skillDepotId
     this.inherentProudSkillList = data.inherentProudSkillList
-    this.skillLevelMap = new SkillLevelMap(data.skillLevelMap)
+    this.talentsLevelMap = new SkillLevelMap(data.skillLevelMap)
     this.equipList = new EquipList(data.equipList)
     this.fetterInfo = new FetterInfo(data.fetterInfo)
     this.costumeId = data.costumeId ? data.costumeId : null

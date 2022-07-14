@@ -1,11 +1,11 @@
 import { ReliquaryMainstatAPI } from "../types"
 
 export class ReliquaryMainstat {
-  mainPropId: string
+  mainStat: string // changed
   statValue: number
 
   constructor(data: ReliquaryMainstatAPI) {
-    this.mainPropId = data.mainPropId
+    this.mainStat = data.mainPropId
     this.statValue = data.statValue
   }
 }

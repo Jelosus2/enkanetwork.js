@@ -4,7 +4,7 @@ import { PlayerInfo } from "./PlayerInfo"
 
 export class Data {
   playerInfo: PlayerInfo
-  charactersInfo: CharactersInfo[] | null
+  charactersInfo: CharactersInfo[] | null // changed
   ttl: number
 
   constructor(data: DataAPI) {

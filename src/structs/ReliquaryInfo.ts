@@ -2,12 +2,12 @@ import { ReliquaryInfoAPI } from "../types"
 
 export class ReliquaryInfo {
   level: number
-  mainPropId: number
-  appendPropIdList: number[]
+  mainStatId: number // changed
+  subStatsIdList: number[] // changed
 
   constructor(data: ReliquaryInfoAPI) {
     this.level = data.level
-    this.mainPropId = data.mainPropId
-    this.appendPropIdList = data.appendPropIdList
+    this.mainStatId = data.mainPropId
+    this.subStatsIdList = data.appendPropIdList
   }
 }

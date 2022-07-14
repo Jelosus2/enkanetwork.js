@@ -1,9 +1,9 @@
 import { ProfilePictureAPI } from "../types"
 
 export class ProfilePicture {
-  avatarId: number
+  characterId: number // changed
 
   constructor(data: ProfilePictureAPI) {
-    this.avatarId = data.avatarId
+    this.characterId = data.avatarId
   }
 }

@@ -11,7 +11,7 @@ export class PlayerInfo {
   finishAchievementNum: number | null
   towerFloorIndex: number | null
   towerLevelIndex: number | null
-  showCharactersInfoList: ShowCharactersList[] | null
+  showCharactersInfoList: ShowCharactersList[] | null // changed
   showNameCardIdList: number[] | null
   profilePicture: ProfilePicture 
 

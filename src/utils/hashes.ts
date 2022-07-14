@@ -4685,6 +4685,7 @@ export const hashes: { [key: string]: any } = {
     "298040329": "Secret Archive",
     "2921909753": "Curious Casefiles",
     "646032090": "Shikanoin Heizou",
+    "1012170803": "Kagotsurube Isshin",
   },
   ru: {
     "20848859": "Черногорская бритва",
@@ -9365,6 +9366,7 @@ export const hashes: { [key: string]: any } = {
     "3012298293": "Убиение сердца",
     "3584687669": "Ураганный удар",
     "646032090": "Хэйдзо",
+    "1012170803": "Кагоцурубэ Иссин",
   },
   vi: {
     "20848859": "Hắc Nham Trảm Đao",
@@ -14031,6 +14033,7 @@ export const hashes: { [key: string]: any } = {
     "3012298293": "Lục Tâm Quyền",
     "3584687669": "Tụ Phong Cước",
     "646032090": "Shikanoin Heizou",
+    "1012170803": "Kagotsurube Isshin",
   },
   th: {
     "20848859": "Blackcliff Slasher",
@@ -18697,6 +18700,7 @@ export const hashes: { [key: string]: any } = {
     "3012298293": "Heartstopper Strike",
     "3584687669": "Windmuster Kick",
     "646032090": "Shikanoin Heizou",
+    "1012170803": "Kagotsurube Isshin",
   },
   pt: {
     "20848859": "Foice do Penhasco Obscuro",
@@ -23368,6 +23372,7 @@ export const hashes: { [key: string]: any } = {
     "3012298293": "Soco Cardíaco",
     "3584687669": "Chute Turbilhão",
     "646032090": "Shikanoin Heizou",
+    "1012170803": "Kagotsurube Isshin",
   },
   ko: {
     "20848859": "흑암참도",
@@ -28089,6 +28094,7 @@ export const hashes: { [key: string]: any } = {
     "3012298293": "쇄심권",
     "3584687669": "선풍각",
     "646032090": "시카노인 헤이조",
+    "1012170803": "카고츠루베 잇신",
   },
   ja: {
     "20848859": "黒岩の斬刀",
@@ -32769,6 +32775,7 @@ export const hashes: { [key: string]: any } = {
     "3012298293": "戮心拳",
     "3584687669": "廻風蹴",
     "646032090": "鹿野院平蔵",
+    "1012170803": "籠釣瓶一心",
   },
   id: {
     "20848859": "Blackcliff Slasher",
@@ -37436,6 +37443,7 @@ export const hashes: { [key: string]: any } = {
     "3012298293": "Heartstopper Strike",
     "3584687669": "Windmuster Kick",
     "646032090": "Shikanoin Heizou",
+    "1012170803": "Kagotsurube Isshin",
   },
   fr: {
     "20848859": "Trancheuse de Rochenoire",
@@ -42117,6 +42125,7 @@ export const hashes: { [key: string]: any } = {
     "3012298293": "Poing d'arrêt cardiaque",
     "3584687669": "Coup de pied ouragan",
     "646032090": "Shikanoin Heizou",
+    "1012170803": "Kagotsurube Isshin",
   },
   es: {
     "20848859": "Gran Hoja del Peñasco Oscuro",
@@ -46784,6 +46793,7 @@ export const hashes: { [key: string]: any } = {
     "3012298293": "Puñetazo cardiaco",
     "3584687669": "Patada huracanada",
     "646032090": "Shikanoin Heizou",
+    "1012170803": "Kagotsurube Isshin",
   },
   de: {
     "20848859": "Schwarzstein-Schneide",
@@ -51450,6 +51460,7 @@ export const hashes: { [key: string]: any } = {
     "3012298293": "Faust der Brüderlichkeit",
     "3584687669": "Tritt des konzentrierten Winds",
     "646032090": "Shikanoin Heizou",
+    "1012170803": "Kagotsurube Isshin",
   },
   "zh-TW": {
     "20848859": "黑岩斬刀",
@@ -56171,6 +56182,7 @@ export const hashes: { [key: string]: any } = {
     "3012298293": "勠心拳",
     "3584687669": "聚風蹴",
     "646032090": "鹿野院平藏",
+    "1012170803": "籠釣瓶一心",
   },
   "zh-CN": {
     "20848859": "黑岩斩刀",
@@ -61034,5 +61046,6 @@ export const hashes: { [key: string]: any } = {
     "3012298293": "勠心拳",
     "3584687669": "聚风蹴",
     "646032090": "鹿野院平藏",
+    "1012170803": "笼钓瓶一心",
   },
 };
