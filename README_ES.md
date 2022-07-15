@@ -4,6 +4,10 @@
 
 Un paquete para obetener datos de la API de enka, también incluye un "buscador" que puedes usar para buscar nombres e imágenes de assets del juego, por ejemplo el nombre o imagen de un personaje. Revisa [Buscadores](#buscadores) para más información.
 
+## Changelog
+- v1.0.1:
+	- Cambiada la URL de peticiones para evitar códigos 301 innecesarios.
+
 ## Tabla de Contenidos
 - [Wrapper](#wrapper)
 	- [Empezando](#empezando)
@@ -126,12 +130,12 @@ Puedes obtener las imágenes de constelaciones, talentos, armas y tarjetas de pr
 
 ### ¿He obtenido el nombre del icono, pero donde está la imagen?
 
-Puedes obtener la imagen con la siguiente URL: `https://enka.shinshin.moe/ui/[NOMBRE_DEL_ICONO].png`, aunque también puedes obtenerla directamente con este código:
+Puedes obtener la imagen con la siguiente URL: `https://enka.network/ui/[NOMBRE_DEL_ICONO].png`, aunque también puedes obtenerla directamente con este código:
 
 ```js
 function obtenerLinkImagenAsset(iconName) {
 	const url = finder.toLink(iconName)
-	console.log(url) // Resultado: https://enka.shinshin.moe/ui/UI_AvatarIcon_Xiao.png
+	console.log(url) // Resultado: https://enka.network/ui/UI_AvatarIcon_Xiao.png
 }
 
 obtenerLinkImagenAsset("UI_AvatarIcon_Xiao")
