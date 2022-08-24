@@ -618,13 +618,58 @@ export const namecards: { [key: string]: any } = {
     picPath: ["UI_NameCardPic_Bp15_P_Alpha", "UI_NameCardPic_Bp15_P"],
   },
   "210122": {
-	  nameTextMapHash: "1688417908",
-	  icon: "UI_NameCardIcon_Heizo",
-	  picPath: ["UI_NameCardPic_Heizo_Alpha", "UI_NameCardPic_Heizo_P"]
+    nameTextMapHash: "1688417908",
+    icon: "UI_NameCardIcon_Heizo",
+    picPath: ["UI_NameCardPic_Heizo_Alpha", "UI_NameCardPic_Heizo_P"],
   },
   "210123": {
-	  nameTextMapHash: "2652433876",
-	  icon: "UI_NameCardIcon_Bp16",
-	  picPath: ["UI_NameCardPic_Bp16_P_Alpha", "UI_NameCardPic_Bp16_P"]
+    nameTextMapHash: "2652433876",
+    icon: "UI_NameCardIcon_Bp16",
+    picPath: ["UI_NameCardPic_Bp16_P_Alpha", "UI_NameCardPic_Bp16_P"],
+  },
+  "210124": {
+    nameTextMapHash: "705455564",
+    icon: "UI_NameCardIcon_Tighnari",
+    picPath: ["UI_NameCardPic_Tighnari_Alpha", "UI_NameCardPic_Tighnari_P"],
+  },
+  "210125": {
+    nameTextMapHash: "485055372",
+    icon: "UI_NameCardIcon_Collei",
+    picPath: ["UI_NameCardPic_Collei_Alpha", "UI_NameCardPic_Collei_P"],
+  },
+  "210126": {
+    nameTextMapHash: "3477892188",
+    icon: "UI_NameCardIcon_Dori",
+    picPath: ["UI_NameCardPic_Dori_Alpha", "UI_NameCardPic_Dori_P"],
+  },
+  "210127": {
+    nameTextMapHash: "4155038212",
+    icon: "UI_NameCardIcon_Bp17",
+    picPath: ["UI_NameCardPic_Bp17_P_Alpha", "UI_NameCardPic_Bp17_P"],
+  },
+  "210128": {
+    nameTextMapHash: "4269297340",
+    icon: "UI_NameCardIcon_Csxy3",
+    picPath: ["UI_NameCardPic_Csxy3_Alpha", "UI_NameCardPic_Csxy3_P"],
+  },
+  "210129": {
+    nameTextMapHash: "1698005228",
+    icon: "UI_NameCardIcon_Ysxf3",
+    picPath: ["UI_NameCardPic_Ysxf3_Alpha", "UI_NameCardPic_Ysxf3_P"],
+  },
+  "210130": {
+    nameTextMapHash: "1375881172",
+    icon: "UI_NameCardIcon_Xm1",
+    picPath: ["UI_NameCardPic_Xm1_Alpha", "UI_NameCardPic_Xm1_P"],
+  },
+  "210131": {
+    nameTextMapHash: "3231725428",
+    icon: "UI_NameCardIcon_Xumi1",
+    picPath: ["UI_NameCardPic_Xumi1_Alpha", "UI_NameCardPic_Xumi1_P"],
+  },
+  "210132": {
+    nameTextMapHash: "1447772932",
+    icon: "UI_NameCardIcon_Xumi2",
+    picPath: ["UI_NameCardPic_Xumi2_Alpha", "UI_NameCardPic_Xumi2_P"],
   },
 };

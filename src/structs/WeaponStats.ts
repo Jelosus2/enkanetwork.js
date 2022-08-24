@@ -1,7 +1,7 @@
 import { WeaponStatsAPI } from "../types"
 
 export class WeaponStats {
-  stat: string // changed
+  stat: string 
   statValue: number
 
   constructor(data: WeaponStatsAPI) {

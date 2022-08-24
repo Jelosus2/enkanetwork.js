@@ -6,9 +6,9 @@ import { ReliquarySubstats } from "./ReliquarySubstats"
 export class ReliquaryFlat {
   nameTextMapHash: string
   setNameTextMapHash: string
-  stars: number // changed
-  artifactMainstat: ReliquaryMainstat // changed 
-  artifactSubstats: ReliquarySubstats[] // changed
+  stars: number
+  artifactMainstat: ReliquaryMainstat 
+  artifactSubstats: ReliquarySubstats[]
   itemType: string
   icon: IconLinks
   equipType: string

@@ -40,6 +40,6 @@ export class AssetImageFinder {
   toLink(imageName: string) {
     if (!imageName) throw new AssetFinderError('You must provide the image name')
 
-    return `https://enka.shinshin.moe/ui/${imageName}.png`
+    return `https://enka.network/ui/${imageName}.png`
   }
 }

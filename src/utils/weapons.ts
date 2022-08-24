@@ -1,28 +1,4 @@
 export const weapons: { [key: string]: any } = {
-  "10002": {
-    icon: "UI_EquipIcon_Sword_Template",
-    awakenIcon: "UI_EquipIcon_Sword_Template_Awaken",
-  },
-  "10003": {
-    icon: "UI_EquipIcon_Claymore_Template",
-    awakenIcon: "UI_EquipIcon_Claymore_Template_Awaken",
-  },
-  "10004": {
-    icon: "UI_EquipIcon_Pole_Template",
-    awakenIcon: "UI_EquipIcon_Pole_Template_Awaken",
-  },
-  "10005": {
-    icon: "UI_EquipIcon_Catalyst_BookTemplate",
-    awakenIcon: "UI_EquipIcon_Catalyst_BookTemplate_Awaken",
-  },
-  "10006": {
-    icon: "UI_EquipIcon_Catalyst_Template",
-    awakenIcon: "UI_EquipIcon_Catalyst_Template_Awaken",
-  },
-  "10008": {
-    icon: "UI_EquipIcon_Bow_Template",
-    awakenIcon: "UI_EquipIcon_Bow_Template_Awaken",
-  },
   "11101": {
     icon: "UI_EquipIcon_Sword_Blunt",
     awakenIcon: "UI_EquipIcon_Sword_Blunt_Awaken",
@@ -118,6 +94,10 @@ export const weapons: { [key: string]: any } = {
   "11416": {
     icon: "UI_EquipIcon_Sword_Youtou",
     awakenIcon: "UI_EquipIcon_Sword_Youtou_Awaken",
+  },
+  "11417": {
+    icon: "UI_EquipIcon_Sword_Arakalari",
+    awakenIcon: "UI_EquipIcon_Sword_Arakalari_Awaken",
   },
   "11419": {
     icon: "UI_EquipIcon_Sword_YoutouEnchanted",
@@ -259,6 +239,10 @@ export const weapons: { [key: string]: any } = {
     icon: "UI_EquipIcon_Claymore_Maria",
     awakenIcon: "UI_EquipIcon_Claymore_Maria_Awaken",
   },
+  "12417": {
+    icon: "UI_EquipIcon_Claymore_Arakalari",
+    awakenIcon: "UI_EquipIcon_Claymore_Arakalari_Awaken",
+  },
   "12501": {
     icon: "UI_EquipIcon_Claymore_Dvalin",
     awakenIcon: "UI_EquipIcon_Claymore_Dvalin_Awaken",
@@ -366,6 +350,10 @@ export const weapons: { [key: string]: any } = {
   "13416": {
     icon: "UI_EquipIcon_Pole_Maria",
     awakenIcon: "UI_EquipIcon_Pole_Maria_Awaken",
+  },
+  "13417": {
+    icon: "UI_EquipIcon_Pole_Arakalari",
+    awakenIcon: "UI_EquipIcon_Pole_Arakalari_Awaken",
   },
   "13501": {
     icon: "UI_EquipIcon_Pole_Homa",
@@ -490,6 +478,10 @@ export const weapons: { [key: string]: any } = {
   "14415": {
     icon: "UI_EquipIcon_Catalyst_Jyanome",
     awakenIcon: "UI_EquipIcon_Catalyst_Jyanome_Awaken",
+  },
+  "14417": {
+    icon: "UI_EquipIcon_Catalyst_Arakalari",
+    awakenIcon: "UI_EquipIcon_Catalyst_Arakalari_Awaken",
   },
   "14501": {
     icon: "UI_EquipIcon_Catalyst_Dvalin",
@@ -619,6 +611,14 @@ export const weapons: { [key: string]: any } = {
     icon: "UI_EquipIcon_Bow_Maria",
     awakenIcon: "UI_EquipIcon_Bow_Maria_Awaken",
   },
+  "15417": {
+    icon: "UI_EquipIcon_Bow_Arakalari",
+    awakenIcon: "UI_EquipIcon_Bow_Arakalari_Awaken",
+  },
+  "15418": {
+    icon: "UI_EquipIcon_Bow_Fin",
+    awakenIcon: "UI_EquipIcon_Bow_Fin_Awaken",
+  },
   "15501": {
     icon: "UI_EquipIcon_Bow_Dvalin",
     awakenIcon: "UI_EquipIcon_Bow_Dvalin_Awaken",
@@ -655,8 +655,36 @@ export const weapons: { [key: string]: any } = {
     icon: "UI_EquipIcon_Bow_Narukami",
     awakenIcon: "UI_EquipIcon_Bow_Narukami_Awaken",
   },
+  "15511": {
+    icon: "UI_EquipIcon_Bow_Ayus",
+    awakenIcon: "UI_EquipIcon_Bow_Ayus_Awaken",
+  },
   "20001": {
     icon: "UI_EquipIcon_FishingRod",
     awakenIcon: "UI_EquipIcon_FishingRod_Awaken",
+  },
+  "10002": {
+    icon: "UI_EquipIcon_Sword_Template",
+    awakenIcon: "UI_EquipIcon_Sword_Template_Awaken",
+  },
+  "10003": {
+    icon: "UI_EquipIcon_Claymore_Template",
+    awakenIcon: "UI_EquipIcon_Claymore_Template_Awaken",
+  },
+  "10004": {
+    icon: "UI_EquipIcon_Pole_Template",
+    awakenIcon: "UI_EquipIcon_Pole_Template_Awaken",
+  },
+  "10005": {
+    icon: "UI_EquipIcon_Catalyst_BookTemplate",
+    awakenIcon: "UI_EquipIcon_Catalyst_BookTemplate_Awaken",
+  },
+  "10006": {
+    icon: "UI_EquipIcon_Catalyst_Template",
+    awakenIcon: "UI_EquipIcon_Catalyst_Template_Awaken",
+  },
+  "10008": {
+    icon: "UI_EquipIcon_Bow_Template",
+    awakenIcon: "UI_EquipIcon_Bow_Template_Awaken",
   },
 };

@@ -9,6 +9,7 @@ export interface AssetNameFinderOptions {
 export interface CharacterImage {
   icon: string
   sideIcon: string
+  gachaIcon: string
   constellations: string[]
   skills: CharacterSkillIcon
   costumes: CharacterCostume[]

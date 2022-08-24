@@ -3,6 +3,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "1006042610",
     icon: "UI_AvatarIcon_Ayaka",
     sideIcon: "UI_AvatarIcon_Side_Ayaka",
+    gachaIcon: "UI_Gacha_AvatarImg_Ayaka",
     constellations: [
       "UI_Talent_S_Ayaka_01",
       "UI_Talent_S_Ayaka_02",
@@ -21,6 +22,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "3221566250",
     icon: "UI_AvatarIcon_Qin",
     sideIcon: "UI_AvatarIcon_Side_Qin",
+    gachaIcon: "UI_Gacha_AvatarImg_Qin",
     constellations: [
       "UI_Talent_S_Qin_01",
       "UI_Talent_S_Qin_02",
@@ -51,6 +53,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "1533656818",
     icon: "UI_AvatarIcon_PlayerBoy",
     sideIcon: "UI_AvatarIcon_Side_PlayerBoy",
+    gachaIcon: "UI_Gacha_AvatarImg_PlayerBoy",
     constellations: [
       "UI_Talent_S_PlayerWind_01",
       "UI_Talent_S_PlayerWind_02",
@@ -69,6 +72,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "3344622722",
     icon: "UI_AvatarIcon_Lisa",
     sideIcon: "UI_AvatarIcon_Side_Lisa",
+    gachaIcon: "UI_Gacha_AvatarImg_Lisa",
     constellations: [
       "UI_Talent_S_Lisa_01",
       "UI_Talent_S_Lisa_02",
@@ -87,6 +91,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "3816664530",
     icon: "UI_AvatarIcon_PlayerGirl",
     sideIcon: "UI_AvatarIcon_Side_PlayerGirl",
+    gachaIcon: "UI_Gacha_AvatarImg_PlayerGirl",
     constellations: [
       "UI_Talent_S_PlayerWind_01",
       "UI_Talent_S_PlayerWind_02",
@@ -105,6 +110,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "3775299170",
     icon: "UI_AvatarIcon_Barbara",
     sideIcon: "UI_AvatarIcon_Side_Barbara",
+    gachaIcon: "UI_Gacha_AvatarImg_Barbara",
     constellations: [
       "UI_Talent_S_Barbara_01",
       "UI_Talent_S_Barbara_02",
@@ -130,6 +136,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "4119663210",
     icon: "UI_AvatarIcon_Kaeya",
     sideIcon: "UI_AvatarIcon_Side_Kaeya",
+    gachaIcon: "UI_Gacha_AvatarImg_Kaeya",
     constellations: [
       "UI_Talent_S_Kaeya_01",
       "UI_Talent_S_Kaeya_02",
@@ -148,6 +155,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "3608180322",
     icon: "UI_AvatarIcon_Diluc",
     sideIcon: "UI_AvatarIcon_Side_Diluc",
+    gachaIcon: "UI_Gacha_AvatarImg_Diluc",
     constellations: [
       "UI_Talent_S_Diluc_01",
       "UI_Talent_S_Diluc_02",
@@ -173,6 +181,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "4160147242",
     icon: "UI_AvatarIcon_Razor",
     sideIcon: "UI_AvatarIcon_Side_Razor",
+    gachaIcon: "UI_Gacha_AvatarImg_Razor",
     constellations: [
       "UI_Talent_S_Razor_01",
       "UI_Talent_S_Razor_02",
@@ -191,6 +200,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "1966438658",
     icon: "UI_AvatarIcon_Ambor",
     sideIcon: "UI_AvatarIcon_Side_Ambor",
+    gachaIcon: "UI_Gacha_AvatarImg_Ambor",
     constellations: [
       "UI_Talent_S_Ambor_01",
       "UI_Talent_S_Ambor_02",
@@ -216,6 +226,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "2466140362",
     icon: "UI_AvatarIcon_Venti",
     sideIcon: "UI_AvatarIcon_Side_Venti",
+    gachaIcon: "UI_Gacha_AvatarImg_Venti",
     constellations: [
       "UI_Talent_S_Venti_01",
       "UI_Talent_S_Venti_02",
@@ -234,6 +245,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "1130996346",
     icon: "UI_AvatarIcon_Xiangling",
     sideIcon: "UI_AvatarIcon_Side_Xiangling",
+    gachaIcon: "UI_Gacha_AvatarImg_Xiangling",
     constellations: [
       "UI_Talent_S_Xiangling_01",
       "UI_Talent_S_Xiangling_02",
@@ -252,6 +264,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "2646367730",
     icon: "UI_AvatarIcon_Beidou",
     sideIcon: "UI_AvatarIcon_Side_Beidou",
+    gachaIcon: "UI_Gacha_AvatarImg_Beidou",
     constellations: [
       "UI_Talent_S_Beidou_02",
       "UI_Talent_S_Beidou_01",
@@ -270,6 +283,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "4197635682",
     icon: "UI_AvatarIcon_Xingqiu",
     sideIcon: "UI_AvatarIcon_Side_Xingqiu",
+    gachaIcon: "UI_Gacha_AvatarImg_Xingqiu",
     constellations: [
       "UI_Talent_S_Xingqiu_01",
       "UI_Talent_S_Xingqiu_02",
@@ -288,6 +302,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "1021947690",
     icon: "UI_AvatarIcon_Xiao",
     sideIcon: "UI_AvatarIcon_Side_Xiao",
+    gachaIcon: "UI_Gacha_AvatarImg_Xiao",
     constellations: [
       "UI_Talent_S_Xiao_01",
       "UI_Talent_S_Xiao_02",
@@ -306,6 +321,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "4127888970",
     icon: "UI_AvatarIcon_Ningguang",
     sideIcon: "UI_AvatarIcon_Side_Ningguang",
+    gachaIcon: "UI_Gacha_AvatarImg_Ningguang",
     constellations: [
       "UI_Talent_S_Ningguang_01",
       "UI_Talent_S_Ningguang_05",
@@ -331,6 +347,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "3339083250",
     icon: "UI_AvatarIcon_Klee",
     sideIcon: "UI_AvatarIcon_Side_Klee",
+    gachaIcon: "UI_Gacha_AvatarImg_Klee",
     constellations: [
       "UI_Talent_S_Klee_01",
       "UI_Talent_S_Klee_02",
@@ -349,6 +366,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "3862787418",
     icon: "UI_AvatarIcon_Zhongli",
     sideIcon: "UI_AvatarIcon_Side_Zhongli",
+    gachaIcon: "UI_Gacha_AvatarImg_Zhongli",
     constellations: [
       "UI_Talent_S_Zhongli_01",
       "UI_Talent_S_Zhongli_02",
@@ -367,6 +385,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "3277782506",
     icon: "UI_AvatarIcon_Fischl",
     sideIcon: "UI_AvatarIcon_Side_Fischl",
+    gachaIcon: "UI_Gacha_AvatarImg_Fischl",
     constellations: [
       "UI_Talent_S_Fischl_01",
       "UI_Talent_S_Fischl_02",
@@ -392,6 +411,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "968893378",
     icon: "UI_AvatarIcon_Bennett",
     sideIcon: "UI_AvatarIcon_Side_Bennett",
+    gachaIcon: "UI_Gacha_AvatarImg_Bennett",
     constellations: [
       "UI_Talent_S_Bennett_01",
       "UI_Talent_S_Bennett_02",
@@ -410,6 +430,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "3847143266",
     icon: "UI_AvatarIcon_Tartaglia",
     sideIcon: "UI_AvatarIcon_Side_Tartaglia",
+    gachaIcon: "UI_Gacha_AvatarImg_Tartaglia",
     constellations: [
       "UI_Talent_S_Tartaglia_01",
       "UI_Talent_S_Tartaglia_02",
@@ -428,6 +449,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "1921418842",
     icon: "UI_AvatarIcon_Noel",
     sideIcon: "UI_AvatarIcon_Side_Noel",
+    gachaIcon: "UI_Gacha_AvatarImg_Noel",
     constellations: [
       "UI_Talent_S_Noel_01",
       "UI_Talent_S_Noel_02",
@@ -446,6 +468,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "168956722",
     icon: "UI_AvatarIcon_Qiqi",
     sideIcon: "UI_AvatarIcon_Side_Qiqi",
+    gachaIcon: "UI_Gacha_AvatarImg_Qiqi",
     constellations: [
       "UI_Talent_S_Qiqi_01",
       "UI_Talent_S_Qiqi_02",
@@ -464,6 +487,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "2876340530",
     icon: "UI_AvatarIcon_Chongyun",
     sideIcon: "UI_AvatarIcon_Side_Chongyun",
+    gachaIcon: "UI_Gacha_AvatarImg_Chongyun",
     constellations: [
       "UI_Talent_S_Chongyun_01",
       "UI_Talent_S_Chongyun_02",
@@ -482,6 +506,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "2679781122",
     icon: "UI_AvatarIcon_Ganyu",
     sideIcon: "UI_AvatarIcon_Side_Ganyu",
+    gachaIcon: "UI_Gacha_AvatarImg_Ganyu",
     constellations: [
       "UI_Talent_S_Ganyu_01",
       "UI_Talent_S_Ganyu_02",
@@ -500,6 +525,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "4108620722",
     icon: "UI_AvatarIcon_Albedo",
     sideIcon: "UI_AvatarIcon_Side_Albedo",
+    gachaIcon: "UI_Gacha_AvatarImg_Albedo",
     constellations: [
       "UI_Talent_S_Albedo_01",
       "UI_Talent_S_Albedo_02",
@@ -518,6 +544,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "1468367538",
     icon: "UI_AvatarIcon_Diona",
     sideIcon: "UI_AvatarIcon_Side_Diona",
+    gachaIcon: "UI_Gacha_AvatarImg_Diona",
     constellations: [
       "UI_Talent_S_Diona_01",
       "UI_Talent_S_Diona_02",
@@ -536,6 +563,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "1113306282",
     icon: "UI_AvatarIcon_Mona",
     sideIcon: "UI_AvatarIcon_Side_Mona",
+    gachaIcon: "UI_Gacha_AvatarImg_Mona",
     constellations: [
       "UI_Talent_S_Mona_01",
       "UI_Talent_S_Mona_02",
@@ -561,6 +589,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "1864015138",
     icon: "UI_AvatarIcon_Keqing",
     sideIcon: "UI_AvatarIcon_Side_Keqing",
+    gachaIcon: "UI_Gacha_AvatarImg_Keqing",
     constellations: [
       "UI_Talent_S_Keqing_01",
       "UI_Talent_S_Keqing_02",
@@ -586,6 +615,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "1053433018",
     icon: "UI_AvatarIcon_Sucrose",
     sideIcon: "UI_AvatarIcon_Side_Sucrose",
+    gachaIcon: "UI_Gacha_AvatarImg_Sucrose",
     constellations: [
       "UI_Talent_S_Sucrose_01",
       "UI_Talent_S_Sucrose_02",
@@ -604,6 +634,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "4273845410",
     icon: "UI_AvatarIcon_Xinyan",
     sideIcon: "UI_AvatarIcon_Side_Xinyan",
+    gachaIcon: "UI_Gacha_AvatarImg_Xinyan",
     constellations: [
       "UI_Talent_S_Xinyan_01",
       "UI_Talent_S_Xinyan_02",
@@ -622,6 +653,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "4260733330",
     icon: "UI_AvatarIcon_Rosaria",
     sideIcon: "UI_AvatarIcon_Side_Rosaria",
+    gachaIcon: "UI_Gacha_AvatarImg_Rosaria",
     constellations: [
       "UI_Talent_S_Rosaria_01",
       "UI_Talent_S_Rosaria_02",
@@ -635,11 +667,19 @@ export const characters: { [key: string]: any } = {
       elementalSkill: "Skill_S_Rosaria_01",
       elementalBurst: "Skill_E_Rosaria_01",
     },
+    costumes: [
+      {
+        sideIconName: "UI_AvatarIcon_Side_RosariaCostumeWic",
+        icon: "UI_AvatarIcon_RosariaCostumeWic",
+        art: "UI_Costume_RosariaCostumeWic",
+      },
+    ],
   },
   "10000046": {
     nameTextMapHash: "1940919994",
     icon: "UI_AvatarIcon_Hutao",
     sideIcon: "UI_AvatarIcon_Side_Hutao",
+    gachaIcon: "UI_Gacha_AvatarImg_Hutao",
     constellations: [
       "UI_Talent_S_Hutao_03",
       "UI_Talent_S_Hutao_01",
@@ -653,18 +693,12 @@ export const characters: { [key: string]: any } = {
       elementalSkill: "Skill_S_Hutao_01",
       elementalBurst: "Skill_E_Hutao_01",
     },
-    costumes: [
-      {
-        sideIconName: "UI_AvatarIcon_Side_RosariaCostumeWic",
-        icon: "UI_AvatarIcon_RosariaCostumeWic",
-        art: "UI_Costume_RosariaCostumeWic",
-      },
-    ],
   },
   "10000047": {
     nameTextMapHash: "88505754",
     icon: "UI_AvatarIcon_Kazuha",
     sideIcon: "UI_AvatarIcon_Side_Kazuha",
+    gachaIcon: "UI_Gacha_AvatarImg_Kazuha",
     constellations: [
       "UI_Talent_S_Kazuha_01",
       "UI_Talent_S_Kazuha_02",
@@ -683,6 +717,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "697277554",
     icon: "UI_AvatarIcon_Feiyan",
     sideIcon: "UI_AvatarIcon_Side_Feiyan",
+    gachaIcon: "UI_Gacha_AvatarImg_Feiyan",
     constellations: [
       "UI_Talent_S_Feiyan_01",
       "UI_Talent_S_Feiyan_02",
@@ -701,6 +736,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "2504399314",
     icon: "UI_AvatarIcon_Yoimiya",
     sideIcon: "UI_AvatarIcon_Side_Yoimiya",
+    gachaIcon: "UI_Gacha_AvatarImg_Yoimiya",
     constellations: [
       "UI_Talent_S_Yoimiya_01",
       "UI_Talent_S_Yoimiya_02",
@@ -719,6 +755,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "3555115602",
     icon: "UI_AvatarIcon_Tohma",
     sideIcon: "UI_AvatarIcon_Side_Tohma",
+    gachaIcon: "UI_Gacha_AvatarImg_Tohma",
     constellations: [
       "UI_Talent_S_Tohma_01",
       "UI_Talent_S_Tohma_02",
@@ -737,6 +774,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "3717667418",
     icon: "UI_AvatarIcon_Eula",
     sideIcon: "UI_AvatarIcon_Side_Eula",
+    gachaIcon: "UI_Gacha_AvatarImg_Eula",
     constellations: [
       "UI_Talent_S_Eula_02",
       "UI_Talent_S_Eula_01",
@@ -755,6 +793,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "3024507506",
     icon: "UI_AvatarIcon_Shougun",
     sideIcon: "UI_AvatarIcon_Side_Shougun",
+    gachaIcon: "UI_Gacha_AvatarImg_Shougun",
     constellations: [
       "UI_Talent_S_Shougun_01",
       "UI_Talent_S_Shougun_03",
@@ -773,6 +812,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "2388785242",
     icon: "UI_AvatarIcon_Sayu",
     sideIcon: "UI_AvatarIcon_Side_Sayu",
+    gachaIcon: "UI_Gacha_AvatarImg_Sayu",
     constellations: [
       "UI_Talent_S_Sayu_01",
       "UI_Talent_S_Sayu_02",
@@ -791,6 +831,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "3914045794",
     icon: "UI_AvatarIcon_Kokomi",
     sideIcon: "UI_AvatarIcon_Side_Kokomi",
+    gachaIcon: "UI_Gacha_AvatarImg_Kokomi",
     constellations: [
       "UI_Talent_S_Kokomi_01",
       "UI_Talent_S_Kokomi_02",
@@ -809,6 +850,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "3400133546",
     icon: "UI_AvatarIcon_Gorou",
     sideIcon: "UI_AvatarIcon_Side_Gorou",
+    gachaIcon: "UI_Gacha_AvatarImg_Gorou",
     constellations: [
       "UI_Talent_S_Gorou_01",
       "UI_Talent_S_Gorou_02",
@@ -827,6 +869,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "1483922610",
     icon: "UI_AvatarIcon_Sara",
     sideIcon: "UI_AvatarIcon_Side_Sara",
+    gachaIcon: "UI_Gacha_AvatarImg_Sara",
     constellations: [
       "UI_Talent_S_Sara_05",
       "UI_Talent_S_Sara_02",
@@ -845,6 +888,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "3068316954",
     icon: "UI_AvatarIcon_Itto",
     sideIcon: "UI_AvatarIcon_Side_Itto",
+    gachaIcon: "UI_Gacha_AvatarImg_Itto",
     constellations: [
       "UI_Talent_S_Itto_01",
       "UI_Talent_S_Itto_02",
@@ -863,6 +907,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "2713453234",
     icon: "UI_AvatarIcon_Yae",
     sideIcon: "UI_AvatarIcon_Side_Yae",
+    gachaIcon: "UI_Gacha_AvatarImg_Yae",
     constellations: [
       "UI_Talent_S_Yae_01",
       "UI_Talent_S_Yae_02",
@@ -877,10 +922,30 @@ export const characters: { [key: string]: any } = {
       elementalBurst: "Skill_E_Yae_01",
     },
   },
+  "10000059": {
+    nameTextMapHash: "646032090",
+    icon: "UI_AvatarIcon_Heizo",
+    sideIcon: "UI_AvatarIcon_Side_Heizo",
+    gachaIcon: "UI_Gacha_AvatarImg_Heizo",
+    constellations: [
+      "UI_Talent_S_Heizo_01",
+      "UI_Talent_S_Heizo_02",
+      "UI_Talent_U_Heizo_01",
+      "UI_Talent_S_Heizo_03",
+      "UI_Talent_U_Heizo_02",
+      "UI_Talent_S_Heizo_04",
+    ],
+    skills: {
+      normalAttack: "Skill_A_Catalyst_MD",
+      elementalSkill: "Skill_S_Heizo_01",
+      elementalBurst: "Skill_E_Heizo_01",
+    },
+  },
   "10000060": {
     nameTextMapHash: "2848374378",
     icon: "UI_AvatarIcon_Yelan",
     sideIcon: "UI_AvatarIcon_Side_Yelan",
+    gachaIcon: "UI_Gacha_AvatarImg_Yelan",
     constellations: [
       "UI_Talent_S_Yelan_01",
       "UI_Talent_S_Yelan_02",
@@ -899,6 +964,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "3689108098",
     icon: "UI_AvatarIcon_Aloy",
     sideIcon: "UI_AvatarIcon_Side_Aloy",
+    gachaIcon: "UI_Gacha_AvatarImg_Aloy",
     constellations: [
       "UI_Talent_S_Aloy_Lock",
       "UI_Talent_S_Aloy_Lock",
@@ -917,6 +983,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "334242634",
     icon: "UI_AvatarIcon_Shenhe",
     sideIcon: "UI_AvatarIcon_Side_Shenhe",
+    gachaIcon: "UI_Gacha_AvatarImg_Shenhe",
     constellations: [
       "UI_Talent_S_Shenhe_02",
       "UI_Talent_S_Shenhe_01",
@@ -935,6 +1002,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "655825874",
     icon: "UI_AvatarIcon_Yunjin",
     sideIcon: "UI_AvatarIcon_Side_Yunjin",
+    gachaIcon: "UI_Gacha_AvatarImg_Yunjin",
     constellations: [
       "UI_Talent_S_Yunjin_01",
       "UI_Talent_S_Yunjin_02",
@@ -953,6 +1021,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "1940821986",
     icon: "UI_AvatarIcon_Shinobu",
     sideIcon: "UI_AvatarIcon_Side_Shinobu",
+    gachaIcon: "UI_Gacha_AvatarImg_Shinobu",
     constellations: [
       "UI_Talent_S_Shinobu_01",
       "UI_Talent_S_Shinobu_02",
@@ -971,6 +1040,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "1588620330",
     icon: "UI_AvatarIcon_Ayato",
     sideIcon: "UI_AvatarIcon_Side_Ayato",
+    gachaIcon: "UI_Gacha_AvatarImg_Ayato",
     constellations: [
       "UI_Talent_S_Ayato_01",
       "UI_Talent_S_Ayato_02",
@@ -985,10 +1055,80 @@ export const characters: { [key: string]: any } = {
       elementalBurst: "Skill_E_Ayato_01",
     },
   },
+  "10000067": {
+    nameTextMapHash: "2948362178",
+    icon: "UI_AvatarIcon_Collei",
+    sideIcon: "UI_AvatarIcon_Side_Collei",
+    gachaIcon: "UI_Gacha_AvatarImg_Collei",
+    constellations: [
+      "UI_Talent_S_Collei_01",
+      "UI_Talent_S_Collei_02",
+      "UI_Talent_U_Collei_02",
+      "UI_Talent_S_Collei_03",
+      "UI_Talent_U_Collei_01",
+      "UI_Talent_S_Collei_04",
+    ],
+    skills: {
+      normalAttack: "Skill_A_02",
+      elementalSkill: "Skill_S_Collei_01",
+      elementalBurst: "Skill_E_Collei_01",
+    },
+  },
+  "10000068": {
+    nameTextMapHash: "388272194",
+    icon: "UI_AvatarIcon_Dori",
+    sideIcon: "UI_AvatarIcon_Side_Dori",
+    gachaIcon: "UI_Gacha_AvatarImg_Dori",
+    constellations: [
+      "UI_Talent_S_Dori_01",
+      "UI_Talent_S_Dori_02",
+      "UI_Talent_U_Dori_02",
+      "UI_Talent_S_Dori_03",
+      "UI_Talent_U_Dori_01",
+      "UI_Talent_S_Dori_04",
+    ],
+    skills: {
+      normalAttack: "Skill_A_04",
+      elementalSkill: "Skill_S_Dori_01",
+      elementalBurst: "Skill_E_Dori_01",
+    },
+  },
+  "10000069": {
+    nameTextMapHash: "2506955778",
+    icon: "UI_AvatarIcon_Tighnari",
+    sideIcon: "UI_AvatarIcon_Side_Tighnari",
+    gachaIcon: "UI_Gacha_AvatarImg_Tighnari",
+    constellations: [
+      "UI_Talent_S_Tighnari_01",
+      "UI_Talent_S_Tighnari_02",
+      "UI_Talent_U_Tighnari_01",
+      "UI_Talent_S_Tighnari_03",
+      "UI_Talent_U_Tighnari_02",
+      "UI_Talent_S_Tighnari_04",
+    ],
+    skills: {
+      normalAttack: "Skill_A_02",
+      elementalSkill: "Skill_S_Tighnari_01",
+      elementalBurst: "Skill_E_Tighnari_01",
+    },
+  },
+  "10000005-501": {
+    nameTextMapHash: "3816664530",
+    icon: "UI_AvatarIcon_PlayerBoy",
+    sideIcon: "UI_AvatarIcon_Side_PlayerBoy",
+    gachaIcon: "UI_Gacha_AvatarImg_PlayerBoy",
+    constellations: ["None", "None", "None", "None", "None", "None"],
+    skills: {
+      normalAttack: "Skill_A_01",
+      elementalSkill: "None",
+      elementalBurst: "None",
+    },
+  },
   "10000005-504": {
     nameTextMapHash: "1533656818",
     icon: "UI_AvatarIcon_PlayerBoy",
     sideIcon: "UI_AvatarIcon_Side_PlayerBoy",
+    gachaIcon: "UI_Gacha_AvatarImg_PlayerBoy",
     constellations: [
       "UI_Talent_S_PlayerWind_01",
       "UI_Talent_S_PlayerWind_02",
@@ -1007,6 +1147,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "1533656818",
     icon: "UI_AvatarIcon_PlayerBoy",
     sideIcon: "UI_AvatarIcon_Side_PlayerBoy",
+    gachaIcon: "UI_Gacha_AvatarImg_PlayerBoy",
     constellations: [
       "UI_Talent_S_PlayerRock_01",
       "UI_Talent_S_PlayerRock_02",
@@ -1025,6 +1166,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "1533656818",
     icon: "UI_AvatarIcon_PlayerBoy",
     sideIcon: "UI_AvatarIcon_Side_PlayerBoy",
+    gachaIcon: "UI_Gacha_AvatarImg_PlayerBoy",
     constellations: [
       "UI_Talent_S_PlayerElectric_01",
       "UI_Talent_S_PlayerElectric_02",
@@ -1039,10 +1181,42 @@ export const characters: { [key: string]: any } = {
       elementalBurst: "Skill_E_PlayerElectric_01",
     },
   },
+  "10000005-508": {
+    nameTextMapHash: "1533656818",
+    icon: "UI_AvatarIcon_PlayerBoy",
+    sideIcon: "UI_AvatarIcon_Side_PlayerBoy",
+    gachaIcon: "UI_Gacha_AvatarImg_PlayerBoy",
+    constellations: [
+      "UI_Talent_S_PlayerGrass_01",
+      "UI_Talent_S_PlayerGrass_02",
+      "UI_Talent_S_PlayerGrass_03",
+      "UI_Talent_S_PlayerGrass_04",
+      "UI_Talent_S_PlayerGrass_05",
+      "UI_Talent_S_PlayerGrass_06",
+    ],
+    skills: {
+      normalAttack: "Skill_A_01",
+      elementalSkill: "Skill_E_PlayerGrass_01",
+      elementalBurst: "Skill_S_PlayerGrass_01",
+    },
+  },
+  "10000007-701": {
+    nameTextMapHash: "3816664530",
+    icon: "UI_AvatarIcon_PlayerGirl",
+    sideIcon: "UI_AvatarIcon_Side_PlayerGirl",
+    gachaIcon: "UI_Gacha_AvatarImg_PlayerGirl",
+    constellations: ["None", "None", "None", "None", "None", "None"],
+    skills: {
+      normalAttack: "Skill_A_01",
+      elementalSkill: "None",
+      elementalBurst: "None",
+    },
+  },
   "10000007-704": {
     nameTextMapHash: "3816664530",
     icon: "UI_AvatarIcon_PlayerGirl",
     sideIcon: "UI_AvatarIcon_Side_PlayerGirl",
+    gachaIcon: "UI_Gacha_AvatarImg_PlayerGirl",
     constellations: [
       "UI_Talent_S_PlayerWind_01",
       "UI_Talent_S_PlayerWind_02",
@@ -1061,6 +1235,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "3816664530",
     icon: "UI_AvatarIcon_PlayerGirl",
     sideIcon: "UI_AvatarIcon_Side_PlayerGirl",
+    gachaIcon: "UI_Gacha_AvatarImg_PlayerGirl",
     constellations: [
       "UI_Talent_S_PlayerRock_01",
       "UI_Talent_S_PlayerRock_02",
@@ -1079,6 +1254,7 @@ export const characters: { [key: string]: any } = {
     nameTextMapHash: "3816664530",
     icon: "UI_AvatarIcon_PlayerGirl",
     sideIcon: "UI_AvatarIcon_Side_PlayerGirl",
+    gachaIcon: "UI_Gacha_AvatarImg_PlayerGirl",
     constellations: [
       "UI_Talent_S_PlayerElectric_01",
       "UI_Talent_S_PlayerElectric_02",
@@ -1093,22 +1269,23 @@ export const characters: { [key: string]: any } = {
       elementalBurst: "Skill_E_PlayerElectric_01",
     },
   },
-  "10000059": {
-    nameTextMapHash: "646032090",
-    icon: "UI_AvatarIcon_Heizo",
-    sideIcon: "UI_AvatarIcon_Side_Heizo",
+  "10000007-708": {
+    nameTextMapHash: "3816664530",
+    icon: "UI_AvatarIcon_PlayerGirl",
+    sideIcon: "UI_AvatarIcon_Side_PlayerGirl",
+    gachaIcon: "UI_Gacha_AvatarImg_PlayerGirl",
     constellations: [
-      "UI_Talent_S_Heizo_01",
-      "UI_Talent_S_Heizo_02",
-      "UI_Talent_U_Heizo_01",
-      "UI_Talent_S_Heizo_03",
-      "UI_Talent_U_Heizo_02",
-      "UI_Talent_S_Heizo_04"
+      "UI_Talent_S_PlayerGrass_01",
+      "UI_Talent_S_PlayerGrass_02",
+      "UI_Talent_S_PlayerGrass_03",
+      "UI_Talent_S_PlayerGrass_04",
+      "UI_Talent_S_PlayerGrass_05",
+      "UI_Talent_S_PlayerGrass_06",
     ],
     skills: {
-      normalAttack: "Skill_A_Catalyst_MD",
-      elementalSkill: "Skill_S_Heizo_01",
-      elementalBurst: "Skill_E_Heizo_01"
-    }
-  }
+      normalAttack: "Skill_A_01",
+      elementalSkill: "Skill_E_PlayerGrass_01",
+      elementalBurst: "Skill_S_PlayerGrass_01",
+    },
+  },
 };

@@ -2,9 +2,9 @@ import { PropMapAPI } from "../types"
 import { PropMapContent } from "./PropMapContent"
 
 export class PropMap {
-  xp: PropMapContent // changed
-  ascension: PropMapContent // changed
-  level: PropMapContent // changed
+  xp: PropMapContent 
+  ascension: PropMapContent 
+  level: PropMapContent 
   1003: PropMapContent 
   1004: PropMapContent 
   10010: PropMapContent 

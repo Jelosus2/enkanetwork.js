@@ -3,7 +3,7 @@ import { WeaponFlat } from "./WeaponFlat"
 import { WeaponInfo } from "./WeaponInfo"
 
 export class Weapon {
-  weaponId: number // changed
+  weaponId: number 
   weaponInfo: WeaponInfo
   flat: WeaponFlat
 

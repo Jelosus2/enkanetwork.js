@@ -7,6 +7,10 @@ Un paquete para obetener datos de la API de enka, también incluye un "buscador"
 ## Changelog
 - v1.0.1:
 	- Cambiada la URL de peticiones para evitar códigos 301 innecesarios.
+- v1.1.1:
+	- Añadido el contenido de la versión 3.0.
+	- Añadidas las imágenes gacha de los personajes.
+	- Cambiada la url del CDN de enka.
 
 ## Tabla de Contenidos
 - [Wrapper](#wrapper)

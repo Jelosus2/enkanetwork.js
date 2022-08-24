@@ -3,7 +3,7 @@ import { ReliquaryFlat } from "./ReliquaryFlat"
 import { ReliquaryInfo } from "./ReliquaryInfo"
 
 export class Reliquary {
-  artifactId: number // changed
+  artifactId: number 
   reliquary: ReliquaryInfo 
   flat: ReliquaryFlat 
 

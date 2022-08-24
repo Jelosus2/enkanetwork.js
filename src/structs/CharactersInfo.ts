@@ -6,13 +6,13 @@ import { PropMap } from "./PropMap"
 import { SkillLevelMap } from "./SkillLevelMap"
 
 export class CharactersInfo {
-  characterId: number // changed
+  characterId: number
   propMap: PropMap
-  stats: FightPropMap // changed
-  constellationsIdList: number[] | null // changed
+  stats: FightPropMap
+  constellationsIdList: number[] | null
   skillDepotId: number
   inherentProudSkillList: number[]
-  talentsLevelMap: SkillLevelMap // changed
+  talentsLevelMap: SkillLevelMap 
   equipList: EquipList 
   fetterInfo: FetterInfo 
   costumeId: number | null

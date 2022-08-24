@@ -1,7 +1,7 @@
 import { ShowCharactersListAPI } from "../types"
 
 export class ShowCharactersList {
-  characterId: number // changed
+  characterId: number
   level: number
   costumeId: number | null
 

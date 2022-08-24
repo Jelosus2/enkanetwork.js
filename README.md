@@ -7,6 +7,10 @@ A package to get data from the enka API, it also includes a finder that you can 
 ## Changelog
 - v1.0.1:
 	- Changed the request url to prevent getting unnecessary 301s.
+- v1.1.1:
+	- Added 3.0 version content.
+	- Added gacha images for characters.
+	- Changed the url of enka CDN.
 
 ## Table of Content
 - [Wrapper](#wrapper)

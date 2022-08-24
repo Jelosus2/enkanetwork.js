@@ -4,7 +4,7 @@ import { WeaponStats } from "./WeaponStats"
 
 export class WeaponFlat {
   nameTextMapHash: string
-  stars: number // changed
+  stars: number 
   weaponStats: WeaponStats[]
   itemType: string
   icon: IconLinks

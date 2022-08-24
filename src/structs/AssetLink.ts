@@ -6,6 +6,6 @@ export class IconLinks {
   }
 
   toLink() {
-    return `https://enka.shinshin.moe/ui/${this.value}.png`
+    return `https://enka.network/ui/${this.value}.png`
   }
 }

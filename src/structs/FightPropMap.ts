@@ -3,40 +3,40 @@ import { Stat } from "./Stat"
 import { StatPercentage } from "./StatPercentage"
 
 export class FightPropMap {
-  baseHp: Stat // changed
-  baseAtk: Stat // changed
-  baseDef: Stat // changed
-  critRate: StatPercentage // changed
-  critDamage: StatPercentage // changed
-  energyRecharge: StatPercentage // changed
-  healingBonus: StatPercentage // changed
-  incomingHealingBonus: StatPercentage // changed
-  elementalMastery: Stat // changed
-  physicalRes: StatPercentage // changed
-  physicalDamageBonus: StatPercentage // changed
-  pyroDamageBonus: StatPercentage // changed
-  electroDamageBonus: StatPercentage // changed
-  hydroDamageBonus: StatPercentage // changed
-  anemoDamageBonus: StatPercentage // changed
-  geoDamageBonus: StatPercentage // changed
-  cryoDamageBonus: StatPercentage // changed
-  pyroRes: StatPercentage // changed
-  electroRes: StatPercentage // changed
-  hydroRes: StatPercentage // changed
-  dendroRes: StatPercentage // changed
-  anemoRes: StatPercentage // changed
-  geoRes: StatPercentage // changed
-  cryoRes: StatPercentage // changed
-  pyroEnergyCost: Stat | null // changed
-  electroEnergyCost: Stat | null // changed
-  hydroEnergyCost: Stat | null // changed
-  dendroEnergyCost: Stat | null // changed
-  anemoEnergyCost: Stat | null // changed
-  cryoEnergyCost: Stat | null // changed
-  geoEnergyCost: Stat | null // changed
-  maxHp: Stat // changed
-  atk: Stat // changed
-  def: Stat // changed
+  baseHp: Stat 
+  baseAtk: Stat 
+  baseDef: Stat 
+  critRate: StatPercentage 
+  critDamage: StatPercentage 
+  energyRecharge: StatPercentage 
+  healingBonus: StatPercentage 
+  incomingHealingBonus: StatPercentage 
+  elementalMastery: Stat 
+  physicalRes: StatPercentage 
+  physicalDamageBonus: StatPercentage 
+  pyroDamageBonus: StatPercentage 
+  electroDamageBonus: StatPercentage 
+  hydroDamageBonus: StatPercentage 
+  anemoDamageBonus: StatPercentage 
+  geoDamageBonus: StatPercentage 
+  cryoDamageBonus: StatPercentage 
+  pyroRes: StatPercentage 
+  electroRes: StatPercentage 
+  hydroRes: StatPercentage 
+  dendroRes: StatPercentage 
+  anemoRes: StatPercentage 
+  geoRes: StatPercentage 
+  cryoRes: StatPercentage 
+  pyroEnergyCost: Stat | null 
+  electroEnergyCost: Stat | null 
+  hydroEnergyCost: Stat | null 
+  dendroEnergyCost: Stat | null 
+  anemoEnergyCost: Stat | null 
+  cryoEnergyCost: Stat | null 
+  geoEnergyCost: Stat | null 
+  maxHp: Stat 
+  atk: Stat 
+  def: Stat 
 
   constructor(data: FightPropMapAPI) {
     this.baseHp = new Stat(data[1])
