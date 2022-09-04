@@ -72,6 +72,7 @@ export interface FightPropMapAPI {
   40: number
   41: number
   42: number
+  43: number
   44: number
   45: number
   46: number
@@ -154,4 +155,35 @@ export interface WeaponStatsAPI {
 
 export interface FetterInfoAPI {
   expLevel: number
+}
+
+export interface UserDataAPI {
+  is_uid_public: boolean
+  uid: number
+  player_info: PlayerInfoAPI
+}
+
+export interface UserBuildsAPI {
+  id: number
+  name: string
+  avatar_id: string
+  avatar_data: UserBuildsDataAPI 
+  order: number
+  live: boolean
+  settings: object
+  is_public: boolean
+}
+
+export interface UserBuildsDataAPI {
+  propMap: PropMapAPI
+  avatarId: number
+  costumeId: number
+  equipList: any[]
+  fetterInfo: FetterInfoAPI
+  fightPropMap: FightPropMapAPI
+  skillDepotId: number
+  talentIdList: number[]
+  skillLevelMap: any
+  inherentProudSkillList: number[]
+  proudSkillExtraLevelMap: any
 }

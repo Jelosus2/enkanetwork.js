@@ -3,12 +3,12 @@ import { AffixMap } from "./AffixMap"
 
 export class WeaponInfo {
   level: number
-  promoteLevel: number
-  refinementLevel: AffixMap
+  promoteLevel: number | string
+  refinementLevel: AffixMap | object
 
   constructor(data: WeaponInfoAPI) {
     this.level = data.level
-    this.promoteLevel = data.promoteLevel
-    this.refinementLevel = new AffixMap(data.affixMap)
+    this.promoteLevel = data.promoteLevel || ""
+    this.refinementLevel = data.affixMap ? new AffixMap(data.affixMap) : {}
   }
 }

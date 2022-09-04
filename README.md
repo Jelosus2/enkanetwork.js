@@ -11,10 +11,16 @@ A package to get data from the enka API, it also includes a finder that you can 
 	- Added 3.0 version content.
 	- Added gacha images for characters.
 	- Changed the url of enka CDN.
+- v1.2.1:
+	- Improved data structure for better data management.
+	- Now empty values will return empty strings, arrays and strings depending on the value type instead of null.
+	- Fixed some bugs.
+	- Added profiles API support.
 
 ## Table of Content
 - [Wrapper](#wrapper)
 	- [Getting started](#getting-started)
+	- [User profiles](#user-profiles)
 	- [Wrapper Structure vs API Structure](#wrapper-structure-vs-api-structure)
 - [Finders](#finders)
 	- [Asset Names](#asset-names)  
@@ -41,6 +47,31 @@ async function getData(uid) {
 }
 
 getData(738081787)
+```
+
+### User Profiles
+
+```js
+const { Wrapper } = require('enkanetwork.js')
+
+const client = new Wrapper(options)
+/** options:
+ * key: optional
+ */
+
+async function getUser(username, buildsProfileIndex) {
+	const user = await client.getUser(username, buildsProfileIndex)
+	/* buildsProfileIndex is the index of the profile to access the character builds. For example: if you have 2 profiles, to access the 1st one the index will be 0 and to access the 2nd one will be 1 */
+	
+	/* To get the profiles */
+	const profiles = user.getProfiles()
+	/* To get the characters id of the profile */
+	const charactersId = user.characters
+	/* To get the builds of a character using the id */
+	const characterBuilds = user.getCharacterBuilds(charactersId[0])
+}
+
+getUser('algoinde', 0)
 ```
 
 ### Wrapper Structure vs API Structure

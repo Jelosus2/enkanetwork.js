@@ -8,6 +8,6 @@ export class ReliquaryInfo {
   constructor(data: ReliquaryInfoAPI) {
     this.level = data.level
     this.mainStatId = data.mainPropId
-    this.subStatsIdList = data.appendPropIdList
+    this.subStatsIdList = data.appendPropIdList ? data.appendPropIdList : []
   }
 }

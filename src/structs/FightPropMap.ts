@@ -17,6 +17,7 @@ export class FightPropMap {
   pyroDamageBonus: StatPercentage 
   electroDamageBonus: StatPercentage 
   hydroDamageBonus: StatPercentage 
+  dendroDamageBonus: StatPercentage
   anemoDamageBonus: StatPercentage 
   geoDamageBonus: StatPercentage 
   cryoDamageBonus: StatPercentage 
@@ -27,13 +28,13 @@ export class FightPropMap {
   anemoRes: StatPercentage 
   geoRes: StatPercentage 
   cryoRes: StatPercentage 
-  pyroEnergyCost: Stat | null 
-  electroEnergyCost: Stat | null 
-  hydroEnergyCost: Stat | null 
-  dendroEnergyCost: Stat | null 
-  anemoEnergyCost: Stat | null 
-  cryoEnergyCost: Stat | null 
-  geoEnergyCost: Stat | null 
+  pyroEnergyCost: Stat | string 
+  electroEnergyCost: Stat | string 
+  hydroEnergyCost: Stat | string 
+  dendroEnergyCost: Stat | string 
+  anemoEnergyCost: Stat | string 
+  cryoEnergyCost: Stat | string 
+  geoEnergyCost: Stat | string 
   maxHp: Stat 
   atk: Stat 
   def: Stat 
@@ -53,6 +54,7 @@ export class FightPropMap {
     this.pyroDamageBonus = new StatPercentage(data[40])
     this.electroDamageBonus = new StatPercentage(data[41])
     this.hydroDamageBonus = new StatPercentage(data[42])
+    this.dendroDamageBonus = new StatPercentage(data[43])
     this.anemoDamageBonus = new StatPercentage(data[44])
     this.geoDamageBonus = new StatPercentage(data[45])
     this.cryoDamageBonus = new StatPercentage(data[46])
@@ -63,13 +65,13 @@ export class FightPropMap {
     this.anemoRes = new StatPercentage(data[54])
     this.geoRes = new StatPercentage(data[55])
     this.cryoRes = new StatPercentage(data[56])
-    this.pyroEnergyCost = new Stat(data[70]) ? new Stat(data[70]) : null
-    this.electroEnergyCost = new Stat(data[71]) ? new Stat(data[71]) : null
-    this.hydroEnergyCost = new Stat(data[72]) ? new Stat(data[72]) : null
-    this.dendroEnergyCost = new Stat(data[73]) ? new Stat(data[73]) : null
-    this.anemoEnergyCost = new Stat(data[74]) ? new Stat(data[74]) : null
-    this.cryoEnergyCost = new Stat(data[75]) ? new Stat(data[75]) : null
-    this.geoEnergyCost = new Stat(data[76]) ? new Stat(data[76]) : null
+    this.pyroEnergyCost = data[70] ? new Stat(data[70]) : ""
+    this.electroEnergyCost = data[71] ? new Stat(data[71]) : ""
+    this.hydroEnergyCost = data[72] ? new Stat(data[72]) : ""
+    this.dendroEnergyCost = data[73] ? new Stat(data[73]) : ""
+    this.anemoEnergyCost = data[74] ? new Stat(data[74]) : ""
+    this.cryoEnergyCost = data[75] ? new Stat(data[75]) : ""
+    this.geoEnergyCost = data[76] ? new Stat(data[76]) : ""
     this.maxHp = new Stat(data[2000])
     this.atk = new Stat(data[2001])
     this.def = new Stat(data[2002])

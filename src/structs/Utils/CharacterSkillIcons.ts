@@ -1,13 +1,13 @@
 import { CharacterSkillIcon } from "../../types"
 
 export class CharacterSkillIcons {
-  normalAttack: string | null
-  elementalSkill: string | null
-  elementalBurst: string | null
+  normalAttack: string
+  elementalSkill: string
+  elementalBurst: string
 
   constructor(data: CharacterSkillIcon) {
-    this.normalAttack = data.normalAttack ? data.normalAttack : null
-    this.elementalBurst = data.elementalBurst ? data.elementalBurst : null
-    this.elementalSkill = data.elementalSkill ? data.elementalSkill : null
+    this.normalAttack = data.normalAttack || ""
+    this.elementalBurst = data.elementalBurst || ""
+    this.elementalSkill = data.elementalSkill || ""
   }
 }

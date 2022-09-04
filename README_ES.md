@@ -11,10 +11,16 @@ Un paquete para obetener datos de la API de enka, también incluye un "buscador"
 	- Añadido el contenido de la versión 3.0.
 	- Añadidas las imágenes gacha de los personajes.
 	- Cambiada la url del CDN de enka.
+- v1.2.1:
+	- Mejorada la estructura de los datos para un mejor manejo.
+	- Ahora los valores vacíos retornarán arreglos, objetos y strings vacíos en vez de null.
+	- Solucionados algunos bugs.
+	- Añadido soporte para la API de perfiles.
 
 ## Tabla de Contenidos
 - [Wrapper](#wrapper)
 	- [Empezando](#empezando)
+	- [Perfiles de usuario](#perfiles-de-usuario)
 	- [Estructura del wrapper vs Estructura de la API](#estructura-del-wrapper-vs-estructura-de-la-api)
 - [Buscadores](#buscadores)
 	- [Nombres de Assets](#nombres-de-assets)  
@@ -41,6 +47,31 @@ async function obtenerDatos(uid) {
 }
 
 obtenerDatos(738081787)
+```
+
+### Perfiles de usuario
+
+```js
+const { Wrapper } = require('enkanetwork.js')
+
+const cliente = new Wrapper(opciones)
+/** opciones:
+ * key: opcional
+ */
+
+async function obtenerUsuario(nombreDeUsuario, IndexDelPerfilParaBuilds) {
+	const usuario = await client.getUser(nombreDeUsuario, IndexDelPerfilParaBuilds)
+	/* IndexDelPerfilParaBuilds es el index del perfil en el que se accederán a las builds de los personajes. Por ejemplo: si tienes 2 perfiles, para acceder al primero el index será 0, y si quieres acceder al segundo el index será 1 */
+	
+	/* Para obtener los perfiles */
+	const perfiles = user.getProfiles()
+	/* Para obtener las id de los personajes del perfil */
+	const idPersonajes = user.characters
+	/* Para obtener la build de los personajes con su id */
+	const buildPersonajes = user.getCharacterBuilds(idPersonajes[0])
+}
+
+obtenerUsuarios('algoinde', 0)
 ```
 
 ### Estructura del wrapper vs Estructura de la API

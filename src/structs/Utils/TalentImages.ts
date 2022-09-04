@@ -1,9 +1,9 @@
 import { TalentImage } from "../../types"
 
 export class TalentImages {
-  icon: string | null
+  icon: string
 
   constructor(data: TalentImage) {
-    this.icon = data ? data.icon : null
+    this.icon = data ? data.icon : ""
   }
 }

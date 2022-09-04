@@ -18,7 +18,7 @@ export class ReliquaryFlat {
     this.setNameTextMapHash = data.setNameTextMapHash
     this.stars = data.rankLevel
     this.artifactMainstat = new ReliquaryMainstat(data.reliquaryMainstat)
-    this.artifactSubstats = data.reliquarySubstats.map((data) => new ReliquarySubstats(data))
+    this.artifactSubstats = data.reliquarySubstats ? data.reliquarySubstats.map((data) => new ReliquarySubstats(data)) : []
     this.itemType = data.itemType
     this.icon = new IconLinks(data.icon)
     this.equipType = data.equipType
