@@ -13,9 +13,14 @@ A package to get data from the enka API, it also includes a finder that you can 
 	- Changed the url of enka CDN.
 - v1.2.1:
 	- Improved data structure for better data management.
-	- Now empty values will return empty strings, arrays and strings depending on the value type instead of null.
+	- Now empty values will return empty strings, arrays and objects depending on the value type instead of null.
 	- Fixed some bugs.
 	- Added profiles API support.
+- v1.3.0:
+	- Fixed Ayaka and Mona talents.
+	- Added missing proudSkillExtraLevelMap.
+	- Added support for custom User-Agent on requests.
+	- Added 3.1 version content.
 
 ## Table of Content
 - [Wrapper](#wrapper)
@@ -39,6 +44,7 @@ const { Wrapper } = require('enkanetwork.js')
 const client = new Wrapper(options)
 /** options:
  * key: optional
+ * userAgent: optional
  */
 
 async function getData(uid) {

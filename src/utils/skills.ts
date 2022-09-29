@@ -1103,6 +1103,66 @@ export const skills: { [key: string]: any } = {
     nameTextMapHash: "3822928381",
     icon: "Skill_E_Tighnari_01",
   },
+  "10701": {
+    nameTextMapHash: "1390577909",
+    icon: "Skill_A_01",
+  },
+  "10702": {
+    nameTextMapHash: "2640547533",
+    icon: "Skill_S_Nilou_01",
+  },
+  "10703": {
+    nameTextMapHash: "509298485",
+    icon: "Skill_S_Nilou_01",
+  },
+  "10704": {
+    nameTextMapHash: "3085221333",
+    icon: "Skill_S_Nilou_01",
+  },
+  "10706": {
+    nameTextMapHash: "2642188701",
+    icon: "Skill_S_Nilou_04",
+  },
+  "10707": {
+    nameTextMapHash: "2011484461",
+    icon: "Skill_S_Nilou_02",
+  },
+  "10705": {
+    nameTextMapHash: "1967463157",
+    icon: "Skill_E_Nilou_01",
+  },
+  "10708": {
+    nameTextMapHash: "3729293421",
+    icon: "Skill_S_Nilou_01",
+  },
+  "10711": {
+    nameTextMapHash: "2262721981",
+    icon: "Skill_A_03",
+  },
+  "10712": {
+    nameTextMapHash: "584952661",
+    icon: "Skill_S_Cyno_01",
+  },
+  "10713": {
+    nameTextMapHash: "1069392805",
+    icon: "Skill_S_Cyno_02",
+  },
+  "10715": {
+    nameTextMapHash: "2604847405",
+    icon: "Skill_E_Cyno_01",
+  },
+  "10721": {
+    nameTextMapHash: "2594921261",
+    icon: "Skill_A_03",
+  },
+  "10722": {
+    nameTextMapHash: "2160740245",
+    icon: "Skill_S_Candace_01",
+  },
+  "10725": {
+    nameTextMapHash: "2669120029",
+    icon: "Skill_E_Candace_01",
+  },
   "20001": {
     nameTextMapHash: "1936482797",
     icon: "Skill_A_Dvalin_AirGun",
@@ -1193,6 +1253,10 @@ export const skills: { [key: string]: any } = {
   },
   "20042": {
     nameTextMapHash: "3598437797",
+    icon: "Btn_CatchAnimal_Shoot",
+  },
+  "20045": {
+    nameTextMapHash: "1562204677",
     icon: "Btn_CatchAnimal_Shoot",
   },
   "20100": {
@@ -1702,5 +1766,17 @@ export const skills: { [key: string]: any } = {
   "5069010": {
     nameTextMapHash: "19903157",
     icon: "Skill_A_02",
+  },
+  "5070010": {
+    nameTextMapHash: "280269733",
+    icon: "Skill_A_01",
+  },
+  "5071010": {
+    nameTextMapHash: "2022718829",
+    icon: "Skill_A_03",
+  },
+  "5072010": {
+    nameTextMapHash: "3497260069",
+    icon: "Skill_A_03",
   },
 };

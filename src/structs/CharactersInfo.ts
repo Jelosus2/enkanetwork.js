@@ -13,6 +13,7 @@ export class CharactersInfo {
   skillDepotId: number
   inherentProudSkillList: number[]
   talentsLevelMap: SkillLevelMap 
+  proudSkillExtraLevelMap: object
   equipList: EquipList 
   fetterInfo: FetterInfo 
   costumeId: number | string
@@ -24,7 +25,8 @@ export class CharactersInfo {
     this.constellationsIdList = data.talentIdList || []
     this.skillDepotId = data.skillDepotId
     this.inherentProudSkillList = data.inherentProudSkillList
-    this.talentsLevelMap = new SkillLevelMap(data.skillLevelMap)
+    this.talentsLevelMap = new SkillLevelMap(data.skillLevelMap, data.avatarId)
+    this.proudSkillExtraLevelMap = data.proudSkillExtraLevelMap || {}
     this.equipList = new EquipList(data.equipList)
     this.fetterInfo = new FetterInfo(data.fetterInfo)
     this.costumeId = data.costumeId || ""

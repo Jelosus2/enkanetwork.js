@@ -1,5 +1,6 @@
 export interface WrapperOptions {
   key?: string
+  userAgent?: string
 }
 
 export interface AssetNameFinderOptions {

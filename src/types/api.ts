@@ -35,10 +35,11 @@ export interface CharactersInfoAPI {
   talentIdList: number[]
   skillDepotId: number
   inherentProudSkillList: number[]
-  skillLevelMap: any
+  skillLevelMap: object
   equipList: any[]
   fetterInfo: FetterInfoAPI
   costumeId: number
+  proudSkillExtraLevelMap: object
 }
 
 export interface PropMapAPI {
@@ -137,7 +138,7 @@ export interface WeaponAPI {
 export interface WeaponInfoAPI {
   level: number
   promoteLevel: number
-  affixMap: any
+  affixMap: object
 }
 
 export interface WeaponFlatAPI {
@@ -167,23 +168,9 @@ export interface UserBuildsAPI {
   id: number
   name: string
   avatar_id: string
-  avatar_data: UserBuildsDataAPI 
+  avatar_data: CharactersInfoAPI 
   order: number
   live: boolean
   settings: object
   is_public: boolean
-}
-
-export interface UserBuildsDataAPI {
-  propMap: PropMapAPI
-  avatarId: number
-  costumeId: number
-  equipList: any[]
-  fetterInfo: FetterInfoAPI
-  fightPropMap: FightPropMapAPI
-  skillDepotId: number
-  talentIdList: number[]
-  skillLevelMap: any
-  inherentProudSkillList: number[]
-  proudSkillExtraLevelMap: any
 }

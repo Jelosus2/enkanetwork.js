@@ -672,4 +672,39 @@ export const namecards: { [key: string]: any } = {
     icon: "UI_NameCardIcon_Xumi2",
     picPath: ["UI_NameCardPic_Xumi2_Alpha", "UI_NameCardPic_Xumi2_P"],
   },
+  "210133": {
+    nameTextMapHash: "4032969252",
+    icon: "UI_NameCardIcon_Bp18",
+    picPath: ["UI_NameCardPic_Bp18_P_Alpha", "UI_NameCardPic_Bp18_P"],
+  },
+  "210134": {
+    nameTextMapHash: "1075869604",
+    icon: "UI_NameCardIcon_Cyno",
+    picPath: ["UI_NameCardPic_Cyno_Alpha", "UI_NameCardPic_Cyno_P"],
+  },
+  "210135": {
+    nameTextMapHash: "2373252516",
+    icon: "UI_NameCardIcon_Candace",
+    picPath: ["UI_NameCardPic_Candace_Alpha", "UI_NameCardPic_Candace_P"],
+  },
+  "210136": {
+    nameTextMapHash: "106635948",
+    icon: "UI_NameCardIcon_Nilou",
+    picPath: ["UI_NameCardPic_Nilou_Alpha", "UI_NameCardPic_Nilou_P"],
+  },
+  "210137": {
+    nameTextMapHash: "3705138196",
+    icon: "UI_NameCardIcon_Yszj2",
+    picPath: ["UI_NameCardPic_Yszj2_Alpha", "UI_NameCardPic_Yszj2_P"],
+  },
+  "210138": {
+    nameTextMapHash: "2226474204",
+    icon: "UI_NameCardIcon_Xm2",
+    picPath: ["UI_NameCardPic_Xm2_Alpha", "UI_NameCardPic_Xm2_P"],
+  },
+  "210139": {
+    nameTextMapHash: "3879141996",
+    icon: "UI_NameCardIcon_Tzz6",
+    picPath: ["UI_NameCardPic_Tzz6_Alpha", "UI_NameCardPic_Tzz6_P"],
+  },
 };

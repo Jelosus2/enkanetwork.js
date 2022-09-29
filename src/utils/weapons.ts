@@ -99,6 +99,10 @@ export const weapons: { [key: string]: any } = {
     icon: "UI_EquipIcon_Sword_Arakalari",
     awakenIcon: "UI_EquipIcon_Sword_Arakalari_Awaken",
   },
+  "11418": {
+    icon: "UI_EquipIcon_Sword_Pleroma",
+    awakenIcon: "UI_EquipIcon_Sword_Pleroma_Awaken",
+  },
   "11419": {
     icon: "UI_EquipIcon_Sword_YoutouEnchanted",
     awakenIcon: "UI_EquipIcon_Sword_YoutouEnchanted",
@@ -150,6 +154,10 @@ export const weapons: { [key: string]: any } = {
   "11510": {
     icon: "UI_EquipIcon_Sword_Amenoma",
     awakenIcon: "UI_EquipIcon_Sword_Amenoma_Awaken",
+  },
+  "11511": {
+    icon: "UI_EquipIcon_Sword_Deshret",
+    awakenIcon: "UI_EquipIcon_Sword_Deshret_Awaken",
   },
   "12101": {
     icon: "UI_EquipIcon_Claymore_Aniki",
@@ -234,6 +242,10 @@ export const weapons: { [key: string]: any } = {
   "12414": {
     icon: "UI_EquipIcon_Claymore_Bakufu",
     awakenIcon: "UI_EquipIcon_Claymore_Bakufu_Awaken",
+  },
+  "12415": {
+    icon: "UI_EquipIcon_Claymore_Pleroma",
+    awakenIcon: "UI_EquipIcon_Claymore_Pleroma_Awaken",
   },
   "12416": {
     icon: "UI_EquipIcon_Claymore_Maria",
@@ -355,6 +367,10 @@ export const weapons: { [key: string]: any } = {
     icon: "UI_EquipIcon_Pole_Arakalari",
     awakenIcon: "UI_EquipIcon_Pole_Arakalari_Awaken",
   },
+  "13419": {
+    icon: "UI_EquipIcon_Pole_Windvane",
+    awakenIcon: "UI_EquipIcon_Pole_Windvane_Awaken",
+  },
   "13501": {
     icon: "UI_EquipIcon_Pole_Homa",
     awakenIcon: "UI_EquipIcon_Pole_Homa_Awaken",
@@ -386,6 +402,10 @@ export const weapons: { [key: string]: any } = {
   "13509": {
     icon: "UI_EquipIcon_Pole_Narukami",
     awakenIcon: "UI_EquipIcon_Pole_Narukami_Awaken",
+  },
+  "13511": {
+    icon: "UI_EquipIcon_Pole_Deshret",
+    awakenIcon: "UI_EquipIcon_Pole_Deshret_Awaken",
   },
   "14101": {
     icon: "UI_EquipIcon_Catalyst_Apprentice",
@@ -478,6 +498,10 @@ export const weapons: { [key: string]: any } = {
   "14415": {
     icon: "UI_EquipIcon_Catalyst_Jyanome",
     awakenIcon: "UI_EquipIcon_Catalyst_Jyanome_Awaken",
+  },
+  "14416": {
+    icon: "UI_EquipIcon_Catalyst_Pleroma",
+    awakenIcon: "UI_EquipIcon_Catalyst_Pleroma_Awaken",
   },
   "14417": {
     icon: "UI_EquipIcon_Catalyst_Arakalari",

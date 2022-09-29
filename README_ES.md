@@ -16,6 +16,11 @@ Un paquete para obetener datos de la API de enka, también incluye un "buscador"
 	- Ahora los valores vacíos retornarán arreglos, objetos y strings vacíos en vez de null.
 	- Solucionados algunos bugs.
 	- Añadido soporte para la API de perfiles.
+- v1.3.0:
+	- Arreglados los talentos de Ayaka y Mona.
+	- Añadido el proudSkillExtraLevelMap faltante.
+	- Añadido soporte para User Agent personalizados en las solicitudes.
+	- Añadido el contenido de la versión 3.1.
 
 ## Tabla de Contenidos
 - [Wrapper](#wrapper)
@@ -39,6 +44,7 @@ const { Wrapper } = require('enkanetwork.js')
 const cliente = new Wrapper(opciones)
 /** opciones:
  * key: opcional
+ * userAgent: opcional
  */
 
 async function obtenerDatos(uid) {

@@ -1,4 +1,4 @@
-import { UserBuildsDataAPI } from "../types"
+import { CharactersInfoAPI } from "../types"
 import { EquipList } from "./EquipList"
 import { FetterInfo } from "./FetterInfo"
 import { FightPropMap } from "./FightPropMap"
@@ -18,7 +18,7 @@ export class UserBuildAvatarData {
     inherentProudSkillList: number[]
     proudSkillExtraLevelMap: any
 
-    constructor(data: UserBuildsDataAPI) {
+    constructor(data: CharactersInfoAPI) {
         this.propMap = new PropMap(data.propMap)
         this.characterId = data.avatarId
         this.costumeId = data.costumeId || ""
@@ -27,7 +27,7 @@ export class UserBuildAvatarData {
         this.stats = new FightPropMap(data.fightPropMap)
         this.skillDepotId = data.skillDepotId
         this.constellationsIdList = data.talentIdList || []
-        this.talentsLevelMap = new SkillLevelMap(data.skillLevelMap)
+        this.talentsLevelMap = new SkillLevelMap(data.skillLevelMap, data.avatarId)
         this.inherentProudSkillList = data.inherentProudSkillList
         this.proudSkillExtraLevelMap = data.proudSkillExtraLevelMap || {}
     }
