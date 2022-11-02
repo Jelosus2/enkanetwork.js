@@ -1,4 +1,5 @@
-import { ReliquaryFlatAPI } from "../types"
+import { AssetNameFinder } from "../client/AssetNameFinder"
+import { AssetNameFinderOptions, ReliquaryFlatAPI } from "../types"
 import { IconLinks } from "./AssetLink"
 import { ReliquaryMainstat } from "./ReliquaryMainstat"
 import { ReliquarySubstats } from "./ReliquarySubstats"
@@ -22,5 +23,19 @@ export class ReliquaryFlat {
     this.itemType = data.itemType
     this.icon = new IconLinks(data.icon)
     this.equipType = data.equipType
+  }
+
+  name(options?: AssetNameFinderOptions) {
+    let language = options?.language
+    if (!options?.language) language = 'en'
+
+    return new AssetNameFinder({ language }).search(this.nameTextMapHash).value
+  }
+
+  setName(options?: AssetNameFinderOptions) {
+    let language = options?.language
+    if (!options?.language) language = 'en'
+
+    return new AssetNameFinder({ language }).search(this.setNameTextMapHash).value
   }
 }

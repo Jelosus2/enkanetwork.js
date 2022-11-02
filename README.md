@@ -21,6 +21,9 @@ A package to get data from the enka API, it also includes a finder that you can 
 	- Added missing proudSkillExtraLevelMap.
 	- Added support for custom User-Agent on requests.
 	- Added 3.1 version content.
+- v1.3.6
+	- Added 3.2 version content.
+	- Now you can access to asset names/images directly from characters, namecards, etc objects.
 
 ## Table of Content
 - [Wrapper](#wrapper)

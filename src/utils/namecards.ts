@@ -707,4 +707,19 @@ export const namecards: { [key: string]: any } = {
     icon: "UI_NameCardIcon_Tzz6",
     picPath: ["UI_NameCardPic_Tzz6_Alpha", "UI_NameCardPic_Tzz6_P"],
   },
+  "210140": {
+    nameTextMapHash: "3336724900",
+    icon: "UI_NameCardIcon_Nahida",
+    picPath: ["UI_NameCardPic_Nahida_Alpha", "UI_NameCardPic_Nahida_P"],
+  },
+  "210141": {
+    nameTextMapHash: "1712457348",
+    icon: "UI_NameCardIcon_Layla",
+    picPath: ["UI_NameCardPic_Layla_Alpha", "UI_NameCardPic_Layla_P"],
+  },
+  "210142": {
+    nameTextMapHash: "2502680804",
+    icon: "UI_NameCardIcon_Bp19",
+    picPath: ["UI_NameCardPic_Bp19_Alpha", "UI_NameCardPic_Bp19_P"],
+  },
 };

@@ -539,6 +539,10 @@ export const weapons: { [key: string]: any } = {
     icon: "UI_EquipIcon_Catalyst_Narukami",
     awakenIcon: "UI_EquipIcon_Catalyst_Narukami_Awaken",
   },
+  "14511": {
+    icon: "UI_EquipIcon_Catalyst_Ayus",
+    awakenIcon: "UI_EquipIcon_Catalyst_Ayus_Awaken",
+  },
   "15101": {
     icon: "UI_EquipIcon_Bow_Hunters",
     awakenIcon: "UI_EquipIcon_Bow_Hunters_Awaken",

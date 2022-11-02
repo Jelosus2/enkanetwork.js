@@ -1163,6 +1163,30 @@ export const skills: { [key: string]: any } = {
     nameTextMapHash: "2669120029",
     icon: "Skill_E_Candace_01",
   },
+  "10731": {
+    nameTextMapHash: "48372133",
+    icon: "Skill_A_Catalyst_MD",
+  },
+  "10732": {
+    nameTextMapHash: "3592193965",
+    icon: "Skill_S_Nahida_01",
+  },
+  "10735": {
+    nameTextMapHash: "3862968797",
+    icon: "Skill_E_Nahida_01",
+  },
+  "10741": {
+    nameTextMapHash: "1078955685",
+    icon: "Skill_A_01",
+  },
+  "10742": {
+    nameTextMapHash: "3200711933",
+    icon: "Skill_S_Layla_01",
+  },
+  "10745": {
+    nameTextMapHash: "64091533",
+    icon: "Skill_E_Layla_01",
+  },
   "20001": {
     nameTextMapHash: "1936482797",
     icon: "Skill_A_Dvalin_AirGun",
@@ -1258,6 +1282,18 @@ export const skills: { [key: string]: any } = {
   "20045": {
     nameTextMapHash: "1562204677",
     icon: "Btn_CatchAnimal_Shoot",
+  },
+  "20049": {
+    nameTextMapHash: "1068626397",
+    icon: "Btn_CatchAnimal_Shoot",
+  },
+  "20051": {
+    nameTextMapHash: "1486834421",
+    icon: "Btn_FungusFighter_Aim",
+  },
+  "20054": {
+    nameTextMapHash: "4262868373",
+    icon: "Skill_E_Gagana_AimShoot",
   },
   "20100": {
     nameTextMapHash: "4176490093",
@@ -1778,5 +1814,17 @@ export const skills: { [key: string]: any } = {
   "5072010": {
     nameTextMapHash: "3497260069",
     icon: "Skill_A_03",
+  },
+  "5073010": {
+    nameTextMapHash: "286439061",
+    icon: "Skill_A_Catalyst_MD",
+  },
+  "5074010": {
+    nameTextMapHash: "1942178429",
+    icon: "Skill_A_01",
+  },
+  "5076010": {
+    nameTextMapHash: "405719917",
+    icon: "Skill_A_02",
   },
 };
