@@ -1,7 +1,5 @@
-import { AssetNameFinderOptions, PlayerInfoAPI } from "../types"
-import { ShowCharactersList } from "./ShowCharactersList"
-import { ProfilePicture } from "./ProfilePicture"
-import { NamecardImages } from "./Utils"
+import { AssetNameFinderOptions, PlayerInfoAPI, ProfilePictureAPI, ShowCharactersListAPI } from "../types"
+import { NamecardImages, CharacterImages } from "./AssetImages"
 import { AssetImageFinder } from "../client/AssetImageFinder"
 import { AssetNameFinder } from "../client/AssetNameFinder"
 
@@ -33,6 +31,29 @@ export class PlayerInfo {
   }
 }
 
+class ShowCharactersList {
+  characterId: number
+  level: number
+  costumeId: number | string
+  assets: CharacterImages
+
+  constructor(data: ShowCharactersListAPI) {
+    this.characterId = data.avatarId
+    this.level = data.level
+    this.costumeId = data.costumeId || ""
+    this.assets = new AssetImageFinder().character(this.characterId)
+  }
+
+  async name(options?: AssetNameFinderOptions) {
+    let language = options?.language
+    if (!options?.language) language = 'en'
+
+    const characterHash = new AssetNameFinder({ language }).getCharacterHash(this.characterId).value
+
+    return new AssetNameFinder({ language }).search(characterHash).value
+  }
+}
+
 class Namecard {
   id: number
   assets: NamecardImages
@@ -52,3 +73,21 @@ class Namecard {
   }
 }
 
+class ProfilePicture {
+  characterId: number 
+  assets: CharacterImages
+
+  constructor(data: ProfilePictureAPI) {
+    this.characterId = data.avatarId
+    this.assets = new AssetImageFinder().character(this.characterId)
+  }
+
+  async name(options?: AssetNameFinderOptions) {
+    let language = options?.language
+    if (!options?.language) language = 'en'
+
+    const characterHash = new AssetNameFinder({ language }).getCharacterHash(this.characterId).value
+
+    return new AssetNameFinder({ language }).search(characterHash).value
+  }
+}

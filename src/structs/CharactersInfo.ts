@@ -1,12 +1,11 @@
 import { AssetImageFinder } from "../client/AssetImageFinder"
 import { AssetNameFinder } from "../client/AssetNameFinder"
-import { AssetNameFinderOptions, CharactersInfoAPI } from "../types"
+import { AssetNameFinderOptions, CharactersInfoAPI, FetterInfoAPI } from "../types"
 import { EquipList } from "./EquipList"
-import { FetterInfo } from "./FetterInfo"
 import { FightPropMap } from "./FightPropMap"
 import { PropMap } from "./PropMap"
 import { SkillLevelMap } from "./SkillLevelMap"
-import { CharacterImages, TalentImages } from "./Utils"
+import { CharacterImages, TalentImages } from "./AssetImages"
 
 export class CharactersInfo {
   characterId: number
@@ -63,5 +62,13 @@ class Constellations {
     const constellationHash = new AssetNameFinder({ language }).getConstellationHash(this.id).value
 
     return new AssetNameFinder({ language }).search(constellationHash).value
+  }
+}
+
+class FetterInfo {
+  expLevel: number
+
+  constructor(data: FetterInfoAPI) {
+    this.expLevel = data.expLevel
   }
 }

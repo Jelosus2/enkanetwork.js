@@ -115,6 +115,10 @@ export const weapons: { [key: string]: any } = {
     icon: "UI_EquipIcon_Sword_YoutouEnchanted",
     awakenIcon: "UI_EquipIcon_Sword_YoutouEnchanted",
   },
+  "11422": {
+    icon: "UI_EquipIcon_Sword_Kasabouzu",
+    awakenIcon: "UI_EquipIcon_Sword_Kasabouzu_Awaken",
+  },
   "11501": {
     icon: "UI_EquipIcon_Sword_Falcon",
     awakenIcon: "UI_EquipIcon_Sword_Falcon_Awaken",
@@ -284,8 +288,8 @@ export const weapons: { [key: string]: any } = {
     awakenIcon: "UI_EquipIcon_Claymore_Aniki_Awaken",
   },
   "12509": {
-    icon: "UI_EquipIcon_Claymore_Narukami",
-    awakenIcon: "UI_EquipIcon_Claymore_Narukami_Awaken",
+    icon: "UI_EquipIcon_Claymore_Aniki",
+    awakenIcon: "UI_EquipIcon_Claymore_Aniki_Awaken",
   },
   "12510": {
     icon: "UI_EquipIcon_Claymore_Itadorimaru",
@@ -542,6 +546,10 @@ export const weapons: { [key: string]: any } = {
   "14511": {
     icon: "UI_EquipIcon_Catalyst_Ayus",
     awakenIcon: "UI_EquipIcon_Catalyst_Ayus_Awaken",
+  },
+  "14512": {
+    icon: "UI_EquipIcon_Catalyst_Alaya",
+    awakenIcon: "UI_EquipIcon_Catalyst_Alaya_Awaken",
   },
   "15101": {
     icon: "UI_EquipIcon_Bow_Hunters",

@@ -1,6 +1,4 @@
 import { FightPropMapAPI } from "../types"
-import { Stat } from "./Stat"
-import { StatPercentage } from "./StatPercentage"
 
 export class FightPropMap {
   baseHp: Stat 
@@ -75,5 +73,29 @@ export class FightPropMap {
     this.maxHp = new Stat(data[2000])
     this.atk = new Stat(data[2001])
     this.def = new Stat(data[2002])
+  }
+}
+
+class Stat {
+  value: number
+
+  constructor(data: any) {
+    this.value = data
+  }
+
+  toRoundedValue() {
+    return Math.round(this.value)
+  }
+}
+
+class StatPercentage {
+  value: number
+
+  constructor(data: any) {
+    this.value = data
+  }
+
+  toPercentage() {
+    return Math.round((this.value * 100 + Number.EPSILON + 0.0001) * 10) / 10
   }
 }

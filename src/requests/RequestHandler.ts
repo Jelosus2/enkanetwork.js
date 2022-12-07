@@ -23,7 +23,12 @@ export class RequestHandler {
       url = `https://enka.network/${path}`
     }
 
-    const res = await fetch(url, { method: 'GET', headers: { "User-Agent": `${this.options?.userAgent ? `${this.options.userAgent}` : 'enkanetwork.js/v1.3.0'}` } }).catch(() => {})
+    const res = await fetch(url, {
+      method: 'GET',
+      headers: { 
+        "User-Agent": `${this.options?.userAgent ? `${this.options.userAgent}` : 'enkanetwork.js/v1.3.0'}` 
+      } 
+    }).catch(() => {})
     if (res?.status == 500) throw new APIError(res.status, `${res.statusText} (Probably you set an invalid parameter)`, `${path}`)
 
     const data = res?.json().catch(() => {})

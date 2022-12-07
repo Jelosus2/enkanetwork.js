@@ -1,6 +1,6 @@
 {
   "name": "enkanetwork.js",
-  "version": "1.3.6",
+  "version": "1.3.9",
   "description": "An API wrapper for the API of the Enka.Network website",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,9 +15,13 @@
     "url": "git+https://github.com/Jelosus2/enkanetwork.js.git"
   },
   "keywords": [
-    "Enka.Network",
-    "Genshin Impact",
-    "Genshin API"
+    "genshin impact",
+    "genshin api",
+    "enkanetwork",
+    "enkanetwork.js",
+    "enka",
+    "nodejs",
+    "genshin"
   ],
   "author": "Jelosus1",
   "license": "MIT",

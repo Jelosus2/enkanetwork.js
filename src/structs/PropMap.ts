@@ -1,5 +1,4 @@
-import { PropMapAPI } from "../types"
-import { PropMapContent } from "./PropMapContent"
+import { PropMapAPI, PropMapContentAPI } from "../types"
 
 export class PropMap {
   xp: PropMapContent 
@@ -16,5 +15,17 @@ export class PropMap {
     this[1003] = new PropMapContent(data[1003]) 
     this[1004] = new PropMapContent(data[1004]) 
     this[10010] = new PropMapContent(data[10010]) 
+  }
+}
+
+class PropMapContent {
+  type: number
+  ival: string
+  val: string
+
+  constructor(data: PropMapContentAPI) {
+    this.type = data.type
+    this.ival = data.ival || ""
+    this.val = data.val || ""
   }
 }

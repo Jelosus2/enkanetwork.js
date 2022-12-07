@@ -1,8 +1,8 @@
 import { AssetFinderError } from "../errors/AssetFinderError"
-import { CharacterImages } from "../structs/Utils/CharacterImages"
-import { NamecardImages } from "../structs/Utils/NamecardImages"
-import { TalentImages } from "../structs/Utils/TalentImages"
-import { WeaponImages } from "../structs/Utils/WeaponImages"
+import { CharacterImages } from "../structs/AssetImages/CharacterImages"
+import { NamecardImages } from "../structs/AssetImages/NamecardImages"
+import { TalentImages } from "../structs/AssetImages/TalentImages"
+import { WeaponImages } from "../structs/AssetImages/WeaponImages"
 import { characters, namecards, skills, talents, weapons } from "../utils"
 
 export class AssetImageFinder {

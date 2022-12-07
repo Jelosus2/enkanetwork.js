@@ -24,6 +24,8 @@ Un paquete para obetener datos de la API de enka, también incluye un "buscador"
 - v1.3.6
 	- Añadido el contenido de la versión 3.2.
 	- Ahora puedes acceder a los nombres/imágenes de los assets directamente desde los objetos de personajes, tarjetas, etc.
+- v1.3.9
+	- Añadido el contenido de la versión 3.3 + los idiomas IT y TR.
 
 ## Tabla de Contenidos
 - [Wrapper](#wrapper)

@@ -4,7 +4,7 @@ export interface WrapperOptions {
 }
 
 export interface AssetNameFinderOptions {
-  language?: 'en' | 'ru' | 'vi' | 'th' | 'pt' | 'ko' | 'ja' | 'id' | 'fr' | 'es' | 'de' | 'zh-TW' | 'zh-CN'
+  language?: 'en' | 'ru' | 'vi' | 'th' | 'pt' | 'ko' | 'ja' | 'id' | 'fr' | 'es' | 'de' | 'zh-TW' | 'zh-CN' | 'it' | 'tr'
 }
 
 export interface CharacterImage {
