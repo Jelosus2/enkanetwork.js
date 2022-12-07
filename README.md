@@ -26,6 +26,8 @@ A package to get data from the enka API, it also includes a finder that you can 
 	- Now you can access to asset names/images directly from characters, namecards, etc objects.
 - v1.3.9
 	- Added 3.3 version content + IT and TR Languages
+- v1.3.10
+        - Reduced file amount of the package.
 
 ## Table of Content
 - [Wrapper](#wrapper)
