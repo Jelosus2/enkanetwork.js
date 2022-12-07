@@ -1,6 +1,0 @@
-export * from './CharacterCostumes'
-export * from './CharacterImages'
-export * from './CharacterSkillIcons'
-export * from './NamecardImages'
-export * from './TalentImages'
-export * from './WeaponImages'
