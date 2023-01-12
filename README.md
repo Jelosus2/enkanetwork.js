@@ -2,7 +2,7 @@
 
 EN | [ES](/README_ES.md)
 
-A package to get data from the enka API, it also includes a finder that you can use to search for names and images of game assets, for example a name or image of a character. Check [Finders](#finders) for more information.
+A package to get data from the enka API, it also includes a finder that you can use to search for names and images of game assets, for example a name or image of a character. Check [Finders](#asset-finder) for more information.
 
 ## Changelog
 - v1.0.1:
@@ -24,6 +24,17 @@ A package to get data from the enka API, it also includes a finder that you can 
 - v1.3.6
 	- Added 3.2 version content.
 	- Now you can access to asset names/images directly from characters, namecards, etc objects.
+- v1.3.9:
+	- Added 3.3 version content + IT and TR Languages
+- v1.3.10: 
+	- Reduced file amount of the package.
+- v2.0.0-dev:
+	- Reworked the entire data structure and some package structure.
+	- Merged `AssetNameFinder` and `AssetImageFinder` into `AssetFinder`.
+	- Added an auto updater for the new genshin versions content.
+	- Added cache system (optional) to reduce the request sent to Enka API.
+	- Fixed some bugs and errors.
+	- Added JSDoc. 
 
 ## Table of Content
 - [Wrapper](#wrapper)
@@ -46,8 +57,10 @@ const { Wrapper } = require('enkanetwork.js')
 
 const client = new Wrapper(options)
 /** options:
- * key: optional
- * userAgent: optional
+ * key: string -> optional
+ * userAgent: string -> optional
+ * language: string -> optional
+ * cache: boolean -> optional
  */
 
 async function getData(uid) {
@@ -65,22 +78,22 @@ const { Wrapper } = require('enkanetwork.js')
 
 const client = new Wrapper(options)
 /** options:
- * key: optional
+ * key: string -> optional
+ * userAgent: string -> optional
+ * language: string -> optional
+ * cache: boolean -> optional
  */
 
-async function getUser(username, buildsProfileIndex) {
-	const user = await client.getUser(username, buildsProfileIndex)
-	/* buildsProfileIndex is the index of the profile to access the character builds. For example: if you have 2 profiles, to access the 1st one the index will be 0 and to access the 2nd one will be 1 */
+async function getUser(username, language) {
+	const user = await client.getUser(username, language)
 	
 	/* To get the profiles */
-	const profiles = user.getProfiles()
-	/* To get the characters id of the profile */
-	const charactersId = user.characters
-	/* To get the builds of a character using the id */
-	const characterBuilds = user.getCharacterBuilds(charactersId[0])
+	const profiles = user.profiles
+	/* To get the builds of a profile */
+	const characterBuilds = await profiles[index].getBuilds()
 }
 
-getUser('algoinde', 0)
+getUser('algoinde', 'en')
 ```
 
 ### Wrapper Structure vs API Structure
@@ -112,76 +125,52 @@ The properties that doesn't appear here have the same name as in the official AP
 | weaponInfo | weapon |
 | refinementLevel | affixMap |
 
+More coming in the stable 2.0.0 version
+
 You can find `fightPropMap` original properties in [fightPropMap Data](https://api.enka.network/#/api?id=fightprop)
 
-## Finders
+## Asset Finder
 
-## Asset Names
-
-The finder can **only** find names of the assets provided in the enka API, for example it won't find the name of a quest even if you have the name hash.
+The finder can **only** find names and images of the assets provided in the enka API, for example it won't find the name of a quest even if you have the name hash.
 
 ```js
-const { AssetNameFinder } = require('enkanetwork.js')
+const { AssetFinder } = require('enkanetwork.js')
 
-const finder = new AssetNameFinder(options)
+const finder = new AssetFinder(options)
 /** options:
- * language: optional. English is the default language
- * All in-game languages supported
+ * language: string -> optional. 
+ * English is the default language.
+ * All in-game languages supported.
  */
 
-function getAssetName(nameHash) {
-	const name = finder.search(nameHash).value
-	console.log(name)
+function getCharacter(characterId) {
+	const assets = finder.character(characterId).assets
+	const name = finder.character(characterId).name
+	console.log(assets, name)
 } 
 
-getAssetName(1997709467)
-```
-
-### How can i get the hash of characters, namecards, etc?
-
-You can get the name hash of characters, namecards, constellations and talents using their corresponding id, for example:
-
-```js
-function getCharacterName(nameHash) {
-	const name = finder.search(nameHash).value
-	console.log(name) //Output: Xiao (depends on selected language)
+function getNameByHash(nameTextMapHash) {
+	const name = finder.hash(nameTextMapHash).value
+	console.log(name) // Output: Hu Tao (depends on the language)
 }
 
-getCharacterName(finder.getCharacterHash(10000026).value)
-// 10000026 is the character id for Xiao
+getAssetName(10000046) // Hu Tao ID. 
+getNameByHash(1940919994) // Hu Tao name hash
 ```
 
-## Asset Images
-
-The finder can **only** find images of the assets provided in the enka API, for example it won't find the image of a NPC even if you have the id.
-
-```js
-const { AssetImageFinder } = require('enkanetwork.js')
-
-const finder = new AssetImageFinder()
-
-function getCharacterImage(id) {
-	const image = finder.character(id).icon
-	console.log(image) // Output: UI_AvatarIcon_Xiao
-}
-
-getCharacterImage(10000026)
-// 10000026 is Xiao's character id
-```
-
-You can get the images of constellations, talents, weapons and namecards too.
+You can get the images of characters, constellations, skills, weapons and namecards too.
 
 ### I got the icon name, but where is the image?
 
 You can get the image with the following URL: `https://enka.network/ui/[ICON_NAME].png`, however you can get it directly with this code:
 
 ```js
-function getAssetImageLink(iconName) {
-	const url = finder.toLink(iconName)
-	console.log(url) // Output: https://enka.network/ui/UI_AvatarIcon_Xiao.png
+function getAssetImageLink(imageName) {
+	const url = finder.toLink(imagineName)
+	console.log(url) // Output: https://enka.network/ui/UI_AvatarIcon_Hutao.png
 }
 
-getAssetImageLink("UI_AvatarIcon_Xiao")
+getAssetImageLink("UI_AvatarIcon_Hutao")
 ```
 
 ## Creator and Support
