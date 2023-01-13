@@ -1,6 +1,6 @@
 # EnkaNetwork.js
 
-EN | [ES](/README_ES.md)
+EN | ES
 
 A package to get data from the enka API, it also includes a finder that you can use to search for names and images of game assets, for example a name or image of a character. Check [Finders](#asset-finder) for more information.
 
@@ -41,11 +41,8 @@ A package to get data from the enka API, it also includes a finder that you can 
 	- [Getting started](#getting-started)
 	- [User profiles](#user-profiles)
 	- [Wrapper Structure vs API Structure](#wrapper-structure-vs-api-structure)
-- [Finders](#finders)
-	- [Asset Names](#asset-names)  
-		- [How can i get the hash of characters, namecards, etc?](#how-can-i-get-the-hash-of-characters-namecards-etc) 
-	- [Asset Images](#asset-images) 
-		- [I got the icon name, but where is the image?](#i-got-the-icon-name-but-where-is-the-image)
+- [Finders](#asset-finder)
+	- [I got the icon name, but where is the image?](#i-got-the-icon-name-but-where-is-the-image)
 - [Creator and Support](#creator-and-support) 
 
 ## Wrapper
@@ -99,33 +96,7 @@ getUser('algoinde', 'en')
 ### Wrapper Structure vs API Structure
 The properties that doesn't appear here have the same name as in the official API. You can check their [documentation](https://api.enka.network/#/) for more information.
 
-| Wrapper | API |
-| :---------- | :--- | 
-| charactersInfo | avatarInfoList |
-| showCharactersInfoList | showAvatarInfoList |
-| characterId | avatarId |
-| stats | fightPropMap |
-| constellationsIdList | talentIdList |
-| talentsLevelMap | skillLevelMap |
-| xp | propMap.1001 |
-| ascension | propMap.1002 |
-| level | propMap.4001 |
-| normalAttacks | skillLevelMap -> 1st value |
-| elementalSkill | skillLevelMap -> 2nd value |
-| elementalBurst | skillLevelMap -> 3rd value |
-| artifactId | itemId `[Artifacts]` |
-| mainStatId | mainPropId |
-| subStatsIdList | appendPropIdList |
-| stars | rankLevel |
-| artifactMainstat | reliquaryMainstat |
-| artifactSubstats | reliquarySubstats |
-| mainStat | mainPropId `[reliquaryMainstat]` |
-| stat | appendPropId |
-| weaponId | itemId `[Weapon]` |
-| weaponInfo | weapon |
-| refinementLevel | affixMap |
-
-More coming in the stable 2.0.0 version
+You can check the structure change [here](/STRUCTURE.md)
 
 You can find `fightPropMap` original properties in [fightPropMap Data](https://api.enka.network/#/api?id=fightprop)
 
