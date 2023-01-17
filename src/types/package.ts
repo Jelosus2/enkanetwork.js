@@ -1,9 +1,15 @@
 export interface WrapperOptions {
   key?: string
   userAgent?: string
+  language?: 'en' | 'ru' | 'vi' | 'th' | 'pt' | 'ko' | 'ja' | 'id' | 'fr' | 'es' | 'de' | 'zh-TW' | 'zh-CN' | 'it' | 'tr'
+  cache?: boolean
 }
 
-export interface AssetNameFinderOptions {
+export interface AutoUpdaterOptions {
+  checkInterval?: number
+}
+
+export interface AssetFinderOptions {
   language?: 'en' | 'ru' | 'vi' | 'th' | 'pt' | 'ko' | 'ja' | 'id' | 'fr' | 'es' | 'de' | 'zh-TW' | 'zh-CN' | 'it' | 'tr'
 }
 
@@ -33,7 +39,11 @@ export interface NamecardImage {
   picPath: string[]
 }
 
-export interface TalentImage {
+export interface SkillImage {
+  icon: string
+}
+
+export interface ConstellationImage {
   icon: string
 }
 

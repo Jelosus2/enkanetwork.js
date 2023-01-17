@@ -1,15 +1,15 @@
 /**
- * A class to throw errors coming from the `AssetFinder`.
+ * A class to throw errors coming from the package.
  * @extends Error
  */
-export class AssetFinderError extends Error {
+export class PackageError extends Error {
     /**
      * The message of the error.
      */
     message: string;
 
     /**
-     * Creates a new `AssetFinderError` instance.
+     * Creates a new `PackageError` instance.
      * @param message - The message of the error.
      */
     constructor(message: string) {

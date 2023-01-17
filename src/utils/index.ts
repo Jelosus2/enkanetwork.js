@@ -1,4 +1,5 @@
 export * from './characters'
+export * from './hashes'
 export * from './namecards'
 export * from './skills'
 export * from './talents'

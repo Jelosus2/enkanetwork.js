@@ -1,27 +1,31 @@
-import { UserBuildsAPI, UserDataAPI } from "../types"
-import { UserBuilds } from "./UserBuilds"
-import { UserProfiles } from "./UserProfiles"
+import { Wrapper } from "../client";
+import { AssetFinderOptions, ProfileDataAPI } from "../types";
+import { Profiles } from "./Profiles";
 
+/**
+ * A class that structures the user data.
+ */
 export class UserData {
-    private profiles: UserProfiles[]
-    characters: string[]
-    private builds: UserBuilds[]
-    private buildData: any
+    /**
+     * The profiles of the user.
+     */
+    profiles: Profiles[];
 
-    constructor(profileData: UserDataAPI[], buildsData: any) {
-        this.profiles = profileData.map((data) => new UserProfiles(data))
-        this.characters = buildsData ? Object.keys(buildsData) : []
-        this.builds = this.characters.length > 0 ? buildsData[this.characters[0]].map((data: UserBuildsAPI) => new UserBuilds(data)) : []
-        this.buildData = buildsData
-    }
-
-    getProfiles() {
-        this.profiles = this.profiles || []
-        return this.profiles
-    }
-
-    getCharacterBuilds(characterId: number | string) {
-        if (characterId) this.builds = this.characters.includes(characterId.toString()) ? this.buildData[this.characters[this.characters.indexOf(characterId.toString())]].map((data: UserBuildsAPI) => new UserBuilds(data)) : [] 
-        return this.builds
+    /**
+     * Creates a new `UserData` instance.
+     * @param username - The user's username.
+     * @param profileData - The data of the profiles.
+     * @param language - The language to get the names.
+     * @param wrapper - The wrapper class.
+     */
+    constructor(
+        username: string,
+        profileData: ProfileDataAPI[],
+        language: AssetFinderOptions["language"],
+        wrapper: Wrapper
+    ) {
+        this.profiles = profileData
+            ? profileData.map((data, i) => new Profiles(data, language, username, i, wrapper))
+            : [];
     }
 }

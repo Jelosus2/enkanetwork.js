@@ -24,20 +24,27 @@ Un paquete para obetener datos de la API de enka, también incluye un "buscador"
 - v1.3.6
 	- Añadido el contenido de la versión 3.2.
 	- Ahora puedes acceder a los nombres/imágenes de los assets directamente desde los objetos de personajes, tarjetas, etc.
-- v1.3.9
+- v1.3.9:
 	- Añadido el contenido de la versión 3.3 + los idiomas IT y TR.
-- v1.3.10: Archivos del paquete reducidos.
+- v1.3.10: 
+	- Archivos del paquete reducidos.
+- v2.0.0:
+	- La estructura de los datos y alguna estructura del paquete han sido rediseñadas.
+	- Se han juntado las clases `AssetNameFinder` y `AssetImageFinder` en `AssetFinder`.
+	- Añadido un auto actualizador de contenido para el contenido de las nuevas versiones de Genshin Impact.
+	- Añadido un sistema de caché (opcional) para reducir las peticiones a la API de Enka.
+	- Arreglados algunos bugs y errores.
+	- Añadido JSDoc.
 
 ## Tabla de Contenidos
 - [Wrapper](#wrapper)
 	- [Empezando](#empezando)
+	- [Sistema caché](#sistema-caché)
 	- [Perfiles de usuario](#perfiles-de-usuario)
 	- [Estructura del wrapper vs Estructura de la API](#estructura-del-wrapper-vs-estructura-de-la-api)
+- [Actualizador de Contenido](#actualizador-de-contenido)
 - [Buscadores](#buscadores)
-	- [Nombres de Assets](#nombres-de-assets)  
-		- [¿Como puedo obtener el hash de personajes, tarjetas de presentación, etc?](#¿como-puedo-obtener-el-hash-de-personajes-tarjetas-de-presentación-etc) 
-	- [Imágenes de Assets](#imágenes-de-assets) 
-		- [¿He obtenido el nombre del icono, pero donde está la imagen?](#¿he-obtenido-el-nombre-del-icono-pero-donde-está-la-imagen)
+	- [¿He obtenido el nombre del icono, pero donde está la imagen?](#¿he-obtenido-el-nombre-del-icono-pero-donde-está-la-imagen)
 - [Creador y Soporte](#creador-y-soporte) 
 
 ## Wrapper
@@ -49,8 +56,10 @@ const { Wrapper } = require('enkanetwork.js')
 
 const cliente = new Wrapper(opciones)
 /** opciones:
- * key: opcional
- * userAgent: opcional
+ * key: string -> opcional
+ * userAgent: string -> opcional (por defecto es enkanetwork.js/v<versión_del_paquete>)
+ * language: string -> opcional (por defecto es Inglés)
+ * cache: boolean -> opcional (por defecto es false) 
  */
 
 async function obtenerDatos(uid) {
@@ -61,6 +70,23 @@ async function obtenerDatos(uid) {
 obtenerDatos(738081787)
 ```
 
+### Sistema caché
+
+```js
+const { Wrapper } = require('enkanetwork.js')
+
+const cliente = new Wrapper({
+	cache: true
+})
+
+async function obtenerDatosConCache(uid) {
+	const datos = await cliente.getPlayer(uid)
+	console.log(datos)
+}
+
+obtenerDatosConCache(738081787)
+```
+
 ### Perfiles de usuario
 
 ```js
@@ -68,124 +94,93 @@ const { Wrapper } = require('enkanetwork.js')
 
 const cliente = new Wrapper(opciones)
 /** opciones:
- * key: opcional
+ * key: string -> opcional
+ * userAgent: string -> opcional (por defecto es enkanetwork.js/v<versión_del_paquete>)
+ * language: string -> opcional (por defecto es Inglés)
+ * cache: boolean -> opcional (por defecto es false) 
  */
 
-async function obtenerUsuario(nombreDeUsuario, IndexDelPerfilParaBuilds) {
-	const usuario = await client.getUser(nombreDeUsuario, IndexDelPerfilParaBuilds)
-	/* IndexDelPerfilParaBuilds es el index del perfil en el que se accederán a las builds de los personajes. Por ejemplo: si tienes 2 perfiles, para acceder al primero el index será 0, y si quieres acceder al segundo el index será 1 */
+// EL lenguaje es opcional
+async function obtenerUsuario(usuario, lenguaje) {
+	const usuario = await cliente.getUser(usuario, lenguaje)
 	
 	/* Para obtener los perfiles */
-	const perfiles = user.getProfiles()
-	/* Para obtener las id de los personajes del perfil */
-	const idPersonajes = user.characters
-	/* Para obtener la build de los personajes con su id */
-	const buildPersonajes = user.getCharacterBuilds(idPersonajes[0])
+	const perfiles = usuario.profiles
+	/* Para obtener las builds de un perfil */
+	const buildPersonajes = user[indice].getBuilds()
 }
 
-obtenerUsuarios('algoinde', 0)
+obtenerUsuarios('algoinde', 'es')
 ```
 
 ### Estructura del wrapper vs Estructura de la API
 
-Las propiedades que no aparecen aquí tienen el mismo nombre que en la API oficial. Puedes revisar su [documentación](https://api.enka.network/#/) para más información.
-
-| Wrapper | API |
-| :---------- | :--- | 
-| charactersInfo | avatarInfoList |
-| showCharactersInfoList | showAvatarInfoList |
-| characterId | avatarId |
-| stats | fightPropMap |
-| constellationsIdList | talentIdList |
-| talentsLevelMap | skillLevelMap |
-| xp | propMap.1001 |
-| ascension | propMap.1002 |
-| level | propMap.4001 |
-| normalAttacks | skillLevelMap -> 1st value |
-| elementalSkill | skillLevelMap -> 2nd value |
-| elementalBurst | skillLevelMap -> 3rd value |
-| artifactId | itemId `[Artifacts]` |
-| mainStatId | mainPropId |
-| subStatsIdList | appendPropIdList |
-| stars | rankLevel |
-| artifactMainstat | reliquaryMainstat |
-| artifactSubstats | reliquarySubstats |
-| mainStat | mainPropId `[reliquaryMainstat]` |
-| stat | appendPropId |
-| weaponId | itemId `[Weapon]` |
-| weaponInfo | weapon |
-| refinementLevel | affixMap |
+Puedes encontrar los cambios de la estructura [aquí](/STRUCTURE.md)
 
 Puedes encontrar las propiedas originales de `fightPropMap` en [Datos de las fightPropMap](https://api.enka.network/#/api_es?id=fightprop)
 
-## Buscadores
-
-## Nombres de Assets
-
-El "buscador" **solo** puede encontrar los nombres de los assets que son dados en la API de enka, por ejemplo, no encontrará el nombre de una misión aunque tengas el hash del nombre.
+## Actualizador de Contenido
 
 ```js
-const { AssetNameFinder } = require('enkanetwork.js')
+const { ContentUpdater } = require('./dist/index')
+const actualizador = new ContentUpdater(opciones)
+/** opciones:
+ * checkInterval: number -> opcional (por defecto son 20000 ms (20 segundos))
+ */
+
+actualizador.on('onUpdateSuccess', () => {
+    console.log('¡Los archivos de contenido se han actualizado correctamente!')
+})
+
+actualizador.on('onUpdateFail', (mensajeDeError) => {
+    console.log(mensajeDeError)
+})
+
+actualizador.checkForUpdates()
+```
+
+## Buscadores
+
+El "buscador" **solo** puede encontrar los nombres y los assets que están disponibles en la API de enka, por ejemplo, no encontrarás el nombre de una misión aunque tengas el hash del nombre.
+
+```js
+const { AssetFinder } = require('enkanetwork.js')
 
 const buscador = new AssetNameFinder(opciones)
 /** opciones:
- * language: opcional. El idioma por defecto es el Inglés
+ * language: string -> opcional.
+ * El idioma por defecto es el Inglés.
  * Todos los idiomas dentro del juego son soportados.
  */
 
-function obtenerNombreAsset(nameHash) {
-	const nombre = buscador.search(nameHash).value
-	console.log(nombre)
+function obtenerPersonaje(idPersonaje) {
+	const assets = buscador.character(idPersonaje).assets
+	const nombre = buscador.character(idPersonaje).name
+	console.log(assets, nombre) // Salida: los assets y el nombre de Hu Tao
+}
+
+function obtenerNombrePorHash(hash) {
+	const nombre = buscador.hash(hash).value
+	console.log(nombre) // Salida: Hu Tao (depende del lenguaje)
 } 
 
-obtenerNombreAsset(1997709467)
+obtenerPersonaje(10000046) // ID de personaje de Hu Tao
+obtenerNombrePorHash(1940919994) // Hash de Hu Tao
 ```
 
-### ¿Como puedo obtener el hash de personajes, tarjetas de presentación, etc?
-
-Puedes obtener el hash de nombre de personajes, tarjetas de presentación, constelaciones y talentos usando sus correspondientes ids, por ejemplo:
-
-```js
-function obtenerHashPersonaje(nameHash) {
-	const nombre = buscador.search(nameHash).value
-	console.log(nombre) //Resultado: Xiao (depende del idioma seleccionado)
-}
-
-obtenerHashPersonaje(buscador.getCharacterHash(10000026).value)
-// 10000026 es la id de personaje de Xiao
-```
-
-## Imágenes de Assets
-
-El "buscador" **solo** puede encontrar imágenes de los assets que son dados en la API de enka, por ejemplo, no encontrará la imagen de un NPC aunque tengas la id.
-
-```js
-const { AssetImageFinder } = require('enkanetwork.js')
-
-const buscador = new AssetImageFinder()
-
-function obtenerImagenPersonaje(id) {
-	const imagen = buscador.character(id).icon
-	console.log(imagen) // Resultado: UI_AvatarIcon_Xiao
-}
-
-obtenerImagenPersonaje(10000026)
-// 10000026 es la id de personaje de Xiao
-```
-
-Puedes obtener las imágenes de constelaciones, talentos, armas y tarjetas de presentación también.
+También puedes obtener las imagenes de personajes, constelaciones, habilidades, armas y tarjetas de presentación.
 
 ### ¿He obtenido el nombre del icono, pero donde está la imagen?
 
 Puedes obtener la imagen con la siguiente URL: `https://enka.network/ui/[NOMBRE_DEL_ICONO].png`, aunque también puedes obtenerla directamente con este código:
 
 ```js
-function obtenerLinkImagenAsset(iconName) {
-	const url = finder.toLink(iconName)
-	console.log(url) // Resultado: https://enka.network/ui/UI_AvatarIcon_Xiao.png
+function obtenerLinkDeImagen(nombreIcono) {
+	const url = buscador.toLink(nombreIcono)
+	console.log(url) // Resultado: https://enka.network/ui/UI_AvatarIcon_Hutao.png
 }
 
-obtenerLinkImagenAsset("UI_AvatarIcon_Xiao")
+obtenerLinkDeImagen("UI_AvatarIcon_Hutao")
 ```
 
 ## Creador y Soporte

@@ -1,70 +1,120 @@
-import { AssetNameFinder } from "../client/AssetNameFinder"
-import { AssetNameFinderOptions, WeaponAPI, WeaponFlatAPI, WeaponInfoAPI, WeaponStatsAPI } from "../types"
-import { IconLinks } from "./AssetLink"
+import { AssetFinder } from "../client";
+import { WeaponImages } from "./AssetFinder";
+import { AssetFinderOptions, WeaponAPI, WeaponStatsAPI } from "../types";
 
+/**
+ * A class that structures the weapon's data.
+ */
 export class Weapon {
-  weaponId: number 
-  weaponInfo: WeaponInfo
-  flat: WeaponFlat
+    /**
+     * The weapon's ID.
+     */
+    weaponId: number;
 
-  constructor(data: WeaponAPI) {
-    this.weaponId = data.itemId
-    this.weaponInfo = new WeaponInfo(data.weapon)
-    this.flat = new WeaponFlat(data.flat)
-  }
+    /**
+     * The weapon's level.
+     */
+    level: number;
+
+    /**
+     * The weapon's ascension level.
+     */
+    ascensionLevel: number | string;
+
+    /**
+     * The weapon's refinement level.
+     */
+    refinement: Refinement;
+
+    /**
+     * The weapon's name text map hash.
+     */
+    nameTextMapHash: string;
+
+    /**
+     * The weapon's rank stars.
+     */
+    stars: number;
+
+    /**
+     * the weapon's stats.
+     */
+    weaponStats: WeaponStats[];
+
+    /**
+     * The item type.
+     */
+    itemType: string;
+
+    /**
+     * The weapon's assets.
+     */
+    assets: WeaponImages;
+
+    /**
+     * The weapon's name.
+     */
+    name: string;
+
+    /**
+     * Creates a new `Weapon` instance.
+     * @param data - The data of the weapon.
+     * @param language - The language to get the name.
+     */
+    constructor(data: WeaponAPI, language: AssetFinderOptions["language"]) {
+        this.weaponId = data.itemId;
+        this.level = data.weapon.level;
+        this.ascensionLevel = data.weapon.promoteLevel || "";
+        this.refinement = new Refinement(data.weapon.affixMap);
+        this.nameTextMapHash = data.flat.nameTextMapHash;
+        this.stars = data.flat.rankLevel;
+        this.weaponStats = data.flat.weaponStats.map((data) => new WeaponStats(data));
+        this.itemType = data.flat.itemType;
+        this.assets = new AssetFinder().weapon(this.weaponId).assets;
+        this.name = new AssetFinder({ language }).weapon(this.weaponId).name;
+    }
 }
 
-class WeaponFlat {
-  nameTextMapHash: string
-  stars: number 
-  weaponStats: WeaponStats[]
-  itemType: string
-  icon: IconLinks
-
-  constructor(data: WeaponFlatAPI) {
-    this.nameTextMapHash = data.nameTextMapHash
-    this.stars = data.rankLevel
-    this.weaponStats = data.weaponStats.map((data) => new WeaponStats(data))
-    this.itemType = data.itemType
-    this.icon = new IconLinks(data.icon)
-  }
-
-  name(options?: AssetNameFinderOptions) {
-    let language = options?.language
-    if (!options?.language) language = 'en'
-
-    return new AssetNameFinder({ language }).search(this.nameTextMapHash).value
-  }
-}
-
+/**
+ * A class that structures the weapon stats.
+ */
 class WeaponStats {
-  stat: string 
-  statValue: number
+    /**
+     * The weapon stat.
+     */
+    stat: string;
 
-  constructor(data: WeaponStatsAPI) {
-    this.stat = data.appendPropId
-    this.statValue = data.statValue
-  }
+    /**
+     * The weapon stat value.
+     */
+    statValue: number;
+
+    /**
+     * Creates a new `WeaponStats` instance.
+     * @param data - The data of the weapon stats.
+     */
+    constructor(data: WeaponStatsAPI) {
+        this.stat = data.appendPropId;
+        this.statValue = data.statValue;
+    }
 }
 
-export class WeaponInfo {
-  level: number
-  promoteLevel: number | string
-  refinementLevel: AffixMap | object
+/**
+ * A class that structures the weapon's refinement data.
+ */
+class Refinement {
+    /**
+     * The id of the refinement.
+     */
+    id: number | string;
 
-  constructor(data: WeaponInfoAPI) {
-    this.level = data.level
-    this.promoteLevel = data.promoteLevel || ""
-    this.refinementLevel = data.affixMap ? new AffixMap(data.affixMap) : {}
-  }
-}
+    /**
+     * The weapon's refinement level.
+     */
+    level: number | string;
 
-class AffixMap {
-  id: number
-  value: number
-
-  constructor(data: any) {
-    this.id = +Object.keys(data)[0]
-    this.value = data[Object.keys(data)[0]]
-  }
+    constructor(data: any) {
+        this.id = +Object.keys(data)[0] || "";
+        this.level = data[Object.keys(data)[0]] || "";
+    }
 }

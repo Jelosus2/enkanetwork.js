@@ -1,10 +1,11 @@
-export interface DataAPI {
-  playerInfo: PlayerInfoAPI
-  avatarInfoList: CharactersInfoAPI[]
+export interface PlayerDataAPI {
+  playerInfo: PlayerAPI
+  avatarInfoList: CharactersAPI[]
   ttl: number
+  uid: string
 }
 
-export interface PlayerInfoAPI {
+export interface PlayerAPI {
   nickname: string
   level: number
   signature: string
@@ -13,12 +14,12 @@ export interface PlayerInfoAPI {
   finishAchievementNum: number
   towerFloorIndex: number
   towerLevelIndex: number
-  showAvatarInfoList: ShowCharactersListAPI[]
+  showAvatarInfoList: ShowcaseAPI[]
   showNameCardIdList: number[]
   profilePicture: ProfilePictureAPI
 }
 
-export interface ShowCharactersListAPI {
+export interface ShowcaseAPI {
   avatarId: number
   level: number
   costumeId: number
@@ -28,25 +29,23 @@ export interface ProfilePictureAPI {
   avatarId: number
 }
 
-export interface CharactersInfoAPI {
+export interface CharactersAPI {
   avatarId: number
-  propMap: PropMapAPI
-  fightPropMap: FightPropMapAPI
+  propMap: PropertiesAPI
+  fightPropMap: StatsAPI
   talentIdList: number[]
   skillDepotId: number
   inherentProudSkillList: number[]
   skillLevelMap: object
   equipList: any[]
-  fetterInfo: FetterInfoAPI
+  fetterInfo: FriendshipAPI
   costumeId: number
   proudSkillExtraLevelMap: object
 }
 
-export interface PropMapAPI {
+export interface PropertiesAPI {
   1001: PropMapContentAPI
   1002: PropMapContentAPI
-  1003: PropMapContentAPI
-  1004: PropMapContentAPI
   4001: PropMapContentAPI
   10010: PropMapContentAPI 
 }
@@ -54,14 +53,16 @@ export interface PropMapAPI {
 
 export interface PropMapContentAPI {
   type: number
-  ival: string
   val: string
 }
 
-export interface FightPropMapAPI {
+export interface StatsAPI {
   1: number
+  3: number
   4: number
+  6: number
   7: number
+  9: number
   20: number
   22: number
   23: number
@@ -91,40 +92,50 @@ export interface FightPropMapAPI {
   74: number
   75: number
   76: number
+  80: number
+  81: number
+  1000: number
+  1001: number
+  1002: number
+  1003: number
+  1004: number
+  1005: number
+  1006: number
+  1010: number
   2000: number
   2001: number
   2002: number
 }
 
-export interface ReliquaryAPI {
+export interface ArtifactAPI {
   itemId: number
-  reliquary: ReliquaryInfoAPI
-  flat: ReliquaryFlatAPI
+  reliquary: ArtifactInfoAPI
+  flat: ArtifactFlatAPI
 }
 
-export interface ReliquaryInfoAPI {
+interface ArtifactInfoAPI {
   level: number
   mainPropId: number
   appendPropIdList: number[]
 }
 
-export interface ReliquaryFlatAPI {
+interface ArtifactFlatAPI {
   nameTextMapHash: string
   setNameTextMapHash: string
   rankLevel: number
-  reliquaryMainstat: ReliquaryMainstatAPI
-  reliquarySubstats: ReliquarySubstatsAPI[]
+  reliquaryMainstat: ArtifactMainstatAPI
+  reliquarySubstats: ArtifactSubstatsAPI[]
   itemType: string
   icon: string
   equipType: string
 }
 
-export interface ReliquaryMainstatAPI {
+interface ArtifactMainstatAPI {
   mainPropId: string
   statValue: number
 }
 
-export interface ReliquarySubstatsAPI {
+export interface ArtifactSubstatsAPI {
   appendPropId: string
   statValue: number
 }
@@ -135,13 +146,13 @@ export interface WeaponAPI {
   flat: WeaponFlatAPI
 }
 
-export interface WeaponInfoAPI {
+interface WeaponInfoAPI {
   level: number
   promoteLevel: number
   affixMap: object
 }
 
-export interface WeaponFlatAPI {
+interface WeaponFlatAPI {
   nameTextMapHash: string
   rankLevel: number
   weaponStats: WeaponStatsAPI[]
@@ -154,21 +165,21 @@ export interface WeaponStatsAPI {
   statValue: number
 }
 
-export interface FetterInfoAPI {
+export interface FriendshipAPI {
   expLevel: number
 }
 
-export interface UserDataAPI {
+export interface ProfileDataAPI {
   is_uid_public: boolean
   uid: number
-  player_info: PlayerInfoAPI
+  player_info: PlayerAPI
 }
 
 export interface UserBuildsAPI {
   id: number
   name: string
   avatar_id: string
-  avatar_data: CharactersInfoAPI 
+  avatar_data: CharactersAPI 
   order: number
   live: boolean
   settings: object
