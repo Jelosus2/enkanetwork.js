@@ -28,9 +28,7 @@ export class RequestHandler {
      * @returns The data of the player.
      */
     async player(uid: string | number): Promise<any> {
-        const url = this.options?.key
-            ? `https://enka.network/u/${uid}/__data.json?key=${this.options.key}`
-            : `https://enka.network/u/${uid}/__data.json`;
+        const url = `https://enka.network/api/uid/${uid}/`
 
         if (!/([1,2,5-9])\d{8}/.test(uid.toString()))
             throw new PackageError("The UID format is incorrect");

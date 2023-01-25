@@ -1,6 +1,8 @@
 # EnkaNetwork.js
 
-EN | ES
+## There *may be* another package update soon (probably for profiles) since they are changing the API.
+
+EN | [ES](./README_ES.md)
 
 A package to get data from the enka API, it also includes a finder that you can use to search for names and images of game assets, for example a name or image of a character. Check [Finders](#asset-finder) for more information.
 
@@ -35,6 +37,10 @@ A package to get data from the enka API, it also includes a finder that you can 
 	- Added cache system (optional) to reduce the requests sent to Enka API.
 	- Fixed some bugs and errors.
 	- Added JSDoc. 
+- v2.0.1:
+	- Changed the player request endpoint since `/u/<UID>/__data.json` is now deprecated and will stop existing in 2 days.
+	- Removed the `key` parameter from the **Wrapper** class since it's no longer needed.
+	- Added profile API route (in case it exists) in the player structure.
 
 ## Table of Content
 - [Wrapper](#wrapper)
@@ -56,7 +62,6 @@ const { Wrapper } = require('enkanetwork.js')
 
 const client = new Wrapper(options)
 /** options:
- * key: string -> optional
  * userAgent: string -> optional (default is enkanetwork.js/v<package_version>)
  * language: string -> optional (default is English)
  * cache: boolean -> optional (default is false)
@@ -94,7 +99,6 @@ const { Wrapper } = require('enkanetwork.js')
 
 const client = new Wrapper(options)
 /** options:
- * key: string -> optional
  * userAgent: string -> optional (default is enkanetwork.js/v<package_version>)
  * language: string -> optional (default is English)
  * cache: boolean -> optional (default is false)

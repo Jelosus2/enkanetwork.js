@@ -22,6 +22,11 @@ export class PlayerData {
     ttl: number;
 
     /**
+     * The Enka profile path of the player.
+     */
+    profile: string;
+
+    /**
      * The player's UID.
      */
     uid: string;
@@ -37,6 +42,7 @@ export class PlayerData {
             ? data.avatarInfoList.map((data) => new Characters(data, language))
             : [];
         this.ttl = data.ttl;
+        this.profile = data.profile || "";
         this.uid = data.uid;
     }
 }

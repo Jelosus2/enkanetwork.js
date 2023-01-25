@@ -1,5 +1,7 @@
 # EnkaNetwork.js
 
+## *Puede* que haya una actualización del paquete pronto (a lo mejor de los perfiles) porque están cambiando la API.
+
 [EN](/README.md) | ES
 
 Un paquete para obetener datos de la API de enka, también incluye un "buscador" que puedes usar para buscar nombres e imágenes de assets del juego, por ejemplo el nombre o imagen de un personaje. Revisa [Buscadores](#buscadores) para más información.
@@ -35,6 +37,10 @@ Un paquete para obetener datos de la API de enka, también incluye un "buscador"
 	- Añadido un sistema de caché (opcional) para reducir las peticiones a la API de Enka.
 	- Arreglados algunos bugs y errores.
 	- Añadido JSDoc.
+- v2.0.1:
+	- Cambiada la ruta de peticiones de información del jugador, ya que `/u/<UID>/__data.json` no se usará más y en 2 días dejará de existir.
+	- Eliminado el parametro `key` de la clase **Wrapper** ya que no se necesita más.
+	- Añadida la ruta del perfil del jugador (en caso de exista) a la estructura del jugador.
 
 ## Tabla de Contenidos
 - [Wrapper](#wrapper)
@@ -56,7 +62,6 @@ const { Wrapper } = require('enkanetwork.js')
 
 const cliente = new Wrapper(opciones)
 /** opciones:
- * key: string -> opcional
  * userAgent: string -> opcional (por defecto es enkanetwork.js/v<versión_del_paquete>)
  * language: string -> opcional (por defecto es Inglés)
  * cache: boolean -> opcional (por defecto es false) 
@@ -94,7 +99,6 @@ const { Wrapper } = require('enkanetwork.js')
 
 const cliente = new Wrapper(opciones)
 /** opciones:
- * key: string -> opcional
  * userAgent: string -> opcional (por defecto es enkanetwork.js/v<versión_del_paquete>)
  * language: string -> opcional (por defecto es Inglés)
  * cache: boolean -> opcional (por defecto es false) 

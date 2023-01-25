@@ -2,6 +2,7 @@ export interface PlayerDataAPI {
   playerInfo: PlayerAPI
   avatarInfoList: CharactersAPI[]
   ttl: number
+  profile: string
   uid: string
 }
 

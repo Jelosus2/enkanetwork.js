@@ -1,5 +1,4 @@
 export interface WrapperOptions {
-  key?: string
   userAgent?: string
   language?: 'en' | 'ru' | 'vi' | 'th' | 'pt' | 'ko' | 'ja' | 'id' | 'fr' | 'es' | 'de' | 'zh-TW' | 'zh-CN' | 'it' | 'tr'
   cache?: boolean
