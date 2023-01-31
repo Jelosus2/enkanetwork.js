@@ -41,6 +41,8 @@ Un paquete para obetener datos de la API de enka, también incluye un "buscador"
 	- Cambiada la ruta de peticiones de información del jugador, ya que `/u/<UID>/__data.json` no se usará más y en 2 días dejará de existir.
 	- Eliminado el parametro `key` de la clase **Wrapper** ya que no se necesita más.
 	- Añadida la ruta del perfil del jugador (en caso de exista) a la estructura del jugador.
+- v2.0.2:
+	- Arreglado cuando el arma del personaje no tiene refinamiento salta un error.
 
 ## Tabla de Contenidos
 - [Wrapper](#wrapper)

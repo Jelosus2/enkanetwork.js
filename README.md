@@ -41,6 +41,8 @@ A package to get data from the enka API, it also includes a finder that you can 
 	- Changed the player request endpoint since `/u/<UID>/__data.json` is now deprecated and will stop existing in 2 days.
 	- Removed the `key` parameter from the **Wrapper** class since it's no longer needed.
 	- Added profile API route (in case it exists) in the player structure.
+- v2.0.2:
+	- Fixed when a character's weapon doesn't have refinement throws an error.
 
 ## Table of Content
 - [Wrapper](#wrapper)

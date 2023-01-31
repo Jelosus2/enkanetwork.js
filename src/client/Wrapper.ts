@@ -46,7 +46,6 @@ export class Wrapper {
     /**
      * Creates a new `Wrapper` instance.
      * @param options - The options for the Wrapper class.
-     * @param options.key - The key to use in the request.
      * @param options.userAgent - The User Agent used in the request. If not specified, the default User Agent will be used.
      * @param options.language - The language to get the names. If not specified, the default language will be used.
      * @param options.cache - Specify if you want to get cached data. 

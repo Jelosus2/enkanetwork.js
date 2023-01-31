@@ -114,7 +114,7 @@ class Refinement {
     level: number | string;
 
     constructor(data: any) {
-        this.id = +Object.keys(data)[0] || "";
-        this.level = data[Object.keys(data)[0]] || "";
+        this.id = data ? +Object.keys(data)[0] : "";
+        this.level = data ? data[Object.keys(data)[0]] : "";
     }
 }
