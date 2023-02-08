@@ -20,12 +20,13 @@ export class UserData {
      */
     constructor(
         username: string,
-        profileData: ProfileDataAPI[],
+        profileData: { [key: string]: ProfileDataAPI },
         language: AssetFinderOptions["language"],
         wrapper: Wrapper
     ) {
+        console.log(profileData.hash);
         this.profiles = profileData
-            ? profileData.map((data, i) => new Profiles(data, language, username, i, wrapper))
+            ? Object.values(profileData).map(data => new Profiles(data, language, username, wrapper))
             : [];
     }
 }

@@ -174,6 +174,7 @@ export interface ProfileDataAPI {
   is_uid_public: boolean
   uid: number
   player_info: PlayerAPI
+  hash: string
 }
 
 export interface UserBuildsAPI {

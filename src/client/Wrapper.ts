@@ -118,15 +118,15 @@ export class Wrapper {
     }
 
     /**
-     * Returns the builds of an Enka profile by the given username and index.
+     * Returns the builds of an Enka profile by the given username and build hash.
      * @param username - The username of the user to get the data. 
-     * @param buildsProfileIndex - The index of the profile to get the builds.
+     * @param buildHash - the hash of the build to get the data.
      * @param language - The language to get the names.
      * @returns The builds of the profile.
      */
     async getUserBuilds(
         username: string,
-        buildsProfileIndex: number = 0,
+        buildHash: string,
         language: string = this.language
     ): Promise<UserBuilds[]> {
         const builds: any[] = []
@@ -136,7 +136,7 @@ export class Wrapper {
         if (!this.languages.includes(language))
             throw new AssetFinderError("Invalid or not available language.");    
 
-        const buildsData = await this.handler.profile(`api/profile/${username}/hoyos/${buildsProfileIndex}/builds/`)
+        const buildsData = await this.handler.profile(`api/profile/${username}/hoyos/${buildHash}/builds/`)
         Object.keys(buildsData).forEach((characterId) => builds.push(...buildsData[characterId]))
 
         return builds.map((data) => new UserBuilds(data, language as AssetFinderOptions["language"]))

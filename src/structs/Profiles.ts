@@ -17,6 +17,11 @@ export class Profiles {
     uid: number | string;
 
     /**
+     * The user's profile hash.
+     */
+    hash: string;
+
+    /**
      * The user's profile player data.
      */
     player: Player;
@@ -26,17 +31,16 @@ export class Profiles {
      * @param data - The data of the user profiles.
      * @param language - The language to get the names.
      * @param username - The user's username.
-     * @param index - The index of the profile.
      * @param wrapper - The wrapper class.
      */
     constructor(
         data: ProfileDataAPI,
         private language: AssetFinderOptions["language"],
         private username: string,
-        private index: number,
         private wrapper: Wrapper
     ) {
         this.isUidPublic = data.is_uid_public;
+        this.hash = data.hash;
         this.uid = data.uid || "";
         this.player = new Player(data.player_info, this.language);
     }
@@ -48,7 +52,7 @@ export class Profiles {
     async getBuilds() {
         const builds = await this.wrapper.getUserBuilds(
             this.username,
-            this.index,
+            this.hash,
             this.language
         );
 
