@@ -1,7 +1,5 @@
 # EnkaNetwork.js
 
-## There *may be* another package update soon (probably for profiles) since they are changing the API.
-
 EN | [ES](./README_ES.md)
 
 A package to get data from the enka API, it also includes a finder that you can use to search for names and images of game assets, for example a name or image of a character. Check [Finders](#asset-finder) for more information.
@@ -43,6 +41,12 @@ A package to get data from the enka API, it also includes a finder that you can 
 	- Added profile API route (in case it exists) in the player structure.
 - v2.0.2:
 	- Fixed when a character's weapon doesn't have refinement throws an error.
+- v2.1.0 ([Breaking changes](/BREAKING_CHANGES.md) from <v2.0.2):
+	- Implemented the new profile routes and data.
+	- Changed profile structure, refer to the [new structure](/STRUCTURE.md)
+	- Updated the player structure to add the `owner` field.
+	- Fixed when you search for a weapon name it returns an empty string.
+	- Fixed errors and bugs.
 
 ## Table of Content
 - [Wrapper](#wrapper)
@@ -94,7 +98,7 @@ async function getDataWithCache(uid) {
 getDataWithCache(738081787)
 ```
 
-### User Profiles
+### Enka Profiles
 
 ```js
 const { Wrapper } = require('enkanetwork.js')
@@ -107,16 +111,15 @@ const client = new Wrapper(options)
  */
 
 // The language is optional
-async function getUser(username, language) {
-	const user = await client.getUser(username, language)
-	
-	/* To get the profiles */
-	const profiles = user.profiles
-	/* To get the builds of a profile */
-	const characterBuilds = await profiles[index].getBuilds()
+async function getProfile(username, hash, language) {
+	const profile = await client.getEnkaProfile(username)
+
+	const hoyos = await client.getEnkaHoyos(username, language)
+
+	const builds = await client.getEnkaHoyoBuilds(username, hash, language)
 }
 
-getUser('algoinde', 'en')
+getUser('algoinde', '4Wjv2e', 'en')
 ```
 
 ### Wrapper Structure vs API Structure

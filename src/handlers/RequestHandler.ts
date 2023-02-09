@@ -28,7 +28,7 @@ export class RequestHandler {
      * @returns The data of the player.
      */
     async player(uid: string | number): Promise<any> {
-        const url = `https://enka.network/api/uid/${uid}/`
+        const url = `https://enka.network/api/uid/${uid}`; 
 
         if (!/([1,2,5-9])\d{8}/.test(uid.toString()))
             throw new PackageError("The UID format is incorrect");
@@ -50,12 +50,12 @@ export class RequestHandler {
     }
 
     /**
-     * Sends a request to get the data of an Enka user.
-     * @param path - The path to send the request.
-     * @returns The info of the user.
+     * Sends a request to get the data of an Enka profile.
+     * @param route - The route to send the request.
+     * @returns The data of the requested route.
      */
-    async profile(path: string): Promise<any> {
-        const url = `https://enka.network/${path}`;
+    async profile(route: string): Promise<any> {
+        const url = `https://enka.network/api/profile/${route}`;
 
         try {
             const { data } = await axios.get(url, {

@@ -12,7 +12,7 @@ export class Artifact {
     /**
      * The artifact's ID.
      */
-    artifactId: number;
+    artifactId: number | string;
 
     /**
      * The artifact's level.

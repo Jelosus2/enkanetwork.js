@@ -1,6 +1,5 @@
 # EnkaNetwork.js
 
-## *Puede* que haya una actualización del paquete pronto (a lo mejor de los perfiles) porque están cambiando la API.
 
 [EN](/README.md) | ES
 
@@ -43,6 +42,12 @@ Un paquete para obetener datos de la API de enka, también incluye un "buscador"
 	- Añadida la ruta del perfil del jugador (en caso de exista) a la estructura del jugador.
 - v2.0.2:
 	- Arreglado cuando el arma del personaje no tiene refinamiento salta un error.
+- v2.1.0 ([Cambios rompedores](/BREAKING_CHANGES.md) desde <v2.0.2):
+	- Implementadas las nuevas rutas y los datos de los perfiles.
+	- Cambia la estructura de los perfiles, revisé la [nueva estructura](/STRUCTURE.md).
+	- Actualizado la estructura del jugador para añadir el campo `owner`.
+	- Arreglado cuando buscas el nombre de un arma devuelve un string vacío.
+	- Arreglados bugs y errores.
 
 ## Tabla de Contenidos
 - [Wrapper](#wrapper)
@@ -94,7 +99,7 @@ async function obtenerDatosConCache(uid) {
 obtenerDatosConCache(738081787)
 ```
 
-### Perfiles de usuario
+### Perfiles de Enka
 
 ```js
 const { Wrapper } = require('enkanetwork.js')
@@ -107,16 +112,15 @@ const cliente = new Wrapper(opciones)
  */
 
 // EL lenguaje es opcional
-async function obtenerUsuario(usuario, lenguaje) {
-	const usuario = await cliente.getUser(usuario, lenguaje)
-	
-	/* Para obtener los perfiles */
-	const perfiles = usuario.profiles
-	/* Para obtener las builds de un perfil */
-	const buildPersonajes = user[indice].getBuilds()
+async function obtenerUsuario(usuario, hash, lenguaje) {
+	const perfil = await cliente.getEnkaProfile(usuario)
+
+	const hoyos = await cliente.getEnkaHoyos(usuario, lenguaje)
+
+	const builds = await cliente.getEnkaHoyoBuilds(usuario, hash, lenguaje)
 }
 
-obtenerUsuarios('algoinde', 'es')
+obtenerUsuarios('algoinde', '4Wjv2e', 'es')
 ```
 
 ### Estructura del wrapper vs Estructura de la API

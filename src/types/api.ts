@@ -2,7 +2,7 @@ export interface PlayerDataAPI {
   playerInfo: PlayerAPI
   avatarInfoList: CharactersAPI[]
   ttl: number
-  profile: string
+  owner: OwnerAPI
   uid: string
 }
 
@@ -170,13 +170,36 @@ export interface FriendshipAPI {
   expLevel: number
 }
 
-export interface ProfileDataAPI {
-  is_uid_public: boolean
-  uid: number
-  player_info: PlayerAPI
+export interface OwnerAPI {
+  hash: string
+  username: string
+  profile: EnkaProfileDataAPI
 }
 
-export interface UserBuildsAPI {
+export interface EnkaProfileDataAPI {
+  bio: string
+  level: number
+  signup_state: number
+  image_url: string
+}
+
+export interface EnkaProfileAPI {
+  username: string
+  profile: EnkaProfileDataAPI
+} 
+
+export interface HoyoAPI {
+  uid_public: boolean
+  public: boolean
+  verified: boolean
+  uid: string
+  player_info: PlayerAPI
+  hash: string
+  region: string
+  order: number
+}
+
+export interface HoyoBuildsAPI {
   id: number
   name: string
   avatar_id: string
@@ -184,5 +207,5 @@ export interface UserBuildsAPI {
   order: number
   live: boolean
   settings: object
-  is_public: boolean
+  public: boolean
 }

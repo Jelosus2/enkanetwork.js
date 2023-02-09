@@ -1,5 +1,10 @@
 ## New vs Old Structure
 
+- [Player Structure](#player-structure)
+- [Enka Profile Structure](#enka-profile-structure)
+
+## Player Structure
+
 | New | Old |
 | :-- | :-- |
 | [player](#player) | playerInfo |
@@ -238,3 +243,42 @@
 | New | Old |
 | :-- | :-- |
 | level | expLevel |
+
+## Enka Profile Structure
+
+| getEnkaProfile (method) (new) | ??? |
+| :-- | :-- |
+| username | ??? |
+| [profile](#profile) | ??? |
+
+| getEnkaHoyos (method) (new) | getUser (method) (old) |
+| :-- | :-- |
+| isUidPublic | isUidPublic |
+| public | ??? |
+| verified | ??? |
+| uid | uid |
+| [player](#player) | player |
+| hash | ??? |
+| region | ??? |
+| order | ??? |
+
+| getEnkaHoyoBuilds (method) (new) | getUserBuilds (method) (old) |
+| :-- | :-- |
+| id | id |
+| name | name |
+| characterId | characterId |
+| characterName | characterName |
+| [characterInfo](#characters) | characterInfo |
+| order | order |
+| live | live |
+| settings | settings |
+| isPublic | isPublic |
+
+# Profile
+
+| New | Old |
+| :-- | :-- |
+| bio | ??? |
+| level | ??? |
+| signup_state | ??? |
+| pfp_url | ??? |

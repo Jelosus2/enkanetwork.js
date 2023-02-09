@@ -62,19 +62,27 @@ export class Player {
      * @param language - The language to get the names.
      */
     constructor(data: PlayerAPI, language: AssetFinderOptions["language"]) {
-        this.username = data.nickname;
-        this.levels = new PlayerLevels(data);
+        this.username = data.nickname || "";
+        this.levels = data.level 
+            ? new PlayerLevels(data) 
+            : {} as PlayerLevels;
         this.signature = data.signature || "";
-        this.namecard = new Namecard(data.nameCardId, language);
+        this.namecard = data.nameCardId 
+            ? new Namecard(data.nameCardId, language)
+            : {} as Namecard;
         this.achievements = data.finishAchievementNum || 0;
-        this.abyss = new Abyss(data);
+        this.abyss = data.towerFloorIndex && data.towerLevelIndex
+            ? new Abyss(data)
+            : {} as Abyss;
         this.showcase = data.showAvatarInfoList
             ? data.showAvatarInfoList.map((data) => new Showcase(data, language))
             : [];
         this.namecardsList = data.showNameCardIdList
             ? data.showNameCardIdList.map((data) => new Namecard(data, language))
             : [];
-        this.profilePicture = new ProfilePicture(data.profilePicture, language);
+        this.profilePicture = data.profilePicture 
+            ? new ProfilePicture(data.profilePicture, language) 
+            : {} as ProfilePicture;
     }
 }
 
@@ -90,7 +98,7 @@ class PlayerLevels {
     /**
      * The player's adventure rank.
      */
-    rank: number;
+    rank: number | string;
 
     /**
      * Creates a new `PlayerLevels` instance.
@@ -98,7 +106,7 @@ class PlayerLevels {
      */
     constructor(data: PlayerAPI) {
         this.world = data.worldLevel || "";
-        this.rank = data.level;
+        this.rank = data.level || "";
     }
 }
 
@@ -109,7 +117,7 @@ class Namecard {
     /**
      * The id of the namecard.
      */
-    id: number;
+    id: number | string;
 
     /**
      * The assets of the namecard.
@@ -127,9 +135,13 @@ class Namecard {
      * @param language - The language to get the name.
      */
     constructor(namecardId: number, language: AssetFinderOptions["language"]) {
-        this.id = namecardId;
-        this.assets = new AssetFinder().namecard(this.id).assets;
-        this.name = new AssetFinder({ language }).namecard(this.id).name;
+        this.id = namecardId || "";
+        this.assets = namecardId 
+            ? new AssetFinder().namecard(this.id).assets
+            : {} as NamecardImages;
+        this.name = namecardId 
+            ? new AssetFinder({ language }).namecard(this.id).name
+            : "";
     }
 }
 
@@ -152,8 +164,8 @@ class Abyss {
      * @param data - The data of the player.
      */
     constructor(data: PlayerAPI) {
-        this.floor = data ? data.towerFloorIndex : "";
-        this.chamber = data ? data.towerLevelIndex : "";
+        this.floor = data.towerFloorIndex || "";
+        this.chamber = data.towerLevelIndex || "";
     }
 }
 
@@ -164,12 +176,12 @@ class Showcase {
     /**
      * The ID of the character.
      */
-    characterId: number;
+    characterId: number | string;
 
     /**
      * The level of the character.
      */
-    level: number;
+    level: number | string;
 
     /**
      * The ID of the character's costume.
@@ -192,11 +204,15 @@ class Showcase {
      * @param language - The language to get the names.
      */
     constructor(data: ShowcaseAPI, language: AssetFinderOptions["language"]) {
-        this.characterId = data.avatarId;
-        this.level = data.level;
+        this.characterId = data.avatarId || "";
+        this.level = data.level || "";
         this.costumeId = data.costumeId || "";
-        this.assets = new AssetFinder().character(this.characterId).assets;
-        this.name = new AssetFinder({ language }).character(this.characterId).name;
+        this.assets = data.avatarId 
+            ? new AssetFinder().character(this.characterId).assets
+            : {} as CharacterImages;
+        this.name = data.avatarId 
+            ? new AssetFinder({ language }).character(this.characterId).name
+            : "";
     }
 }
 
@@ -207,7 +223,7 @@ class ProfilePicture {
     /**
      * The ID of the character.
      */
-    characterId: number;
+    characterId: number | string;
 
     /**
      * The assets of the character.
@@ -225,8 +241,12 @@ class ProfilePicture {
      * @param language - The language to get the name.
      */
     constructor(data: ProfilePictureAPI, language: AssetFinderOptions["language"]) {
-        this.characterId = data.avatarId;
-        this.assets = new AssetFinder().character(this.characterId).assets;
-        this.name = new AssetFinder({ language }).character(this.characterId).name;
+        this.characterId = data.avatarId || "";
+        this.assets = data.avatarId 
+            ? new AssetFinder().character(this.characterId).assets
+            : {} as CharacterImages;
+        this.name = data.avatarId 
+            ? new AssetFinder({ language }).character(this.characterId).name
+            : "";
     }
 }

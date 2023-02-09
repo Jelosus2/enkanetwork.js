@@ -1,6 +1,6 @@
 import { AssetFinderOptions, WrapperOptions } from "../types";
 import { RequestHandler, CacheHandler } from "../handlers";
-import { PlayerData, UserBuilds, UserData } from "../structs";
+import { PlayerData, HoyoBuilds, EnkaProfile, Hoyos } from "../structs";
 import { PackageError, AssetFinderError } from "../errors";
 
 /**
@@ -93,52 +93,77 @@ export class Wrapper {
     }
 
     /**
-     * Returns the data of an Enka user by the given username.
-     * @param username - The username of the user to get the data.
-     * @param language - The language used to get the names.
-     * @returns The data of the user.
+     * Returns the data of an Enka profile by the given username.
+     * @param username - The username of the profile to get the data.
+     * @returns The data of the profile.
      */
-    async getUser(
-        username: string,
-        language: string = this.language
-    ): Promise<UserData> {
+    async getEnkaProfile(
+        username: string
+    ): Promise<EnkaProfile> {
         if (!username)
             throw new PackageError("The Username parameter is missing");
-        if (!this.languages.includes(language))
-            throw new AssetFinderError("Invalid or not available language.");
 
-        const profileData = await this.handler.profile(`api/profile/${username}/hoyos/`);
+        const data = await this.handler.profile(username);
+        if (!data.username) return {} as EnkaProfile;
 
-        return new UserData(
-            username,
-            profileData,
-            language as AssetFinderOptions["language"],
-            this
-        );
+        return new EnkaProfile(data);
     }
 
     /**
-     * Returns the builds of an Enka profile by the given username and index.
-     * @param username - The username of the user to get the data. 
-     * @param buildsProfileIndex - The index of the profile to get the builds.
+     * Returns the data of the hoyos of an Enka profile by the given username.
+     * @param username - The username of the profile to get the data.
      * @param language - The language to get the names.
-     * @returns The builds of the profile.
+     * @returns The data of the profile hoyos.
      */
-    async getUserBuilds(
+    async getEnkaHoyos(
         username: string,
-        buildsProfileIndex: number = 0,
         language: string = this.language
-    ): Promise<UserBuilds[]> {
-        const builds: any[] = []
+    ): Promise<Hoyos[]> {
+        const hoyos: any[] = [];
 
         if (!username)
             throw new PackageError("The Username parameter is missing");
         if (!this.languages.includes(language))
-            throw new AssetFinderError("Invalid or not available language.");    
+            throw new AssetFinderError("Invalid or not available language.");  
+            
+        const data = await this.handler.profile(`${username}/hoyos`);
+        if (Object.keys(data).length == 0) return [];
 
-        const buildsData = await this.handler.profile(`api/profile/${username}/hoyos/${buildsProfileIndex}/builds/`)
-        Object.keys(buildsData).forEach((characterId) => builds.push(...buildsData[characterId]))
+        Object.keys(data).forEach((hash) => hoyos.push(data[hash]));
 
-        return builds.map((data) => new UserBuilds(data, language as AssetFinderOptions["language"]))
+        return hoyos.map((data) => new Hoyos(
+            data,
+            language as AssetFinderOptions["language"],
+            username
+        ));
+    }
+
+    /**
+     * Returns the builds of an Enka hoyo by the given username and profile hash.
+     * @param username - The username of the profile to get the data. 
+     * @param hash - The hash of the hoyo to get the builds.
+     * @param language - The language to get the names.
+     * @returns The builds of the profile.
+     */
+    async getEnkaHoyoBuilds(
+        username: string,
+        hash: string,
+        language: string = this.language
+    ): Promise<HoyoBuilds[]> {
+        const builds: any[] = [];
+
+        if (!username)
+            throw new PackageError("The Username parameter is missing");
+        if (!this.languages.includes(language))
+            throw new AssetFinderError("Invalid or not available language."); 
+        if (!hash)
+            throw new PackageError('The Hash parameter is missing');   
+
+        const data = await this.handler.profile(`${username}/hoyos/${hash}/builds`);
+        if (Object.keys(data).length == 0) return [];
+
+        Object.keys(data).forEach((characterId) => builds.push(...data[characterId]));
+
+        return builds.map((data) => new HoyoBuilds(data, language as AssetFinderOptions["language"]));
     }
 }

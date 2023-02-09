@@ -2,14 +2,12 @@
  * An object which contains the error messages with their error codes.
  */
 const errors: { [key: string]: string } = {
-    204: "No Content: The account did not even choose Traveler",
-    404: "Not Found: If the UID doesn't exists",
-    424: "Failed Dependency: Maintenance",
-    429: "Too Many Requests: You are rate limited",
-    500: "General error: An error ocurred",
-    503: "Service Unavailable: Internal request problems",
-    504: "Gateway Timeout: Hoyoverse rate limit to enka",
-    522: "Connection timed out",
+    400: "Wrong UID format",
+    404: "The player or profile doesn't exists",
+    424: "Maintenance or everything is broken",
+    429: "You are rate limited",
+    500: "General server error",
+    503: "Service Unavailable"
 };
 
 /**
