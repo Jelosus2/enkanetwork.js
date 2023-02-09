@@ -6,7 +6,7 @@
 + <wrapper>.getEnkaProfile(username)
 // Returns the data of 'api/profile/<username>'
 
-+ <wrapper>.getHoyos(username, language)
++ <wrapper>.getEnkaHoyos(username, language)
 - <wrapper>.getUser(username, language)
 // Returns the data of 'api/profile/<username>/hoyos'
 
