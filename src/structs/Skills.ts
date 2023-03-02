@@ -28,8 +28,11 @@ export class Skills {
      * @param characterId - The ID of the character.
      * @param language - The language to get the names.
      */
-    constructor(data: any, characterId: number, language: AssetFinderOptions["language"]) {
+    constructor(data: any, characterId: string | number, skillDepotId: string | number, language: AssetFinderOptions["language"]) {
         const idArr = Object.keys(data)
+        
+        if (['10000007', '10000005'].includes(characterId.toString()))
+            characterId = `${characterId}-${skillDepotId}`
 
         this.normalAttacks = new Skill(
             data[idArr[idArr.indexOf(characters[characterId].skillOrder[0])]],
