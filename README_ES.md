@@ -52,6 +52,8 @@ Un paquete para obetener datos de la API de enka, también incluye un "buscador"
 	- Arreglado el error que mostraba erroneamente el orden de las habilidades de los personajes.
 	- Añadido un buscador de disfraces a `AssetFinder`.
 	- Añadido el contenido de la versión 3.5. 
+- v2.1.2:
+	- Arreglado cuando el jugador tenía al viajero/a en el perfil tiraba un error.
 
 ## Tabla de Contenidos
 - [Wrapper](#wrapper)
