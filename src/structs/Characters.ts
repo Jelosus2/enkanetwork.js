@@ -86,7 +86,7 @@ export class Characters {
             : [];
         this.skillDepotId = data.skillDepotId;
         this.inherentProudSkillList = data.inherentProudSkillList;
-        this.skills = new Skills(data.skillLevelMap, data.avatarId, language);
+        this.skills = new Skills(data.skillLevelMap, data.avatarId, data.skillDepotId, language);
         this.skillsExtraLevel = data.proudSkillExtraLevelMap || {};
         this.equipment = new Equipment(data.equipList, language);
         this.friendship = new Friendship(data.fetterInfo);
