@@ -1,19 +1,7 @@
 import { AssetFinder } from "../client";
 import { AssetFinderOptions } from "../types";
 import { SkillImages } from "./AssetFinder";
-
-const fourSkills: { [key: string]: any } = {
-    "10000002": {
-        normalAttacks: 3,
-        elementalSkill: 1,
-        elementalBurst: 2,
-    },
-    "10000041": {
-        normalAttacks: 0,
-        elementalSkill: 1,
-        elementalBurst: 3,
-    },
-};
+import { characters } from '../utils'
 
 /**
  * A class that structures the skill types data.
@@ -41,19 +29,21 @@ export class Skills {
      * @param language - The language to get the names.
      */
     constructor(data: any, characterId: number, language: AssetFinderOptions["language"]) {
+        const idArr = Object.keys(data)
+
         this.normalAttacks = new Skill(
-            data[Object.keys(data)[fourSkills[characterId]?.normalAttacks || 0]],
-            +Object.keys(data)[fourSkills[characterId]?.normalAttacks || 0],
+            data[idArr[idArr.indexOf(characters[characterId].skillOrder[0])]],
+            +idArr[idArr.indexOf(characters[characterId].skillOrder[0])],
             language
         );
         this.elementalSkill = new Skill(
-            data[Object.keys(data)[fourSkills[characterId]?.elementalSkill || 1]],
-            +Object.keys(data)[fourSkills[characterId]?.elementalSkill || 1],
+            data[idArr[idArr.indexOf(characters[characterId].skillOrder[1])]],
+            +idArr[idArr.indexOf(characters[characterId].skillOrder[1])],
             language
         );
         this.elementalBurst = new Skill(
-            data[Object.keys(data)[fourSkills[characterId]?.elementalBurst || 2]],
-            +Object.keys(data)[fourSkills[characterId]?.elementalBurst || 2],
+            data[idArr[idArr.indexOf(characters[characterId].skillOrder[2])]],
+            +idArr[idArr.indexOf(characters[characterId].skillOrder[2])],
             language
         );
     }

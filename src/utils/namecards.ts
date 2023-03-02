@@ -1174,5 +1174,29 @@ export const namecards: { [key: string]: any } = {
             "UI_NameCardPic_Xm3_Alpha",
             "UI_NameCardPic_Xm3_P"
         ]
+    },
+    "210152": {
+        "nameTextMapHash": 3153965316,
+        "icon": "UI_NameCardIcon_Dehya",
+        "picPath": [
+            "UI_NameCardPic_Dehya_Alpha",
+            "UI_NameCardPic_Dehya_P"
+        ]
+    },
+    "210153": {
+        "nameTextMapHash": 3025228532,
+        "icon": "UI_NameCardIcon_Mika",
+        "picPath": [
+            "UI_NameCardPic_Mika_Alpha",
+            "UI_NameCardPic_Mika_P"
+        ]
+    },
+    "210154": {
+        "nameTextMapHash": 893197700,
+        "icon": "UI_NameCardIcon_Bp22",
+        "picPath": [
+            "UI_NameCardPic_Bp22_P_Alpha",
+            "UI_NameCardPic_Bp22_P"
+        ]
     }
 }

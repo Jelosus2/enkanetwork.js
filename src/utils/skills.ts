@@ -1231,6 +1231,38 @@ export const skills: { [key: string]: any } = {
         "nameTextMapHash": 52057253,
         "icon": "Skill_E_Alhatham_01"
     },
+    "10791": {
+        "nameTextMapHash": 804739701,
+        "icon": "Skill_A_04"
+    },
+    "10792": {
+        "nameTextMapHash": 588248229,
+        "icon": "Skill_S_Dehya_01"
+    },
+    "10793": {
+        "nameTextMapHash": 2706644389,
+        "icon": "Skill_S_Dehya_02"
+    },
+    "10794": {
+        "nameTextMapHash": 3699125269,
+        "icon": "Skill_E_Dehya_02"
+    },
+    "10795": {
+        "nameTextMapHash": 594609117,
+        "icon": "Skill_E_Dehya_01"
+    },
+    "10801": {
+        "nameTextMapHash": 2556517,
+        "icon": "Skill_A_03"
+    },
+    "10802": {
+        "nameTextMapHash": 3335717533,
+        "icon": "Skill_S_Mika_01"
+    },
+    "10805": {
+        "nameTextMapHash": 3170404421,
+        "icon": "Skill_E_Mika_01"
+    },
     "11301": {
         "nameTextMapHash": 3802462781,
         "icon": "Skill_A_02"
@@ -1506,6 +1538,10 @@ export const skills: { [key: string]: any } = {
     "20342": {
         "nameTextMapHash": 994561205,
         "icon": "Skill_LanV3_Icon05"
+    },
+    "20345": {
+        "nameTextMapHash": 1316655253,
+        "icon": "Btn_PacMan"
     },
     "20400": {
         "nameTextMapHash": 2657714069,
@@ -1962,5 +1998,13 @@ export const skills: { [key: string]: any } = {
     "5078010": {
         "nameTextMapHash": 788864381,
         "icon": "Skill_A_01"
+    },
+    "5079010": {
+        "nameTextMapHash": 2895358061,
+        "icon": "Skill_A_04"
+    },
+    "5080010": {
+        "nameTextMapHash": 886703661,
+        "icon": "Skill_A_03"
     }
 }

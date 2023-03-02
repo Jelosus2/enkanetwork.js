@@ -48,6 +48,10 @@ Un paquete para obetener datos de la API de enka, también incluye un "buscador"
 	- Actualizado la estructura del jugador para añadir el campo `owner`.
 	- Arreglado cuando buscas el nombre de un arma devuelve un string vacío.
 	- Arreglados bugs y errores.
+- v2.1.1:
+	- Arreglado el error que mostraba erroneamente el orden de las habilidades de los personajes.
+	- Añadido un buscador de disfraces a `AssetFinder`.
+	- Añadido el contenido de la versión 3.5. 
 
 ## Tabla de Contenidos
 - [Wrapper](#wrapper)
@@ -178,7 +182,7 @@ obtenerPersonaje(10000046) // ID de personaje de Hu Tao
 obtenerNombrePorHash(1940919994) // Hash de Hu Tao
 ```
 
-También puedes obtener las imagenes de personajes, constelaciones, habilidades, armas y tarjetas de presentación.
+También puedes obtener las imagenes de personajes, constelaciones, habilidades, armas, disfraces y tarjetas de presentación.
 
 ### ¿He obtenido el nombre del icono, pero donde está la imagen?
 

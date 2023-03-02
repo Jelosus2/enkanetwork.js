@@ -60,7 +60,7 @@ export class HoyoBuilds {
         this.id = data.id;
         this.name = data.name;
         this.characterId = data.avatar_id;
-        this.characterName = new AssetFinder({ language }).character(this.characterId).name;
+        this.characterName = new AssetFinder().character(this.characterId).name;
         this.characterInfo = new Characters(data.avatar_data, language);
         this.order = data.order;
         this.live = data.live;

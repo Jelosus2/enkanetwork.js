@@ -50,3 +50,4 @@ export interface WeaponImage {
   icon: string
   awakenIcon: string
 }
+

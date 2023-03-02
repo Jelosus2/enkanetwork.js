@@ -17,6 +17,11 @@ export const characters: { [key: string]: any } = {
             "elementalSkill": "Skill_S_Ayaka_01",
             "elementalBurst": "Skill_E_Ayaka"
         },
+        "skillOrder": [
+            "10024",
+            "10018",
+            "10019"
+        ],
         "costumes": [
             {
                 "sideIconName": "UI_AvatarIcon_Side_AyakaCostumeFruhling",
@@ -43,6 +48,11 @@ export const characters: { [key: string]: any } = {
             "elementalSkill": "Skill_S_Qin_02",
             "elementalBurst": "Skill_E_Qin_01"
         },
+        "skillOrder": [
+            "10031",
+            "10033",
+            "10034"
+        ],
         "costumes": [
             {
                 "sideIconName": "UI_AvatarIcon_Side_QinCostumeSea",
@@ -73,7 +83,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_01",
             "elementalSkill": "Skill_S_PlayerWind_01",
             "elementalBurst": "Skill_E_PlayerWind_01"
-        }
+        },
+        "skillOrder": [
+            "100543",
+            "10067",
+            "10068"
+        ]
     },
     "10000006": {
         "nameTextMapHash": 3344622722,
@@ -93,6 +108,11 @@ export const characters: { [key: string]: any } = {
             "elementalSkill": "Skill_S_Lisa_01",
             "elementalBurst": "Skill_E_Lisa_01"
         },
+        "skillOrder": [
+            "10060",
+            "10061",
+            "10062"
+        ],
         "costumes": [
             {
                 "sideIconName": "UI_AvatarIcon_Side_LisaCostumeStudentin",
@@ -118,7 +138,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_01",
             "elementalSkill": "Skill_S_PlayerWind_01",
             "elementalBurst": "Skill_E_PlayerWind_01"
-        }
+        },
+        "skillOrder": [
+            "100553",
+            "10067",
+            "10068"
+        ]
     },
     "10000014": {
         "nameTextMapHash": 3775299170,
@@ -138,6 +163,11 @@ export const characters: { [key: string]: any } = {
             "elementalSkill": "Skill_S_Barbara_01",
             "elementalBurst": "Skill_E_Barbara_01"
         },
+        "skillOrder": [
+            "10070",
+            "10071",
+            "10072"
+        ],
         "costumes": [
             {
                 "sideIconName": "UI_AvatarIcon_Side_BarbaraCostumeSummertime",
@@ -163,7 +193,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_01",
             "elementalSkill": "Skill_S_Kaeya_01",
             "elementalBurst": "Skill_E_Kaeya_01"
-        }
+        },
+        "skillOrder": [
+            "10073",
+            "10074",
+            "10075"
+        ]
     },
     "10000016": {
         "nameTextMapHash": 3608180322,
@@ -183,6 +218,11 @@ export const characters: { [key: string]: any } = {
             "elementalSkill": "Skill_S_Diluc_01_01",
             "elementalBurst": "Skill_E_Diluc_01"
         },
+        "skillOrder": [
+            "10160",
+            "10161",
+            "10165"
+        ],
         "costumes": [
             {
                 "sideIconName": "UI_AvatarIcon_Side_DilucCostumeFlamme",
@@ -208,7 +248,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_04",
             "elementalSkill": "Skill_S_Razor_01",
             "elementalBurst": "Skill_E_Razor_01"
-        }
+        },
+        "skillOrder": [
+            "10201",
+            "10202",
+            "10203"
+        ]
     },
     "10000021": {
         "nameTextMapHash": 1966438658,
@@ -228,6 +273,11 @@ export const characters: { [key: string]: any } = {
             "elementalSkill": "Skill_S_Ambor_01",
             "elementalBurst": "Skill_E_Ambor"
         },
+        "skillOrder": [
+            "10041",
+            "10032",
+            "10017"
+        ],
         "costumes": [
             {
                 "sideIconName": "UI_AvatarIcon_Side_AmborCostumeWic",
@@ -253,7 +303,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_02",
             "elementalSkill": "Skill_S_Venti_01",
             "elementalBurst": "Skill_E_Venti_01"
-        }
+        },
+        "skillOrder": [
+            "10221",
+            "10224",
+            "10225"
+        ]
     },
     "10000023": {
         "nameTextMapHash": 1130996346,
@@ -272,7 +327,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_03",
             "elementalSkill": "Skill_S_Xiangling_01",
             "elementalBurst": "Skill_E_Xiangling_01"
-        }
+        },
+        "skillOrder": [
+            "10231",
+            "10232",
+            "10235"
+        ]
     },
     "10000024": {
         "nameTextMapHash": 2646367730,
@@ -291,7 +351,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_04",
             "elementalSkill": "Skill_S_Beidou_01",
             "elementalBurst": "Skill_E_Beidou_01"
-        }
+        },
+        "skillOrder": [
+            "10241",
+            "10242",
+            "10245"
+        ]
     },
     "10000025": {
         "nameTextMapHash": 4197635682,
@@ -310,7 +375,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_01",
             "elementalSkill": "Skill_S_Xingqiu_01",
             "elementalBurst": "Skill_E_Xingqiu_01"
-        }
+        },
+        "skillOrder": [
+            "10381",
+            "10382",
+            "10385"
+        ]
     },
     "10000026": {
         "nameTextMapHash": 1021947690,
@@ -329,7 +399,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_03",
             "elementalSkill": "Skill_S_Xiao_01",
             "elementalBurst": "Skill_E_Xiao_01"
-        }
+        },
+        "skillOrder": [
+            "10261",
+            "10262",
+            "10265"
+        ]
     },
     "10000027": {
         "nameTextMapHash": 4127888970,
@@ -349,6 +424,11 @@ export const characters: { [key: string]: any } = {
             "elementalSkill": "Skill_S_Ningguang_01",
             "elementalBurst": "Skill_E_Ningguang_01"
         },
+        "skillOrder": [
+            "10271",
+            "10272",
+            "10274"
+        ],
         "costumes": [
             {
                 "sideIconName": "UI_AvatarIcon_Side_NingguangCostumeFloral",
@@ -374,7 +454,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_Catalyst_MD",
             "elementalSkill": "Skill_S_Klee_01",
             "elementalBurst": "Skill_E_Klee_01"
-        }
+        },
+        "skillOrder": [
+            "10291",
+            "10292",
+            "10295"
+        ]
     },
     "10000030": {
         "nameTextMapHash": 3862787418,
@@ -393,7 +478,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_03",
             "elementalSkill": "Skill_S_Zhongli_01",
             "elementalBurst": "Skill_E_Zhongli_01"
-        }
+        },
+        "skillOrder": [
+            "10301",
+            "10302",
+            "10303"
+        ]
     },
     "10000031": {
         "nameTextMapHash": 3277782506,
@@ -413,6 +503,11 @@ export const characters: { [key: string]: any } = {
             "elementalSkill": "Skill_S_Fischl_01",
             "elementalBurst": "Skill_E_Fischl_01"
         },
+        "skillOrder": [
+            "10311",
+            "10312",
+            "10313"
+        ],
         "costumes": [
             {
                 "sideIconName": "UI_AvatarIcon_Side_FischlCostumeHighness",
@@ -438,7 +533,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_01",
             "elementalSkill": "Skill_S_Bennett_01",
             "elementalBurst": "Skill_E_Bennett_01"
-        }
+        },
+        "skillOrder": [
+            "10321",
+            "10322",
+            "10323"
+        ]
     },
     "10000033": {
         "nameTextMapHash": 3847143266,
@@ -457,7 +557,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_02",
             "elementalSkill": "Skill_S_Tartaglia_01",
             "elementalBurst": "Skill_E_Tartaglia_01"
-        }
+        },
+        "skillOrder": [
+            "10331",
+            "10332",
+            "10333"
+        ]
     },
     "10000034": {
         "nameTextMapHash": 1921418842,
@@ -476,7 +581,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_04",
             "elementalSkill": "Skill_S_Noel_01",
             "elementalBurst": "Skill_E_Noel_01"
-        }
+        },
+        "skillOrder": [
+            "10341",
+            "10342",
+            "10343"
+        ]
     },
     "10000035": {
         "nameTextMapHash": 168956722,
@@ -495,7 +605,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_01",
             "elementalSkill": "Skill_S_Qiqi_01",
             "elementalBurst": "Skill_E_Qiqi_01"
-        }
+        },
+        "skillOrder": [
+            "10351",
+            "10352",
+            "10353"
+        ]
     },
     "10000036": {
         "nameTextMapHash": 2876340530,
@@ -514,7 +629,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_04",
             "elementalSkill": "Skill_S_Chongyun_01",
             "elementalBurst": "Skill_E_Chongyun_01"
-        }
+        },
+        "skillOrder": [
+            "10401",
+            "10402",
+            "10403"
+        ]
     },
     "10000037": {
         "nameTextMapHash": 2679781122,
@@ -533,7 +653,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_02",
             "elementalSkill": "Skill_S_Ganyu_01",
             "elementalBurst": "Skill_E_Ganyu_01"
-        }
+        },
+        "skillOrder": [
+            "10371",
+            "10372",
+            "10373"
+        ]
     },
     "10000038": {
         "nameTextMapHash": 4108620722,
@@ -552,7 +677,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_01",
             "elementalSkill": "Skill_S_Albedo_01",
             "elementalBurst": "Skill_E_Albedo_01"
-        }
+        },
+        "skillOrder": [
+            "10386",
+            "10387",
+            "10388"
+        ]
     },
     "10000039": {
         "nameTextMapHash": 1468367538,
@@ -571,7 +701,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_02",
             "elementalSkill": "Skill_S_Diona_01",
             "elementalBurst": "Skill_E_Diona_01"
-        }
+        },
+        "skillOrder": [
+            "10391",
+            "10392",
+            "10395"
+        ]
     },
     "10000041": {
         "nameTextMapHash": 1113306282,
@@ -591,6 +726,11 @@ export const characters: { [key: string]: any } = {
             "elementalSkill": "Skill_S_Mona_01",
             "elementalBurst": "Skill_E_Mona_01"
         },
+        "skillOrder": [
+            "10411",
+            "10412",
+            "10415"
+        ],
         "costumes": [
             {
                 "sideIconName": "UI_AvatarIcon_Side_MonaCostumeWic",
@@ -617,6 +757,11 @@ export const characters: { [key: string]: any } = {
             "elementalSkill": "Skill_S_Keqing_01",
             "elementalBurst": "Skill_E_Keqing_01"
         },
+        "skillOrder": [
+            "10421",
+            "10422",
+            "10425"
+        ],
         "costumes": [
             {
                 "sideIconName": "UI_AvatarIcon_Side_KeqingCostumeFeather",
@@ -642,7 +787,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_Catalyst_MD",
             "elementalSkill": "Skill_S_Sucrose_01",
             "elementalBurst": "Skill_E_Sucrose_01"
-        }
+        },
+        "skillOrder": [
+            "10431",
+            "10432",
+            "10435"
+        ]
     },
     "10000044": {
         "nameTextMapHash": 4273845410,
@@ -661,7 +811,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_04",
             "elementalSkill": "Skill_S_Xinyan_01",
             "elementalBurst": "Skill_E_Xinyan_01"
-        }
+        },
+        "skillOrder": [
+            "10441",
+            "10442",
+            "10443"
+        ]
     },
     "10000045": {
         "nameTextMapHash": 4260733330,
@@ -681,6 +836,11 @@ export const characters: { [key: string]: any } = {
             "elementalSkill": "Skill_S_Rosaria_01",
             "elementalBurst": "Skill_E_Rosaria_01"
         },
+        "skillOrder": [
+            "10451",
+            "10452",
+            "10453"
+        ],
         "costumes": [
             {
                 "sideIconName": "UI_AvatarIcon_Side_RosariaCostumeWic",
@@ -706,7 +866,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_03",
             "elementalSkill": "Skill_S_Hutao_01",
             "elementalBurst": "Skill_E_Hutao_01"
-        }
+        },
+        "skillOrder": [
+            "10461",
+            "10462",
+            "10463"
+        ]
     },
     "10000047": {
         "nameTextMapHash": 88505754,
@@ -725,7 +890,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_01",
             "elementalSkill": "Skill_S_Kazuha_01",
             "elementalBurst": "Skill_E_Kazuha_01"
-        }
+        },
+        "skillOrder": [
+            "10471",
+            "10472",
+            "10475"
+        ]
     },
     "10000048": {
         "nameTextMapHash": 697277554,
@@ -744,7 +914,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_Catalyst_MD",
             "elementalSkill": "Skill_S_Feiyan_01",
             "elementalBurst": "Skill_E_Feiyan_01"
-        }
+        },
+        "skillOrder": [
+            "10481",
+            "10482",
+            "10485"
+        ]
     },
     "10000049": {
         "nameTextMapHash": 2504399314,
@@ -763,7 +938,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_02",
             "elementalSkill": "Skill_S_Yoimiya_01",
             "elementalBurst": "Skill_E_Yoimiya_01"
-        }
+        },
+        "skillOrder": [
+            "10491",
+            "10492",
+            "10495"
+        ]
     },
     "10000050": {
         "nameTextMapHash": 3555115602,
@@ -782,7 +962,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_03",
             "elementalSkill": "Skill_S_Tohma_01",
             "elementalBurst": "Skill_E_Tohma_01"
-        }
+        },
+        "skillOrder": [
+            "10501",
+            "10502",
+            "10505"
+        ]
     },
     "10000051": {
         "nameTextMapHash": 3717667418,
@@ -801,7 +986,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_04",
             "elementalSkill": "Skill_S_Eula_01",
             "elementalBurst": "Skill_E_Eula_01"
-        }
+        },
+        "skillOrder": [
+            "10511",
+            "10512",
+            "10515"
+        ]
     },
     "10000052": {
         "nameTextMapHash": 3024507506,
@@ -820,7 +1010,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_03",
             "elementalSkill": "Skill_S_Shougun_01",
             "elementalBurst": "Skill_E_Shougun_01"
-        }
+        },
+        "skillOrder": [
+            "10521",
+            "10522",
+            "10525"
+        ]
     },
     "10000053": {
         "nameTextMapHash": 2388785242,
@@ -839,7 +1034,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_04",
             "elementalSkill": "Skill_S_Sayu_01",
             "elementalBurst": "Skill_E_Sayu_01"
-        }
+        },
+        "skillOrder": [
+            "10531",
+            "10532",
+            "10535"
+        ]
     },
     "10000054": {
         "nameTextMapHash": 3914045794,
@@ -858,7 +1058,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_Catalyst_MD",
             "elementalSkill": "Skill_S_Kokomi_01",
             "elementalBurst": "Skill_E_Kokomi_01"
-        }
+        },
+        "skillOrder": [
+            "10541",
+            "10542",
+            "10545"
+        ]
     },
     "10000055": {
         "nameTextMapHash": 3400133546,
@@ -877,7 +1082,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_02",
             "elementalSkill": "Skill_S_Gorou_01",
             "elementalBurst": "Skill_E_Gorou_01"
-        }
+        },
+        "skillOrder": [
+            "10551",
+            "10552",
+            "10555"
+        ]
     },
     "10000056": {
         "nameTextMapHash": 1483922610,
@@ -896,7 +1106,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_02",
             "elementalSkill": "Skill_S_Sara_01",
             "elementalBurst": "Skill_E_Sara_01"
-        }
+        },
+        "skillOrder": [
+            "10561",
+            "10562",
+            "10565"
+        ]
     },
     "10000057": {
         "nameTextMapHash": 3068316954,
@@ -915,7 +1130,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_04",
             "elementalSkill": "Skill_S_Itto_01",
             "elementalBurst": "Skill_E_Itto_01"
-        }
+        },
+        "skillOrder": [
+            "10571",
+            "10572",
+            "10575"
+        ]
     },
     "10000058": {
         "nameTextMapHash": 2713453234,
@@ -934,7 +1154,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_Catalyst_MD",
             "elementalSkill": "Skill_S_Yae_01",
             "elementalBurst": "Skill_E_Yae_01"
-        }
+        },
+        "skillOrder": [
+            "10581",
+            "10582",
+            "10585"
+        ]
     },
     "10000059": {
         "nameTextMapHash": 646032090,
@@ -953,7 +1178,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_Catalyst_MD",
             "elementalSkill": "Skill_S_Heizo_01",
             "elementalBurst": "Skill_E_Heizo_01"
-        }
+        },
+        "skillOrder": [
+            "10591",
+            "10592",
+            "10595"
+        ]
     },
     "10000060": {
         "nameTextMapHash": 2848374378,
@@ -972,7 +1202,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_02",
             "elementalSkill": "Skill_S_Yelan_01",
             "elementalBurst": "Skill_E_Yelan_01"
-        }
+        },
+        "skillOrder": [
+            "10606",
+            "10607",
+            "10610"
+        ]
     },
     "10000062": {
         "nameTextMapHash": 3689108098,
@@ -991,7 +1226,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_02",
             "elementalSkill": "Skill_S_Aloy_01",
             "elementalBurst": "Skill_E_Aloy_01"
-        }
+        },
+        "skillOrder": [
+            "10621",
+            "10622",
+            "10625"
+        ]
     },
     "10000063": {
         "nameTextMapHash": 334242634,
@@ -1010,7 +1250,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_03",
             "elementalSkill": "Skill_S_Shenhe_01",
             "elementalBurst": "Skill_E_Shenhe_01"
-        }
+        },
+        "skillOrder": [
+            "10631",
+            "10632",
+            "10635"
+        ]
     },
     "10000064": {
         "nameTextMapHash": 655825874,
@@ -1029,7 +1274,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_03",
             "elementalSkill": "Skill_S_Yunjin_01",
             "elementalBurst": "Skill_E_Yunjin_01"
-        }
+        },
+        "skillOrder": [
+            "10641",
+            "10642",
+            "10643"
+        ]
     },
     "10000065": {
         "nameTextMapHash": 1940821986,
@@ -1048,7 +1298,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_01",
             "elementalSkill": "Skill_S_Shinobu_01",
             "elementalBurst": "Skill_E_Shinobu_01"
-        }
+        },
+        "skillOrder": [
+            "10651",
+            "10652",
+            "10655"
+        ]
     },
     "10000066": {
         "nameTextMapHash": 1588620330,
@@ -1067,7 +1322,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_01",
             "elementalSkill": "Skill_S_Ayato_01",
             "elementalBurst": "Skill_E_Ayato_01"
-        }
+        },
+        "skillOrder": [
+            "10661",
+            "10662",
+            "10665"
+        ]
     },
     "10000067": {
         "nameTextMapHash": 2948362178,
@@ -1086,7 +1346,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_02",
             "elementalSkill": "Skill_S_Collei_01",
             "elementalBurst": "Skill_E_Collei_01"
-        }
+        },
+        "skillOrder": [
+            "10671",
+            "10672",
+            "10675"
+        ]
     },
     "10000068": {
         "nameTextMapHash": 388272194,
@@ -1105,7 +1370,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_04",
             "elementalSkill": "Skill_S_Dori_01",
             "elementalBurst": "Skill_E_Dori_01"
-        }
+        },
+        "skillOrder": [
+            "10681",
+            "10682",
+            "10685"
+        ]
     },
     "10000069": {
         "nameTextMapHash": 2506955778,
@@ -1124,7 +1394,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_02",
             "elementalSkill": "Skill_S_Tighnari_01",
             "elementalBurst": "Skill_E_Tighnari_01"
-        }
+        },
+        "skillOrder": [
+            "10691",
+            "10692",
+            "10695"
+        ]
     },
     "10000070": {
         "nameTextMapHash": 3850149970,
@@ -1143,7 +1418,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_01",
             "elementalSkill": "Skill_S_Nilou_01",
             "elementalBurst": "Skill_E_Nilou_01"
-        }
+        },
+        "skillOrder": [
+            "10701",
+            "10702",
+            "10705"
+        ]
     },
     "10000071": {
         "nameTextMapHash": 1049891906,
@@ -1162,7 +1442,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_03",
             "elementalSkill": "Skill_S_Cyno_01",
             "elementalBurst": "Skill_E_Cyno_01"
-        }
+        },
+        "skillOrder": [
+            "10711",
+            "10712",
+            "10715"
+        ]
     },
     "10000072": {
         "nameTextMapHash": 3092975658,
@@ -1181,7 +1466,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_03",
             "elementalSkill": "Skill_S_Candace_01",
             "elementalBurst": "Skill_E_Candace_01"
-        }
+        },
+        "skillOrder": [
+            "10721",
+            "10722",
+            "10725"
+        ]
     },
     "10000073": {
         "nameTextMapHash": 712501082,
@@ -1200,7 +1490,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_Catalyst_MD",
             "elementalSkill": "Skill_S_Nahida_01",
             "elementalBurst": "Skill_E_Nahida_01"
-        }
+        },
+        "skillOrder": [
+            "10731",
+            "10732",
+            "10735"
+        ]
     },
     "10000074": {
         "nameTextMapHash": 2889777514,
@@ -1219,7 +1514,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_01",
             "elementalSkill": "Skill_S_Layla_01",
             "elementalBurst": "Skill_E_Layla_01"
-        }
+        },
+        "skillOrder": [
+            "10741",
+            "10742",
+            "10745"
+        ]
     },
     "10000075": {
         "nameTextMapHash": 3230559562,
@@ -1238,7 +1538,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_Catalyst_MD",
             "elementalSkill": "Skill_S_Wanderer_01",
             "elementalBurst": "Skill_E_Wanderer_01"
-        }
+        },
+        "skillOrder": [
+            "10751",
+            "10752",
+            "10755"
+        ]
     },
     "10000076": {
         "nameTextMapHash": 2387711994,
@@ -1257,7 +1562,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_02",
             "elementalSkill": "Skill_S_Faruzan_01",
             "elementalBurst": "Skill_E_Faruzan_01"
-        }
+        },
+        "skillOrder": [
+            "10761",
+            "10762",
+            "10765"
+        ]
     },
     "10000077": {
         "nameTextMapHash": 1732418482,
@@ -1276,7 +1586,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_03",
             "elementalSkill": "Skill_S_Yaoyao_01",
             "elementalBurst": "Skill_E_Yaoyao_01"
-        }
+        },
+        "skillOrder": [
+            "10771",
+            "10772",
+            "10775"
+        ]
     },
     "10000078": {
         "nameTextMapHash": 4002157418,
@@ -1295,7 +1610,60 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_01",
             "elementalSkill": "Skill_S_Alhatham_01",
             "elementalBurst": "Skill_E_Alhatham_01"
-        }
+        },
+        "skillOrder": [
+            "10781",
+            "10782",
+            "10785"
+        ]
+    },
+    "10000079": {
+        "nameTextMapHash": 2360533154,
+        "icon": "UI_AvatarIcon_Dehya",
+        "sideIcon": "UI_AvatarIcon_Side_Dehya",
+        "gachaIcon": "UI_Gacha_AvatarImg_Dehya",
+        "constellations": [
+            "UI_Talent_S_Dehya_01",
+            "UI_Talent_S_Dehya_02",
+            "UI_Talent_U_Dehya_01",
+            "UI_Talent_S_Dehya_03",
+            "UI_Talent_U_Dehya_02",
+            "UI_Talent_S_Dehya_04"
+        ],
+        "skills": {
+            "normalAttack": "Skill_A_04",
+            "elementalSkill": "Skill_S_Dehya_01",
+            "elementalBurst": "Skill_E_Dehya_01"
+        },
+        "skillOrder": [
+            "10791",
+            "10792",
+            "10795"
+        ]
+    },
+    "10000080": {
+        "nameTextMapHash": 231911858,
+        "icon": "UI_AvatarIcon_Mika",
+        "sideIcon": "UI_AvatarIcon_Side_Mika",
+        "gachaIcon": "UI_Gacha_AvatarImg_Mika",
+        "constellations": [
+            "UI_Talent_S_Mika_01",
+            "UI_Talent_S_Mika_02",
+            "UI_Talent_U_Mika_01",
+            "UI_Talent_S_Mika_03",
+            "UI_Talent_U_Mika_02",
+            "UI_Talent_S_Mika_04"
+        ],
+        "skills": {
+            "normalAttack": "Skill_A_03",
+            "elementalSkill": "Skill_S_Mika_01",
+            "elementalBurst": "Skill_E_Mika_01"
+        },
+        "skillOrder": [
+            "10801",
+            "10802",
+            "10805"
+        ]
     },
     "10000005-501": {
         "nameTextMapHash": 3816664530,
@@ -1314,7 +1682,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_01",
             "elementalSkill": "None",
             "elementalBurst": "None"
-        }
+        },
+        "skillOrder": [
+            "100540",
+            "10067",
+            "10068"
+        ]
     },
     "10000005-504": {
         "nameTextMapHash": 1533656818,
@@ -1333,7 +1706,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_01",
             "elementalSkill": "Skill_S_PlayerWind_01",
             "elementalBurst": "Skill_E_PlayerWind_01"
-        }
+        },
+        "skillOrder": [
+            "100543",
+            "10067",
+            "10068"
+        ]
     },
     "10000005-506": {
         "nameTextMapHash": 1533656818,
@@ -1352,7 +1730,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_01",
             "elementalSkill": "Skill_S_PlayerRock_01",
             "elementalBurst": "Skill_E_PlayerRock_01"
-        }
+        },
+        "skillOrder": [
+            "100545",
+            "10077",
+            "10078"
+        ]
     },
     "10000005-507": {
         "nameTextMapHash": 1533656818,
@@ -1371,7 +1754,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_01",
             "elementalSkill": "Skill_S_PlayerElectric_01",
             "elementalBurst": "Skill_E_PlayerElectric_01"
-        }
+        },
+        "skillOrder": [
+            "100546",
+            "10602",
+            "10605"
+        ]
     },
     "10000005-508": {
         "nameTextMapHash": 1533656818,
@@ -1390,7 +1778,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_01",
             "elementalSkill": "Skill_E_PlayerGrass_01",
             "elementalBurst": "Skill_S_PlayerGrass_01"
-        }
+        },
+        "skillOrder": [
+            "100547",
+            "10117",
+            "10118"
+        ]
     },
     "10000007-701": {
         "nameTextMapHash": 3816664530,
@@ -1409,7 +1802,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_01",
             "elementalSkill": "None",
             "elementalBurst": "None"
-        }
+        },
+        "skillOrder": [
+            "100550",
+            "10067",
+            "10068"
+        ]
     },
     "10000007-704": {
         "nameTextMapHash": 3816664530,
@@ -1428,7 +1826,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_01",
             "elementalSkill": "Skill_S_PlayerWind_01",
             "elementalBurst": "Skill_E_PlayerWind_01"
-        }
+        },
+        "skillOrder": [
+            "100553",
+            "10067",
+            "10068"
+        ]
     },
     "10000007-706": {
         "nameTextMapHash": 3816664530,
@@ -1447,7 +1850,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_01",
             "elementalSkill": "Skill_S_PlayerRock_01",
             "elementalBurst": "Skill_E_PlayerRock_01"
-        }
+        },
+        "skillOrder": [
+            "100555",
+            "10077",
+            "10078"
+        ]
     },
     "10000007-707": {
         "nameTextMapHash": 3816664530,
@@ -1466,7 +1874,12 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_01",
             "elementalSkill": "Skill_S_PlayerElectric_01",
             "elementalBurst": "Skill_E_PlayerElectric_01"
-        }
+        },
+        "skillOrder": [
+            "100556",
+            "10602",
+            "10605"
+        ]
     },
     "10000007-708": {
         "nameTextMapHash": 3816664530,
@@ -1485,6 +1898,11 @@ export const characters: { [key: string]: any } = {
             "normalAttack": "Skill_A_01",
             "elementalSkill": "Skill_E_PlayerGrass_01",
             "elementalBurst": "Skill_S_PlayerGrass_01"
-        }
+        },
+        "skillOrder": [
+            "100557",
+            "10117",
+            "10118"
+        ]
     }
 }

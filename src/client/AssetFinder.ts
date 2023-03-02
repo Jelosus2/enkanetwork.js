@@ -7,6 +7,7 @@ import {
     NamecardAssets,
     SkillAssets,
     WeaponAssets,
+    CostumeAssets
 } from "../structs";
 
 /**
@@ -144,6 +145,23 @@ export class AssetFinder {
             throw new AssetFinderError("The weapon id must be an integer or string");
 
         return new WeaponAssets(weaponId, language);
+    }
+
+    /**
+     * Finds and returns the assets of a character costume with the given ID.
+     * @param weaponId - The ID of the costume.
+     * @returns The assets of the costume.
+     */
+    costume(
+        costumeId: string | number
+    ): CostumeAssets {
+        if (!costumeId)
+            throw new AssetFinderError("You must provide a costume id");
+
+        if (isNaN(+costumeId))
+            throw new AssetFinderError("The costume id must be an integer or string");
+
+        return new CostumeAssets(costumeId);
     }
 
     /**

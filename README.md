@@ -47,6 +47,10 @@ A package to get data from the enka API, it also includes a finder that you can 
 	- Updated the player structure to add the `owner` field.
 	- Fixed when you search for a weapon name it returns an empty string.
 	- Fixed errors and bugs.
+- v2.1.1:
+	- Fixed wrong skills order display of characters.
+	- Added a costume finder to `AssetFinder`.
+	- Added the 3.5 content.
 
 ## Table of Content
 - [Wrapper](#wrapper)
@@ -177,7 +181,7 @@ getAssetName(10000046) // Hu Tao ID.
 getNameByHash(1940919994) // Hu Tao name hash.
 ```
 
-You can get the images of characters, constellations, skills, weapons and namecards too.
+You can get the images of characters, constellations, skills, weapons, costumes and namecards too.
 
 ### I got the icon name, but where is the image?
 
