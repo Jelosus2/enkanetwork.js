@@ -51,6 +51,8 @@ A package to get data from the enka API, it also includes a finder that you can 
 	- Fixed wrong skills order display of characters.
 	- Added a costume finder to `AssetFinder`.
 	- Added the 3.5 content.
+- v2.1.2:
+	- Fixed when a player had the traveler in the showcase it would throw an error.
 
 ## Table of Content
 - [Wrapper](#wrapper)
