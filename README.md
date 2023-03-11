@@ -137,7 +137,7 @@ You can find `fightPropMap` original properties in [fightPropMap Data](https://a
 ## Content Updater
 
 ```js
-const { ContentUpdater } = require('./dist/index')
+const { ContentUpdater } = require('enkanetwork.js')
 const updater = new ContentUpdater(options)
 /** options:
  * checkInterval: number -> optional (default is 20000 ms (20 seconds))
