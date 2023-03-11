@@ -138,7 +138,7 @@ Puedes encontrar las propiedas originales de `fightPropMap` en [Datos de las fig
 ## Actualizador de Contenido
 
 ```js
-const { ContentUpdater } = require('./dist/index')
+const { ContentUpdater } = require('enkanetwork.js')
 const actualizador = new ContentUpdater(opciones)
 /** opciones:
  * checkInterval: number -> opcional (por defecto son 20000 ms (20 segundos))
