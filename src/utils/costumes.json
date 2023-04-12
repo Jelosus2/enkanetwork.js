@@ -1,0 +1,62 @@
+{
+    "200201": {
+        "sideIconName": "UI_AvatarIcon_Side_AyakaCostumeFruhling",
+        "icon": "UI_AvatarIcon_AyakaCostumeFruhling",
+        "art": "UI_Costume_AyakaCostumeFruhling"
+    },
+    "200301": {
+        "sideIconName": "UI_AvatarIcon_Side_QinCostumeSea",
+        "icon": "UI_AvatarIcon_QinCostumeSea",
+        "art": "UI_Costume_QinCostumeSea"
+    },
+    "200302": {
+        "sideIconName": "UI_AvatarIcon_Side_QinCostumeWic",
+        "icon": "UI_AvatarIcon_QinCostumeWic",
+        "art": "UI_Costume_QinCostumeWic"
+    },
+    "200601": {
+        "sideIconName": "UI_AvatarIcon_Side_LisaCostumeStudentin",
+        "icon": "UI_AvatarIcon_LisaCostumeStudentin",
+        "art": "UI_Costume_LisaCostumeStudentin"
+    },
+    "201401": {
+        "sideIconName": "UI_AvatarIcon_Side_BarbaraCostumeSummertime",
+        "icon": "UI_AvatarIcon_BarbaraCostumeSummertime",
+        "art": "UI_Costume_BarbaraCostumeSummertime"
+    },
+    "201601": {
+        "sideIconName": "UI_AvatarIcon_Side_DilucCostumeFlamme",
+        "icon": "UI_AvatarIcon_DilucCostumeFlamme",
+        "art": "UI_Costume_DilucCostumeFlamme"
+    },
+    "202101": {
+        "sideIconName": "UI_AvatarIcon_Side_AmborCostumeWic",
+        "icon": "UI_AvatarIcon_AmborCostumeWic",
+        "art": "UI_Costume_AmborCostumeWic"
+    },
+    "202701": {
+        "sideIconName": "UI_AvatarIcon_Side_NingguangCostumeFloral",
+        "icon": "UI_AvatarIcon_NingguangCostumeFloral",
+        "art": "UI_Costume_NingguangCostumeFloral"
+    },
+    "203101": {
+        "sideIconName": "UI_AvatarIcon_Side_FischlCostumeHighness",
+        "icon": "UI_AvatarIcon_FischlCostumeHighness",
+        "art": "UI_Costume_FischlCostumeHighness"
+    },
+    "204101": {
+        "sideIconName": "UI_AvatarIcon_Side_MonaCostumeWic",
+        "icon": "UI_AvatarIcon_MonaCostumeWic",
+        "art": "UI_Costume_MonaCostumeWic"
+    },
+    "204201": {
+        "sideIconName": "UI_AvatarIcon_Side_KeqingCostumeFeather",
+        "icon": "UI_AvatarIcon_KeqingCostumeFeather",
+        "art": "UI_Costume_KeqingCostumeFeather"
+    },
+    "204501": {
+        "sideIconName": "UI_AvatarIcon_Side_RosariaCostumeWic",
+        "icon": "UI_AvatarIcon_RosariaCostumeWic",
+        "art": "UI_Costume_RosariaCostumeWic"
+    }
+}

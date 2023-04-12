@@ -53,6 +53,12 @@ A package to get data from the enka API, it also includes a finder that you can 
 	- Added the 3.5 content.
 - v2.1.2:
 	- Fixed when a player had the traveler in the showcase it would throw an error.
+- v2.1.3:
+	- Fixed when trying to use the `character()` method of **AssetFinder** class would throw an error if the character id was the one of a travelers and their depot skill id.
+	- Fixed when the content updater downloads the files without all the content leading to errors.
+	- Now it won't be necessary to restart the application when the new content files are downloaded to read the new information.
+	- If a cache file it's corrupted it will automatically delete it and add a new cache file with fresh data.
+	- You can now delete the cache folder with `CacheHandler.deleteCacheDirectory()`
 
 ## Table of Content
 - [Wrapper](#wrapper)

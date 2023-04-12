@@ -1,7 +1,8 @@
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
 import { AssetFinder } from "../client";
 import { AssetFinderOptions } from "../types";
 import { SkillImages } from "./AssetFinder";
-import { characters } from '../utils'
 
 /**
  * A class that structures the skill types data.
@@ -30,6 +31,7 @@ export class Skills {
      */
     constructor(data: any, characterId: string | number, skillDepotId: string | number, language: AssetFinderOptions["language"]) {
         const idArr = Object.keys(data)
+        const characters = JSON.parse(readFileSync(join(__dirname, '../utils/characters.json'), 'utf-8'));
         
         if (['10000007', '10000005'].includes(characterId.toString()))
             characterId = `${characterId}-${skillDepotId}`

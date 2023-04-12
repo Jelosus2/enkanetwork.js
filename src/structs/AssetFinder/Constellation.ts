@@ -1,5 +1,6 @@
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
 import { ConstellationImage } from "../../types";
-import { hashes, talents } from "../../utils";
 
 /**
  * A class that structures the constellation assets and name.
@@ -21,8 +22,11 @@ export class ConstellationAssets {
      * @param language - The language used to get the name.
      */
     constructor(constellationId: string | number, language: string) {
-        this.name = hashes[language][talents[constellationId].nameTextMapHash] || "";
-        this.assets = new ConstellationImages(talents[constellationId]);
+        const talents = JSON.parse(readFileSync(join(__dirname, '../../utils/talents.json'), 'utf-8'));
+        const hashes = JSON.parse(readFileSync(join(__dirname, '../../utils/hashes.json'), 'utf-8'));
+
+        this.name = hashes[language][talents[constellationId]?.nameTextMapHash] || "";
+        this.assets = talents[constellationId] ? new ConstellationImages(talents[constellationId]) : {} as ConstellationImages;
     }
 }
 

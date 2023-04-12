@@ -65,8 +65,8 @@ export class AssetFinder {
         if (!characterId)
             throw new AssetFinderError("You must provide a character id");
 
-        if (isNaN(+characterId))
-            throw new AssetFinderError("The character id must be an integer or string");
+        if (isNaN(+characterId) && !characterId.toString().includes('-'))
+            throw new AssetFinderError("The character id must be a valid integer or string");
 
         return new CharacterAssets(characterId, language);
     }
@@ -149,7 +149,7 @@ export class AssetFinder {
 
     /**
      * Finds and returns the assets of a character costume with the given ID.
-     * @param weaponId - The ID of the costume.
+     * @param costumeId - The ID of the costume.
      * @returns The assets of the costume.
      */
     costume(

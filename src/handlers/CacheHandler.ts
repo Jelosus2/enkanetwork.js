@@ -1,5 +1,5 @@
-import fs from "fs";
-import path from "path";
+import { existsSync, mkdir, writeFile, readFileSync, statSync, unlink, rmdir } from 'node:fs'
+import { join } from "node:path";
 import { createHash } from "crypto";
 import { PackageError } from "../errors";
 
@@ -16,11 +16,24 @@ export class CacheHandler {
      * It creates a directory where the cache files get stored if it doesn't exist already.
      */
     setupCacheDirectory(): void {
-        const cacheDirectory = path.join(__dirname, '../cache');
+        const cacheDirectory = join(__dirname, '../cache');
 
-        if (!fs.existsSync(cacheDirectory)) {
-            fs.mkdir(cacheDirectory, (err) => {
+        if (!existsSync(cacheDirectory)) {
+            mkdir(cacheDirectory, (err) => {
                 if (err) throw new PackageError('Failed to setup the cache directory');
+            });
+        }
+    }
+
+    /**
+     * It deletes the cache directory.
+     */
+    deleteCacheDirectory(): void {
+        const cacheDirectory = join(__dirname, '../cache')
+
+        if (existsSync(cacheDirectory)) {
+            rmdir(cacheDirectory, (err) => {
+                if (err) throw new PackageError('Failed to delete the cache directory');
             });
         }
     }
@@ -32,37 +45,44 @@ export class CacheHandler {
      */
     set(key: string, value: object): void {
         const cacheFileName = `${createHash('md5').update(key).digest('hex')}.json`;
-        const cacheFilePath = path.join(__dirname, `../cache/${cacheFileName}`);
+        const cacheFilePath = join(__dirname, `../cache/${cacheFileName}`);
 
-        if (!fs.existsSync(cacheFilePath)) {
-            fs.writeFile(cacheFilePath, JSON.stringify(value, null, 2), (err) => {
+        if (!existsSync(cacheFilePath)) {
+            writeFile(cacheFilePath, JSON.stringify(value, null, 2), (err) => {
                 if (err) throw new PackageError('Failed to create the cache file.');
             });
         }
     }
 
     /**
-     * Get and retrieve the cached data and also deletes the expired cache files.
+     * Get and retrieve the cached data and also deletes the expired and corrupted cache files.
      * @param key - The key to create the hash for the file name.
      * @returns The data of the cache file or undefined if cache file was not found.
      */
     get(key: string): any {
         const cacheFileName = `${createHash('md5').update(key).digest('hex')}.json`;
-        const cacheFilePath = path.join(__dirname, `../cache/${cacheFileName}`);
+        const cacheFilePath = join(__dirname, `../cache/${cacheFileName}`);
 
-        if (!fs.existsSync(cacheFilePath)) return undefined;
+        if (!existsSync(cacheFilePath)) return undefined;
         
-        const data = JSON.parse(fs.readFileSync(cacheFilePath, 'utf-8'));
-        const date = new Date(); date.setSeconds(date.getSeconds() - data?.ttl);
-        const fileTime = fs.statSync(cacheFilePath).mtime;
-
-        if (date > fileTime) {
-            fs.unlink(cacheFilePath, (err) => {
-                if (err) throw new PackageError('Failed to delete the expired cache file.');
+        try {
+            const data = JSON.parse(readFileSync(cacheFilePath, 'utf-8'));
+            const date = new Date(); date.setSeconds(date.getSeconds() - data?.ttl);
+            const fileTime = statSync(cacheFilePath).mtime;
+    
+            if (date > fileTime) {
+                unlink(cacheFilePath, (err) => {
+                    if (err) throw new PackageError('Failed to delete the expired cache file.');
+                });
+                return undefined;
+            }        
+    
+            return data;
+        } catch (_) {
+            unlink(cacheFilePath, (err) => {
+                if (err) throw new PackageError('Failed to delete the corrupted cache file.');
             });
             return undefined;
-        }        
-
-        return data;
+        }
     }
 }

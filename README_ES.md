@@ -54,6 +54,12 @@ Un paquete para obetener datos de la API de enka, también incluye un "buscador"
 	- Añadido el contenido de la versión 3.5. 
 - v2.1.2:
 	- Arreglado cuando el jugador tenía al viajero/a en el perfil tiraba un error.
+- v2.1.3:
+	- Arreglado cuando al usar el método `character()` de la clase **AssetFinder** e introducir la id de personaje de uno de los viajeros con su id de habilidad de elemento tiraraba un error.
+	- Arreglado cuando el actualizador de contenido descargaba los archivos con el contenido incompleto, desembocando en errores.
+	- Ahora no será necesario reiniciar la aplicación cuando los archivos de contenido se descarguen para leer su nuevo contenido.
+	- Si algún archivo caché se corrompe se eliminará automaticamente y se creará uno nuevo con datos frescos.
+	- Ahora puedes borrar el directorio del caché con `CacheHandler.deleteCacheDirectory()`
 
 ## Tabla de Contenidos
 - [Wrapper](#wrapper)

@@ -1,5 +1,6 @@
-import { NamecardImage } from "../../types"
-import { hashes, namecards } from "../../utils"
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
+import { NamecardImage } from "../../types";
 
 /**
  * A class that structures the namecard assets and name.
@@ -8,12 +9,12 @@ export class NamecardAssets {
     /**
      * The name of the namecard.
      */
-    name: string
+    name: string;
 
     /**
      * The assets of the namecard.
      */
-    assets: NamecardImages
+    assets: NamecardImages;
 
     /**
      * Creates a new `NamecardAssets` instance.
@@ -21,8 +22,11 @@ export class NamecardAssets {
      * @param language - The language to get the name.
      */
     constructor(namecardId: string | number, language: string) {
-        this.name = hashes[language][namecards[namecardId].nameTextMapHash] || ""
-        this.assets = new NamecardImages(namecards[namecardId])
+        const namecards = JSON.parse(readFileSync(join(__dirname, "../../utils/namecards.json"), "utf-8"));
+        const hashes = JSON.parse(readFileSync(join(__dirname, "../../utils/hashes.json"), "utf-8"));
+
+        this.name = hashes[language][namecards[namecardId]?.nameTextMapHash] || "";
+        this.assets = namecards[namecardId] ? new NamecardImages(namecards[namecardId]) : {} as NamecardImages;
     }
 }
 
@@ -30,22 +34,22 @@ export class NamecardAssets {
  * A class that structures the namecard images.
  */
 export class NamecardImages {
-  /**
-   * The namecard's icon.
-   */
-  icon: string
+    /**
+     * The namecard's icon.
+     */
+    icon: string;
 
-  /**
-   * The namecard's pic path.
-   */
-  picPath: string[]
+    /**
+     * The namecard's pic path.
+     */
+    picPath: string[];
 
-  /**
-   * Creates a new `NamecardImages` instance.
-   * @param data - The data of the namecard.
-   */
-  constructor(data: NamecardImage) {
-    this.icon = data ? data.icon : ""
-    this.picPath = data ? data.picPath : []
-  }
+    /**
+     * Creates a new `NamecardImages` instance.
+     * @param data - The data of the namecard.
+     */
+    constructor(data: NamecardImage) {
+        this.icon = data ? data.icon : "";
+        this.picPath = data ? data.picPath : [];
+    }
 }

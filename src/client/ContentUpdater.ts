@@ -3,12 +3,9 @@ import { RequestHandler } from "../handlers";
 import { AutoUpdaterOptions } from "../types";
 import { PackageError } from "../errors";
 
-import fs from "fs";
-import path from "path";
-import unzipper from "unzipper";
-
-// To compile the config.json file with the ts files.
-import * as config from '../utils/config.json'
+import { readFileSync, createReadStream, createWriteStream, rmSync } from "node:fs";
+import { join } from "node:path";
+import { Extract } from "unzipper";
 
 /**
  * Events that the `ContentUpdater` class can emit.
@@ -65,14 +62,26 @@ export class ContentUpdater extends EventEmitter {
             try {
                 const { lastVersion, zip } = await this.handler.updateInfo();
 
-                const config = JSON.parse(fs.readFileSync(path.join(__dirname, '../utils/config.json'), 'utf-8'));
-                const fPath = path.join(__dirname, "../utils");
+                const config = JSON.parse(readFileSync(join(__dirname, '../utils/config.json'), 'utf-8'));
+                const fPath = join(__dirname, "../utils");
 
                 const parseVersion = (version: string) => { return version.split('.').join(''); };
 
                 if (parseVersion(lastVersion) > parseVersion(config.version)) {
-                    await zip.pipe(unzipper.Extract({ path: fPath }));
-                    this.emit("onUpdateSuccess");
+                    await new Promise<void>((resolve) => {
+                        const zipPath = join(fPath, `v${lastVersion}-content.zip`);
+
+                        zip.pipe(createWriteStream(zipPath));
+                        zip.on('end', () => {
+                            createReadStream(zipPath)
+                            .pipe(Extract({ path: fPath }))
+                            .on('close', () => {
+                                rmSync(zipPath);
+                                this.emit('onUpdateSuccess');
+                                resolve();
+                            });
+                        });
+                    })
                 }
             } catch (_) {
                 this.emit(

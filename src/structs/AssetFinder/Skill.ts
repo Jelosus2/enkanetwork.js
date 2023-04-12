@@ -1,5 +1,6 @@
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
 import { SkillImage } from "../../types";
-import { hashes, skills } from "../../utils";
 
 /**
  * A class that structures the skill assets and names.
@@ -21,8 +22,11 @@ export class SkillAssets {
      * @param language - The language to get the name.
      */
     constructor(skillId: string | number, language: string) {
-        this.name = hashes[language][skills[skillId].nameTextMapHash] || "";
-        this.assets = new SkillImages(skills[skillId]);
+        const skills = JSON.parse(readFileSync(join(__dirname, '../../utils/skills.json'), 'utf-8'));
+        const hashes = JSON.parse(readFileSync(join(__dirname, '../../utils/hashes.json'), 'utf-8'));
+
+        this.name = hashes[language][skills[skillId]?.nameTextMapHash] || "";
+        this.assets = skills[skillId] ? new SkillImages(skills[skillId]) : {} as SkillImages;
     }
 }
 

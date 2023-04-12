@@ -1,4 +1,5 @@
-import { characters, hashes } from "../../utils";
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
 import {
     CharacterCostume,
     CharacterImage,
@@ -25,8 +26,11 @@ export class CharacterAssets {
      * @param language - The language to get the name.
      */
     constructor(characterId: string | number, language: string) {
-        this.name = hashes[language][characters[characterId].nameTextMapHash] || "";
-        this.assets = new CharacterImages(characters[characterId]);
+        const characters = JSON.parse(readFileSync(join(__dirname, '../../utils/characters.json'), 'utf-8'));
+        const hashes = JSON.parse(readFileSync(join(__dirname, '../../utils/hashes.json'), 'utf-8'));
+
+        this.name = hashes[language][characters[characterId]?.nameTextMapHash] || "";
+        this.assets = characters[characterId] ? new CharacterImages(characters[characterId]) : {} as CharacterImages;
     }
 }
 
