@@ -59,6 +59,8 @@ A package to get data from the enka API, it also includes a finder that you can 
 	- Now it won't be necessary to restart the application when the new content files are downloaded to read the new information.
 	- If a cache file it's corrupted it will automatically delete it and add a new cache file with fresh data.
 	- You can now delete the cache folder with `CacheHandler.deleteCacheDirectory()`
+- v2.1.4:
+	- Removed the content file reload since it would increase significantly the time to request players data.
 
 ## Table of Content
 - [Wrapper](#wrapper)

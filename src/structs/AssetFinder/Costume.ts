@@ -1,6 +1,7 @@
-import { readFileSync } from "node:fs";
-import { join } from "node:path";
+import { costumes as cContent } from "../../utils";
 import { CharacterCostume } from "../../types";
+
+const costumes: { [key: string]: any } = cContent;
 
 /**
  * A class that structures the costume assets.
@@ -16,8 +17,6 @@ export class CostumeAssets {
      * @param costumeId - The ID of the costume.
      */
     constructor(costumeId: string | number) {
-        const costumes = JSON.parse(readFileSync(join(__dirname, '../../utils/costumes.json'), 'utf-8'));
-
         this.assets = costumes[costumeId] ? new CostumeImages(costumes[costumeId]) : {} as CostumeImages;
     }
 }

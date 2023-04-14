@@ -60,6 +60,8 @@ Un paquete para obetener datos de la API de enka, también incluye un "buscador"
 	- Ahora no será necesario reiniciar la aplicación cuando los archivos de contenido se descarguen para leer su nuevo contenido.
 	- Si algún archivo caché se corrompe se eliminará automaticamente y se creará uno nuevo con datos frescos.
 	- Ahora puedes borrar el directorio del caché con `CacheHandler.deleteCacheDirectory()`
+- v2.1.4:
+	- Removido el recargar automático de los archivos porque incrementaría enormemente el tiempo de petición de información de los jugadores.
 
 ## Tabla de Contenidos
 - [Wrapper](#wrapper)

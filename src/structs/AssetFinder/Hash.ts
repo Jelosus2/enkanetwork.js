@@ -1,5 +1,6 @@
-import { readFileSync } from "node:fs";
-import { join } from "node:path";
+import { hashes as hContent } from "../../utils";
+
+const hashes: { [key: string]: any } = hContent;
 
 /**
  * A class that structures the hash names.
@@ -16,8 +17,6 @@ export class Hash {
      * @param language - The language to get the name.
      */
     constructor(nameTextMapHash: string | number, language: string) {
-        const hashes = JSON.parse(readFileSync(join(__dirname, '../../utils/hashes.json'), 'utf-8'));
-
         this.value = hashes[language]?.[nameTextMapHash] || "";
     }
 }

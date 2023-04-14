@@ -1,10 +1,12 @@
-import { readFileSync } from "node:fs";
-import { join } from "node:path";
+import { characters as cContent, hashes as hContent } from "../../utils"; 
 import {
     CharacterCostume,
     CharacterImage,
     CharacterSkillIcon,
 } from "../../types";
+
+const characters: { [key: string]: any } = cContent;
+const hashes: { [key: string]: any } = hContent;
 
 /**
  * A class that structures the character assets and name.
@@ -26,10 +28,7 @@ export class CharacterAssets {
      * @param language - The language to get the name.
      */
     constructor(characterId: string | number, language: string) {
-        const characters = JSON.parse(readFileSync(join(__dirname, '../../utils/characters.json'), 'utf-8'));
-        const hashes = JSON.parse(readFileSync(join(__dirname, '../../utils/hashes.json'), 'utf-8'));
-
-        this.name = hashes[language][characters[characterId]?.nameTextMapHash] || "";
+        this.name = hashes[language]?.[characters[characterId].nameTextMapHash] || "";
         this.assets = characters[characterId] ? new CharacterImages(characters[characterId]) : {} as CharacterImages;
     }
 }

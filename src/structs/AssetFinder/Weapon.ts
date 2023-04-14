@@ -1,6 +1,8 @@
-import { readFileSync } from "node:fs";
-import { join } from "node:path";
+import { weapons as wContent, hashes as hContent } from "../../utils";
 import { WeaponImage } from "../../types";
+
+const weapons: { [key: string]: any } = wContent;
+const hashes: { [key: string]: any } = hContent;
 
 /**
  * A class that structures the weapon assets and name.
@@ -22,9 +24,6 @@ export class WeaponAssets {
      * @param language - The language to get the name.
      */
     constructor(weaponId: string | number, language: string) {
-        const weapons = JSON.parse(readFileSync(join(__dirname, '../../utils/weapons.json'), 'utf-8'));
-        const hashes = JSON.parse(readFileSync(join(__dirname, '../../utils/hashes.json'), 'utf-8'));
-
         this.name = hashes[language][weapons[weaponId]?.nameTextMapHash] || "";
         this.assets = weapons[weaponId] ? new WeaponImages(weapons[weaponId]) : {} as WeaponImages;
     }

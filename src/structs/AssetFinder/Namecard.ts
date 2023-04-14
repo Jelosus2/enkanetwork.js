@@ -1,6 +1,8 @@
-import { readFileSync } from "node:fs";
-import { join } from "node:path";
+import { namecards as nContent, hashes as hContent } from "../../utils";
 import { NamecardImage } from "../../types";
+
+const namecards: { [key: string]: any } = nContent;
+const hashes: { [key: string]: any } = hContent;
 
 /**
  * A class that structures the namecard assets and name.
@@ -22,9 +24,6 @@ export class NamecardAssets {
      * @param language - The language to get the name.
      */
     constructor(namecardId: string | number, language: string) {
-        const namecards = JSON.parse(readFileSync(join(__dirname, "../../utils/namecards.json"), "utf-8"));
-        const hashes = JSON.parse(readFileSync(join(__dirname, "../../utils/hashes.json"), "utf-8"));
-
         this.name = hashes[language][namecards[namecardId]?.nameTextMapHash] || "";
         this.assets = namecards[namecardId] ? new NamecardImages(namecards[namecardId]) : {} as NamecardImages;
     }
