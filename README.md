@@ -61,6 +61,9 @@ A package to get data from the enka API, it also includes a finder that you can 
 	- You can now delete the cache folder with `CacheHandler.deleteCacheDirectory()`
 - v2.1.4:
 	- Removed the content file reload since it would increase significantly the time to request players data.
+- v2.1.6:
+	- Added the 3.7 version content.
+	- Added a parser to parse the substat IDs of the artifacts: `Wrapper.parseSubstats()`.
 
 ## Table of Content
 - [Wrapper](#wrapper)

@@ -1,6 +1,6 @@
 import { AssetFinderOptions, WrapperOptions } from "../types";
 import { RequestHandler, CacheHandler } from "../handlers";
-import { PlayerData, HoyoBuilds, EnkaProfile, Hoyos } from "../structs";
+import { PlayerData, HoyoBuilds, EnkaProfile, Hoyos, Substats } from "../structs";
 import { PackageError, AssetFinderError } from "../errors";
 
 /**
@@ -165,5 +165,24 @@ export class Wrapper {
         Object.keys(data).forEach((characterId) => builds.push(...data[characterId]));
 
         return builds.map((data) => new HoyoBuilds(data, language as AssetFinderOptions["language"]));
+    }
+
+    /**
+     * Returns the parsed values of an artifact substats.
+     * @param substatsIds - The array with the substats IDs.
+     * @returns The parsed substats.
+     */
+    parseSubstats(
+        substatsIds: number[],
+        language: string = this.language
+    ): Substats[] {
+        if (!substatsIds)
+            throw new PackageError("The substatsIds parameter is missing");
+        if (!this.languages.includes(language))
+            throw new AssetFinderError("Invalid or not available language."); 
+        if (substatsIds?.length <= 0) 
+            throw new PackageError("The substatsIds has no values");
+
+        return substatsIds.map((substatId) => new Substats(substatId, language as AssetFinderOptions["language"]));
     }
 }

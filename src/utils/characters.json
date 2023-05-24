@@ -1209,6 +1209,30 @@
             "10610"
         ]
     },
+    "10000061": {
+        "nameTextMapHash": 1456643042,
+        "icon": "UI_AvatarIcon_Momoka",
+        "sideIcon": "UI_AvatarIcon_Side_Momoka",
+        "gachaIcon": "UI_Gacha_AvatarImg_Momoka",
+        "constellations": [
+            "UI_Talent_S_Momoka_01",
+            "UI_Talent_S_Momoka_02",
+            "UI_Talent_U_Momoka_01",
+            "UI_Talent_S_Momoka_04",
+            "UI_Talent_U_Momoka_02",
+            "UI_Talent_S_Momoka_03"
+        ],
+        "skills": {
+            "normalAttack": "Skill_A_01",
+            "elementalSkill": "Skill_S_Momoka_01",
+            "elementalBurst": "Skill_E_Momoka_01"
+        },
+        "skillOrder": [
+            "10611",
+            "10612",
+            "10615"
+        ]
+    },
     "10000062": {
         "nameTextMapHash": 3689108098,
         "icon": "UI_AvatarIcon_Aloy",

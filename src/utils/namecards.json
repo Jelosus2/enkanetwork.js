@@ -1253,5 +1253,21 @@
             "UI_NameCardPic_Bp23_Alpha",
             "UI_NameCardPic_Bp23_P"
         ]
+    },
+    "210162": {
+        "nameTextMapHash": 2371279924,
+        "icon": "UI_NameCardIcon_Kirara",
+        "picPath": [
+            "UI_NameCardPic_Kirara_Alpha",
+            "UI_NameCardPic_Kirara_P"
+        ]
+    },
+    "210163": {
+        "nameTextMapHash": 252168660,
+        "icon": "UI_NameCardIcon_Bp24",
+        "picPath": [
+            "UI_NameCardPic_Bp24_Alpha",
+            "UI_NameCardPic_Bp24_P"
+        ]
     }
 }

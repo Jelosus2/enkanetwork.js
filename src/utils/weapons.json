@@ -864,6 +864,11 @@
         "awakenIcon": "UI_EquipIcon_Bow_Fin_Awaken",
         "nameTextMapHash": 3063191787
     },
+    "15419": {
+        "icon": "UI_EquipIcon_Bow_Ibis",
+        "awakenIcon": "UI_EquipIcon_Bow_Ibis_Awaken",
+        "nameTextMapHash": 316078811
+    },
     "15501": {
         "icon": "UI_EquipIcon_Bow_Dvalin",
         "awakenIcon": "UI_EquipIcon_Bow_Dvalin_Awaken",

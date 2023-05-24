@@ -947,6 +947,22 @@
         "nameTextMapHash": 4098371861,
         "icon": "Skill_E_Yelan_01"
     },
+    "10611": {
+        "nameTextMapHash": 2089915453,
+        "icon": "Skill_A_01"
+    },
+    "10612": {
+        "nameTextMapHash": 3512914781,
+        "icon": "Skill_S_Momoka_01"
+    },
+    "10613": {
+        "nameTextMapHash": 451737061,
+        "icon": "Skill_S_Momoka_02"
+    },
+    "10615": {
+        "nameTextMapHash": 2543392221,
+        "icon": "Skill_E_Momoka_01"
+    },
     "10621": {
         "nameTextMapHash": 2994648485,
         "icon": "Skill_A_02"
@@ -1567,6 +1583,18 @@
         "nameTextMapHash": 1316655253,
         "icon": "Btn_PacMan"
     },
+    "20350": {
+        "nameTextMapHash": 3206240077,
+        "icon": "Skill_E_Klee_01"
+    },
+    "20351": {
+        "nameTextMapHash": 2174036525,
+        "icon": "Skill_E_Klee_01"
+    },
+    "20352": {
+        "nameTextMapHash": 1538181693,
+        "icon": "Btn_Fishing_Bait"
+    },
     "20400": {
         "nameTextMapHash": 2657714069,
         "icon": "Btn_HideAndSeek_Seeker_A_01"
@@ -1946,6 +1974,10 @@
     "5060010": {
         "nameTextMapHash": 289877085,
         "icon": "Skill_A_02"
+    },
+    "5061010": {
+        "nameTextMapHash": 1011789509,
+        "icon": "Skill_A_01"
     },
     "5062010": {
         "nameTextMapHash": 1225242717,

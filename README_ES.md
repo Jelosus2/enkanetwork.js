@@ -62,6 +62,9 @@ Un paquete para obetener datos de la API de enka, también incluye un "buscador"
 	- Ahora puedes borrar el directorio del caché con `CacheHandler.deleteCacheDirectory()`
 - v2.1.4:
 	- Removido el recargar automático de los archivos porque incrementaría enormemente el tiempo de petición de información de los jugadores.
+- v2.1.6:
+	- Añadido el contenido de la versión 3.7.
+	- Añadido un parseador para parsear las IDs de los substats de un artfacto: `Wrapper.parseSubstats()`.
 
 ## Tabla de Contenidos
 - [Wrapper](#wrapper)
