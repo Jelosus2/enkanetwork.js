@@ -64,6 +64,8 @@ A package to get data from the enka API, it also includes a finder that you can 
 - v2.1.6:
 	- Added the 3.7 version content.
 	- Added a parser to parse the substat IDs of the artifacts: `Wrapper.parseSubstats()`.
+- v2.1.7:
+	- Added the 3.8 version content.
 
 ## Table of Content
 - [Wrapper](#wrapper)

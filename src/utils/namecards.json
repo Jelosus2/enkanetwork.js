@@ -1269,5 +1269,13 @@
             "UI_NameCardPic_Bp24_Alpha",
             "UI_NameCardPic_Bp24_P"
         ]
+    },
+    "210164": {
+        "nameTextMapHash": 2257348780,
+        "icon": "UI_NameCardIcon_Bp25",
+        "picPath": [
+            "UI_NameCardPic_Bp25_Alpha",
+            "UI_NameCardPic_Bp25_P"
+        ]
     }
 }

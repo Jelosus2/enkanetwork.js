@@ -198,6 +198,13 @@
             "10073",
             "10074",
             "10075"
+        ],
+        "costumes": [
+            {
+                "sideIconName": "UI_AvatarIcon_Side_KaeyaCostumeDancer",
+                "icon": "UI_AvatarIcon_KaeyaCostumeDancer",
+                "art": "UI_Costume_KaeyaCostumeDancer"
+            }
         ]
     },
     "10000016": {
@@ -459,6 +466,13 @@
             "10291",
             "10292",
             "10295"
+        ],
+        "costumes": [
+            {
+                "sideIconName": "UI_AvatarIcon_Side_KleeCostumeWitch",
+                "icon": "UI_AvatarIcon_KleeCostumeWitch",
+                "art": "UI_Costume_KleeCostumeWitch"
+            }
         ]
     },
     "10000030": {

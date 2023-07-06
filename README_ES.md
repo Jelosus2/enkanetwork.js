@@ -65,6 +65,8 @@ Un paquete para obetener datos de la API de enka, también incluye un "buscador"
 - v2.1.6:
 	- Añadido el contenido de la versión 3.7.
 	- Añadido un parseador para parsear las IDs de los substats de un artfacto: `Wrapper.parseSubstats()`.
+- v2.1.7:
+	- Añadido el contenido de la vérsion 3.8.
 
 ## Tabla de Contenidos
 - [Wrapper](#wrapper)

@@ -24,6 +24,11 @@
         "icon": "UI_AvatarIcon_BarbaraCostumeSummertime",
         "art": "UI_Costume_BarbaraCostumeSummertime"
     },
+    "201501": {
+        "sideIconName": "UI_AvatarIcon_Side_KaeyaCostumeDancer",
+        "icon": "UI_AvatarIcon_KaeyaCostumeDancer",
+        "art": "UI_Costume_KaeyaCostumeDancer"
+    },
     "201601": {
         "sideIconName": "UI_AvatarIcon_Side_DilucCostumeFlamme",
         "icon": "UI_AvatarIcon_DilucCostumeFlamme",
@@ -38,6 +43,11 @@
         "sideIconName": "UI_AvatarIcon_Side_NingguangCostumeFloral",
         "icon": "UI_AvatarIcon_NingguangCostumeFloral",
         "art": "UI_Costume_NingguangCostumeFloral"
+    },
+    "202901": {
+        "sideIconName": "UI_AvatarIcon_Side_KleeCostumeWitch",
+        "icon": "UI_AvatarIcon_KleeCostumeWitch",
+        "art": "UI_Costume_KleeCostumeWitch"
     },
     "203101": {
         "sideIconName": "UI_AvatarIcon_Side_FischlCostumeHighness",
