@@ -129,7 +129,11 @@ export class Wrapper {
         const data = await this.handler.profile(`${username}/hoyos`);
         if (Object.keys(data).length == 0) return [];
 
-        Object.keys(data).forEach((hash) => hoyos.push(data[hash]));
+        Object.keys(data).forEach((hash) => {
+            if (data[hash].hoyo_type == 0) {
+                hoyos.push(data[hash]);
+            };
+        });
 
         return hoyos.map((data) => new Hoyos(
             data,
@@ -162,7 +166,11 @@ export class Wrapper {
         const data = await this.handler.profile(`${username}/hoyos/${hash}/builds`);
         if (Object.keys(data).length == 0) return [];
 
-        Object.keys(data).forEach((characterId) => builds.push(...data[characterId]));
+        Object.keys(data).forEach((characterId) => {
+            if (data[characterId].find((build: any) => build.hoyo_type == 0)) {
+                builds.push(...data[characterId]);
+            };
+        });
 
         return builds.map((data) => new HoyoBuilds(data, language as AssetFinderOptions["language"]));
     }

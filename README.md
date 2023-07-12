@@ -66,6 +66,8 @@ A package to get data from the enka API, it also includes a finder that you can 
 	- Added a parser to parse the substat IDs of the artifacts: `Wrapper.parseSubstats()`.
 - v2.1.7:
 	- Added the 3.8 version content.
+- v2.1.8:
+	- Quick fix of the problem when someone's profile's hoyo had builds of Honkai: Star Rail it would throw an error when trying to fetch them, the support for said hoyos will come very soon. 
 
 ## Table of Content
 - [Wrapper](#wrapper)

@@ -67,6 +67,8 @@ Un paquete para obetener datos de la API de enka, también incluye un "buscador"
 	- Añadido un parseador para parsear las IDs de los substats de un artfacto: `Wrapper.parseSubstats()`.
 - v2.1.7:
 	- Añadido el contenido de la vérsion 3.8.
+- v2.1.8:
+	- Arreglo rápido del problema de cuando un usuario tenia builds de Honkai: Star Rail en el hoyo de su perfil tiraría un error al intentar obtenerlas, el soporte para dichos hoyos vendrá muy pronto. 
 
 ## Tabla de Contenidos
 - [Wrapper](#wrapper)

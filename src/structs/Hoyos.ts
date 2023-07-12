@@ -77,7 +77,11 @@ export class Hoyos {
         const data = await handler.profile(`${this.username}/hoyos/${this.hash}/builds`);
         if (Object.keys(data).length == 0) return [];
 
-        Object.keys(data).forEach((characterId) => builds.push(...data[characterId]));
+        Object.keys(data).forEach((characterId) => {
+            if (data[characterId].find((build: any) => build.hoyo_type == 0)) {
+                builds.push(...data[characterId]);
+            };
+        });
 
         return builds.map((data) => new HoyoBuilds(data, this.language as AssetFinderOptions["language"]));
     }
