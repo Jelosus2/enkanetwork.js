@@ -68,6 +68,8 @@ A package to get data from the enka API, it also includes a finder that you can 
 	- Added the 3.8 version content.
 - v2.1.8:
 	- Quick fix of the problem when someone's profile's hoyo had builds of Honkai: Star Rail it would throw an error when trying to fetch them, the support for said hoyos will come very soon. 
+- v2.1.9:
+	- Added trailing slash at the end of Enka profile related endpoints to prevent redirections and improve rate limit stability.
 
 ## Table of Content
 - [Wrapper](#wrapper)

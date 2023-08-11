@@ -69,6 +69,8 @@ Un paquete para obetener datos de la API de enka, también incluye un "buscador"
 	- Añadido el contenido de la vérsion 3.8.
 - v2.1.8:
 	- Arreglo rápido del problema de cuando un usuario tenia builds de Honkai: Star Rail en el hoyo de su perfil tiraría un error al intentar obtenerlas, el soporte para dichos hoyos vendrá muy pronto. 
+- v2.1.9:
+	- Añadida barra diagonal al final de los endpoints relacionados con los perfiles de Enka para evitar redirecciones y mejorar la estabilidad de los rate limits.
 
 ## Tabla de Contenidos
 - [Wrapper](#wrapper)

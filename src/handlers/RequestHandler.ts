@@ -55,7 +55,7 @@ export class RequestHandler {
      * @returns The data of the requested route.
      */
     async profile(route: string): Promise<any> {
-        const url = `https://enka.network/api/profile/${route}`;
+        const url = `https://enka.network/api/profile/${route}/`;
 
         try {
             const { data } = await axios.get(url, {
