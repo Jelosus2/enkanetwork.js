@@ -56,6 +56,6 @@ export class Profile {
         this.bio = data.bio;
         this.level = data.level;
         this.signup_state = data.signup_state;
-        this.pfp_url = data.image_url;
+        this.pfp_url = data.image_url || '';
     }
 }

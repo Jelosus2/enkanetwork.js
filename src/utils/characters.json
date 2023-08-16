@@ -1751,6 +1751,78 @@
             "10825"
         ]
     },
+    "10000083": {
+        "nameTextMapHash": 1225226258,
+        "icon": "UI_AvatarIcon_Linette",
+        "sideIcon": "UI_AvatarIcon_Side_Linette",
+        "gachaIcon": "UI_Gacha_AvatarImg_Linette",
+        "constellations": [
+            "UI_Talent_S_Linette_01",
+            "UI_Talent_S_Linette_02",
+            "UI_Talent_U_Linette_01",
+            "UI_Talent_S_Linette_03",
+            "UI_Talent_U_Linette_02",
+            "UI_Talent_S_Linette_04"
+        ],
+        "skills": {
+            "normalAttack": "Skill_A_01",
+            "elementalSkill": "Skill_S_Linette_01",
+            "elementalBurst": "Skill_E_Linette_01"
+        },
+        "skillOrder": [
+            "10831",
+            "10832",
+            "10835"
+        ]
+    },
+    "10000084": {
+        "nameTextMapHash": 2472444970,
+        "icon": "UI_AvatarIcon_Liney",
+        "sideIcon": "UI_AvatarIcon_Side_Liney",
+        "gachaIcon": "UI_Gacha_AvatarImg_Liney",
+        "constellations": [
+            "UI_Talent_S_Liney_01",
+            "UI_Talent_S_Liney_03",
+            "UI_Talent_U_Liney_01",
+            "UI_Talent_S_Liney_02",
+            "UI_Talent_U_Liney_02",
+            "UI_Talent_S_Liney_04"
+        ],
+        "skills": {
+            "normalAttack": "Skill_A_02",
+            "elementalSkill": "Skill_S_Liney_01",
+            "elementalBurst": "Skill_E_Liney_01"
+        },
+        "skillOrder": [
+            "10841",
+            "10842",
+            "10845"
+        ]
+    },
+    "10000085": {
+        "nameTextMapHash": 4201964354,
+        "icon": "UI_AvatarIcon_Freminet",
+        "sideIcon": "UI_AvatarIcon_Side_Freminet",
+        "gachaIcon": "UI_Gacha_AvatarImg_Freminet",
+        "constellations": [
+            "UI_Talent_S_Freminet_01",
+            "UI_Talent_S_Freminet_02",
+            "UI_Talent_U_Freminet_01",
+            "UI_Talent_S_Freminet_03",
+            "UI_Talent_U_Freminet_02",
+            "UI_Talent_S_Freminet_04"
+        ],
+        "skills": {
+            "normalAttack": "Skill_A_04",
+            "elementalSkill": "Skill_S_Freminet_01",
+            "elementalBurst": "Skill_E_Freminet_01"
+        },
+        "skillOrder": [
+            "10851",
+            "10852",
+            "10855"
+        ]
+    },
     "10000005-501": {
         "nameTextMapHash": 3816664530,
         "icon": "UI_AvatarIcon_PlayerBoy",
@@ -1773,6 +1845,30 @@
             "100540",
             "10067",
             "10068"
+        ]
+    },
+    "10000005-503": {
+        "nameTextMapHash": 1533656818,
+        "icon": "UI_AvatarIcon_PlayerBoy",
+        "sideIcon": "UI_AvatarIcon_Side_PlayerBoy",
+        "gachaIcon": "UI_Gacha_AvatarImg_PlayerBoy",
+        "constellations": [
+            "UI_Talent_S_PlayerWater_01",
+            "UI_Talent_S_PlayerWater_02",
+            "UI_Talent_U_PlayerWater_01",
+            "UI_Talent_S_PlayerWater_03",
+            "UI_Talent_U_PlayerWater_02",
+            "UI_Talent_S_PlayerWater_04"
+        ],
+        "skills": {
+            "normalAttack": "Skill_A_01",
+            "elementalSkill": "Skill_S_PlayerWater_01",
+            "elementalBurst": "Skill_E_PlayerWater_01"
+        },
+        "skillOrder": [
+            "100542",
+            "10087",
+            "10088"
         ]
     },
     "10000005-504": {
@@ -1893,6 +1989,30 @@
             "100550",
             "10067",
             "10068"
+        ]
+    },
+    "10000007-703": {
+        "nameTextMapHash": 3816664530,
+        "icon": "UI_AvatarIcon_PlayerGirl",
+        "sideIcon": "UI_AvatarIcon_Side_PlayerGirl",
+        "gachaIcon": "UI_Gacha_AvatarImg_PlayerGirl",
+        "constellations": [
+            "UI_Talent_S_PlayerWater_01",
+            "UI_Talent_S_PlayerWater_02",
+            "UI_Talent_U_PlayerWater_01",
+            "UI_Talent_S_PlayerWater_03",
+            "UI_Talent_U_PlayerWater_02",
+            "UI_Talent_S_PlayerWater_04"
+        ],
+        "skills": {
+            "normalAttack": "Skill_A_01",
+            "elementalSkill": "Skill_S_PlayerWater_01",
+            "elementalBurst": "Skill_E_PlayerWater_01"
+        },
+        "skillOrder": [
+            "100552",
+            "10087",
+            "10088"
         ]
     },
     "10000007-704": {

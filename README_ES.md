@@ -5,6 +5,9 @@
 
 Un paquete para obetener datos de la API de enka, también incluye un "buscador" que puedes usar para buscar nombres e imágenes de assets del juego, por ejemplo el nombre o imagen de un personaje. Revisa [Buscadores](#buscadores) para más información.
 
+## Aviso
+> El soporte para perfiles de Star Rail vendrá cuando esté completamente integrado en enka.
+
 ## Changelog
 - v1.0.1:
 	- Cambiada la URL de peticiones para evitar códigos 301 innecesarios.
@@ -71,6 +74,11 @@ Un paquete para obetener datos de la API de enka, también incluye un "buscador"
 	- Arreglo rápido del problema de cuando un usuario tenia builds de Honkai: Star Rail en el hoyo de su perfil tiraría un error al intentar obtenerlas, el soporte para dichos hoyos vendrá muy pronto. 
 - v2.1.9:
 	- Añadida barra diagonal al final de los endpoints relacionados con los perfiles de Enka para evitar redirecciones y mejorar la estabilidad de los rate limits.
+- v2.2.1:
+	- Añadido el contenido de la versión 4.0.
+	- Arreglado cuando un jugador tenía en su perfil a el Viajero sin elemento tiraría un error.
+	- Arreglada la incorrecta visualización de los assets del Viajero.
+	- Algunos bugs arreglados.
 
 ## Tabla de Contenidos
 - [Wrapper](#wrapper)

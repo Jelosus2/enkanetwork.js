@@ -235,6 +235,14 @@
         "nameTextMapHash": 2350480557,
         "icon": "Skill_E_Kate"
     },
+    "10087": {
+        "nameTextMapHash": 130110989,
+        "icon": "Skill_S_PlayerWater_01"
+    },
+    "10088": {
+        "nameTextMapHash": 168140725,
+        "icon": "Skill_E_PlayerWater_01"
+    },
     "10111": {
         "nameTextMapHash": 1707104125,
         "icon": "Skill_A_01"
@@ -1303,6 +1311,62 @@
         "nameTextMapHash": 3249611093,
         "icon": "Skill_E_Baizhuer_01"
     },
+    "10831": {
+        "nameTextMapHash": 2038141157,
+        "icon": "Skill_A_01"
+    },
+    "10832": {
+        "nameTextMapHash": 2169745509,
+        "icon": "Skill_S_Linette_01"
+    },
+    "10833": {
+        "nameTextMapHash": 3572684293,
+        "icon": "Skill_S_Linette_02"
+    },
+    "10835": {
+        "nameTextMapHash": 496785501,
+        "icon": "Skill_E_Linette_01"
+    },
+    "10841": {
+        "nameTextMapHash": 2045120365,
+        "icon": "Skill_A_02"
+    },
+    "10842": {
+        "nameTextMapHash": 3118483965,
+        "icon": "Skill_S_Liney_01"
+    },
+    "10843": {
+        "nameTextMapHash": 216293141,
+        "icon": "Skill_S_Liney_02"
+    },
+    "10844": {
+        "nameTextMapHash": 1740013101,
+        "icon": "Skill_A_02"
+    },
+    "10845": {
+        "nameTextMapHash": 2543605245,
+        "icon": "Skill_E_Liney_01"
+    },
+    "10851": {
+        "nameTextMapHash": 2253281405,
+        "icon": "Skill_A_04"
+    },
+    "10852": {
+        "nameTextMapHash": 2430743149,
+        "icon": "Skill_S_Freminet_01"
+    },
+    "10853": {
+        "nameTextMapHash": 1020080013,
+        "icon": "Skill_S_Freminet_02"
+    },
+    "10854": {
+        "nameTextMapHash": 912782125,
+        "icon": "Skill_S_Freminet_03"
+    },
+    "10855": {
+        "nameTextMapHash": 285889909,
+        "icon": "Skill_E_Freminet_01"
+    },
     "11301": {
         "nameTextMapHash": 3802462781,
         "icon": "Skill_A_02"
@@ -1435,9 +1499,17 @@
         "nameTextMapHash": 1562204677,
         "icon": "Btn_CatchAnimal_Shoot"
     },
+    "20046": {
+        "nameTextMapHash": 4185154309,
+        "icon": "Skill_Diving_Absorb"
+    },
     "20049": {
         "nameTextMapHash": 1068626397,
         "icon": "Btn_CatchAnimal_Shoot"
+    },
+    "20050": {
+        "nameTextMapHash": 1078788773,
+        "icon": "Skill_Diving_Slash"
     },
     "20051": {
         "nameTextMapHash": 1486834421,
@@ -1446,6 +1518,38 @@
     "20054": {
         "nameTextMapHash": 4262868373,
         "icon": "Skill_E_Gagana_AimShoot"
+    },
+    "20059": {
+        "nameTextMapHash": 1661132309,
+        "icon": "Skill_Diving_Shield"
+    },
+    "20062": {
+        "nameTextMapHash": 3991687493,
+        "icon": "Skill_Diving_Echo"
+    },
+    "20063": {
+        "nameTextMapHash": 1137915773,
+        "icon": "Btn_BounceConjuring_Hit_A_01"
+    },
+    "20064": {
+        "nameTextMapHash": 2573912525,
+        "icon": "Btn_HideAndSeek_Seeker_A_01"
+    },
+    "20065": {
+        "nameTextMapHash": 3623286589,
+        "icon": "Btn_CatchAnimal_Shoot"
+    },
+    "20066": {
+        "nameTextMapHash": 2221461965,
+        "icon": "Btn_HideAndSeek_Seeker_S_01"
+    },
+    "20070": {
+        "nameTextMapHash": 2208227565,
+        "icon": "QuesteventSkillIcon_01"
+    },
+    "20080": {
+        "nameTextMapHash": 3018374477,
+        "icon": "QuesteventSkillIcon_01"
     },
     "20100": {
         "nameTextMapHash": 4176490093,
@@ -1595,6 +1699,10 @@
         "nameTextMapHash": 1538181693,
         "icon": "Btn_Fishing_Bait"
     },
+    "20361": {
+        "nameTextMapHash": 1185804085,
+        "icon": "Skill_E_Klee_01"
+    },
     "20400": {
         "nameTextMapHash": 2657714069,
         "icon": "Btn_HideAndSeek_Seeker_A_01"
@@ -1683,6 +1791,10 @@
         "nameTextMapHash": 3198281757,
         "icon": "Skill_A_01"
     },
+    "100542": {
+        "nameTextMapHash": 3565118517,
+        "icon": "Skill_A_01"
+    },
     "100543": {
         "nameTextMapHash": 3283214237,
         "icon": "Skill_A_01"
@@ -1709,6 +1821,10 @@
     },
     "100551": {
         "nameTextMapHash": 2463434149,
+        "icon": "Skill_A_01"
+    },
+    "100552": {
+        "nameTextMapHash": 299520933,
         "icon": "Skill_A_01"
     },
     "100553": {
@@ -2062,5 +2178,17 @@
     "5082010": {
         "nameTextMapHash": 3734682949,
         "icon": "Skill_A_Catalyst_MD"
+    },
+    "5083010": {
+        "nameTextMapHash": 500837677,
+        "icon": "Skill_A_01"
+    },
+    "5084010": {
+        "nameTextMapHash": 3740273565,
+        "icon": "Skill_A_02"
+    },
+    "5085010": {
+        "nameTextMapHash": 1031784445,
+        "icon": "Skill_A_04"
     }
 }

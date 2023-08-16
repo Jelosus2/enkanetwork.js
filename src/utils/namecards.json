@@ -1277,5 +1277,77 @@
             "UI_NameCardPic_Bp25_Alpha",
             "UI_NameCardPic_Bp25_P"
         ]
+    },
+    "210165": {
+        "nameTextMapHash": 1528445668,
+        "icon": "UI_NameCardIcon_Liney",
+        "picPath": [
+            "UI_NameCardPic_Liney_Alpha",
+            "UI_NameCardPic_Liney_P"
+        ]
+    },
+    "210166": {
+        "nameTextMapHash": 1633726356,
+        "icon": "UI_NameCardIcon_Linette",
+        "picPath": [
+            "UI_NameCardPic_Linette_Alpha",
+            "UI_NameCardPic_Linette_P"
+        ]
+    },
+    "210167": {
+        "nameTextMapHash": 479426332,
+        "icon": "UI_NameCardIcon_Freminet",
+        "picPath": [
+            "UI_NameCardPic_Freminet_Alpha",
+            "UI_NameCardPic_Freminet_P"
+        ]
+    },
+    "210168": {
+        "nameTextMapHash": 3839352012,
+        "icon": "UI_NameCardIcon_FD1",
+        "picPath": [
+            "UI_NameCardPic_FD1_Alpha",
+            "UI_NameCardPic_FD1_P"
+        ]
+    },
+    "210169": {
+        "nameTextMapHash": 3503408332,
+        "icon": "UI_NameCardIcon_Ysxf4",
+        "picPath": [
+            "UI_NameCardPic_Ysxf4_Alpha",
+            "UI_NameCardPic_Ysxf4_P"
+        ]
+    },
+    "210170": {
+        "nameTextMapHash": 314888012,
+        "icon": "UI_NameCardIcon_Csxy4",
+        "picPath": [
+            "UI_NameCardPic_Csxy4_Alpha",
+            "UI_NameCardPic_Csxy4_P"
+        ]
+    },
+    "210171": {
+        "nameTextMapHash": 950590004,
+        "icon": "UI_NameCardIcon_Fontaine1",
+        "picPath": [
+            "UI_NameCardPic_Fontaine1_Alpha",
+            "UI_NameCardPic_Fontaine1_P"
+        ]
+    },
+    "210172": {
+        "nameTextMapHash": 1044303764,
+        "icon": "UI_NameCardIcon_Fontaine2",
+        "picPath": [
+            "UI_NameCardPic_Fontaine2_Alpha",
+            "UI_NameCardPic_Fontaine2_P"
+        ]
+    },
+    "210173": {
+        "nameTextMapHash": 1496418108,
+        "icon": "UI_NameCardIcon_Bp26",
+        "picPath": [
+            "UI_NameCardPic_Bp26_Alpha",
+            "UI_NameCardPic_Bp26_P"
+        ]
     }
 }

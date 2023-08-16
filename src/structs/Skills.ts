@@ -41,16 +41,16 @@ export class Skills {
             +idArr[idArr.indexOf(characters[characterId].skillOrder[0])],
             language
         );
-        this.elementalSkill = new Skill(
+        this.elementalSkill = idArr[1] ? new Skill(
             data[idArr[idArr.indexOf(characters[characterId].skillOrder[1])]],
             +idArr[idArr.indexOf(characters[characterId].skillOrder[1])],
             language
-        );
-        this.elementalBurst = new Skill(
+        ) : {} as Skill;
+        this.elementalBurst = idArr[2] ? new Skill(
             data[idArr[idArr.indexOf(characters[characterId].skillOrder[2])]],
             +idArr[idArr.indexOf(characters[characterId].skillOrder[2])],
             language
-        );
+        ) : {} as Skill;
     }
 }
 

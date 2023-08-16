@@ -179,6 +179,21 @@
         "awakenIcon": "UI_EquipIcon_Sword_Kasabouzu_Awaken",
         "nameTextMapHash": 2448629019
     },
+    "11424": {
+        "icon": "UI_EquipIcon_Sword_Boreas",
+        "awakenIcon": "UI_EquipIcon_Sword_Boreas_Awaken",
+        "nameTextMapHash": 2265792579
+    },
+    "11425": {
+        "icon": "UI_EquipIcon_Sword_Vorpal",
+        "awakenIcon": "UI_EquipIcon_Sword_Vorpal_Awaken",
+        "nameTextMapHash": 800766043
+    },
+    "11426": {
+        "icon": "UI_EquipIcon_Sword_Machination",
+        "awakenIcon": "UI_EquipIcon_Sword_Machination_Awaken",
+        "nameTextMapHash": 1921306659
+    },
     "11501": {
         "icon": "UI_EquipIcon_Sword_Falcon",
         "awakenIcon": "UI_EquipIcon_Sword_Falcon_Awaken",
@@ -364,6 +379,16 @@
         "awakenIcon": "UI_EquipIcon_Claymore_Fleurfair_Awaken",
         "nameTextMapHash": 1200948859
     },
+    "12424": {
+        "icon": "UI_EquipIcon_Claymore_BeastTamer",
+        "awakenIcon": "UI_EquipIcon_Claymore_BeastTamer_Awaken",
+        "nameTextMapHash": 3459616011
+    },
+    "12425": {
+        "icon": "UI_EquipIcon_Claymore_Vorpal",
+        "awakenIcon": "UI_EquipIcon_Claymore_Vorpal_Awaken",
+        "nameTextMapHash": 2077869763
+    },
     "12501": {
         "icon": "UI_EquipIcon_Claymore_Dvalin",
         "awakenIcon": "UI_EquipIcon_Claymore_Dvalin_Awaken",
@@ -513,6 +538,16 @@
         "icon": "UI_EquipIcon_Pole_Windvane",
         "awakenIcon": "UI_EquipIcon_Pole_Windvane_Awaken",
         "nameTextMapHash": 1470442731
+    },
+    "13424": {
+        "icon": "UI_EquipIcon_Pole_Shanty",
+        "awakenIcon": "UI_EquipIcon_Pole_Shanty_Awaken",
+        "nameTextMapHash": 449192923
+    },
+    "13425": {
+        "icon": "UI_EquipIcon_Pole_Vorpal",
+        "awakenIcon": "UI_EquipIcon_Pole_Vorpal_Awaken",
+        "nameTextMapHash": 4158971171
     },
     "13501": {
         "icon": "UI_EquipIcon_Pole_Homa",
@@ -683,6 +718,16 @@
         "icon": "UI_EquipIcon_Catalyst_Arakalari",
         "awakenIcon": "UI_EquipIcon_Catalyst_Arakalari_Awaken",
         "nameTextMapHash": 2267978875
+    },
+    "14424": {
+        "icon": "UI_EquipIcon_Catalyst_Yue",
+        "awakenIcon": "UI_EquipIcon_Catalyst_Yue_Awaken",
+        "nameTextMapHash": 2275710883
+    },
+    "14425": {
+        "icon": "UI_EquipIcon_Catalyst_Vorpal",
+        "awakenIcon": "UI_EquipIcon_Catalyst_Vorpal_Awaken",
+        "nameTextMapHash": 2432865507
     },
     "14501": {
         "icon": "UI_EquipIcon_Catalyst_Dvalin",
@@ -869,6 +914,16 @@
         "awakenIcon": "UI_EquipIcon_Bow_Ibis_Awaken",
         "nameTextMapHash": 316078811
     },
+    "15424": {
+        "icon": "UI_EquipIcon_Bow_Gurabad",
+        "awakenIcon": "UI_EquipIcon_Bow_Gurabad_Awaken",
+        "nameTextMapHash": 2958179435
+    },
+    "15425": {
+        "icon": "UI_EquipIcon_Bow_Vorpal",
+        "awakenIcon": "UI_EquipIcon_Bow_Vorpal_Awaken",
+        "nameTextMapHash": 2600875323
+    },
     "15501": {
         "icon": "UI_EquipIcon_Bow_Dvalin",
         "awakenIcon": "UI_EquipIcon_Bow_Dvalin_Awaken",
@@ -918,6 +973,11 @@
         "icon": "UI_EquipIcon_Bow_Ayus",
         "awakenIcon": "UI_EquipIcon_Bow_Ayus_Awaken",
         "nameTextMapHash": 1348687251
+    },
+    "15512": {
+        "icon": "UI_EquipIcon_Bow_Pledge",
+        "awakenIcon": "UI_EquipIcon_Bow_Pledge_Awaken",
+        "nameTextMapHash": 2988480723
     },
     "20001": {
         "icon": "UI_EquipIcon_FishingRod",

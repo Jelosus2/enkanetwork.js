@@ -78,6 +78,10 @@ export class Characters {
      * @param language - The language to get the name.
      */
     constructor(data: CharactersAPI, language: AssetFinderOptions["language"]) {
+        let charDepot = '';
+        if (['10000005', '10000007'].includes(data.avatarId.toString()))
+            charDepot = `${data.avatarId}-${data.skillDepotId}`; 
+
         this.characterId = data.avatarId;
         this.properties = new Properties(data.propMap);
         this.stats = new Stats(data.fightPropMap);
@@ -85,14 +89,14 @@ export class Characters {
             ? data.talentIdList.map((data) => new Constellations(data, language))
             : [];
         this.skillDepotId = data.skillDepotId;
-        this.inherentProudSkillList = data.inherentProudSkillList;
+        this.inherentProudSkillList = data.inherentProudSkillList || [];
         this.skills = new Skills(data.skillLevelMap, data.avatarId, data.skillDepotId, language);
         this.skillsExtraLevel = data.proudSkillExtraLevelMap || {};
         this.equipment = new Equipment(data.equipList, language);
         this.friendship = new Friendship(data.fetterInfo);
-        this.assets = new AssetFinder().character(this.characterId).assets;
+        this.assets = new AssetFinder().character(charDepot || this.characterId).assets;
         this.costumeId = data.costumeId || "";
-        this.name = new AssetFinder({ language }).character(this.characterId).name;
+        this.name = new AssetFinder({ language }).character(charDepot || this.characterId).name;
     }
 }
 
