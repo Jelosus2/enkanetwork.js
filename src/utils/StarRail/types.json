@@ -1,0 +1,340 @@
+{
+  "zh-CN": {
+    "Warrior": {
+      "name": "毁灭"
+    },
+    "Rogue": {
+      "name": "巡猎"
+    },
+    "Mage": {
+      "name": "智识"
+    },
+    "Shaman": {
+      "name": "同谐"
+    },
+    "Warlock": {
+      "name": "虚无"
+    },
+    "Knight": {
+      "name": "存护"
+    },
+    "Priest": {
+      "name": "丰饶"
+    },
+    "Unknown": {
+      "name": "通用"
+    }
+  },
+  "zh-TW": {
+    "Warrior": {
+      "name": "毀滅"
+    },
+    "Rogue": {
+      "name": "巡獵"
+    },
+    "Mage": {
+      "name": "智識"
+    },
+    "Shaman": {
+      "name": "同諧"
+    },
+    "Warlock": {
+      "name": "虛無"
+    },
+    "Knight": {
+      "name": "存護"
+    },
+    "Priest": {
+      "name": "豐饒"
+    },
+    "Unknown": {
+      "name": "通用"
+    }
+  },
+  "en": {
+    "Warrior": {
+      "name": "Destruction"
+    },
+    "Rogue": {
+      "name": "The Hunt"
+    },
+    "Mage": {
+      "name": "Erudition"
+    },
+    "Shaman": {
+      "name": "Harmony"
+    },
+    "Warlock": {
+      "name": "Nihility"
+    },
+    "Knight": {
+      "name": "Preservation"
+    },
+    "Priest": {
+      "name": "Abundance"
+    },
+    "Unknown": {
+      "name": "General"
+    }
+  },
+  "de": {
+    "Warrior": {
+      "name": "Die Zerstörung"
+    },
+    "Rogue": {
+      "name": "Die Jagd"
+    },
+    "Mage": {
+      "name": "Die Gelehrsamkeit"
+    },
+    "Shaman": {
+      "name": "Die Harmonie"
+    },
+    "Warlock": {
+      "name": "Die Nichtigkeit"
+    },
+    "Knight": {
+      "name": "Die Bewahrung"
+    },
+    "Priest": {
+      "name": "Der Überfluss"
+    },
+    "Unknown": {
+      "name": "Universal"
+    }
+  },
+  "es": {
+    "Warrior": {
+      "name": "Destrucción"
+    },
+    "Rogue": {
+      "name": "Cacería"
+    },
+    "Mage": {
+      "name": "Erudición"
+    },
+    "Shaman": {
+      "name": "Armonía"
+    },
+    "Warlock": {
+      "name": "Nihilidad"
+    },
+    "Knight": {
+      "name": "Conservación"
+    },
+    "Priest": {
+      "name": "Abundancia"
+    },
+    "Unknown": {
+      "name": "General"
+    }
+  },
+  "fr": {
+    "Warrior": {
+      "name": "La Destruction"
+    },
+    "Rogue": {
+      "name": "La Chasse"
+    },
+    "Mage": {
+      "name": "L'Érudition"
+    },
+    "Shaman": {
+      "name": "L'Harmonie"
+    },
+    "Warlock": {
+      "name": "La Nihilité"
+    },
+    "Knight": {
+      "name": "La Préservation"
+    },
+    "Priest": {
+      "name": "L'Abondance"
+    },
+    "Unknown": {
+      "name": "Général"
+    }
+  },
+  "id": {
+    "Warrior": {
+      "name": "Destruction"
+    },
+    "Rogue": {
+      "name": "Hunt"
+    },
+    "Mage": {
+      "name": "Erudition"
+    },
+    "Shaman": {
+      "name": "Harmony"
+    },
+    "Warlock": {
+      "name": "Nihility"
+    },
+    "Knight": {
+      "name": "Preservation"
+    },
+    "Priest": {
+      "name": "Abundance"
+    },
+    "Unknown": {
+      "name": "Umum"
+    }
+  },
+  "ja": {
+    "Warrior": {
+      "name": "壊滅"
+    },
+    "Rogue": {
+      "name": "巡狩"
+    },
+    "Mage": {
+      "name": "知恵"
+    },
+    "Shaman": {
+      "name": "調和"
+    },
+    "Warlock": {
+      "name": "虚無"
+    },
+    "Knight": {
+      "name": "存護"
+    },
+    "Priest": {
+      "name": "豊穣"
+    },
+    "Unknown": {
+      "name": "共用"
+    }
+  },
+  "ko": {
+    "Warrior": {
+      "name": "파멸"
+    },
+    "Rogue": {
+      "name": "수렵"
+    },
+    "Mage": {
+      "name": "지식"
+    },
+    "Shaman": {
+      "name": "화합"
+    },
+    "Warlock": {
+      "name": "공허"
+    },
+    "Knight": {
+      "name": "보존"
+    },
+    "Priest": {
+      "name": "풍요"
+    },
+    "Unknown": {
+      "name": "범용"
+    }
+  },
+  "pt": {
+    "Warrior": {
+      "name": "A Destruição"
+    },
+    "Rogue": {
+      "name": "A Caça"
+    },
+    "Mage": {
+      "name": "A Erudição"
+    },
+    "Shaman": {
+      "name": "A Harmonia"
+    },
+    "Warlock": {
+      "name": "A Inexistência"
+    },
+    "Knight": {
+      "name": "A Preservação"
+    },
+    "Priest": {
+      "name": "A Abundância"
+    },
+    "Unknown": {
+      "name": "Geral"
+    }
+  },
+  "ru": {
+    "Warrior": {
+      "name": "Разрушение"
+    },
+    "Rogue": {
+      "name": "Охота"
+    },
+    "Mage": {
+      "name": "Эрудиция"
+    },
+    "Shaman": {
+      "name": "Гармония"
+    },
+    "Warlock": {
+      "name": "Небытие"
+    },
+    "Knight": {
+      "name": "Сохранение"
+    },
+    "Priest": {
+      "name": "Изобилие"
+    },
+    "Unknown": {
+      "name": "Обычный"
+    }
+  },
+  "th": {
+    "Warrior": {
+      "name": "ทำลายล้าง"
+    },
+    "Rogue": {
+      "name": "ล่าสังหาร"
+    },
+    "Mage": {
+      "name": "ปัญญา"
+    },
+    "Shaman": {
+      "name": "ประสาน"
+    },
+    "Warlock": {
+      "name": "ลบล้าง"
+    },
+    "Knight": {
+      "name": "อนุรักษ์"
+    },
+    "Priest": {
+      "name": "เฟื่องฟู"
+    },
+    "Unknown": {
+      "name": "ทั่วไป"
+    }
+  },
+  "vi": {
+    "Warrior": {
+      "name": "Hủy Diệt"
+    },
+    "Rogue": {
+      "name": "Săn Bắn"
+    },
+    "Mage": {
+      "name": "Tri Thức"
+    },
+    "Shaman": {
+      "name": "Hòa Hợp"
+    },
+    "Warlock": {
+      "name": "Hư Vô"
+    },
+    "Knight": {
+      "name": "Bảo Hộ"
+    },
+    "Priest": {
+      "name": "Trù Phú"
+    },
+    "Unknown": {
+      "name": "Thông Dụng"
+    }
+  }
+}

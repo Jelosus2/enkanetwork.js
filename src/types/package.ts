@@ -1,6 +1,6 @@
 export interface WrapperOptions {
   userAgent?: string
-  language?: 'en' | 'ru' | 'vi' | 'th' | 'pt' | 'ko' | 'ja' | 'id' | 'fr' | 'es' | 'de' | 'zh-TW' | 'zh-CN' | 'it' | 'tr'
+  language?: "en" | "ru" | "vi" | "th" | "pt" | "ko" | "ja" | "id" | "fr" | "es" | "de" | "zh-TW" | "zh-CN" | "it" | "tr"
   cache?: boolean
 }
 
@@ -51,3 +51,14 @@ export interface WeaponImage {
   awakenIcon: string
 }
 
+export interface ProfilePictureImage {
+  icon: string
+  oldIcon: string
+}
+
+export interface SRCharacterImage {
+  AvatarSideIconPath: string
+  AvatarCutinFrontImgPath: string
+  RankIDList: number[]
+  SkillList: number[]
+}

@@ -1,2 +1,3 @@
-export * from './package'
-export * from './api'
+export * from './genshin';
+export * from './package';
+export * from './starrail';

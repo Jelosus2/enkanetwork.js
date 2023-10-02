@@ -1,5 +1,7 @@
 ## New vs Old Structure
 
+> Needs to get reworked
+
 - [Player Structure](#player-structure)
 - [Enka Profile Structure](#enka-profile-structure)
 

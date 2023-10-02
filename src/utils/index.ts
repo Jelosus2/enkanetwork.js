@@ -1,9 +1,3 @@
-export { default as characters } from './characters.json'
-export { default as costumes } from './costumes.json'
-export { default as hashes } from './hashes.json'
-export { default as namecards } from './namecards.json'
-export { default as skills } from './skills.json'
-export { default as talents } from './talents.json'
-export { default as weapons } from './weapons.json'
-export { default as config } from './config.json'
-export { default as substats } from './substats.json'
+export * from './Genshin';
+export * from './StarRail';
+export { default as config } from './config.json';

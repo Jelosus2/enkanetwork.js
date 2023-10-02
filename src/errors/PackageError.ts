@@ -3,18 +3,18 @@
  * @extends Error
  */
 export class PackageError extends Error {
-    /**
-     * The message of the error.
-     */
-    message: string;
+  /**
+   * The message of the error.
+   */
+  message: string;
 
-    /**
-     * Creates a new `PackageError` instance.
-     * @param message - The message of the error.
-     */
-    constructor(message: string) {
-        super();
+  /**
+   * Creates a new `PackageError` instance.
+   * @param message - The message of the error.
+   */
+  constructor(message: string) {
+    super();
 
-        this.message = message;
-    }
+    this.message = message;
+  }
 }
