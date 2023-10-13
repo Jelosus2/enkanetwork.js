@@ -143,9 +143,9 @@ class SRRecordInfo {
    * @param data - The data of the records.
    */
   constructor(data: SRPlayerRecordInfoAPI) {
-    this.mocLastFinishedFloor = data.challengeInfo.scheduleGroupId || 0;
-    this.fhLastFinishedFloor = data.challengeInfo.scheduleMaxLevel || 0;
-    this.mocId = data.challengeInfo.noneScheduleMaxLevel || 0;
+    this.mocLastFinishedFloor = data.challengeInfo.scheduleMaxLevel || 0;
+    this.fhLastFinishedFloor = data.challengeInfo.noneScheduleMaxLevel || 0;
+    this.mocId = data.challengeInfo.scheduleGroupId || 0;
     this.lightConesObtained = data.equipmentCount || 0;
     this.simulatedUniverseLastFinishedWorld = data.maxRogueChallengeScore || 0;
     this.achievementCount = data.achievementCount || 0;

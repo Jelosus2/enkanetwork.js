@@ -8,6 +8,9 @@ A package to get data from the Enka API, for both Genshin and Star Rail, it also
 <details>
 	<summary>Click to expand</summary>
 
+	- v2.5.1:
+	  - Added Star Rail version 1.4 content.
+	  - Updated the structure of record info to match the API.
 	- v2.5.0 (contains minor breaking changes (./BREAKING_CHANGES.md#from-v221-to-250)):
 	  - Added fully support for Star Rail API.
 	  - Implemented the new profile picture system for Genshin.
@@ -67,7 +70,7 @@ A package to get data from the Enka API, for both Genshin and Star Rail, it also
 	- v1.3.6
 	  - Added 3.2 version content.
 	  - Now you can access to asset names/images directly from characters, namecards, etc objects.
-	  - v1.3.0:
+	- v1.3.0:
 	  - Fixed Ayaka and Mona talents.
 	  - Added missing proudSkillExtraLevelMap.
 	  - Added support for custom User-Agent on requests.

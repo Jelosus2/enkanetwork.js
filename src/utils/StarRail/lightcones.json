@@ -425,11 +425,23 @@
     "EquipmentName": -496174562,
     "ImagePath": "SpriteOutput/LightConeFigures/23013.png"
   },
+  "23014": {
+    "Rarity": 5,
+    "AvatarBaseType": "Warrior",
+    "EquipmentName": -496174567,
+    "ImagePath": "SpriteOutput/LightConeFigures/23014.png"
+  },
   "23015": {
     "Rarity": 5,
     "AvatarBaseType": "Warrior",
     "EquipmentName": -496174568,
     "ImagePath": "SpriteOutput/LightConeFigures/23015.png"
+  },
+  "23016": {
+    "Rarity": 5,
+    "AvatarBaseType": "Rogue",
+    "EquipmentName": -496174565,
+    "ImagePath": "SpriteOutput/LightConeFigures/23016.png"
   },
   "24000": {
     "Rarity": 5,

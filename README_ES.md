@@ -9,6 +9,9 @@ Un paquete para obetener datos de la API de enka, para Genshin y Star Rail, tamb
 <details>
   <summary>Haz click para expandir</summary>
 
+	- v2.5.1:
+	  - Añadido el contenido de la versión 1.4 de Star Rail.
+	  - Actualizada la estructura de los registros del jugador para que coincida con la API.
 	- v2.5.0 (contiene cambios importantes menores (./BREAKING_CHANGES.md#from-v221-to-250)):
 	  - Añadido full soporte para la API de Star Rail.
 	  - Implementado el nuevo sistema de fotos de perfil de Genshin.
