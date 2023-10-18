@@ -8,6 +8,9 @@ A package to get data from the Enka API, for both Genshin and Star Rail, it also
 <details>
 	<summary>Click to expand</summary>
 
+	- v2.5.2:
+	  - Fixed the icon paths of traces.
+	  - Fixed a bug in player's profile pictures of Star Rail.
 	- v2.5.1:
 	  - Added Star Rail version 1.4 content.
 	  - Updated the structure of record info to match the API.

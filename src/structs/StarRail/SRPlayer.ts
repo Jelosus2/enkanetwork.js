@@ -60,7 +60,7 @@ export class SRPlayer {
    * @param data - The data of the player.
    */
   constructor(data: SRPlayerDetails) {
-    this.profilePicture = new SRProfilePicture(data.headIcon);
+    this.profilePicture = data.headIcon ? new SRProfilePicture(data.headIcon) : {} as SRProfilePicture;
     this.username = data.nickname;
     this.level = data.level;
     this.signature = data.signature || "";
