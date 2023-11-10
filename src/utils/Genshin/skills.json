@@ -1391,6 +1391,34 @@
     "nameTextMapHash": 2195272997,
     "icon": "Skill_E_Neuvillette_01"
   },
+  "10881": {
+    "nameTextMapHash": 2401741477,
+    "icon": "Skill_A_Catalyst_MD"
+  },
+  "10882": {
+    "nameTextMapHash": 3157868725,
+    "icon": "Skill_S_Charlotte_01"
+  },
+  "10885": {
+    "nameTextMapHash": 3217089605,
+    "icon": "Skill_E_Charlotte_01"
+  },
+  "10891": {
+    "nameTextMapHash": 4233347141,
+    "icon": "Skill_A_01"
+  },
+  "10892": {
+    "nameTextMapHash": 3819525205,
+    "icon": "Skill_S_Furina_01"
+  },
+  "10893": {
+    "nameTextMapHash": 484674685,
+    "icon": "Skill_S_Furina_02"
+  },
+  "10895": {
+    "nameTextMapHash": 1469226733,
+    "icon": "Skill_E_Furina_01"
+  },
   "11301": {
     "nameTextMapHash": 3802462781,
     "icon": "Skill_A_02"
@@ -1561,7 +1589,7 @@
   },
   "20063": {
     "nameTextMapHash": 1137915773,
-    "icon": "Btn_BounceConjuring_Hit_A_01"
+    "icon": "Skill_Diving_Octopus"
   },
   "20064": {
     "nameTextMapHash": 2573912525,
@@ -1574,6 +1602,10 @@
   "20066": {
     "nameTextMapHash": 2221461965,
     "icon": "Btn_HideAndSeek_Seeker_S_01"
+  },
+  "20067": {
+    "nameTextMapHash": 555050885,
+    "icon": "Skill_Diving_Octopus"
   },
   "20070": {
     "nameTextMapHash": 2208227565,
@@ -2250,5 +2282,13 @@
   "5087010": {
     "nameTextMapHash": 3370753429,
     "icon": "Skill_A_Catalyst_MD"
+  },
+  "5088010": {
+    "nameTextMapHash": 3339419557,
+    "icon": "Skill_A_Catalyst_MD"
+  },
+  "5089010": {
+    "nameTextMapHash": 3507937933,
+    "icon": "Skill_A_01"
   }
 }

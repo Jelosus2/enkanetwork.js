@@ -199,6 +199,16 @@
     "awakenIcon": "UI_EquipIcon_Sword_Mechanic_Awaken",
     "nameTextMapHash": 1790067483
   },
+  "11428": {
+    "icon": "UI_EquipIcon_Sword_Purewill",
+    "awakenIcon": "UI_EquipIcon_Sword_Purewill",
+    "nameTextMapHash": 3016493955
+  },
+  "11429": {
+    "icon": "UI_EquipIcon_Sword_Purewill",
+    "awakenIcon": "UI_EquipIcon_Sword_Purewill",
+    "nameTextMapHash": 594850707
+  },
   "11501": {
     "icon": "UI_EquipIcon_Sword_Falcon",
     "awakenIcon": "UI_EquipIcon_Sword_Falcon_Awaken",
@@ -258,6 +268,11 @@
     "icon": "UI_EquipIcon_Sword_Ayus",
     "awakenIcon": "UI_EquipIcon_Sword_Ayus_Awaken",
     "nameTextMapHash": 275622963
+  },
+  "11513": {
+    "icon": "UI_EquipIcon_Sword_Regalis",
+    "awakenIcon": "UI_EquipIcon_Sword_Regalis_Awaken",
+    "nameTextMapHash": 1473399443
   },
   "12101": {
     "icon": "UI_EquipIcon_Claymore_Aniki",

@@ -1846,5 +1846,53 @@
   "876": {
     "nameTextMapHash": 1739750817,
     "icon": "UI_Talent_S_Neuvillette_04"
+  },
+  "881": {
+    "nameTextMapHash": 2993271985,
+    "icon": "UI_Talent_S_Charlotte_01"
+  },
+  "882": {
+    "nameTextMapHash": 2781039769,
+    "icon": "UI_Talent_S_Charlotte_02"
+  },
+  "883": {
+    "nameTextMapHash": 2635170905,
+    "icon": "UI_Talent_U_Charlotte_01"
+  },
+  "884": {
+    "nameTextMapHash": 1687165865,
+    "icon": "UI_Talent_S_Charlotte_03"
+  },
+  "885": {
+    "nameTextMapHash": 3847359465,
+    "icon": "UI_Talent_U_Charlotte_02"
+  },
+  "886": {
+    "nameTextMapHash": 445668929,
+    "icon": "UI_Talent_S_Charlotte_04"
+  },
+  "891": {
+    "nameTextMapHash": 1796785,
+    "icon": "UI_Talent_S_Furina_01"
+  },
+  "892": {
+    "nameTextMapHash": 3119753889,
+    "icon": "UI_Talent_S_Furina_04"
+  },
+  "893": {
+    "nameTextMapHash": 3349664969,
+    "icon": "UI_Talent_U_Furina_02"
+  },
+  "894": {
+    "nameTextMapHash": 3047423481,
+    "icon": "UI_Talent_S_Furina_03"
+  },
+  "895": {
+    "nameTextMapHash": 2146750841,
+    "icon": "UI_Talent_U_Furina_01"
+  },
+  "896": {
+    "nameTextMapHash": 3889320921,
+    "icon": "UI_Talent_S_Furina_02"
   }
 }

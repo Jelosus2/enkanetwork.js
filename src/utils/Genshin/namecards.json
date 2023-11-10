@@ -3,7 +3,6 @@
     "nameTextMapHash": 3539860852,
     "icon": "UI_NameCardIcon_0",
     "picPath": [
-      "",
       "UI_NameCardPic_0_P"
     ]
   },
@@ -1397,6 +1396,38 @@
     "picPath": [
       "UI_NameCardPic_FD2_Alpha",
       "UI_NameCardPic_FD2_P"
+    ]
+  },
+  "210180": {
+    "nameTextMapHash": 1009805764,
+    "icon": "UI_NameCardIcon_Furina",
+    "picPath": [
+      "UI_NameCardPic_Furina_Alpha",
+      "UI_NameCardPic_Furina_P"
+    ]
+  },
+  "210181": {
+    "nameTextMapHash": 1586228084,
+    "icon": "UI_NameCardIcon_Charlotte",
+    "picPath": [
+      "UI_NameCardPic_Charlotte_Alpha",
+      "UI_NameCardPic_Charlotte_P"
+    ]
+  },
+  "210182": {
+    "nameTextMapHash": 935246276,
+    "icon": "UI_NameCardIcon_FD3",
+    "picPath": [
+      "UI_NameCardPic_FD3_Alpha",
+      "UI_NameCardPic_FD3_P"
+    ]
+  },
+  "210183": {
+    "nameTextMapHash": 2679763348,
+    "icon": "UI_NameCardIcon_Bp28",
+    "picPath": [
+      "UI_NameCardPic_Bp28_Alpha",
+      "UI_NameCardPic_Bp28_P"
     ]
   }
 }

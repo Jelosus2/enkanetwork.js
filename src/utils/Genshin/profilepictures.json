@@ -439,6 +439,16 @@
     "oldIcon": "UI_AvatarIcon_Wriothesley",
     "nameTextMapHash": 2892052
   },
+  "7300": {
+    "icon": "UI_AvatarIcon_Charlotte_Circle",
+    "oldIcon": "UI_AvatarIcon_Charlotte",
+    "nameTextMapHash": 2782129108
+  },
+  "7400": {
+    "icon": "UI_AvatarIcon_Furina_Circle",
+    "oldIcon": "UI_AvatarIcon_Furina",
+    "nameTextMapHash": 3727373268
+  },
   "99999": {
     "icon": "UI_AvatarIcon_Ambor_Circle",
     "oldIcon": "UI_AvatarIcon_Ambor",

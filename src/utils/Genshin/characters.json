@@ -1871,6 +1871,54 @@
       "10875"
     ]
   },
+  "10000088": {
+    "nameTextMapHash": 3831162130,
+    "icon": "UI_AvatarIcon_Charlotte",
+    "sideIcon": "UI_AvatarIcon_Side_Charlotte",
+    "gachaIcon": "UI_Gacha_AvatarImg_Charlotte",
+    "constellations": [
+      "UI_Talent_S_Charlotte_01",
+      "UI_Talent_S_Charlotte_02",
+      "UI_Talent_U_Charlotte_01",
+      "UI_Talent_S_Charlotte_03",
+      "UI_Talent_U_Charlotte_02",
+      "UI_Talent_S_Charlotte_04"
+    ],
+    "skills": {
+      "normalAttack": "Skill_A_Catalyst_MD",
+      "elementalSkill": "Skill_S_Charlotte_01",
+      "elementalBurst": "Skill_E_Charlotte_01"
+    },
+    "skillOrder": [
+      "10881",
+      "10882",
+      "10885"
+    ]
+  },
+  "10000089": {
+    "nameTextMapHash": 2180900234,
+    "icon": "UI_AvatarIcon_Furina",
+    "sideIcon": "UI_AvatarIcon_Side_Furina",
+    "gachaIcon": "UI_Gacha_AvatarImg_Furina",
+    "constellations": [
+      "UI_Talent_S_Furina_01",
+      "UI_Talent_S_Furina_04",
+      "UI_Talent_U_Furina_02",
+      "UI_Talent_S_Furina_03",
+      "UI_Talent_U_Furina_01",
+      "UI_Talent_S_Furina_02"
+    ],
+    "skills": {
+      "normalAttack": "Skill_A_01",
+      "elementalSkill": "Skill_S_Furina_01",
+      "elementalBurst": "Skill_E_Furina_01"
+    },
+    "skillOrder": [
+      "10891",
+      "10892",
+      "10895"
+    ]
+  },
   "10000005-501": {
     "nameTextMapHash": 3816664530,
     "icon": "UI_AvatarIcon_PlayerBoy",

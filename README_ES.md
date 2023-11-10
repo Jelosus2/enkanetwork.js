@@ -9,6 +9,8 @@ Un paquete para obetener datos de la API de enka, para Genshin y Star Rail, tamb
 <details>
   <summary>Haz click para expandir</summary>
 
+	- v2.5.3:
+	  - Añadido el contenido de la versión 4.2 de Genshin.
 	- v2.5.2:
     - Arreglada la ruta de los iconos de los rastros.
 	  - Arreglado un bug sobre las fotos de perfil en Star Rail.
