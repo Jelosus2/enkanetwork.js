@@ -824,6 +824,79 @@
       121312
     ]
   },
+  "1215": {
+    "AvatarName": 1511480176,
+    "Rarity": 4,
+    "Element": "Physical",
+    "AvatarBaseType": "Shaman",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1215.png",
+    "AvatarCutinFrontImgPath": "SpriteOutput/AvatarDrawCard/1215.png",
+    "RankIDList": [
+      121501,
+      121502,
+      121503,
+      121504,
+      121505,
+      121506
+    ],
+    "SkillList": [
+      121501,
+      121502,
+      121503,
+      121504,
+      121506,
+      121507
+    ]
+  },
+  "1217": {
+    "AvatarName": 348680762,
+    "Rarity": 5,
+    "Element": "Wind",
+    "AvatarBaseType": "Priest",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1217.png",
+    "AvatarCutinFrontImgPath": "SpriteOutput/AvatarDrawCard/1217.png",
+    "RankIDList": [
+      121701,
+      121702,
+      121703,
+      121704,
+      121705,
+      121706
+    ],
+    "SkillList": [
+      121701,
+      121702,
+      121703,
+      121704,
+      121706,
+      121707
+    ]
+  },
+  "1302": {
+    "AvatarName": -1956715091,
+    "Rarity": 5,
+    "Element": "Physical",
+    "AvatarBaseType": "Mage",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1302.png",
+    "AvatarCutinFrontImgPath": "SpriteOutput/AvatarDrawCard/1302.png",
+    "RankIDList": [
+      130201,
+      130202,
+      130203,
+      130204,
+      130205,
+      130206
+    ],
+    "SkillList": [
+      130201,
+      130202,
+      130203,
+      130204,
+      130206,
+      130207,
+      130214
+    ]
+  },
   "8001": {
     "AvatarName": -531793818,
     "Rarity": 5,

@@ -76,7 +76,7 @@ export class CacheHandler {
     try {
       const data = JSON.parse(readFileSync(cacheFilePath, "utf-8"));
       const date = new Date();
-      date.setSeconds(date.getSeconds() - data?.ttl);
+      date.setSeconds(date.getSeconds() - (data?.ttl || 60));
       const fileTime = statSync(cacheFilePath).mtime;
 
       if (date > fileTime) {

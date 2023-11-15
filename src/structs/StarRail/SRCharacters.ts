@@ -2,14 +2,17 @@ import { SRLightCone } from "./SRLightCone";
 import { SRRelics } from "./SRRelics";
 import { SRSkillTreeList } from "./SRSkillTreeList";
 import { AssetFinder } from "../../client";
-import { srcharacters as sContent, types as tContent } from "../../utils";
+import { srcharacters as sContent, lightcones as lContent, types as tContent } from "../../utils";
 import { SRCharacterImages } from "../AssetFinder";
 import {
   AssetFinderOptions,
   SRShowcaseAPI,
 } from "../../types";
+import { LayerGenerator, PropState } from "../../handlers";
+import { SRStats } from "./SRStats";
 
 const characters: { [key: string]: any } = sContent;
+const lightcones: { [key: string]: any } = lContent;
 const types: { [key: string]: any } = tContent;
 
 /**
@@ -125,5 +128,23 @@ export class SRCharacters {
     this.eidolons = data.rank || 0;
     this._assist = data._assist || false;
     this.assets = finder.character(data.avatarId).assets;
+  }
+
+  stats(): SRStats[] {
+    const character = characters[this.characterId];
+    const propState = new PropState();
+
+    propState.add(LayerGenerator.character({ characterId: this.characterId, ascension: this.ascension, level: this.level }));
+    if (this.lightcone)
+      propState.add(LayerGenerator.weapon(this.lightcone));
+    if (this.lightcone && lightcones[this.lightcone.lightConeId].AvatarBaseType == character?.AvatarBaseType)
+      propState.add(LayerGenerator.weaponAffix(this.lightcone));
+    propState.add(LayerGenerator.relic(this.relics));
+    propState.add(LayerGenerator.relicSet(this.relics));
+    propState.add(LayerGenerator.skillTree(this.traces));
+
+    let props = propState.sum().props; 
+
+    return props.map((data) => new SRStats(data));
   }
 }

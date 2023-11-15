@@ -97,3 +97,9 @@ export interface SRRelicPropsAPI {
   type: string
   value: number
 }
+
+export interface SRCharacterStats {
+  type: string;
+  value: number;
+  base: number;
+}

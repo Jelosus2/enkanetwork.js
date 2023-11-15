@@ -1,6 +1,7 @@
 import { AssetFinderOptions, SRSkillTreeListAPI } from "../../types";
 import { AssetFinder } from "../../client";
 import { skilltree as sContent, srhashes as hContent } from "../../utils";
+import { ifProp } from "../../handlers";
 
 const skillTree: { [key: string]: any } = sContent;
 const hashes: { [key: string]: any } = hContent;
@@ -137,8 +138,8 @@ class SRStatus {
   /**
    * @returns The parsed value of the stat.
    */
-  parsedValue(): string {
-    return `${(Math.floor(this.cleanup(this.value) * 1000) / 10).toFixed(1)}%`;
+  parsedValue(): number | string {
+    return ifProp(this.cleanup(this.value), this.type);
   }
 
   private cleanup(v: number): number {

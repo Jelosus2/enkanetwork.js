@@ -5,6 +5,7 @@ import {
   SRLightConeAPI,
   SRLightConePropsAPI,
 } from "../../types";
+import { ifProp } from "../../handlers";
 
 const lightcones: { [key: string]: any } = lContent;
 
@@ -108,6 +109,6 @@ class SRLightConeStats {
    * @returns The parsed value of the stat. 
    */
   parsedValue(): number {
-    return Math.floor(this.value);
+    return ifProp(this.value, this.type) as number;
   }
 }

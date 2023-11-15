@@ -2,6 +2,7 @@ export { default as srcharacters } from './characters.json';
 export { default as srhashes } from './hashes.json';
 export { default as icons } from './icons.json';
 export { default as lightcones } from './lightcones.json';
+export { default as meta } from './meta.json';
 export { default as ranks } from './ranks.json';
 export { default as relics } from './relics.json';
 export { default as srskills } from './skills.json';

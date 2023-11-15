@@ -9,6 +9,9 @@ Un paquete para obetener datos de la API de enka, para Genshin y Star Rail, tamb
 <details>
   <summary>Haz click para expandir</summary>
 
+	- v2.6.0:
+	  - Añadido el calculo de stats de los personajes en Star Rail.
+	  - Añadido el contenido de la versión de 1.5 de Star Rail.
 	- v2.5.3:
 	  - Añadido el contenido de la versión 4.2 de Genshin.
 	- v2.5.2:
@@ -105,6 +108,7 @@ Un paquete para obetener datos de la API de enka, para Genshin y Star Rail, tamb
 	- [¿He obtenido el nombre del icono, pero donde está la imagen?](#¿he-obtenido-el-nombreruta-del-icono-pero-donde-está-la-imagen)
 - [Posición de Ratros](#posición-de-ratros)
 - [Creador y Soporte](#creador-y-soporte) 
+- [Créditos](#créditos)
 
 ## Wrapper
 
@@ -261,3 +265,8 @@ La posición de los rastros depende del tipo de vía del personaje. Aquí muestr
 Creador: [Jelosus1](https://github.com/Jelosus2/)
 Si necesitas soporte puedes contactarme por discord: Jelosus1.
 Unete al [servidor de discord de enka](https://discord.gg/eUv6gcsjqe). Puedes mencionarme allí también para obtener soporte.
+
+## Créditos
+
+- Algoinde
+	- Aportó el código base para hacer los calculos de los stats de los personajes en Star Rail.

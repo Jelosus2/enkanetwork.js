@@ -4,3 +4,4 @@ export * from './SRPlayer';
 export * from './SRPlayerData';
 export * from './SRRelics';
 export * from './SRSkillTreeList';
+export * from './SRStats';

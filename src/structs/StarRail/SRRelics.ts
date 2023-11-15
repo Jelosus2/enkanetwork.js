@@ -1,3 +1,4 @@
+import { ifProp } from "../../handlers";
 import { SRRelicList, SRRelicPropsAPI, SRSubAffixListAPI } from "../../types";
 
 /**
@@ -129,11 +130,6 @@ class SRAffixes {
    * @returns The parsed value of the stat
    */
   pasedValue(): number | string {
-    let isPercent = /(Ratio|Rate|Chance|Probability|Resistance|Damage)/i.test(this.type);
-    if (/(Speed)/i.test(this.type)) return +this.value.toFixed(1);
-
-    return isPercent
-      ? `${(Math.floor(this.value * 1000) / 10).toFixed(1)}%`
-      : Math.floor(this.value);
+    return ifProp(this.value, this.type);
   }
 }

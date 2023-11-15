@@ -851,6 +851,82 @@
     "Name": 1115724632,
     "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1213_Normal04.png"
   },
+  "121501": {
+    "Name": 1834833566,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1215_Normal.png"
+  },
+  "121502": {
+    "Name": -2056849203,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1215_BP.png"
+  },
+  "121503": {
+    "Name": 672034152,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1215_Ultra.png"
+  },
+  "121504": {
+    "Name": 1075318679,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1215_Passive.png"
+  },
+  "121506": {
+    "Name": -87480735,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1215_Normal.png"
+  },
+  "121507": {
+    "Name": -1653564676,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1215_Maze.png"
+  },
+  "121701": {
+    "Name": 2117158568,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1217_Normal.png"
+  },
+  "121702": {
+    "Name": 551074627,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1217_BP.png"
+  },
+  "121703": {
+    "Name": -1015009314,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1217_Ultra.png"
+  },
+  "121704": {
+    "Name": 1357643681,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1217_Passive.png"
+  },
+  "121706": {
+    "Name": -1774524201,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1217_Normal.png"
+  },
+  "121707": {
+    "Name": 954359154,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1217_Maze.png"
+  },
+  "130201": {
+    "Name": 1014451517,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1302_Normal.png"
+  },
+  "130202": {
+    "Name": -551632424,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1302_BP.png"
+  },
+  "130203": {
+    "Name": -2117716365,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1302_Ultra.png"
+  },
+  "130204": {
+    "Name": 611166990,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1302_Passive.png"
+  },
+  "130206": {
+    "Name": 1773966404,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1302_Normal.png"
+  },
+  "130207": {
+    "Name": 207882463,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1302_Maze.png"
+  },
+  "130214": {
+    "Name": 611166989,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1302_Ultra02.png"
+  },
   "800101": {
     "Name": -1168687644,
     "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_8001_Normal.png"
