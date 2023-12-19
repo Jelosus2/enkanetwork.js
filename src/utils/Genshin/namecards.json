@@ -1429,5 +1429,29 @@
       "UI_NameCardPic_Bp28_Alpha",
       "UI_NameCardPic_Bp28_P"
     ]
+  },
+  "210184": {
+    "nameTextMapHash": 4045353212,
+    "icon": "UI_NameCardIcon_Navia",
+    "picPath": [
+      "UI_NameCardPic_Navia_Alpha",
+      "UI_NameCardPic_Navia_P"
+    ]
+  },
+  "210185": {
+    "nameTextMapHash": 3595817204,
+    "icon": "UI_NameCardIcon_Chevreuse",
+    "picPath": [
+      "UI_NameCardPic_Chevreuse_Alpha",
+      "UI_NameCardPic_Chevreuse_P"
+    ]
+  },
+  "210186": {
+    "nameTextMapHash": 1957949780,
+    "icon": "UI_NameCardIcon_Bp29",
+    "picPath": [
+      "UI_NameCardPic_Bp29_Alpha",
+      "UI_NameCardPic_Bp29_P"
+    ]
   }
 }

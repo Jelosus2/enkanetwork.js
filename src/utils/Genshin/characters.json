@@ -1919,6 +1919,54 @@
       "10895"
     ]
   },
+  "10000090": {
+    "nameTextMapHash": 540313842,
+    "icon": "UI_AvatarIcon_Chevreuse",
+    "sideIcon": "UI_AvatarIcon_Side_Chevreuse",
+    "gachaIcon": "UI_Gacha_AvatarImg_Chevreuse",
+    "constellations": [
+      "UI_Talent_S_Chevreuse_01",
+      "UI_Talent_S_Chevreuse_02",
+      "UI_Talent_U_Chevreuse_01",
+      "UI_Talent_S_Chevreuse_03",
+      "UI_Talent_U_Chevreuse_02",
+      "UI_Talent_S_Chevreuse_04"
+    ],
+    "skills": {
+      "normalAttack": "Skill_A_03",
+      "elementalSkill": "Skill_S_Chevreuse_01",
+      "elementalBurst": "Skill_E_Chevreuse_01"
+    },
+    "skillOrder": [
+      "10901",
+      "10902",
+      "10905"
+    ]
+  },
+  "10000091": {
+    "nameTextMapHash": 2877588578,
+    "icon": "UI_AvatarIcon_Navia",
+    "sideIcon": "UI_AvatarIcon_Side_Navia",
+    "gachaIcon": "UI_Gacha_AvatarImg_Navia",
+    "constellations": [
+      "UI_Talent_S_Navia_01",
+      "UI_Talent_S_Navia_02",
+      "UI_Talent_U_Navia_01",
+      "UI_Talent_S_Navia_03",
+      "UI_Talent_U_Navia_02",
+      "UI_Talent_S_Navia_04"
+    ],
+    "skills": {
+      "normalAttack": "Skill_A_04",
+      "elementalSkill": "Skill_S_Navia_01",
+      "elementalBurst": "Skill_E_Navia_01"
+    },
+    "skillOrder": [
+      "10911",
+      "10912",
+      "10915"
+    ]
+  },
   "10000005-501": {
     "nameTextMapHash": 3816664530,
     "icon": "UI_AvatarIcon_PlayerBoy",

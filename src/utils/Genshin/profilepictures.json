@@ -449,6 +449,16 @@
     "oldIcon": "UI_AvatarIcon_Furina",
     "nameTextMapHash": 3727373268
   },
+  "7500": {
+    "icon": "UI_AvatarIcon_Navia_Circle",
+    "oldIcon": "UI_AvatarIcon_Navia",
+    "nameTextMapHash": 3420068796
+  },
+  "7600": {
+    "icon": "UI_AvatarIcon_Chevreuse_Circle",
+    "oldIcon": "UI_AvatarIcon_Chevreuse",
+    "nameTextMapHash": 241782844
+  },
   "99999": {
     "icon": "UI_AvatarIcon_Ambor_Circle",
     "oldIcon": "UI_AvatarIcon_Ambor",

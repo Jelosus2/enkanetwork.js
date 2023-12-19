@@ -9,6 +9,8 @@ Un paquete para obetener datos de la API de enka, para Genshin y Star Rail, tamb
 <details>
   <summary>Haz click para expandir</summary>
 
+	- v2.6.1:
+	  - Añadido el contenido de la versión 4.3 de Genshin.
 	- v2.6.0:
 	  - Añadido el calculo de stats de los personajes en Star Rail.
 	  - Añadido el contenido de la versión de 1.5 de Star Rail.

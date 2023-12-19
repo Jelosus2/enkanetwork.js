@@ -409,6 +409,11 @@
     "awakenIcon": "UI_EquipIcon_Claymore_Vorpal_Awaken",
     "nameTextMapHash": 2077869763
   },
+  "12426": {
+    "icon": "UI_EquipIcon_Claymore_Champion",
+    "awakenIcon": "UI_EquipIcon_Claymore_Champion_Awaken",
+    "nameTextMapHash": 933442195
+  },
   "12427": {
     "icon": "UI_EquipIcon_Claymore_Mechanic",
     "awakenIcon": "UI_EquipIcon_Claymore_Mechanic_Awaken",
@@ -463,6 +468,11 @@
     "icon": "UI_EquipIcon_Claymore_Deshret",
     "awakenIcon": "UI_EquipIcon_Claymore_Deshret_Awaken",
     "nameTextMapHash": 2834063555
+  },
+  "12512": {
+    "icon": "UI_EquipIcon_Claymore_GoldenVerdict",
+    "awakenIcon": "UI_EquipIcon_Claymore_GoldenVerdict_Awaken",
+    "nameTextMapHash": 3812523339
   },
   "13101": {
     "icon": "UI_EquipIcon_Pole_Gewalt",

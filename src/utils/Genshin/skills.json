@@ -1419,6 +1419,30 @@
     "nameTextMapHash": 1469226733,
     "icon": "Skill_E_Furina_01"
   },
+  "10901": {
+    "nameTextMapHash": 1264627869,
+    "icon": "Skill_A_03"
+  },
+  "10902": {
+    "nameTextMapHash": 2811155029,
+    "icon": "Skill_S_Chevreuse_01"
+  },
+  "10905": {
+    "nameTextMapHash": 1517901117,
+    "icon": "Skill_E_Chevreuse_01"
+  },
+  "10911": {
+    "nameTextMapHash": 2696840005,
+    "icon": "Skill_A_04"
+  },
+  "10912": {
+    "nameTextMapHash": 4005542485,
+    "icon": "Skill_S_Navia_01"
+  },
+  "10915": {
+    "nameTextMapHash": 3301203725,
+    "icon": "Skill_E_Navia_01"
+  },
   "11301": {
     "nameTextMapHash": 3802462781,
     "icon": "Skill_A_02"
@@ -2290,5 +2314,13 @@
   "5089010": {
     "nameTextMapHash": 3507937933,
     "icon": "Skill_A_01"
+  },
+  "5090010": {
+    "nameTextMapHash": 1182583677,
+    "icon": "Skill_A_03"
+  },
+  "5091010": {
+    "nameTextMapHash": 1292719181,
+    "icon": "Skill_A_04"
   }
 }
