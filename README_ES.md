@@ -9,6 +9,8 @@ Un paquete para obetener datos de la API de enka, para Genshin y Star Rail, tamb
 <details>
   <summary>Haz click para expandir</summary>
 
+	- v2.6.3:
+	  - Añadido el contenido de la versión 1.6 de Star Rail.
 	- v2.6.2:
 	  - Me he olvidado de incluir algunas propiedades en el json de los hashes de Genshin :)
 	- v2.6.1:

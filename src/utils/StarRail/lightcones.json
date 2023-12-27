@@ -461,6 +461,18 @@
     "EquipmentName": -496174571,
     "ImagePath": "SpriteOutput/LightConeFigures/23018.png"
   },
+  "23019": {
+    "Rarity": 5,
+    "AvatarBaseType": "Shaman",
+    "EquipmentName": -496174572,
+    "ImagePath": "SpriteOutput/LightConeFigures/23019.png"
+  },
+  "23020": {
+    "Rarity": 5,
+    "AvatarBaseType": "Rogue",
+    "EquipmentName": -92890036,
+    "ImagePath": "SpriteOutput/LightConeFigures/23020.png"
+  },
   "24000": {
     "Rarity": 5,
     "AvatarBaseType": "Warrior",

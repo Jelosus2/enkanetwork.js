@@ -1231,6 +1231,42 @@
     "Name": -407913238,
     "SkillAddLevelList": {}
   },
+  "121401": {
+    "IconPath": "SpriteOutput/SkillIcons/SkillIcon_1214_Rank1.png",
+    "Name": -407913398,
+    "SkillAddLevelList": {}
+  },
+  "121402": {
+    "IconPath": "SpriteOutput/SkillIcons/SkillIcon_1214_Rank2.png",
+    "Name": -407913401,
+    "SkillAddLevelList": {}
+  },
+  "121403": {
+    "IconPath": "SpriteOutput/SkillIcons/SkillIcon_1214_BP.png",
+    "Name": -407913400,
+    "SkillAddLevelList": {
+      "121401": 1,
+      "121402": 2
+    }
+  },
+  "121404": {
+    "IconPath": "SpriteOutput/SkillIcons/SkillIcon_1214_Rank4.png",
+    "Name": -407913395,
+    "SkillAddLevelList": {}
+  },
+  "121405": {
+    "IconPath": "SpriteOutput/SkillIcons/SkillIcon_1214_Ultra.png",
+    "Name": -407913394,
+    "SkillAddLevelList": {
+      "121403": 2,
+      "121404": 2
+    }
+  },
+  "121406": {
+    "IconPath": "SpriteOutput/SkillIcons/SkillIcon_1214_Rank6.png",
+    "Name": -407913397,
+    "SkillAddLevelList": {}
+  },
   "121501": {
     "IconPath": "SpriteOutput/SkillIcons/SkillIcon_1215_Rank1.png",
     "Name": -407913303,
@@ -1338,6 +1374,78 @@
   "130206": {
     "IconPath": "SpriteOutput/SkillIcons/SkillIcon_1302_Rank6.png",
     "Name": -1994201275,
+    "SkillAddLevelList": {}
+  },
+  "130301": {
+    "IconPath": "SpriteOutput/SkillIcons/SkillIcon_1303_Rank1.png",
+    "Name": -1994201241,
+    "SkillAddLevelList": {}
+  },
+  "130302": {
+    "IconPath": "SpriteOutput/SkillIcons/SkillIcon_1303_Rank2.png",
+    "Name": -1994201240,
+    "SkillAddLevelList": {}
+  },
+  "130303": {
+    "IconPath": "SpriteOutput/SkillIcons/SkillIcon_1303_Ultra.png",
+    "Name": -1994201239,
+    "SkillAddLevelList": {
+      "130303": 2,
+      "130304": 2
+    }
+  },
+  "130304": {
+    "IconPath": "SpriteOutput/SkillIcons/SkillIcon_1303_Rank4.png",
+    "Name": -1994201246,
+    "SkillAddLevelList": {}
+  },
+  "130305": {
+    "IconPath": "SpriteOutput/SkillIcons/SkillIcon_1303_BP.png",
+    "Name": -1994201245,
+    "SkillAddLevelList": {
+      "130301": 1,
+      "130302": 2
+    }
+  },
+  "130306": {
+    "IconPath": "SpriteOutput/SkillIcons/SkillIcon_1303_Rank6.png",
+    "Name": -1994201244,
+    "SkillAddLevelList": {}
+  },
+  "130501": {
+    "IconPath": "SpriteOutput/SkillIcons/SkillIcon_1305_Rank1.png",
+    "Name": -1994201307,
+    "SkillAddLevelList": {}
+  },
+  "130502": {
+    "IconPath": "SpriteOutput/SkillIcons/SkillIcon_1305_Rank2.png",
+    "Name": -1994201310,
+    "SkillAddLevelList": {}
+  },
+  "130503": {
+    "IconPath": "SpriteOutput/SkillIcons/SkillIcon_1305_Ultra.png",
+    "Name": -1994201309,
+    "SkillAddLevelList": {
+      "130501": 1,
+      "130503": 2
+    }
+  },
+  "130504": {
+    "IconPath": "SpriteOutput/SkillIcons/SkillIcon_1305_Rank4.png",
+    "Name": -1994201304,
+    "SkillAddLevelList": {}
+  },
+  "130505": {
+    "IconPath": "SpriteOutput/SkillIcons/SkillIcon_1305_BP.png",
+    "Name": -1994201303,
+    "SkillAddLevelList": {
+      "130502": 2,
+      "130504": 2
+    }
+  },
+  "130506": {
+    "IconPath": "SpriteOutput/SkillIcons/SkillIcon_1305_Rank6.png",
+    "Name": -1994201306,
     "SkillAddLevelList": {}
   },
   "800101": {
