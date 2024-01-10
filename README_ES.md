@@ -11,8 +11,8 @@ Un paquete para obetener datos de la API de enka, para Genshin y Star Rail, tamb
 
 	- v2.6.5:
 	  - Arreglado el error donde los valores del Salón olvidado y la Memoria del Caos eran incorrectos.
-		- Añadidos los elementos de los personajes en Genshin Impact.
-		- Cambiado como funciona `fhLastFinishedFloor` para añadir los valores del último piso acabado para jarilo vi y el xianzhou luofu. Revisa los cambios importantes (BREAKING_CHANGES.md)
+	  - Añadidos los elementos de los personajes en Genshin Impact.
+	  - Cambiado como funciona `fhLastFinishedFloor` para añadir los valores del último piso acabado para jarilo vi y el xianzhou luofu. Revisa los cambios importantes (BREAKING_CHANGES.md)
 	- v2.6.3:
 	  - Añadido el contenido de la versión 1.6 de Star Rail.
 	- v2.6.2:

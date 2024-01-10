@@ -10,8 +10,8 @@ A package to get data from the Enka API, for both Genshin and Star Rail, it also
 
 	- v2.6.5:
 	  - Fixed the issue of MoC and FH finished floors being incorrect.
-		- Added character element for Genshin Impact.
-		- Changed the way `fhLastFinishedFloor` works adding the last finished floors for jarilo vi and the xianzhou luofu. Check the breaking changes (BREAKING_CHANGES.md)
+	  - Added character element for Genshin Impact.
+	  - Changed the way `fhLastFinishedFloor` works adding the last finished floors for jarilo vi and the xianzhou luofu. Check the breaking changes (BREAKING_CHANGES.md)
 	- v2.6.3:
 	  - Added Star Rail 1.6 version content.
 	- v2.6.2:
