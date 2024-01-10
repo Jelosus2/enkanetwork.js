@@ -1,6 +1,7 @@
 {
   "10000002": {
     "nameTextMapHash": 1006042610,
+    "element": "Cryo",
     "icon": "UI_AvatarIcon_Ayaka",
     "sideIcon": "UI_AvatarIcon_Side_Ayaka",
     "gachaIcon": "UI_Gacha_AvatarImg_Ayaka",
@@ -32,6 +33,7 @@
   },
   "10000003": {
     "nameTextMapHash": 3221566250,
+    "element": "Anemo",
     "icon": "UI_AvatarIcon_Qin",
     "sideIcon": "UI_AvatarIcon_Side_Qin",
     "gachaIcon": "UI_Gacha_AvatarImg_Qin",
@@ -68,6 +70,7 @@
   },
   "10000005": {
     "nameTextMapHash": 1533656818,
+    "element": "Anemo",
     "icon": "UI_AvatarIcon_PlayerBoy",
     "sideIcon": "UI_AvatarIcon_Side_PlayerBoy",
     "gachaIcon": "UI_Gacha_AvatarImg_PlayerBoy",
@@ -92,6 +95,7 @@
   },
   "10000006": {
     "nameTextMapHash": 3344622722,
+    "element": "Electro",
     "icon": "UI_AvatarIcon_Lisa",
     "sideIcon": "UI_AvatarIcon_Side_Lisa",
     "gachaIcon": "UI_Gacha_AvatarImg_Lisa",
@@ -123,6 +127,7 @@
   },
   "10000007": {
     "nameTextMapHash": 3816664530,
+    "element": "Anemo",
     "icon": "UI_AvatarIcon_PlayerGirl",
     "sideIcon": "UI_AvatarIcon_Side_PlayerGirl",
     "gachaIcon": "UI_Gacha_AvatarImg_PlayerGirl",
@@ -147,6 +152,7 @@
   },
   "10000014": {
     "nameTextMapHash": 3775299170,
+    "element": "Hydro",
     "icon": "UI_AvatarIcon_Barbara",
     "sideIcon": "UI_AvatarIcon_Side_Barbara",
     "gachaIcon": "UI_Gacha_AvatarImg_Barbara",
@@ -178,6 +184,7 @@
   },
   "10000015": {
     "nameTextMapHash": 4119663210,
+    "element": "Cryo",
     "icon": "UI_AvatarIcon_Kaeya",
     "sideIcon": "UI_AvatarIcon_Side_Kaeya",
     "gachaIcon": "UI_Gacha_AvatarImg_Kaeya",
@@ -209,6 +216,7 @@
   },
   "10000016": {
     "nameTextMapHash": 3608180322,
+    "element": "Pyro",
     "icon": "UI_AvatarIcon_Diluc",
     "sideIcon": "UI_AvatarIcon_Side_Diluc",
     "gachaIcon": "UI_Gacha_AvatarImg_Diluc",
@@ -240,6 +248,7 @@
   },
   "10000020": {
     "nameTextMapHash": 4160147242,
+    "element": "Electro",
     "icon": "UI_AvatarIcon_Razor",
     "sideIcon": "UI_AvatarIcon_Side_Razor",
     "gachaIcon": "UI_Gacha_AvatarImg_Razor",
@@ -264,6 +273,7 @@
   },
   "10000021": {
     "nameTextMapHash": 1966438658,
+    "element": "Pyro",
     "icon": "UI_AvatarIcon_Ambor",
     "sideIcon": "UI_AvatarIcon_Side_Ambor",
     "gachaIcon": "UI_Gacha_AvatarImg_Ambor",
@@ -295,6 +305,7 @@
   },
   "10000022": {
     "nameTextMapHash": 2466140362,
+    "element": "Anemo",
     "icon": "UI_AvatarIcon_Venti",
     "sideIcon": "UI_AvatarIcon_Side_Venti",
     "gachaIcon": "UI_Gacha_AvatarImg_Venti",
@@ -319,6 +330,7 @@
   },
   "10000023": {
     "nameTextMapHash": 1130996346,
+    "element": "Pyro",
     "icon": "UI_AvatarIcon_Xiangling",
     "sideIcon": "UI_AvatarIcon_Side_Xiangling",
     "gachaIcon": "UI_Gacha_AvatarImg_Xiangling",
@@ -343,6 +355,7 @@
   },
   "10000024": {
     "nameTextMapHash": 2646367730,
+    "element": "Electro",
     "icon": "UI_AvatarIcon_Beidou",
     "sideIcon": "UI_AvatarIcon_Side_Beidou",
     "gachaIcon": "UI_Gacha_AvatarImg_Beidou",
@@ -367,6 +380,7 @@
   },
   "10000025": {
     "nameTextMapHash": 4197635682,
+    "element": "Hydro",
     "icon": "UI_AvatarIcon_Xingqiu",
     "sideIcon": "UI_AvatarIcon_Side_Xingqiu",
     "gachaIcon": "UI_Gacha_AvatarImg_Xingqiu",
@@ -391,6 +405,7 @@
   },
   "10000026": {
     "nameTextMapHash": 1021947690,
+    "element": "Anemo",
     "icon": "UI_AvatarIcon_Xiao",
     "sideIcon": "UI_AvatarIcon_Side_Xiao",
     "gachaIcon": "UI_Gacha_AvatarImg_Xiao",
@@ -415,6 +430,7 @@
   },
   "10000027": {
     "nameTextMapHash": 4127888970,
+    "element": "Geo",
     "icon": "UI_AvatarIcon_Ningguang",
     "sideIcon": "UI_AvatarIcon_Side_Ningguang",
     "gachaIcon": "UI_Gacha_AvatarImg_Ningguang",
@@ -446,6 +462,7 @@
   },
   "10000029": {
     "nameTextMapHash": 3339083250,
+    "element": "Pyro",
     "icon": "UI_AvatarIcon_Klee",
     "sideIcon": "UI_AvatarIcon_Side_Klee",
     "gachaIcon": "UI_Gacha_AvatarImg_Klee",
@@ -477,6 +494,7 @@
   },
   "10000030": {
     "nameTextMapHash": 3862787418,
+    "element": "Geo",
     "icon": "UI_AvatarIcon_Zhongli",
     "sideIcon": "UI_AvatarIcon_Side_Zhongli",
     "gachaIcon": "UI_Gacha_AvatarImg_Zhongli",
@@ -501,6 +519,7 @@
   },
   "10000031": {
     "nameTextMapHash": 3277782506,
+    "element": "Electro",
     "icon": "UI_AvatarIcon_Fischl",
     "sideIcon": "UI_AvatarIcon_Side_Fischl",
     "gachaIcon": "UI_Gacha_AvatarImg_Fischl",
@@ -532,6 +551,7 @@
   },
   "10000032": {
     "nameTextMapHash": 968893378,
+    "element": "Pyro",
     "icon": "UI_AvatarIcon_Bennett",
     "sideIcon": "UI_AvatarIcon_Side_Bennett",
     "gachaIcon": "UI_Gacha_AvatarImg_Bennett",
@@ -556,6 +576,7 @@
   },
   "10000033": {
     "nameTextMapHash": 3847143266,
+    "element": "Hydro",
     "icon": "UI_AvatarIcon_Tartaglia",
     "sideIcon": "UI_AvatarIcon_Side_Tartaglia",
     "gachaIcon": "UI_Gacha_AvatarImg_Tartaglia",
@@ -580,6 +601,7 @@
   },
   "10000034": {
     "nameTextMapHash": 1921418842,
+    "element": "Geo",
     "icon": "UI_AvatarIcon_Noel",
     "sideIcon": "UI_AvatarIcon_Side_Noel",
     "gachaIcon": "UI_Gacha_AvatarImg_Noel",
@@ -604,6 +626,7 @@
   },
   "10000035": {
     "nameTextMapHash": 168956722,
+    "element": "Cryo",
     "icon": "UI_AvatarIcon_Qiqi",
     "sideIcon": "UI_AvatarIcon_Side_Qiqi",
     "gachaIcon": "UI_Gacha_AvatarImg_Qiqi",
@@ -628,6 +651,7 @@
   },
   "10000036": {
     "nameTextMapHash": 2876340530,
+    "element": "Cryo",
     "icon": "UI_AvatarIcon_Chongyun",
     "sideIcon": "UI_AvatarIcon_Side_Chongyun",
     "gachaIcon": "UI_Gacha_AvatarImg_Chongyun",
@@ -652,6 +676,7 @@
   },
   "10000037": {
     "nameTextMapHash": 2679781122,
+    "element": "Cryo",
     "icon": "UI_AvatarIcon_Ganyu",
     "sideIcon": "UI_AvatarIcon_Side_Ganyu",
     "gachaIcon": "UI_Gacha_AvatarImg_Ganyu",
@@ -676,6 +701,7 @@
   },
   "10000038": {
     "nameTextMapHash": 4108620722,
+    "element": "Geo",
     "icon": "UI_AvatarIcon_Albedo",
     "sideIcon": "UI_AvatarIcon_Side_Albedo",
     "gachaIcon": "UI_Gacha_AvatarImg_Albedo",
@@ -700,6 +726,7 @@
   },
   "10000039": {
     "nameTextMapHash": 1468367538,
+    "element": "Cryo",
     "icon": "UI_AvatarIcon_Diona",
     "sideIcon": "UI_AvatarIcon_Side_Diona",
     "gachaIcon": "UI_Gacha_AvatarImg_Diona",
@@ -724,6 +751,7 @@
   },
   "10000041": {
     "nameTextMapHash": 1113306282,
+    "element": "Hydro",
     "icon": "UI_AvatarIcon_Mona",
     "sideIcon": "UI_AvatarIcon_Side_Mona",
     "gachaIcon": "UI_Gacha_AvatarImg_Mona",
@@ -755,6 +783,7 @@
   },
   "10000042": {
     "nameTextMapHash": 1864015138,
+    "element": "Electro",
     "icon": "UI_AvatarIcon_Keqing",
     "sideIcon": "UI_AvatarIcon_Side_Keqing",
     "gachaIcon": "UI_Gacha_AvatarImg_Keqing",
@@ -786,6 +815,7 @@
   },
   "10000043": {
     "nameTextMapHash": 1053433018,
+    "element": "Anemo",
     "icon": "UI_AvatarIcon_Sucrose",
     "sideIcon": "UI_AvatarIcon_Side_Sucrose",
     "gachaIcon": "UI_Gacha_AvatarImg_Sucrose",
@@ -810,6 +840,7 @@
   },
   "10000044": {
     "nameTextMapHash": 4273845410,
+    "element": "Pyro",
     "icon": "UI_AvatarIcon_Xinyan",
     "sideIcon": "UI_AvatarIcon_Side_Xinyan",
     "gachaIcon": "UI_Gacha_AvatarImg_Xinyan",
@@ -834,6 +865,7 @@
   },
   "10000045": {
     "nameTextMapHash": 4260733330,
+    "element": "Cryo",
     "icon": "UI_AvatarIcon_Rosaria",
     "sideIcon": "UI_AvatarIcon_Side_Rosaria",
     "gachaIcon": "UI_Gacha_AvatarImg_Rosaria",
@@ -865,6 +897,7 @@
   },
   "10000046": {
     "nameTextMapHash": 1940919994,
+    "element": "Pyro",
     "icon": "UI_AvatarIcon_Hutao",
     "sideIcon": "UI_AvatarIcon_Side_Hutao",
     "gachaIcon": "UI_Gacha_AvatarImg_Hutao",
@@ -889,6 +922,7 @@
   },
   "10000047": {
     "nameTextMapHash": 88505754,
+    "element": "Anemo",
     "icon": "UI_AvatarIcon_Kazuha",
     "sideIcon": "UI_AvatarIcon_Side_Kazuha",
     "gachaIcon": "UI_Gacha_AvatarImg_Kazuha",
@@ -913,6 +947,7 @@
   },
   "10000048": {
     "nameTextMapHash": 697277554,
+    "element": "Pyro",
     "icon": "UI_AvatarIcon_Feiyan",
     "sideIcon": "UI_AvatarIcon_Side_Feiyan",
     "gachaIcon": "UI_Gacha_AvatarImg_Feiyan",
@@ -937,6 +972,7 @@
   },
   "10000049": {
     "nameTextMapHash": 2504399314,
+    "element": "Pyro",
     "icon": "UI_AvatarIcon_Yoimiya",
     "sideIcon": "UI_AvatarIcon_Side_Yoimiya",
     "gachaIcon": "UI_Gacha_AvatarImg_Yoimiya",
@@ -961,6 +997,7 @@
   },
   "10000050": {
     "nameTextMapHash": 3555115602,
+    "element": "Pyro",
     "icon": "UI_AvatarIcon_Tohma",
     "sideIcon": "UI_AvatarIcon_Side_Tohma",
     "gachaIcon": "UI_Gacha_AvatarImg_Tohma",
@@ -985,6 +1022,7 @@
   },
   "10000051": {
     "nameTextMapHash": 3717667418,
+    "element": "Cryo",
     "icon": "UI_AvatarIcon_Eula",
     "sideIcon": "UI_AvatarIcon_Side_Eula",
     "gachaIcon": "UI_Gacha_AvatarImg_Eula",
@@ -1009,6 +1047,7 @@
   },
   "10000052": {
     "nameTextMapHash": 3024507506,
+    "element": "Electro",
     "icon": "UI_AvatarIcon_Shougun",
     "sideIcon": "UI_AvatarIcon_Side_Shougun",
     "gachaIcon": "UI_Gacha_AvatarImg_Shougun",
@@ -1033,6 +1072,7 @@
   },
   "10000053": {
     "nameTextMapHash": 2388785242,
+    "element": "Anemo",
     "icon": "UI_AvatarIcon_Sayu",
     "sideIcon": "UI_AvatarIcon_Side_Sayu",
     "gachaIcon": "UI_Gacha_AvatarImg_Sayu",
@@ -1057,6 +1097,7 @@
   },
   "10000054": {
     "nameTextMapHash": 3914045794,
+    "element": "Hydro",
     "icon": "UI_AvatarIcon_Kokomi",
     "sideIcon": "UI_AvatarIcon_Side_Kokomi",
     "gachaIcon": "UI_Gacha_AvatarImg_Kokomi",
@@ -1081,6 +1122,7 @@
   },
   "10000055": {
     "nameTextMapHash": 3400133546,
+    "element": "Geo",
     "icon": "UI_AvatarIcon_Gorou",
     "sideIcon": "UI_AvatarIcon_Side_Gorou",
     "gachaIcon": "UI_Gacha_AvatarImg_Gorou",
@@ -1105,6 +1147,7 @@
   },
   "10000056": {
     "nameTextMapHash": 1483922610,
+    "element": "Electro",
     "icon": "UI_AvatarIcon_Sara",
     "sideIcon": "UI_AvatarIcon_Side_Sara",
     "gachaIcon": "UI_Gacha_AvatarImg_Sara",
@@ -1129,6 +1172,7 @@
   },
   "10000057": {
     "nameTextMapHash": 3068316954,
+    "element": "Geo",
     "icon": "UI_AvatarIcon_Itto",
     "sideIcon": "UI_AvatarIcon_Side_Itto",
     "gachaIcon": "UI_Gacha_AvatarImg_Itto",
@@ -1153,6 +1197,7 @@
   },
   "10000058": {
     "nameTextMapHash": 2713453234,
+    "element": "Electro",
     "icon": "UI_AvatarIcon_Yae",
     "sideIcon": "UI_AvatarIcon_Side_Yae",
     "gachaIcon": "UI_Gacha_AvatarImg_Yae",
@@ -1177,6 +1222,7 @@
   },
   "10000059": {
     "nameTextMapHash": 646032090,
+    "element": "Anemo",
     "icon": "UI_AvatarIcon_Heizo",
     "sideIcon": "UI_AvatarIcon_Side_Heizo",
     "gachaIcon": "UI_Gacha_AvatarImg_Heizo",
@@ -1201,6 +1247,7 @@
   },
   "10000060": {
     "nameTextMapHash": 2848374378,
+    "element": "Hydro",
     "icon": "UI_AvatarIcon_Yelan",
     "sideIcon": "UI_AvatarIcon_Side_Yelan",
     "gachaIcon": "UI_Gacha_AvatarImg_Yelan",
@@ -1225,6 +1272,7 @@
   },
   "10000061": {
     "nameTextMapHash": 1456643042,
+    "element": "Dendro",
     "icon": "UI_AvatarIcon_Momoka",
     "sideIcon": "UI_AvatarIcon_Side_Momoka",
     "gachaIcon": "UI_Gacha_AvatarImg_Momoka",
@@ -1249,6 +1297,7 @@
   },
   "10000062": {
     "nameTextMapHash": 3689108098,
+    "element": "Cryo",
     "icon": "UI_AvatarIcon_Aloy",
     "sideIcon": "UI_AvatarIcon_Side_Aloy",
     "gachaIcon": "UI_Gacha_AvatarImg_Aloy",
@@ -1273,6 +1322,7 @@
   },
   "10000063": {
     "nameTextMapHash": 334242634,
+    "element": "Cryo",
     "icon": "UI_AvatarIcon_Shenhe",
     "sideIcon": "UI_AvatarIcon_Side_Shenhe",
     "gachaIcon": "UI_Gacha_AvatarImg_Shenhe",
@@ -1297,6 +1347,7 @@
   },
   "10000064": {
     "nameTextMapHash": 655825874,
+    "element": "Geo",
     "icon": "UI_AvatarIcon_Yunjin",
     "sideIcon": "UI_AvatarIcon_Side_Yunjin",
     "gachaIcon": "UI_Gacha_AvatarImg_Yunjin",
@@ -1321,6 +1372,7 @@
   },
   "10000065": {
     "nameTextMapHash": 1940821986,
+    "element": "Electro",
     "icon": "UI_AvatarIcon_Shinobu",
     "sideIcon": "UI_AvatarIcon_Side_Shinobu",
     "gachaIcon": "UI_Gacha_AvatarImg_Shinobu",
@@ -1345,6 +1397,7 @@
   },
   "10000066": {
     "nameTextMapHash": 1588620330,
+    "element": "Hydro",
     "icon": "UI_AvatarIcon_Ayato",
     "sideIcon": "UI_AvatarIcon_Side_Ayato",
     "gachaIcon": "UI_Gacha_AvatarImg_Ayato",
@@ -1369,6 +1422,7 @@
   },
   "10000067": {
     "nameTextMapHash": 2948362178,
+    "element": "Dendro",
     "icon": "UI_AvatarIcon_Collei",
     "sideIcon": "UI_AvatarIcon_Side_Collei",
     "gachaIcon": "UI_Gacha_AvatarImg_Collei",
@@ -1393,6 +1447,7 @@
   },
   "10000068": {
     "nameTextMapHash": 388272194,
+    "element": "Electro",
     "icon": "UI_AvatarIcon_Dori",
     "sideIcon": "UI_AvatarIcon_Side_Dori",
     "gachaIcon": "UI_Gacha_AvatarImg_Dori",
@@ -1417,6 +1472,7 @@
   },
   "10000069": {
     "nameTextMapHash": 2506955778,
+    "element": "Dendro",
     "icon": "UI_AvatarIcon_Tighnari",
     "sideIcon": "UI_AvatarIcon_Side_Tighnari",
     "gachaIcon": "UI_Gacha_AvatarImg_Tighnari",
@@ -1441,6 +1497,7 @@
   },
   "10000070": {
     "nameTextMapHash": 3850149970,
+    "element": "Hydro",
     "icon": "UI_AvatarIcon_Nilou",
     "sideIcon": "UI_AvatarIcon_Side_Nilou",
     "gachaIcon": "UI_Gacha_AvatarImg_Nilou",
@@ -1465,6 +1522,7 @@
   },
   "10000071": {
     "nameTextMapHash": 1049891906,
+    "element": "Electro",
     "icon": "UI_AvatarIcon_Cyno",
     "sideIcon": "UI_AvatarIcon_Side_Cyno",
     "gachaIcon": "UI_Gacha_AvatarImg_Cyno",
@@ -1489,6 +1547,7 @@
   },
   "10000072": {
     "nameTextMapHash": 3092975658,
+    "element": "Hydro",
     "icon": "UI_AvatarIcon_Candace",
     "sideIcon": "UI_AvatarIcon_Side_Candace",
     "gachaIcon": "UI_Gacha_AvatarImg_Candace",
@@ -1513,6 +1572,7 @@
   },
   "10000073": {
     "nameTextMapHash": 712501082,
+    "element": "Dendro",
     "icon": "UI_AvatarIcon_Nahida",
     "sideIcon": "UI_AvatarIcon_Side_Nahida",
     "gachaIcon": "UI_Gacha_AvatarImg_Nahida",
@@ -1537,6 +1597,7 @@
   },
   "10000074": {
     "nameTextMapHash": 2889777514,
+    "element": "Cryo",
     "icon": "UI_AvatarIcon_Layla",
     "sideIcon": "UI_AvatarIcon_Side_Layla",
     "gachaIcon": "UI_Gacha_AvatarImg_Layla",
@@ -1561,6 +1622,7 @@
   },
   "10000075": {
     "nameTextMapHash": 3230559562,
+    "element": "Anemo",
     "icon": "UI_AvatarIcon_Wanderer",
     "sideIcon": "UI_AvatarIcon_Side_Wanderer",
     "gachaIcon": "UI_Gacha_AvatarImg_Wanderer",
@@ -1585,6 +1647,7 @@
   },
   "10000076": {
     "nameTextMapHash": 2387711994,
+    "element": "Anemo",
     "icon": "UI_AvatarIcon_Faruzan",
     "sideIcon": "UI_AvatarIcon_Side_Faruzan",
     "gachaIcon": "UI_Gacha_AvatarImg_Faruzan",
@@ -1609,6 +1672,7 @@
   },
   "10000077": {
     "nameTextMapHash": 1732418482,
+    "element": "Dendro",
     "icon": "UI_AvatarIcon_Yaoyao",
     "sideIcon": "UI_AvatarIcon_Side_Yaoyao",
     "gachaIcon": "UI_Gacha_AvatarImg_Yaoyao",
@@ -1633,6 +1697,7 @@
   },
   "10000078": {
     "nameTextMapHash": 4002157418,
+    "element": "Dendro",
     "icon": "UI_AvatarIcon_Alhatham",
     "sideIcon": "UI_AvatarIcon_Side_Alhatham",
     "gachaIcon": "UI_Gacha_AvatarImg_Alhatham",
@@ -1657,6 +1722,7 @@
   },
   "10000079": {
     "nameTextMapHash": 2360533154,
+    "element": "Pyro",
     "icon": "UI_AvatarIcon_Dehya",
     "sideIcon": "UI_AvatarIcon_Side_Dehya",
     "gachaIcon": "UI_Gacha_AvatarImg_Dehya",
@@ -1681,6 +1747,7 @@
   },
   "10000080": {
     "nameTextMapHash": 231911858,
+    "element": "Cryo",
     "icon": "UI_AvatarIcon_Mika",
     "sideIcon": "UI_AvatarIcon_Side_Mika",
     "gachaIcon": "UI_Gacha_AvatarImg_Mika",
@@ -1705,6 +1772,7 @@
   },
   "10000081": {
     "nameTextMapHash": 466355514,
+    "element": "Dendro",
     "icon": "UI_AvatarIcon_Kaveh",
     "sideIcon": "UI_AvatarIcon_Side_Kaveh",
     "gachaIcon": "UI_Gacha_AvatarImg_Kaveh",
@@ -1729,6 +1797,7 @@
   },
   "10000082": {
     "nameTextMapHash": 2984815066,
+    "element": "Dendro",
     "icon": "UI_AvatarIcon_Baizhuer",
     "sideIcon": "UI_AvatarIcon_Side_Baizhuer",
     "gachaIcon": "UI_Gacha_AvatarImg_Baizhuer",
@@ -1753,6 +1822,7 @@
   },
   "10000083": {
     "nameTextMapHash": 1225226258,
+    "element": "Anemo",
     "icon": "UI_AvatarIcon_Linette",
     "sideIcon": "UI_AvatarIcon_Side_Linette",
     "gachaIcon": "UI_Gacha_AvatarImg_Linette",
@@ -1777,6 +1847,7 @@
   },
   "10000084": {
     "nameTextMapHash": 2472444970,
+    "element": "Pyro",
     "icon": "UI_AvatarIcon_Liney",
     "sideIcon": "UI_AvatarIcon_Side_Liney",
     "gachaIcon": "UI_Gacha_AvatarImg_Liney",
@@ -1801,6 +1872,7 @@
   },
   "10000085": {
     "nameTextMapHash": 4201964354,
+    "element": "Cryo",
     "icon": "UI_AvatarIcon_Freminet",
     "sideIcon": "UI_AvatarIcon_Side_Freminet",
     "gachaIcon": "UI_Gacha_AvatarImg_Freminet",
@@ -1825,6 +1897,7 @@
   },
   "10000086": {
     "nameTextMapHash": 370151050,
+    "element": "Cryo",
     "icon": "UI_AvatarIcon_Wriothesley",
     "sideIcon": "UI_AvatarIcon_Side_Wriothesley",
     "gachaIcon": "UI_Gacha_AvatarImg_Wriothesley",
@@ -1849,6 +1922,7 @@
   },
   "10000087": {
     "nameTextMapHash": 1504902330,
+    "element": "Hydro",
     "icon": "UI_AvatarIcon_Neuvillette",
     "sideIcon": "UI_AvatarIcon_Side_Neuvillette",
     "gachaIcon": "UI_Gacha_AvatarImg_Neuvillette",
@@ -1873,6 +1947,7 @@
   },
   "10000088": {
     "nameTextMapHash": 3831162130,
+    "element": "Cryo",
     "icon": "UI_AvatarIcon_Charlotte",
     "sideIcon": "UI_AvatarIcon_Side_Charlotte",
     "gachaIcon": "UI_Gacha_AvatarImg_Charlotte",
@@ -1897,6 +1972,7 @@
   },
   "10000089": {
     "nameTextMapHash": 2180900234,
+    "element": "Hydro",
     "icon": "UI_AvatarIcon_Furina",
     "sideIcon": "UI_AvatarIcon_Side_Furina",
     "gachaIcon": "UI_Gacha_AvatarImg_Furina",
@@ -1921,6 +1997,7 @@
   },
   "10000090": {
     "nameTextMapHash": 540313842,
+    "element": "Pyro",
     "icon": "UI_AvatarIcon_Chevreuse",
     "sideIcon": "UI_AvatarIcon_Side_Chevreuse",
     "gachaIcon": "UI_Gacha_AvatarImg_Chevreuse",
@@ -1945,6 +2022,7 @@
   },
   "10000091": {
     "nameTextMapHash": 2877588578,
+    "element": "Geo",
     "icon": "UI_AvatarIcon_Navia",
     "sideIcon": "UI_AvatarIcon_Side_Navia",
     "gachaIcon": "UI_Gacha_AvatarImg_Navia",
@@ -1993,6 +2071,7 @@
   },
   "10000005-503": {
     "nameTextMapHash": 1533656818,
+    "element": "Hydro",
     "icon": "UI_AvatarIcon_PlayerBoy",
     "sideIcon": "UI_AvatarIcon_Side_PlayerBoy",
     "gachaIcon": "UI_Gacha_AvatarImg_PlayerBoy",
@@ -2017,6 +2096,7 @@
   },
   "10000005-504": {
     "nameTextMapHash": 1533656818,
+    "element": "Anemo",
     "icon": "UI_AvatarIcon_PlayerBoy",
     "sideIcon": "UI_AvatarIcon_Side_PlayerBoy",
     "gachaIcon": "UI_Gacha_AvatarImg_PlayerBoy",
@@ -2041,6 +2121,7 @@
   },
   "10000005-506": {
     "nameTextMapHash": 1533656818,
+    "element": "Geo",
     "icon": "UI_AvatarIcon_PlayerBoy",
     "sideIcon": "UI_AvatarIcon_Side_PlayerBoy",
     "gachaIcon": "UI_Gacha_AvatarImg_PlayerBoy",
@@ -2065,6 +2146,7 @@
   },
   "10000005-507": {
     "nameTextMapHash": 1533656818,
+    "element": "Electro",
     "icon": "UI_AvatarIcon_PlayerBoy",
     "sideIcon": "UI_AvatarIcon_Side_PlayerBoy",
     "gachaIcon": "UI_Gacha_AvatarImg_PlayerBoy",
@@ -2089,6 +2171,7 @@
   },
   "10000005-508": {
     "nameTextMapHash": 1533656818,
+    "element": "Dendro",
     "icon": "UI_AvatarIcon_PlayerBoy",
     "sideIcon": "UI_AvatarIcon_Side_PlayerBoy",
     "gachaIcon": "UI_Gacha_AvatarImg_PlayerBoy",
@@ -2137,6 +2220,7 @@
   },
   "10000007-703": {
     "nameTextMapHash": 3816664530,
+    "element": "Hydro",
     "icon": "UI_AvatarIcon_PlayerGirl",
     "sideIcon": "UI_AvatarIcon_Side_PlayerGirl",
     "gachaIcon": "UI_Gacha_AvatarImg_PlayerGirl",
@@ -2161,6 +2245,7 @@
   },
   "10000007-704": {
     "nameTextMapHash": 3816664530,
+    "element": "Anemo",
     "icon": "UI_AvatarIcon_PlayerGirl",
     "sideIcon": "UI_AvatarIcon_Side_PlayerGirl",
     "gachaIcon": "UI_Gacha_AvatarImg_PlayerGirl",
@@ -2185,6 +2270,7 @@
   },
   "10000007-706": {
     "nameTextMapHash": 3816664530,
+    "element": "Geo",
     "icon": "UI_AvatarIcon_PlayerGirl",
     "sideIcon": "UI_AvatarIcon_Side_PlayerGirl",
     "gachaIcon": "UI_Gacha_AvatarImg_PlayerGirl",
@@ -2209,6 +2295,7 @@
   },
   "10000007-707": {
     "nameTextMapHash": 3816664530,
+    "element": "Electro",
     "icon": "UI_AvatarIcon_PlayerGirl",
     "sideIcon": "UI_AvatarIcon_Side_PlayerGirl",
     "gachaIcon": "UI_Gacha_AvatarImg_PlayerGirl",
@@ -2233,6 +2320,7 @@
   },
   "10000007-708": {
     "nameTextMapHash": 3816664530,
+    "element": "Dendro",
     "icon": "UI_AvatarIcon_PlayerGirl",
     "sideIcon": "UI_AvatarIcon_Side_PlayerGirl",
     "gachaIcon": "UI_Gacha_AvatarImg_PlayerGirl",

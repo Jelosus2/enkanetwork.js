@@ -111,7 +111,7 @@ class SRRecordInfo {
   /**
    * The last finished floor by the player in the Forgotten Hall.
    */
-  fhLastFinishedFloor: number;
+  fhLastFinishedFloor: SRFHInfo;
 
   /**
    * The ID of the current Memory of Chaos.
@@ -143,12 +143,29 @@ class SRRecordInfo {
    * @param data - The data of the records.
    */
   constructor(data: SRPlayerRecordInfoAPI) {
-    this.mocLastFinishedFloor = data.challengeInfo.scheduleMaxLevel || 0;
-    this.fhLastFinishedFloor = data.challengeInfo.noneScheduleMaxLevel || 0;
+    this.mocLastFinishedFloor = data.challengeInfo.noneScheduleMaxLevel || 0;
+    this.fhLastFinishedFloor = new SRFHInfo(data.challengeInfo.scheduleMaxLevel);
     this.mocId = data.challengeInfo.scheduleGroupId || 0;
     this.lightConesObtained = data.equipmentCount || 0;
     this.simulatedUniverseLastFinishedWorld = data.maxRogueChallengeScore || 0;
     this.achievementCount = data.achievementCount || 0;
     this.charactersObtained = data.avatarCount;
+  }
+}
+
+class SRFHInfo {
+  /**
+   * The last finished floor of the FH from Jarilo VI.
+   */
+  jarilo: number;
+
+  /**
+   * The last finished floor of the FH from The Xianzhou Luofu.
+   */
+  xianzhou: number;
+
+  constructor(fhLastFinishedFloor: number) {
+    this.jarilo = fhLastFinishedFloor > 15 ? 15 : (fhLastFinishedFloor || 0);
+    this.xianzhou = fhLastFinishedFloor > 15 ? fhLastFinishedFloor - 15 : 0;
   }
 }

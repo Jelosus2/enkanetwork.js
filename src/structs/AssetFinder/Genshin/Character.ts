@@ -18,6 +18,11 @@ export class CharacterAssets {
   name: string;
 
   /**
+   * The element of the character.
+   */
+  element: string;
+
+  /**
    * The assets of the character.
    */
   assets: CharacterImages;
@@ -32,6 +37,7 @@ export class CharacterAssets {
 
     this.name =
       hashes[language]?.[character.nameTextMapHash] || "";
+    this.element = character.element;
     this.assets = character
       ? new CharacterImages(character)
       : ({} as CharacterImages);

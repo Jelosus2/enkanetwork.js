@@ -16,6 +16,11 @@ export class Characters {
   characterId: number;
 
   /**
+   * The element of the character.
+   */
+  element: string;
+
+  /**
    * The character's properties.
    */
   properties: Properties;
@@ -88,6 +93,9 @@ export class Characters {
       charDepot = `${data.avatarId}-${data.skillDepotId}`;
 
     this.characterId = data.avatarId;
+    this.element = genshinFinder.character(
+      charDepot || this.characterId
+    ).element;
     this.properties = new Properties(data.propMap);
     this.stats = new Stats(data.fightPropMap);
     this.constellationsList = data.talentIdList
