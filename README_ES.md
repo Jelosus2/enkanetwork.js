@@ -1,7 +1,7 @@
 # EnkaNetwork.js
 
 
-[EN](/README.md) | ES
+[EN](./README.md) | ES
 
 Un paquete para obetener datos de la API de enka, para Genshin y Star Rail, también incluye un "buscador" que puedes usar para buscar nombres e imágenes de assets del juego, por ejemplo el nombre o imagen de un personaje. Revisa [Buscadores](#buscadores) para más información.
 
@@ -9,6 +9,9 @@ Un paquete para obetener datos de la API de enka, para Genshin y Star Rail, tamb
 <details>
   <summary>Haz click para expandir</summary>
 
+	- v2.6.6:
+	  - Soporte añadido para las nuevas UIDs de China (3XXXXXXXX)
+		- Añadido el nivel máximo de cada personaje por su ascensión en Genshin y Star Rail.
 	- v2.6.5:
 	  - Arreglado el error donde los valores del Salón olvidado y la Memoria del Caos eran incorrectos.
 	  - Añadidos los elementos de los personajes en Genshin Impact.

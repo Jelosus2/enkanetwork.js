@@ -6,6 +6,16 @@ import { Stats } from "./Stats";
 import { Properties } from "./Properties";
 import { Skills } from "./Skills";
 
+const maxLevelMapping = [
+  20,
+  40,
+  50,
+  60,
+  70,
+  80,
+  90
+];
+
 /**
  * A class that structures the character's data.
  */
@@ -19,6 +29,11 @@ export class Characters {
    * The element of the character.
    */
   element: string;
+
+  /**
+   * The maximum level by the current ascension.
+   */
+  maxLevel: number;
 
   /**
    * The character's properties.
@@ -96,6 +111,7 @@ export class Characters {
     this.element = genshinFinder.character(
       charDepot || this.characterId
     ).element;
+    this.maxLevel = maxLevelMapping[+data.propMap[1002].val || 0];
     this.properties = new Properties(data.propMap);
     this.stats = new Stats(data.fightPropMap);
     this.constellationsList = data.talentIdList

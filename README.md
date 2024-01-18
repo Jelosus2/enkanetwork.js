@@ -8,6 +8,9 @@ A package to get data from the Enka API, for both Genshin and Star Rail, it also
 <details>
 	<summary>Click to expand</summary>
 
+	- v2.6.6:
+	  - Added support for new CN UIDs (3XXXXXXXX).
+	  - Added max level by ascension to characters in both Genshin and Star Rail.
 	- v2.6.5:
 	  - Fixed the issue of MoC and FH finished floors being incorrect.
 	  - Added character element for Genshin Impact.

@@ -15,6 +15,16 @@ const characters: { [key: string]: any } = sContent;
 const lightcones: { [key: string]: any } = lContent;
 const types: { [key: string]: any } = tContent;
 
+const maxLevelMapping = [
+  20,
+  30,
+  40,
+  50,
+  60,
+  70,
+  80
+];
+
 /**
  * A class that structures the character's data.
  */
@@ -80,6 +90,11 @@ export class SRCharacters {
   level: number;
 
   /**
+   * The maximum level by the current ascension.
+   */
+  maxLevel: number;
+
+  /**
    * How many eidolons the character has.
    */
   eidolons: number;
@@ -125,6 +140,7 @@ export class SRCharacters {
         ? data.relicList.map((data) => new SRRelics(data))
         : [];
     this.level = data.level;
+    this.maxLevel = maxLevelMapping[data.promotion || 0];
     this.eidolons = data.rank || 0;
     this._assist = data._assist || false;
     this.assets = finder.character(data.avatarId).assets;
