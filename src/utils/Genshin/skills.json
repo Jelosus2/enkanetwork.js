@@ -1443,6 +1443,50 @@
     "nameTextMapHash": 3301203725,
     "icon": "Skill_E_Navia_01"
   },
+  "10921": {
+    "nameTextMapHash": 526099557,
+    "icon": "Skill_A_04"
+  },
+  "10922": {
+    "nameTextMapHash": 2601302837,
+    "icon": "Skill_S_Gaming_01"
+  },
+  "10923": {
+    "nameTextMapHash": 606672925,
+    "icon": "Skill_S_Gaming_02"
+  },
+  "10925": {
+    "nameTextMapHash": 2764774957,
+    "icon": "Skill_E_Gaming_01"
+  },
+  "10931": {
+    "nameTextMapHash": 3031546037,
+    "icon": "Skill_A_Catalyst_MD"
+  },
+  "10932": {
+    "nameTextMapHash": 418524149,
+    "icon": "Skill_S_Liuyun_01"
+  },
+  "10933": {
+    "nameTextMapHash": 4283666085,
+    "icon": "Skill_S_Liuyun_02"
+  },
+  "10934": {
+    "nameTextMapHash": 2438850773,
+    "icon": "Skill_S_Liuyun_04"
+  },
+  "10935": {
+    "nameTextMapHash": 2968788269,
+    "icon": "Skill_E_Liuyun_01"
+  },
+  "10936": {
+    "nameTextMapHash": 3417831997,
+    "icon": "Skill_S_Liuyun_03"
+  },
+  "10937": {
+    "nameTextMapHash": 2928796237,
+    "icon": "Skill_S_Liuyun_05"
+  },
   "11301": {
     "nameTextMapHash": 3802462781,
     "icon": "Skill_A_02"
@@ -1635,9 +1679,21 @@
     "nameTextMapHash": 2208227565,
     "icon": "QuesteventSkillIcon_01"
   },
+  "20077": {
+    "nameTextMapHash": 3494458077,
+    "icon": "Skill_LanV4PartyLion_01"
+  },
   "20080": {
     "nameTextMapHash": 3018374477,
     "icon": "QuesteventSkillIcon_01"
+  },
+  "20083": {
+    "nameTextMapHash": 4248326901,
+    "icon": "Skill_LanV4PartyLion_01"
+  },
+  "20084": {
+    "nameTextMapHash": 682415765,
+    "icon": "Skill_LanV4PartyLion_01"
   },
   "20100": {
     "nameTextMapHash": 4176490093,
@@ -1890,6 +1946,26 @@
   "20526": {
     "nameTextMapHash": 1656473773,
     "icon": "Btn_HideAndSeek_Hider_A_03"
+  },
+  "20527": {
+    "nameTextMapHash": 1965439645,
+    "icon": "Skill_CarpJump_02"
+  },
+  "20528": {
+    "nameTextMapHash": 2424782373,
+    "icon": "Skill_C_FairyGadgetSet"
+  },
+  "20529": {
+    "nameTextMapHash": 3249128429,
+    "icon": "Btn_Fishing_Exit"
+  },
+  "20530": {
+    "nameTextMapHash": 1265889117,
+    "icon": "Skill_CarpJump_01"
+  },
+  "20531": {
+    "nameTextMapHash": 1873021445,
+    "icon": "Btn_Fishing_Exit"
   },
   "100540": {
     "nameTextMapHash": 1952055533,
@@ -2322,5 +2398,13 @@
   "5091010": {
     "nameTextMapHash": 1292719181,
     "icon": "Skill_A_04"
+  },
+  "5092010": {
+    "nameTextMapHash": 2897573949,
+    "icon": "Skill_A_04"
+  },
+  "5093010": {
+    "nameTextMapHash": 345620165,
+    "icon": "Skill_A_Catalyst_MD"
   }
 }

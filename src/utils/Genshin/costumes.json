@@ -39,6 +39,11 @@
     "icon": "UI_AvatarIcon_AmborCostumeWic",
     "art": "UI_Costume_AmborCostumeWic"
   },
+  "202501": {
+    "sideIconName": "UI_AvatarIcon_Side_XingqiuCostumeBamboo",
+    "icon": "UI_AvatarIcon_XingqiuCostumeBamboo",
+    "art": "UI_Costume_XingqiuCostumeBamboo"
+  },
   "202701": {
     "sideIconName": "UI_AvatarIcon_Side_NingguangCostumeFloral",
     "icon": "UI_AvatarIcon_NingguangCostumeFloral",
@@ -54,6 +59,11 @@
     "icon": "UI_AvatarIcon_FischlCostumeHighness",
     "art": "UI_Costume_FischlCostumeHighness"
   },
+  "203701": {
+    "sideIconName": "UI_AvatarIcon_Side_GanyuCostumeYu",
+    "icon": "UI_AvatarIcon_GanyuCostumeYu",
+    "art": "UI_Costume_GanyuCostumeYu"
+  },
   "204101": {
     "sideIconName": "UI_AvatarIcon_Side_MonaCostumeWic",
     "icon": "UI_AvatarIcon_MonaCostumeWic",
@@ -68,5 +78,10 @@
     "sideIconName": "UI_AvatarIcon_Side_RosariaCostumeWic",
     "icon": "UI_AvatarIcon_RosariaCostumeWic",
     "art": "UI_Costume_RosariaCostumeWic"
+  },
+  "206301": {
+    "sideIconName": "UI_AvatarIcon_Side_ShenheCostumeDai",
+    "icon": "UI_AvatarIcon_ShenheCostumeDai",
+    "art": "UI_Costume_ShenheCostumeDai"
   }
 }

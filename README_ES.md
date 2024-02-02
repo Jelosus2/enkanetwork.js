@@ -9,6 +9,10 @@ Un paquete para obetener datos de la API de enka, para Genshin y Star Rail, tamb
 <details>
   <summary>Haz click para expandir</summary>
 
+	- v2.7.0:
+	  - Añadido el contenido de la versión 4.4 de Genshin.
+	  - Actualizado el regex para la validación de UID por las nuevas UIDs (18XXXXXXXX). Gracias a yuko1101 por proveerlo!
+	  - Añadida la calidad de roll para los substats de los artefactos en Genshin y Star Rail.
 	- v2.6.6:
 	  - Soporte añadido para las nuevas UIDs de China (3XXXXXXXX)
 		- Añadido el nivel máximo de cada personaje por su ascensión en Genshin y Star Rail.
@@ -120,6 +124,7 @@ Un paquete para obetener datos de la API de enka, para Genshin y Star Rail, tamb
 - [Buscadores](#buscadores)
 	- [¿He obtenido el nombre del icono, pero donde está la imagen?](#¿he-obtenido-el-nombreruta-del-icono-pero-donde-está-la-imagen)
 - [Posición de Ratros](#posición-de-ratros)
+- [Lista de Calidad del Roll](#lista-de-calidad-del-roll)
 - [Creador y Soporte](#creador-y-soporte) 
 - [Créditos](#créditos)
 
@@ -272,6 +277,15 @@ console.log(url); // Resultado: https://enka.network/ui/hsr/SpriteOutput/AvatarR
 La posición de los rastros depende del tipo de vía del personaje. Aquí muestro un esquema por cada vía, creditos para [FortOfFans](https://github.com/FortOfFans) por crearlo.
 
 ![rastros](./images/Traces.png)
+
+## Lista de Calidad del Roll
+
+| Genshin | Star Rail |
+|---------|-----------|
+| 4 - Roll maximo | 3 - Roll maximo |
+| 3 - Roll casi maximo | 2 - Roll medio |
+| 2 - Roll medio | 1 - Roll bajo |
+| 1 - Roll bajo | - |
 
 ## Creador y Soporte
 

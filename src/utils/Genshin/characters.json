@@ -401,6 +401,13 @@
       "10381",
       "10382",
       "10385"
+    ],
+    "costumes": [
+      {
+        "sideIconName": "UI_AvatarIcon_Side_XingqiuCostumeBamboo",
+        "icon": "UI_AvatarIcon_XingqiuCostumeBamboo",
+        "art": "UI_Costume_XingqiuCostumeBamboo"
+      }
     ]
   },
   "10000026": {
@@ -697,6 +704,13 @@
       "10371",
       "10372",
       "10373"
+    ],
+    "costumes": [
+      {
+        "sideIconName": "UI_AvatarIcon_Side_GanyuCostumeYu",
+        "icon": "UI_AvatarIcon_GanyuCostumeYu",
+        "art": "UI_Costume_GanyuCostumeYu"
+      }
     ]
   },
   "10000038": {
@@ -1343,6 +1357,13 @@
       "10631",
       "10632",
       "10635"
+    ],
+    "costumes": [
+      {
+        "sideIconName": "UI_AvatarIcon_Side_ShenheCostumeDai",
+        "icon": "UI_AvatarIcon_ShenheCostumeDai",
+        "art": "UI_Costume_ShenheCostumeDai"
+      }
     ]
   },
   "10000064": {
@@ -2043,6 +2064,56 @@
       "10911",
       "10912",
       "10915"
+    ]
+  },
+  "10000092": {
+    "nameTextMapHash": 2822240322,
+    "element": "Pyro",
+    "icon": "UI_AvatarIcon_Gaming",
+    "sideIcon": "UI_AvatarIcon_Side_Gaming",
+    "gachaIcon": "UI_Gacha_AvatarImg_Gaming",
+    "constellations": [
+      "UI_Talent_S_Gaming_01",
+      "UI_Talent_S_Gaming_02",
+      "UI_Talent_U_Gaming_01",
+      "UI_Talent_S_Gaming_03",
+      "UI_Talent_U_Gaming_02",
+      "UI_Talent_S_Gaming_04"
+    ],
+    "skills": {
+      "normalAttack": "Skill_A_04",
+      "elementalSkill": "Skill_S_Gaming_01",
+      "elementalBurst": "Skill_E_Gaming_01"
+    },
+    "skillOrder": [
+      "10921",
+      "10922",
+      "10925"
+    ]
+  },
+  "10000093": {
+    "nameTextMapHash": 3648220770,
+    "element": "Anemo",
+    "icon": "UI_AvatarIcon_Liuyun",
+    "sideIcon": "UI_AvatarIcon_Side_Liuyun",
+    "gachaIcon": "UI_Gacha_AvatarImg_Liuyun",
+    "constellations": [
+      "UI_Talent_S_Liuyun_01",
+      "UI_Talent_S_Liuyun_02",
+      "UI_Talent_U_Liuyun_02",
+      "UI_Talent_S_Liuyun_03",
+      "UI_Talent_U_Liuyun_01",
+      "UI_Talent_S_Liuyun_04"
+    ],
+    "skills": {
+      "normalAttack": "Skill_A_Catalyst_MD",
+      "elementalSkill": "Skill_S_Liuyun_01",
+      "elementalBurst": "Skill_E_Liuyun_01"
+    },
+    "skillOrder": [
+      "10931",
+      "10932",
+      "10935"
     ]
   },
   "10000005-501": {

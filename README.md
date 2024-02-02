@@ -8,6 +8,10 @@ A package to get data from the Enka API, for both Genshin and Star Rail, it also
 <details>
 	<summary>Click to expand</summary>
 
+	- v2.7.0:
+	  - Added Genshin 4.4 version content.
+	  - Updated the regex for UID validation due to new UIDs (18XXXXXXXX). Thanks to yuko1101 for providing it!
+	  - Added roll quality for artifact/relic substats for both Genshin and Star Rail.
 	- v2.6.6:
 	  - Added support for new CN UIDs (3XXXXXXXX).
 	  - Added max level by ascension to characters in both Genshin and Star Rail.
@@ -119,6 +123,7 @@ A package to get data from the Enka API, for both Genshin and Star Rail, it also
 - [Finders](#asset-finder)
   - [I got the icon name, but where is the image?](#i-got-the-icon-namepath-but-where-is-the-image)
 - [Trace Positions](#trace-positions)
+- [Roll Quality List](#roll-quality-list)
 - [Creator and Support](#creator-and-support) 
 - [Credits](#credits)
 
@@ -272,6 +277,15 @@ console.log(url); // Output: https://enka.network/ui/hsr/SpriteOutput/AvatarRoun
 The position of each trace depends on the path type of the character. Here is a schema for each path, credits to [FortOfFans](https://github.com/FortOfFans) for doing it.
 
 ![traces](./images/Traces.png)
+
+## Roll Quality List
+
+| Genshin | Star Rail |
+|---------|-----------|
+| 4 - Max roll | 3 - Max roll |
+| 3 - Almost max roll | 2 - Medium roll |
+| 2 - Medium roll | 1 - Low roll |
+| 1 - Low roll | - |
 
 ## Creator and Support
 

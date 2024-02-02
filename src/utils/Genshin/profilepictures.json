@@ -69,6 +69,11 @@
     "oldIcon": "UI_AvatarIcon_Xingqiu",
     "nameTextMapHash": 2904405116
   },
+  "801": {
+    "icon": "UI_AvatarIcon_XingqiuCostumeBamboo_Circle",
+    "oldIcon": "UI_AvatarIcon_XingqiuCostumeBamboo",
+    "nameTextMapHash": 2018771404
+  },
   "900": {
     "icon": "UI_AvatarIcon_Ningguang_Circle",
     "oldIcon": "UI_AvatarIcon_Ningguang",
@@ -204,6 +209,11 @@
     "oldIcon": "UI_AvatarIcon_Ganyu",
     "nameTextMapHash": 1049883700
   },
+  "2701": {
+    "icon": "UI_AvatarIcon_GanyuCostumeYu_Circle",
+    "oldIcon": "UI_AvatarIcon_GanyuCostumeYu",
+    "nameTextMapHash": 1365886372
+  },
   "2800": {
     "icon": "UI_AvatarIcon_Xiao_Circle",
     "oldIcon": "UI_AvatarIcon_Xiao",
@@ -303,6 +313,11 @@
     "icon": "UI_AvatarIcon_Shenhe_Circle",
     "oldIcon": "UI_AvatarIcon_Shenhe",
     "nameTextMapHash": 1379338044
+  },
+  "4501": {
+    "icon": "UI_AvatarIcon_ShenheCostumeDai_Circle",
+    "oldIcon": "UI_AvatarIcon_ShenheCostumeDai",
+    "nameTextMapHash": 561207228
   },
   "4600": {
     "icon": "UI_AvatarIcon_Yae_Circle",
@@ -458,6 +473,16 @@
     "icon": "UI_AvatarIcon_Chevreuse_Circle",
     "oldIcon": "UI_AvatarIcon_Chevreuse",
     "nameTextMapHash": 241782844
+  },
+  "7700": {
+    "icon": "UI_AvatarIcon_Gaming_Circle",
+    "oldIcon": "UI_AvatarIcon_Gaming",
+    "nameTextMapHash": 4228481004
+  },
+  "7800": {
+    "icon": "UI_AvatarIcon_Liuyun_Circle",
+    "oldIcon": "UI_AvatarIcon_Liuyun",
+    "nameTextMapHash": 1294266220
   },
   "99999": {
     "icon": "UI_AvatarIcon_Ambor_Circle",

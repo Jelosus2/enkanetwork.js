@@ -1,5 +1,8 @@
 import { ifProp } from "../../handlers";
+import { substattypes as sContent } from "../../utils";
 import { SRRelicList, SRRelicPropsAPI, SRSubAffixListAPI } from "../../types";
+
+const substattypes: { [key: string]: any } = sContent;
 
 /**
  * A class that structures the relic's data.
@@ -83,6 +86,11 @@ class SRSubAffixList {
   substatId: number;
 
   /**
+   * The type of the stat.
+   */
+  type: string;
+
+  /**
    * The number of rolls the substat had.
    */
   count: number;
@@ -93,13 +101,26 @@ class SRSubAffixList {
   step: number;
 
   /**
+   * The quality of the substat rolls.
+   * - 3 - Max roll | 2 - Medium roll | 1 - Low roll
+   */
+  rollQuality: number[];
+
+  /**
    * Creates a new `SRSubAffixList` instance.
    * @param data - The data of substats info.
    */
   constructor(data: SRSubAffixListAPI) {
+    const stepsPerRoll = Math.ceil((data.step || 0) / data.cnt);
+    const until = (data.step % data.cnt || data.cnt) - 1;
+
+    const rollQuality = [...Array(data.cnt)].map((_, i) => 1 + stepsPerRoll - (i > until ? 1 : 0));
+
     this.substatId = data.affixId;
+    this.type = substattypes[data.affixId].Property;
     this.count = data.cnt;
     this.step = data.step;
+    this.rollQuality = rollQuality;
   }
 }
 

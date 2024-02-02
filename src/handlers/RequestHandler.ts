@@ -37,7 +37,7 @@ export class RequestHandler {
         ? `https://enka.network/api/uid/${uid}`
         : `https://enka.network/api/hsr/uid/${uid}`;
 
-    if (!/([1,2,3,5-9])\d{8}/.test(uid.toString()))
+    if (!/^(18|[1-35-9])\d{8}$/.test(uid.toString()))
       throw new PackageError("The UID format is incorrect");
 
     try {

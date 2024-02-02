@@ -1942,5 +1942,53 @@
   "916": {
     "nameTextMapHash": 4110233153,
     "icon": "UI_Talent_S_Navia_04"
+  },
+  "921": {
+    "nameTextMapHash": 4018877873,
+    "icon": "UI_Talent_S_Gaming_01"
+  },
+  "922": {
+    "nameTextMapHash": 246603977,
+    "icon": "UI_Talent_S_Gaming_02"
+  },
+  "923": {
+    "nameTextMapHash": 4116318089,
+    "icon": "UI_Talent_U_Gaming_01"
+  },
+  "924": {
+    "nameTextMapHash": 4187766889,
+    "icon": "UI_Talent_S_Gaming_03"
+  },
+  "925": {
+    "nameTextMapHash": 3549980385,
+    "icon": "UI_Talent_U_Gaming_02"
+  },
+  "926": {
+    "nameTextMapHash": 3486976633,
+    "icon": "UI_Talent_S_Gaming_04"
+  },
+  "931": {
+    "nameTextMapHash": 1584930553,
+    "icon": "UI_Talent_S_Liuyun_01"
+  },
+  "932": {
+    "nameTextMapHash": 94680617,
+    "icon": "UI_Talent_S_Liuyun_02"
+  },
+  "933": {
+    "nameTextMapHash": 3143851073,
+    "icon": "UI_Talent_U_Liuyun_02"
+  },
+  "934": {
+    "nameTextMapHash": 301585425,
+    "icon": "UI_Talent_S_Liuyun_03"
+  },
+  "935": {
+    "nameTextMapHash": 2080335137,
+    "icon": "UI_Talent_U_Liuyun_01"
+  },
+  "936": {
+    "nameTextMapHash": 3383313401,
+    "icon": "UI_Talent_S_Liuyun_04"
   }
 }

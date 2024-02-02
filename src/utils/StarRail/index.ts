@@ -7,4 +7,5 @@ export { default as ranks } from './ranks.json';
 export { default as relics } from './relics.json';
 export { default as srskills } from './skills.json';
 export { default as skilltree } from './skilltree.json';
+export { default as substattypes } from './substattypes.json';
 export { default as types } from './types.json';

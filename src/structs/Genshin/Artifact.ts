@@ -1,9 +1,12 @@
 import { AssetFinder } from "../../client";
+import { substats as sContent } from "../../utils";
 import {
   AssetFinderOptions,
   ArtifactAPI,
   ArtifactSubstatsAPI,
 } from "../../types";
+
+const substats: { [key: string]: any } = sContent;
 
 /**
  * A class that structures the artifact's data.
@@ -50,6 +53,11 @@ export class Artifact {
   rolledSubstatsIds: number[];
 
   /**
+   * The roll quality of the substats.
+   */
+  substatsRollQuality: ArtifactRollQuality[];
+
+  /**
    * The item type.
    */
   itemType: string;
@@ -92,6 +100,9 @@ export class Artifact {
       ? data.flat.reliquarySubstats.map((data) => new ArtifactSubstats(data))
       : [];
     this.rolledSubstatsIds = data.reliquary.appendPropIdList;
+    this.substatsRollQuality = data.reliquary.appendPropIdList.length > 0
+      ? data.reliquary.appendPropIdList.map((data) => new ArtifactRollQuality(data))
+      : [];
     this.itemType = data.flat.itemType;
     this.icon = data.flat.icon;
     this.equipType = data.flat.equipType;
@@ -101,6 +112,23 @@ export class Artifact {
     this.setName = genshinFinder.hash(
       this.setNameTextMapHash
     ).value;
+  }
+
+  sumRollQuality(): any[] {
+    const rollsQuality: any[] = [];
+
+    this.substatsRollQuality.forEach((substat) => {
+      if (!rollsQuality.find((data) => data.type == substat.type)) {
+        rollsQuality.push({
+          type: substat.type,
+          rollQuality: this.substatsRollQuality
+            .filter((x) => x.type == substat.type)
+            .map((data) => data.rollQuality)
+        })
+      }
+    });
+
+    return rollsQuality;
   }
 }
 
@@ -155,5 +183,33 @@ class ArtifactSubstats {
   constructor(data: ArtifactSubstatsAPI) {
     this.stat = data.appendPropId;
     this.statValue = data.statValue;
+  }
+}
+
+class ArtifactRollQuality {
+  /**
+   * The ID of the substat roll.
+   */
+  id: number;
+
+  /**
+   * The type of the substat.
+   */
+  type: string;
+
+  /**
+   * The quality of the roll.
+   * - 4 - Max roll | 3 - Almost max roll | 2 - Medium roll | 1 - Low roll
+   */
+  rollQuality: number;
+
+  /**
+   * Creates a new `ArtifactRollQuality` instance.
+   * @param data - The rolled substat IDs.
+   */
+  constructor(substatId: number) {
+    this.id = substatId;
+    this.type = substats[substatId].propType;
+    this.rollQuality = substatId % 10;
   }
 }

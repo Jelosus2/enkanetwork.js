@@ -834,6 +834,11 @@
     "awakenIcon": "UI_EquipIcon_Catalyst_Iudex_Awaken",
     "nameTextMapHash": 4176923379
   },
+  "14515": {
+    "icon": "UI_EquipIcon_Catalyst_MountainGale",
+    "awakenIcon": "UI_EquipIcon_Catalyst_MountainGale_Awaken",
+    "nameTextMapHash": 3660626387
+  },
   "15101": {
     "icon": "UI_EquipIcon_Bow_Hunters",
     "awakenIcon": "UI_EquipIcon_Bow_Hunters_Awaken",

@@ -1,0 +1,38 @@
+{
+  "1": {
+    "Property": "HPDelta"
+  },
+  "2": {
+    "Property": "AttackDelta"
+  },
+  "3": {
+    "Property": "DefenceDelta"
+  },
+  "4": {
+    "Property": "HPAddedRatio"
+  },
+  "5": {
+    "Property": "AttackAddedRatio"
+  },
+  "6": {
+    "Property": "DefenceAddedRatio"
+  },
+  "7": {
+    "Property": "SpeedDelta"
+  },
+  "8": {
+    "Property": "CriticalChanceBase"
+  },
+  "9": {
+    "Property": "CriticalDamageBase"
+  },
+  "10": {
+    "Property": "StatusProbabilityBase"
+  },
+  "11": {
+    "Property": "StatusResistanceBase"
+  },
+  "12": {
+    "Property": "BreakDamageAddedRatioBase"
+  }
+}
