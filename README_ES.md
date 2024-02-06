@@ -9,6 +9,8 @@ Un paquete para obetener datos de la API de enka, para Genshin y Star Rail, tamb
 <details>
   <summary>Haz click para expandir</summary>
 
+  - v2.7.1:
+    - Añadido el contenido de la versión 2.0 de Star Rail.
 	- v2.7.0:
 	  - Añadido el contenido de la versión 4.4 de Genshin.
 	  - Actualizado el regex para la validación de UID por las nuevas UIDs (18XXXXXXXX). Gracias a yuko1101 por proveerlo!

@@ -9008,7 +9008,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 130601
+        "Id": 130601,
+        "Name": 449801513
       },
       "name": "Monodrama"
     },
@@ -9020,7 +9021,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 130602
+        "Id": 130602,
+        "Name": -1116282428
       },
       "name": "Schlafschwimmer"
     },
@@ -9032,7 +9034,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 130603
+        "Id": 130603,
+        "Name": 1612600927
       },
       "name": "Ein Leben in tausend Rollen"
     },
@@ -9044,7 +9047,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 130604
+        "Id": 130604,
+        "Name": -309713374
       },
       "name": "Narrative Intrige"
     },
@@ -9056,7 +9060,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 130607
+        "Id": 130607,
+        "Name": -712997901
       },
       "name": "Unzuverlässiger Erzähler"
     },
@@ -9228,7 +9233,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 130701
+        "Id": 130701,
+        "Name": 590964014
       },
       "name": "Einblick, stilles Morgengrauen"
     },
@@ -9240,7 +9246,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 130702
+        "Id": 130702,
+        "Name": 187679487
       },
       "name": "Verlust, falsche Abenddämmerung"
     },
@@ -9252,7 +9259,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 130703
+        "Id": 130703,
+        "Name": 1753763428
       },
       "name": "Schwelgend in den Armen der Anderwelt"
     },
@@ -9264,7 +9272,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 130704
+        "Id": 130704,
+        "Name": 994248541
       },
       "name": "Die Launen des sinnlosen Schicksals"
     },
@@ -9276,7 +9285,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 130707
+        "Id": 130707,
+        "Name": -571835400
       },
       "name": "Her mit Wahrheit, weg mit Fassade"
     },
@@ -9448,7 +9458,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 131201
+        "Id": 131201,
+        "Name": 1014451420
       },
       "name": "Entschuldigung! Aus dem Weg, bitte ...!"
     },
@@ -9460,7 +9471,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 131202
+        "Id": 131202,
+        "Name": -551632521
       },
       "name": "Zi... Zimmerservice!"
     },
@@ -9472,7 +9484,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 131203
+        "Id": 131203,
+        "Name": -2117716462
       },
       "name": "Ich bin spät dran!"
     },
@@ -9484,7 +9497,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 131204
+        "Id": 131204,
+        "Name": 611166893
       },
       "name": "Hemmungsvorrichtung"
     },
@@ -9496,7 +9510,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 131207
+        "Id": 131207,
+        "Name": 207882366
       },
       "name": "Verweile doch, du bist so schön!"
     },
@@ -19570,7 +19585,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 130601
+        "Id": 130601,
+        "Name": 449801513
       },
       "name": "Monodrama"
     },
@@ -19582,7 +19598,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 130602
+        "Id": 130602,
+        "Name": -1116282428
       },
       "name": "Dreamdiver"
     },
@@ -19594,7 +19611,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 130603
+        "Id": 130603,
+        "Name": 1612600927
       },
       "name": "The Hero with a Thousand Faces"
     },
@@ -19606,7 +19624,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 130604
+        "Id": 130604,
+        "Name": -309713374
       },
       "name": "Red Herring"
     },
@@ -19618,7 +19637,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 130607
+        "Id": 130607,
+        "Name": -712997901
       },
       "name": "Unreliable Narrator"
     },
@@ -19790,7 +19810,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 130701
+        "Id": 130701,
+        "Name": 590964014
       },
       "name": "Percipience, Silent Dawn"
     },
@@ -19802,7 +19823,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 130702
+        "Id": 130702,
+        "Name": 187679487
       },
       "name": "Decadence, False Twilight"
     },
@@ -19814,7 +19836,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 130703
+        "Id": 130703,
+        "Name": 1753763428
       },
       "name": "Bliss of Otherworld's Embrace"
     },
@@ -19826,7 +19849,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 130704
+        "Id": 130704,
+        "Name": 994248541
       },
       "name": "Loom of Fate's Caprice"
     },
@@ -19838,7 +19862,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 130707
+        "Id": 130707,
+        "Name": -571835400
       },
       "name": "From Façade to Vérité"
     },
@@ -20010,7 +20035,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 131201
+        "Id": 131201,
+        "Name": 1014451420
       },
       "name": "E—Excuse Me, Please!"
     },
@@ -20022,7 +20048,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 131202
+        "Id": 131202,
+        "Name": -551632521
       },
       "name": "R—Room Service"
     },
@@ -20034,7 +20061,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 131203
+        "Id": 131203,
+        "Name": -2117716462
       },
       "name": "G—Gonna Be Late!"
     },
@@ -20046,7 +20074,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 131204
+        "Id": 131204,
+        "Name": 611166893
       },
       "name": "Horological Escapement"
     },
@@ -20058,7 +20087,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 131207
+        "Id": 131207,
+        "Name": 207882366
       },
       "name": "Wait, You Are So Beautiful!"
     },
@@ -30132,7 +30162,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 130601
+        "Id": 130601,
+        "Name": 449801513
       },
       "name": "Espectáculo en solitario"
     },
@@ -30144,7 +30175,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 130602
+        "Id": 130602,
+        "Name": -1116282428
       },
       "name": "Buceadora de sueños"
     },
@@ -30156,7 +30188,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 130603
+        "Id": 130603,
+        "Name": 1612600927
       },
       "name": "Miles de triunfos"
     },
@@ -30168,7 +30201,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 130604
+        "Id": 130604,
+        "Name": -309713374
       },
       "name": "Truco narrativo"
     },
@@ -30180,7 +30214,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 130607
+        "Id": 130607,
+        "Name": -712997901
       },
       "name": "Narradora poco fiable"
     },
@@ -30352,7 +30387,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 130701
+        "Id": 130701,
+        "Name": 590964014
       },
       "name": "Discernimiento, alba silenciosa"
     },
@@ -30364,7 +30400,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 130702
+        "Id": 130702,
+        "Name": 187679487
       },
       "name": "Decadencia, falso crepúsculo"
     },
@@ -30376,7 +30413,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 130703
+        "Id": 130703,
+        "Name": 1753763428
       },
       "name": "Regocijo en el abrazo de otro mundo"
     },
@@ -30388,7 +30426,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 130704
+        "Id": 130704,
+        "Name": 994248541
       },
       "name": "Telar del capricho del destino"
     },
@@ -30400,7 +30439,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 130707
+        "Id": 130707,
+        "Name": -571835400
       },
       "name": "De la apariencia a la verdad"
     },
@@ -30572,7 +30612,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 131201
+        "Id": 131201,
+        "Name": 1014451420
       },
       "name": "¡Disculpe, por favor!"
     },
@@ -30584,7 +30625,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 131202
+        "Id": 131202,
+        "Name": -551632521
       },
       "name": "¡Servicio de habitaciones!"
     },
@@ -30596,7 +30638,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 131203
+        "Id": 131203,
+        "Name": -2117716462
       },
       "name": "¡Voy a llegar tarde!"
     },
@@ -30608,7 +30651,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 131204
+        "Id": 131204,
+        "Name": 611166893
       },
       "name": "Rueda de escape horológica"
     },
@@ -30620,7 +30664,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 131207
+        "Id": 131207,
+        "Name": 207882366
       },
       "name": "Detente, instante, eres tan hermoso"
     },
@@ -40694,7 +40739,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 130601
+        "Id": 130601,
+        "Name": 449801513
       },
       "name": "Mélodrame"
     },
@@ -40706,7 +40752,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 130602
+        "Id": 130602,
+        "Name": -1116282428
       },
       "name": "Surfer sur la vérité"
     },
@@ -40718,7 +40765,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 130603
+        "Id": 130603,
+        "Name": 1612600927
       },
       "name": "Personnage aux mille visages"
     },
@@ -40730,7 +40778,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 130604
+        "Id": 130604,
+        "Name": -309713374
       },
       "name": "Fausse piste"
     },
@@ -40742,7 +40791,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 130607
+        "Id": 130607,
+        "Name": -712997901
       },
       "name": "Histoire bancale"
     },
@@ -40914,7 +40964,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 130701
+        "Id": 130701,
+        "Name": 590964014
       },
       "name": "Perspicacité de l'aube silencieuse"
     },
@@ -40926,7 +40977,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 130702
+        "Id": 130702,
+        "Name": 187679487
       },
       "name": "Décadence du faux crépuscule"
     },
@@ -40938,7 +40990,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 130703
+        "Id": 130703,
+        "Name": 1753763428
       },
       "name": "Bénédiction de l'étreinte de l'au-delà"
     },
@@ -40950,7 +41003,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 130704
+        "Id": 130704,
+        "Name": 994248541
       },
       "name": "Toile du caprice du destin"
     },
@@ -40962,7 +41016,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 130707
+        "Id": 130707,
+        "Name": -571835400
       },
       "name": "Du mythe à la réalité"
     },
@@ -41134,7 +41189,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 131201
+        "Id": 131201,
+        "Name": 1014451420
       },
       "name": "P—Pardon de vous déranger !"
     },
@@ -41146,7 +41202,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 131202
+        "Id": 131202,
+        "Name": -551632521
       },
       "name": "À votre service !"
     },
@@ -41158,7 +41215,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 131203
+        "Id": 131203,
+        "Name": -2117716462
       },
       "name": "J—Je vais être en retard !"
     },
@@ -41170,7 +41228,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 131204
+        "Id": 131204,
+        "Name": 611166893
       },
       "name": "Échappée minutée"
     },
@@ -41182,7 +41241,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 131207
+        "Id": 131207,
+        "Name": 207882366
       },
       "name": "Pas si vite !"
     },
@@ -51256,7 +51316,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 130601
+        "Id": 130601,
+        "Name": 449801513
       },
       "name": "Monodrama"
     },
@@ -51268,7 +51329,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 130602
+        "Id": 130602,
+        "Name": -1116282428
       },
       "name": "Dreamdiver"
     },
@@ -51280,7 +51342,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 130603
+        "Id": 130603,
+        "Name": 1612600927
       },
       "name": "The Hero with a Thousand Faces"
     },
@@ -51292,7 +51355,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 130604
+        "Id": 130604,
+        "Name": -309713374
       },
       "name": "Red Herring"
     },
@@ -51304,7 +51368,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 130607
+        "Id": 130607,
+        "Name": -712997901
       },
       "name": "Unreliable Narrator"
     },
@@ -51476,7 +51541,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 130701
+        "Id": 130701,
+        "Name": 590964014
       },
       "name": "Percipience, Silent Dawn"
     },
@@ -51488,7 +51554,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 130702
+        "Id": 130702,
+        "Name": 187679487
       },
       "name": "Decadence, False Twilight"
     },
@@ -51500,7 +51567,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 130703
+        "Id": 130703,
+        "Name": 1753763428
       },
       "name": "Bliss of Otherworld's Embrace"
     },
@@ -51512,7 +51580,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 130704
+        "Id": 130704,
+        "Name": 994248541
       },
       "name": "Loom of Fate's Caprice"
     },
@@ -51524,7 +51593,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 130707
+        "Id": 130707,
+        "Name": -571835400
       },
       "name": "From Façade to Vérité"
     },
@@ -51696,7 +51766,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 131201
+        "Id": 131201,
+        "Name": 1014451420
       },
       "name": "E—Excuse Me, Please!"
     },
@@ -51708,7 +51779,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 131202
+        "Id": 131202,
+        "Name": -551632521
       },
       "name": "R—Room Service"
     },
@@ -51720,7 +51792,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 131203
+        "Id": 131203,
+        "Name": -2117716462
       },
       "name": "G—Gonna Be Late!"
     },
@@ -51732,7 +51805,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 131204
+        "Id": 131204,
+        "Name": 611166893
       },
       "name": "Horological Escapement"
     },
@@ -51744,7 +51818,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 131207
+        "Id": 131207,
+        "Name": 207882366
       },
       "name": "Wait, You Are So Beautiful!"
     },
@@ -61818,7 +61893,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 130601
+        "Id": 130601,
+        "Name": 449801513
       },
       "name": "{RUBY_B#ひと}独{RUBY_E#}り{RUBY_B#しばい}芝居{RUBY_E#}"
     },
@@ -61830,7 +61906,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 130602
+        "Id": 130602,
+        "Name": -1116282428
       },
       "name": "{RUBY_B#ゆめ}夢{RUBY_E#}を{RUBY_B#およ}泳{RUBY_E#}ぐ{RUBY_B#さかな}魚{RUBY_E#}"
     },
@@ -61842,7 +61919,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 130603
+        "Id": 130603,
+        "Name": 1612600927
       },
       "name": "{RUBY_B#ひとりせんやく}一人千役{RUBY_E#}"
     },
@@ -61854,7 +61932,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 130604
+        "Id": 130604,
+        "Name": -309713374
       },
       "name": "{RUBY_B#じょじゅつ}叙述{RUBY_E#}トリック"
     },
@@ -61866,7 +61945,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 130607
+        "Id": 130607,
+        "Name": -712997901
       },
       "name": "{RUBY_B#しんよう}信用{RUBY_E#}できない{RUBY_B#かた}語{RUBY_E#}り{RUBY_B#て}手{RUBY_E#}"
     },
@@ -62038,7 +62118,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 130701
+        "Id": 130701,
+        "Name": 590964014
       },
       "name": "{RUBY_B#どうさつ}洞察{RUBY_E#}、{RUBY_B#かんもく}緘黙{RUBY_E#}の{RUBY_B#れいめい}黎明{RUBY_E#}"
     },
@@ -62050,7 +62131,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 130702
+        "Id": 130702,
+        "Name": 187679487
       },
       "name": "{RUBY_B#しっつい}失墜{RUBY_E#}、{RUBY_B#ぎしん}偽神{RUBY_E#}の{RUBY_B#たそがれ}黄昏{RUBY_E#}"
     },
@@ -62062,7 +62144,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 130703
+        "Id": 130703,
+        "Name": 1753763428
       },
       "name": "{RUBY_B#かなた}彼方{RUBY_E#}の{RUBY_B#ほうよう}抱擁{RUBY_E#}に{RUBY_B#よ}酔{RUBY_E#}いしれて"
     },
@@ -62074,7 +62157,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 130704
+        "Id": 130704,
+        "Name": 994248541
       },
       "name": "{RUBY_B#は}果{RUBY_E#}てなき{RUBY_B#さだめ}運命{RUBY_E#}の{RUBY_B#はたお}機織{RUBY_E#}り"
     },
@@ -62086,7 +62170,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 130707
+        "Id": 130707,
+        "Name": -571835400
       },
       "name": "{RUBY_B#しんそう}真相{RUBY_E#}を{RUBY_B#と}取{RUBY_E#}り、{RUBY_B#ひょうしょう}表象{RUBY_E#}を{RUBY_B#す}捨{RUBY_E#}てる"
     },
@@ -62258,7 +62343,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 131201
+        "Id": 131201,
+        "Name": 1014451420
       },
       "name": "ど…{RUBY_B#ど}退{RUBY_E#}いてくださーい！"
     },
@@ -62270,7 +62356,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 131202
+        "Id": 131202,
+        "Name": -551632521
       },
       "name": "ル…ルームサービスです！"
     },
@@ -62282,7 +62369,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 131203
+        "Id": 131203,
+        "Name": -2117716462
       },
       "name": "ち…{RUBY_B#ちこく}遅刻{RUBY_E#}する！"
     },
@@ -62294,7 +62382,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 131204
+        "Id": 131204,
+        "Name": 611166893
       },
       "name": "{RUBY_B#だっしんき}脱進機{RUBY_E#}"
     },
@@ -62306,7 +62395,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 131207
+        "Id": 131207,
+        "Name": 207882366
       },
       "name": "{RUBY_B#とき}時{RUBY_E#}よ{RUBY_B#と}止{RUBY_E#}まれ、アナタは{RUBY_B#うつく}美{RUBY_E#}しい"
     },
@@ -72380,7 +72470,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 130601
+        "Id": 130601,
+        "Name": 449801513
       },
       "name": "모노드라마"
     },
@@ -72392,7 +72483,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 130602
+        "Id": 130602,
+        "Name": -1116282428
       },
       "name": "꿈을 헤엄치는 물고기"
     },
@@ -72404,7 +72496,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 130603
+        "Id": 130603,
+        "Name": 1612600927
       },
       "name": "천의 얼굴"
     },
@@ -72416,7 +72509,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 130604
+        "Id": 130604,
+        "Name": -309713374
       },
       "name": "서술 트릭"
     },
@@ -72428,7 +72522,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 130607
+        "Id": 130607,
+        "Name": -712997901
       },
       "name": "믿을 수 없는 화자"
     },
@@ -72600,7 +72695,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 130701
+        "Id": 130701,
+        "Name": 590964014
       },
       "name": "통찰, 침묵의 새벽"
     },
@@ -72612,7 +72708,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 130702
+        "Id": 130702,
+        "Name": 187679487
       },
       "name": "실추, 거짓된 신의 황혼"
     },
@@ -72624,7 +72721,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 130703
+        "Id": 130703,
+        "Name": 1753763428
       },
       "name": "저편의 품에 취해"
     },
@@ -72636,7 +72734,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 130704
+        "Id": 130704,
+        "Name": 994248541
       },
       "name": "운명의 베틀의 변덕"
     },
@@ -72648,7 +72747,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 130707
+        "Id": 130707,
+        "Name": -571835400
       },
       "name": "진상을 파악하고 표징을 버려라"
     },
@@ -72820,7 +72920,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 131201
+        "Id": 131201,
+        "Name": 1014451420
       },
       "name": "지… 지나갈게요!"
     },
@@ -72832,7 +72933,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 131202
+        "Id": 131202,
+        "Name": -551632521
       },
       "name": "룸… 룸서비스입니다!"
     },
@@ -72844,7 +72946,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 131203
+        "Id": 131203,
+        "Name": -2117716462
       },
       "name": "지… 지각하겠어!"
     },
@@ -72856,7 +72959,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 131204
+        "Id": 131204,
+        "Name": 611166893
       },
       "name": "탈진기"
     },
@@ -72868,7 +72972,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 131207
+        "Id": 131207,
+        "Name": 207882366
       },
       "name": "멈추어라, 너 정말 아름답구나!"
     },
@@ -82942,7 +83047,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 130601
+        "Id": 130601,
+        "Name": 449801513
       },
       "name": "Monodrama"
     },
@@ -82954,7 +83060,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 130602
+        "Id": 130602,
+        "Name": -1116282428
       },
       "name": "Mergulhadora de Sonhos"
     },
@@ -82966,7 +83073,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 130603
+        "Id": 130603,
+        "Name": 1612600927
       },
       "name": "A Heroína de Mil Faces"
     },
@@ -82978,7 +83086,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 130604
+        "Id": 130604,
+        "Name": -309713374
       },
       "name": "Pista Falsa"
     },
@@ -82990,7 +83099,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 130607
+        "Id": 130607,
+        "Name": -712997901
       },
       "name": "Narradora Nada Confiável"
     },
@@ -83162,7 +83272,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 130701
+        "Id": 130701,
+        "Name": 590964014
       },
       "name": "Percepção, Amanhecer Silencioso"
     },
@@ -83174,7 +83285,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 130702
+        "Id": 130702,
+        "Name": 187679487
       },
       "name": "Decadência, Falso Crepúsculo"
     },
@@ -83186,7 +83298,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 130703
+        "Id": 130703,
+        "Name": 1753763428
       },
       "name": "Bênção do Abraço de Outro Mundo"
     },
@@ -83198,7 +83311,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 130704
+        "Id": 130704,
+        "Name": 994248541
       },
       "name": "Capricho do Tear do Destino"
     },
@@ -83210,7 +83324,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 130707
+        "Id": 130707,
+        "Name": -571835400
       },
       "name": "De Farsa à Verdade"
     },
@@ -83382,7 +83497,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 131201
+        "Id": 131201,
+        "Name": 1014451420
       },
       "name": "C-Com Licença, Por Favor!"
     },
@@ -83394,7 +83510,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 131202
+        "Id": 131202,
+        "Name": -551632521
       },
       "name": "S-Serviço de Quarto"
     },
@@ -83406,7 +83523,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 131203
+        "Id": 131203,
+        "Name": -2117716462
       },
       "name": "V-Vou me Atrasar!"
     },
@@ -83418,7 +83536,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 131204
+        "Id": 131204,
+        "Name": 611166893
       },
       "name": "Escapada Horológica"
     },
@@ -83430,7 +83549,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 131207
+        "Id": 131207,
+        "Name": 207882366
       },
       "name": "Espere, Você É Tão Linda!"
     },
@@ -93504,7 +93624,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 130601
+        "Id": 130601,
+        "Name": 449801513
       },
       "name": "Театр одной актрисы"
     },
@@ -93516,7 +93637,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 130602
+        "Id": 130602,
+        "Name": -1116282428
       },
       "name": "Плавающая во снах"
     },
@@ -93528,7 +93650,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 130603
+        "Id": 130603,
+        "Name": 1612600927
       },
       "name": "Героиня о тысячи лиц"
     },
@@ -93540,7 +93663,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 130604
+        "Id": 130604,
+        "Name": -309713374
       },
       "name": "Отвлекающий манёвр"
     },
@@ -93552,7 +93676,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 130607
+        "Id": 130607,
+        "Name": -712997901
       },
       "name": "Ненадёжный рассказчик"
     },
@@ -93724,7 +93849,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 130701
+        "Id": 130701,
+        "Name": 590964014
       },
       "name": "Прозрение, рассвет тишины"
     },
@@ -93736,7 +93862,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 130702
+        "Id": 130702,
+        "Name": 187679487
       },
       "name": "Декаданс, закат лжи"
     },
@@ -93748,7 +93875,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 130703
+        "Id": 130703,
+        "Name": 1753763428
       },
       "name": "Объятия потустороннего мира"
     },
@@ -93760,7 +93888,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 130704
+        "Id": 130704,
+        "Name": 994248541
       },
       "name": "Каприс плетения судьбы"
     },
@@ -93772,7 +93901,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 130707
+        "Id": 130707,
+        "Name": -571835400
       },
       "name": "Принятие истины, отвержение видимости"
     },
@@ -93944,7 +94074,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 131201
+        "Id": 131201,
+        "Name": 1014451420
       },
       "name": "П-прошу прощения!.."
     },
@@ -93956,7 +94087,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 131202
+        "Id": 131202,
+        "Name": -551632521
       },
       "name": "О-обслуживание номеров"
     },
@@ -93968,7 +94100,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 131203
+        "Id": 131203,
+        "Name": -2117716462
       },
       "name": "Оп-п-паздываю!"
     },
@@ -93980,7 +94113,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 131204
+        "Id": 131204,
+        "Name": 611166893
       },
       "name": "Часовой спуск"
     },
@@ -93992,7 +94126,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 131207
+        "Id": 131207,
+        "Name": 207882366
       },
       "name": "Остановись! Ты прекрасно!"
     },
@@ -104066,7 +104201,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 130601
+        "Id": 130601,
+        "Name": 449801513
       },
       "name": "Monodrama"
     },
@@ -104078,7 +104214,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 130602
+        "Id": 130602,
+        "Name": -1116282428
       },
       "name": "Dreamdiver"
     },
@@ -104090,7 +104227,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 130603
+        "Id": 130603,
+        "Name": 1612600927
       },
       "name": "The Hero with a Thousand Faces"
     },
@@ -104102,7 +104240,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 130604
+        "Id": 130604,
+        "Name": -309713374
       },
       "name": "Red Herring"
     },
@@ -104114,7 +104253,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 130607
+        "Id": 130607,
+        "Name": -712997901
       },
       "name": "Unreliable Narrator"
     },
@@ -104286,7 +104426,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 130701
+        "Id": 130701,
+        "Name": 590964014
       },
       "name": "Percipience, Silent Dawn"
     },
@@ -104298,7 +104439,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 130702
+        "Id": 130702,
+        "Name": 187679487
       },
       "name": "Decadence, False Twilight"
     },
@@ -104310,7 +104452,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 130703
+        "Id": 130703,
+        "Name": 1753763428
       },
       "name": "Bliss of Otherworld's Embrace"
     },
@@ -104322,7 +104465,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 130704
+        "Id": 130704,
+        "Name": 994248541
       },
       "name": "Loom of Fate's Caprice"
     },
@@ -104334,7 +104478,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 130707
+        "Id": 130707,
+        "Name": -571835400
       },
       "name": "From Façade to Vérité"
     },
@@ -104506,7 +104651,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 131201
+        "Id": 131201,
+        "Name": 1014451420
       },
       "name": "E—Excuse Me, Please!"
     },
@@ -104518,7 +104664,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 131202
+        "Id": 131202,
+        "Name": -551632521
       },
       "name": "R—Room Service"
     },
@@ -104530,7 +104677,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 131203
+        "Id": 131203,
+        "Name": -2117716462
       },
       "name": "G—Gonna Be Late!"
     },
@@ -104542,7 +104690,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 131204
+        "Id": 131204,
+        "Name": 611166893
       },
       "name": "Horological Escapement"
     },
@@ -104554,7 +104703,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 131207
+        "Id": 131207,
+        "Name": 207882366
       },
       "name": "Wait, You Are So Beautiful!"
     },
@@ -114628,7 +114778,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 130601
+        "Id": 130601,
+        "Name": 449801513
       },
       "name": "Hài Độc Thoại"
     },
@@ -114640,7 +114791,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 130602
+        "Id": 130602,
+        "Name": -1116282428
       },
       "name": "Cá Nhỏ Cõi Mơ"
     },
@@ -114652,7 +114804,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 130603
+        "Id": 130603,
+        "Name": 1612600927
       },
       "name": "Cô Gái Nghìn Mặt"
     },
@@ -114664,7 +114817,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 130604
+        "Id": 130604,
+        "Name": -309713374
       },
       "name": "Ngụy Biện Cá Trích Đỏ"
     },
@@ -114676,7 +114830,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 130607
+        "Id": 130607,
+        "Name": -712997901
       },
       "name": "Kẻ Kể Chuyện Không Đáng Tin"
     },
@@ -114848,7 +115003,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 130701
+        "Id": 130701,
+        "Name": 590964014
       },
       "name": "Nhìn Thấu, Bình Minh Tĩnh Lặng"
     },
@@ -114860,7 +115016,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 130702
+        "Id": 130702,
+        "Name": 187679487
       },
       "name": "Sụp Đổ, Hoàng Hôn Giả Dối"
     },
@@ -114872,7 +115029,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 130703
+        "Id": 130703,
+        "Name": 1753763428
       },
       "name": "Trầm Luân Trong Vòng Tay"
     },
@@ -114884,7 +115042,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 130704
+        "Id": 130704,
+        "Name": 994248541
       },
       "name": "Khung Cửi Vận Mệnh Khó Lường"
     },
@@ -114896,7 +115055,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 130707
+        "Id": 130707,
+        "Name": -571835400
       },
       "name": "Chân Tướng Ẩn Sau Vỏ Bọc"
     },
@@ -115068,7 +115228,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 131201
+        "Id": 131201,
+        "Name": 1014451420
       },
       "name": "Xin Nhường Bước, Làm Ơn!"
     },
@@ -115080,7 +115241,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 131202
+        "Id": 131202,
+        "Name": -551632521
       },
       "name": "Phục... Phục Vụ Phòng!"
     },
@@ -115092,7 +115254,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 131203
+        "Id": 131203,
+        "Name": -2117716462
       },
       "name": "Sắp... Sắp Trễ Rồi!"
     },
@@ -115104,7 +115267,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 131204
+        "Id": 131204,
+        "Name": 611166893
       },
       "name": "Kết Cấu Dẫn Truyền"
     },
@@ -115116,7 +115280,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 131207
+        "Id": 131207,
+        "Name": 207882366
       },
       "name": "Chờ Đã, Bạn Đẹp Quá!"
     },
@@ -125190,7 +125355,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 130601
+        "Id": 130601,
+        "Name": 449801513
       },
       "name": "獨角戲"
     },
@@ -125202,7 +125368,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 130602
+        "Id": 130602,
+        "Name": -1116282428
       },
       "name": "夢遊魚"
     },
@@ -125214,7 +125381,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 130603
+        "Id": 130603,
+        "Name": 1612600927
       },
       "name": "一人千役"
     },
@@ -125226,7 +125394,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 130604
+        "Id": 130604,
+        "Name": -309713374
       },
       "name": "敘述性詭計"
     },
@@ -125238,7 +125407,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 130607
+        "Id": 130607,
+        "Name": -712997901
       },
       "name": "不可靠敘事者"
     },
@@ -125410,7 +125580,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 130701
+        "Id": 130701,
+        "Name": 590964014
       },
       "name": "洞見，緘默的黎明"
     },
@@ -125422,7 +125593,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 130702
+        "Id": 130702,
+        "Name": 187679487
       },
       "name": "失墜，偽神的黃昏"
     },
@@ -125434,7 +125606,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 130703
+        "Id": 130703,
+        "Name": 1753763428
       },
       "name": "沉醉於彼界的臂灣"
     },
@@ -125446,7 +125619,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 130704
+        "Id": 130704,
+        "Name": 994248541
       },
       "name": "無端命運的機杼"
     },
@@ -125458,7 +125632,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 130707
+        "Id": 130707,
+        "Name": -571835400
       },
       "name": "取此真相，棄捨表徵"
     },
@@ -125630,7 +125805,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 131201
+        "Id": 131201,
+        "Name": 1014451420
       },
       "name": "請……請讓一下！"
     },
@@ -125642,7 +125818,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 131202
+        "Id": 131202,
+        "Name": -551632521
       },
       "name": "客……客房服務！"
     },
@@ -125654,7 +125831,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 131203
+        "Id": 131203,
+        "Name": -2117716462
       },
       "name": "要……要遲到了！"
     },
@@ -125666,7 +125844,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 131204
+        "Id": 131204,
+        "Name": 611166893
       },
       "name": "擒縱機構"
     },
@@ -125678,7 +125857,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 131207
+        "Id": 131207,
+        "Name": 207882366
       },
       "name": "逗留一下吧，你是那樣美！"
     },
@@ -135752,7 +135932,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 130601
+        "Id": 130601,
+        "Name": 449801513
       },
       "name": "独角戏"
     },
@@ -135764,7 +135945,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 130602
+        "Id": 130602,
+        "Name": -1116282428
       },
       "name": "梦游鱼"
     },
@@ -135776,7 +135958,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 130603
+        "Id": 130603,
+        "Name": 1612600927
       },
       "name": "一人千役"
     },
@@ -135788,7 +135971,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 130604
+        "Id": 130604,
+        "Name": -309713374
       },
       "name": "叙述性诡计"
     },
@@ -135800,7 +135984,8 @@
       "icon": "spriteoutput/skillicons/1306/SkillIcon_1306_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 130607
+        "Id": 130607,
+        "Name": -712997901
       },
       "name": "不可靠叙事者"
     },
@@ -135972,7 +136157,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 130701
+        "Id": 130701,
+        "Name": 590964014
       },
       "name": "洞见，缄默的黎明"
     },
@@ -135984,7 +136170,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 130702
+        "Id": 130702,
+        "Name": 187679487
       },
       "name": "失坠，伪神的黄昏"
     },
@@ -135996,7 +136183,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 130703
+        "Id": 130703,
+        "Name": 1753763428
       },
       "name": "沉醉于彼界的臂湾"
     },
@@ -136008,7 +136196,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 130704
+        "Id": 130704,
+        "Name": 994248541
       },
       "name": "无端命运的机杼"
     },
@@ -136020,7 +136209,8 @@
       "icon": "spriteoutput/skillicons/1307/SkillIcon_1307_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 130707
+        "Id": 130707,
+        "Name": -571835400
       },
       "name": "取此真相，弃舍表征"
     },
@@ -136192,7 +136382,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Normal.png",
       "status": {},
       "baseSkill": {
-        "Id": 131201
+        "Id": 131201,
+        "Name": 1014451420
       },
       "name": "请…请让一下！"
     },
@@ -136204,7 +136395,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_BP.png",
       "status": {},
       "baseSkill": {
-        "Id": 131202
+        "Id": 131202,
+        "Name": -551632521
       },
       "name": "客…客房服务！"
     },
@@ -136216,7 +136408,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Ultra.png",
       "status": {},
       "baseSkill": {
-        "Id": 131203
+        "Id": 131203,
+        "Name": -2117716462
       },
       "name": "要…要迟到了！"
     },
@@ -136228,7 +136421,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Passive.png",
       "status": {},
       "baseSkill": {
-        "Id": 131204
+        "Id": 131204,
+        "Name": 611166893
       },
       "name": "擒纵机构"
     },
@@ -136240,7 +136434,8 @@
       "icon": "spriteoutput/skillicons/1312/SkillIcon_1312_Maze.png",
       "status": {},
       "baseSkill": {
-        "Id": 131207
+        "Id": 131207,
+        "Name": 207882366
       },
       "name": "停一停吧，你真美丽！"
     },

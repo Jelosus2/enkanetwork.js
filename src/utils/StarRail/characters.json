@@ -969,6 +969,78 @@
       130507
     ]
   },
+  "1306": {
+    "AvatarName": 368883737,
+    "Rarity": 5,
+    "Element": "Quantum",
+    "AvatarBaseType": "Shaman",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1306.png",
+    "AvatarCutinFrontImgPath": "SpriteOutput/AvatarDrawCard/1306.png",
+    "RankIDList": [
+      130601,
+      130602,
+      130603,
+      130604,
+      130605,
+      130606
+    ],
+    "SkillList": [
+      130601,
+      130602,
+      130603,
+      130604,
+      130606,
+      130607
+    ]
+  },
+  "1307": {
+    "AvatarName": -1197200204,
+    "Rarity": 5,
+    "Element": "Wind",
+    "AvatarBaseType": "Warlock",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1307.png",
+    "AvatarCutinFrontImgPath": "SpriteOutput/AvatarDrawCard/1307.png",
+    "RankIDList": [
+      130701,
+      130702,
+      130703,
+      130704,
+      130705,
+      130706
+    ],
+    "SkillList": [
+      130701,
+      130702,
+      130703,
+      130704,
+      130706,
+      130707
+    ]
+  },
+  "1312": {
+    "AvatarName": -1956715090,
+    "Rarity": 4,
+    "Element": "Ice",
+    "AvatarBaseType": "Warrior",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1312.png",
+    "AvatarCutinFrontImgPath": "SpriteOutput/AvatarDrawCard/1312.png",
+    "RankIDList": [
+      131201,
+      131202,
+      131203,
+      131204,
+      131205,
+      131206
+    ],
+    "SkillList": [
+      131201,
+      131202,
+      131203,
+      131204,
+      131206,
+      131207
+    ]
+  },
   "8001": {
     "AvatarName": -531793818,
     "Rarity": 5,

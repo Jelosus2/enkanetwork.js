@@ -50,6 +50,12 @@
   "200116": {
     "ImagePath": "SpriteOutput/AvatarRoundIcon/Series/200116.png"
   },
+  "200117": {
+    "ImagePath": "SpriteOutput/AvatarRoundIcon/Series/200117.png"
+  },
+  "200118": {
+    "ImagePath": "SpriteOutput/AvatarRoundIcon/Series/200118.png"
+  },
   "201001": {
     "ImagePath": "SpriteOutput/AvatarRoundIcon/1001.png"
   },
@@ -170,6 +176,15 @@
   "201305": {
     "ImagePath": "SpriteOutput/AvatarRoundIcon/1305.png"
   },
+  "201306": {
+    "ImagePath": "SpriteOutput/AvatarRoundIcon/1306.png"
+  },
+  "201307": {
+    "ImagePath": "SpriteOutput/AvatarRoundIcon/1307.png"
+  },
+  "201312": {
+    "ImagePath": "SpriteOutput/AvatarRoundIcon/1312.png"
+  },
   "202001": {
     "ImagePath": "SpriteOutput/AvatarRoundIcon/Series/202001.png"
   },
@@ -199,6 +214,15 @@
   },
   "202010": {
     "ImagePath": "SpriteOutput/AvatarRoundIcon/Series/202010.png"
+  },
+  "202011": {
+    "ImagePath": "SpriteOutput/AvatarRoundIcon/Series/202011.png"
+  },
+  "202012": {
+    "ImagePath": "SpriteOutput/AvatarRoundIcon/Series/202012.png"
+  },
+  "202013": {
+    "ImagePath": "SpriteOutput/AvatarRoundIcon/Series/202013.png"
   },
   "208001": {
     "ImagePath": "SpriteOutput/AvatarRoundIcon/8001.png"
