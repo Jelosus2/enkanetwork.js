@@ -8,110 +8,112 @@ A package to get data from the Enka API, for both Genshin and Star Rail, it also
 <details>
 	<summary>Click to expand</summary>
 
+  - v2.7.2:
+    - Fixed the error when an artifact had no substats it would throw an error when trying to get substats roll quality (Genshin).
   - v2.7.1:
     - Added Star Rail 2.0 version content.
-	- v2.7.0:
+  - v2.7.0:
 	  - Added Genshin 4.4 version content.
 	  - Updated the regex for UID validation due to new UIDs (18XXXXXXXX). Thanks to yuko1101 for providing it!
 	  - Added roll quality for artifact/relic substats for both Genshin and Star Rail.
-	- v2.6.6:
+  - v2.6.6:
 	  - Added support for new CN UIDs (3XXXXXXXX).
 	  - Added max level by ascension to characters in both Genshin and Star Rail.
-	- v2.6.5:
+  - v2.6.5:
 	  - Fixed the issue of MoC and FH finished floors being incorrect.
 	  - Added character element for Genshin Impact.
 	  - Changed the way `fhLastFinishedFloor` works adding the last finished floors for jarilo vi and the xianzhou luofu. Check the breaking changes (BREAKING_CHANGES.md)
-	- v2.6.3:
+  - v2.6.3:
 	  - Added Star Rail 1.6 version content.
-	- v2.6.2:
+  - v2.6.2:
 	  - Forgot to include some properties in the hashes json of Genshin :)
-	- v2.6.1:
+  - v2.6.1:
 	  - Added Genshin 4.3 version content.
-	- v2.6.0:
+  - v2.6.0:
 	  - Added character stats calculation for Star Rail.
 	  - Added Star Rail 1.5 version content.
-	- v2.5.3:
+  - v2.5.3:
 	  - Added Genshin 4.2 version content.
-	- v2.5.2:
+  - v2.5.2:
 	  - Fixed the icon paths of traces.
 	  - Fixed a bug in player's profile pictures of Star Rail.
-	- v2.5.1:
+  - v2.5.1:
 	  - Added Star Rail version 1.4 content.
 	  - Updated the structure of record info to match the API.
-	- v2.5.0 (contains minor breaking changes (./BREAKING_CHANGES.md#from-v221-to-250)):
+  - v2.5.0 ([contains minor breaking changes](./BREAKING_CHANGES.md#from-v221-to-250)):
 	  - Added fully support for Star Rail API.
 	  - Implemented the new profile picture system for Genshin.
 	  - Improved the optimization.
 	  - Fixed some bugs.
-	- v2.2.1:
+  - v2.2.1:
 	  - Added the 4.0 version content.
 	  - Fixed when a player had an element-less traveler in the profile it would throw an error.
 	  - Fixed incorrect assets display for the Traveler.
 	  - Fixed some bugs.
-	- v2.1.9:
+  - v2.1.9:
 	  - Added trailing slash at the end of Enka profile related endpoints to prevent redirections and improve rate limit stability.
-	- v2.1.8:
+  - v2.1.8:
 	  - Quick fix of the problem when someone's profile's hoyo had builds of Honkai: Star Rail it would throw an error when trying to fetch them, the support for said hoyos will come very soon.
-	- v2.1.7:
+  - v2.1.7:
 	  - Added the 3.8 version content.
-	- v2.1.6:
+  - v2.1.6:
 	  - Added the 3.7 version content.
 	  - Added a parser to parse the substat IDs of the artifacts: `Wrapper.parseSubstats()`.
-	- v2.1.4:
+  - v2.1.4:
 	  - Removed the content file reload since it would increase significantly the time to request players data.
-	- v2.1.3:
+  - v2.1.3:
 	  - Fixed when trying to use the `character()` method of **AssetFinder** class would throw an error if the character id was the one of a travelers and their depot skill id.
 	  - Fixed when the content updater downloads the files without all the content leading to errors.
 	  - Now it won't be necessary to restart the application when the new content files are downloaded to read the new information.
 	  - If a cache file it's corrupted it will automatically delete it and add a new cache file with fresh data.
 	  - You can now delete the cache folder with `CacheHandler.deleteCacheDirectory()`.
-	- v2.1.2:
+  - v2.1.2:
 	  - Fixed when a player had the traveler in the showcase it would throw an error.
-	- v2.1.1:
+  - v2.1.1:
 	  - Fixed wrong skills order display of characters.
 	  - Added a costume finder to `AssetFinder`.
 	  - Added the 3.5 content.
-	- v2.1.0 ([Breaking changes](/BREAKING_CHANGES.md) from &lt;v2.0.2):
+  - v2.1.0 ([Breaking changes](/BREAKING_CHANGES.md) from &lt;v2.0.2):
 	  - Implemented the new profile routes and data.
 	  - Changed profile structure, refer to the [new structure](/STRUCTURE.md).
 	  - Updated the player structure to add the `owner` field.
 	  - Fixed when you search for a weapon name it returns an empty string.
 	  - Fixed errors and bugs.
-	- v2.0.2:
+  - v2.0.2:
 	  - Fixed when a character's weapon doesn't have refinement throws an error.
-	- v2.0.1:
+  - v2.0.1:
 	  - Changed the player request endpoint since `/u/<UID>/__data.json` is now deprecated and will stop existing in 2 days.
 	  - Removed the `key` parameter from the **Wrapper** class since it's no longer needed.
 	  - Added profile API route (in case it exists) in the player structure.
-	- v2.0.0:
+  - v2.0.0:
 	  - Reworked the entire data structure and some package structure.
 	  - Merged `AssetNameFinder` and `AssetImageFinder` into `AssetFinder`.
 	  - Added an auto updater for the new genshin versions content.
 	  - Added cache system (optional) to reduce the requests sent to Enka API.
 	  - Fixed some bugs and errors.
 	  - Added JSDoc.
-	- v1.3.10: 
+  - v1.3.10: 
 	  - Reduced file amount of the package.
-	- v1.3.9:
+  - v1.3.9:
 	  - Added 3.3 version content + IT and TR Languages
-	- v1.3.6
+  - v1.3.6
 	  - Added 3.2 version content.
 	  - Now you can access to asset names/images directly from characters, namecards, etc objects.
-	- v1.3.0:
+  - v1.3.0:
 	  - Fixed Ayaka and Mona talents.
 	  - Added missing proudSkillExtraLevelMap.
 	  - Added support for custom User-Agent on requests.
 	  - Added 3.1 version content.
-	- v1.2.1:
+  - v1.2.1:
 	  - Improved data structure for better data management.
 	  - Now empty values will return empty strings, arrays and objects depending on the value type instead of null.
 	  - Fixed some bugs.
 	  - Added profiles API support.
-	- v1.1.1:
+  - v1.1.1:
 	  - Added 3.0 version content.
 	  - Added gacha images for characters.
 	  - Changed the url of enka CDN.
-	- v1.0.1:
+  - v1.0.1:
 	  - Changed the request url to prevent getting unnecessary 301s.
 </details>
 

@@ -100,7 +100,7 @@ export class Artifact {
       ? data.flat.reliquarySubstats.map((data) => new ArtifactSubstats(data))
       : [];
     this.rolledSubstatsIds = data.reliquary.appendPropIdList;
-    this.substatsRollQuality = data.reliquary.appendPropIdList.length > 0
+    this.substatsRollQuality = data.reliquary.appendPropIdList
       ? data.reliquary.appendPropIdList.map((data) => new ArtifactRollQuality(data))
       : [];
     this.itemType = data.flat.itemType;
@@ -117,16 +117,18 @@ export class Artifact {
   sumRollQuality(): any[] {
     const rollsQuality: any[] = [];
 
-    this.substatsRollQuality.forEach((substat) => {
-      if (!rollsQuality.find((data) => data.type == substat.type)) {
-        rollsQuality.push({
-          type: substat.type,
-          rollQuality: this.substatsRollQuality
-            .filter((x) => x.type == substat.type)
-            .map((data) => data.rollQuality)
-        })
-      }
-    });
+    if (this.substatsRollQuality.length > 0) {
+      this.substatsRollQuality.forEach((substat) => {
+        if (!rollsQuality.find((data) => data.type == substat.type)) {
+          rollsQuality.push({
+            type: substat.type,
+            rollQuality: this.substatsRollQuality
+              .filter((x) => x.type == substat.type)
+              .map((data) => data.rollQuality)
+          })
+        }
+      });
+    }
 
     return rollsQuality;
   }

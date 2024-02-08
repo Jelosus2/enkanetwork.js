@@ -9,110 +9,112 @@ Un paquete para obetener datos de la API de enka, para Genshin y Star Rail, tamb
 <details>
   <summary>Haz click para expandir</summary>
 
+  - v2.7.2:
+    - Arreglado el error cuando un artefacto no tiene substats tira un error al intentar obtener la calidad del roll (Genshin).
   - v2.7.1:
     - Añadido el contenido de la versión 2.0 de Star Rail.
-	- v2.7.0:
+ - v2.7.0:
 	  - Añadido el contenido de la versión 4.4 de Genshin.
 	  - Actualizado el regex para la validación de UID por las nuevas UIDs (18XXXXXXXX). Gracias a yuko1101 por proveerlo!
 	  - Añadida la calidad de roll para los substats de los artefactos en Genshin y Star Rail.
-	- v2.6.6:
+  - v2.6.6:
 	  - Soporte añadido para las nuevas UIDs de China (3XXXXXXXX)
 		- Añadido el nivel máximo de cada personaje por su ascensión en Genshin y Star Rail.
-	- v2.6.5:
+  - v2.6.5:
 	  - Arreglado el error donde los valores del Salón olvidado y la Memoria del Caos eran incorrectos.
 	  - Añadidos los elementos de los personajes en Genshin Impact.
 	  - Cambiado como funciona `fhLastFinishedFloor` para añadir los valores del último piso acabado para jarilo vi y el xianzhou luofu. Revisa los cambios importantes (BREAKING_CHANGES.md)
-	- v2.6.3:
+  - v2.6.3:
 	  - Añadido el contenido de la versión 1.6 de Star Rail.
-	- v2.6.2:
+  - v2.6.2:
 	  - Me he olvidado de incluir algunas propiedades en el json de los hashes de Genshin :)
-	- v2.6.1:
+  - v2.6.1:
 	  - Añadido el contenido de la versión 4.3 de Genshin.
-	- v2.6.0:
+  - v2.6.0:
 	  - Añadido el calculo de stats de los personajes en Star Rail.
 	  - Añadido el contenido de la versión de 1.5 de Star Rail.
-	- v2.5.3:
+  - v2.5.3:
 	  - Añadido el contenido de la versión 4.2 de Genshin.
-	- v2.5.2:
+  - v2.5.2:
     - Arreglada la ruta de los iconos de los rastros.
 	  - Arreglado un bug sobre las fotos de perfil en Star Rail.
-	- v2.5.1:
+  - v2.5.1:
 	  - Añadido el contenido de la versión 1.4 de Star Rail.
 	  - Actualizada la estructura de los registros del jugador para que coincida con la API.
-	- v2.5.0 (contiene cambios importantes menores (./BREAKING_CHANGES.md#from-v221-to-250)):
+  - v2.5.0 ([contiene cambios importantes menores](./BREAKING_CHANGES.md#from-v221-to-250)):
 	  - Añadido full soporte para la API de Star Rail.
 	  - Implementado el nuevo sistema de fotos de perfil de Genshin.
 	  - Mejorada la optimización.
 	  - Arreglados algunos bugs.
-	- v2.2.1:
+  - v2.2.1:
 	  - Añadido el contenido de la versión 4.0.
 	  - Arreglado cuando un jugador tenía en su perfil al Viajero sin elemento, tiraría un error.
 	  - Arreglada la incorrecta visualización de los assets del Viajero.
 	  - Algunos bugs arreglados.
-	- v2.1.9:
+  - v2.1.9:
 	  - Añadida barra diagonal al final de los endpoints relacionados con los perfiles de Enka para evitar redirecciones y mejorar la estabilidad de los rate limits.
-	- v2.1.8:
+  - v2.1.8:
 	  - Arreglo rápido del problema de cuando un usuario tenía builds de Honkai: Star Rail en el hoyo de su perfil tiraría un error al intentar obtenerlas, el soporte para dichos hoyos vendrá muy pronto.
-	- v2.1.7:
+  - v2.1.7:
 	  - Añadido el contenido de la versión 3.8.
-	- v2.1.6:
+  - v2.1.6:
 	  - Añadido el contenido de la versión 3.7.
 	  - Añadido un parseador para parsear las IDs de los substats de un artefacto: `Wrapper.parseSubstats()`.
-	- v2.1.4:
+  - v2.1.4:
 	  - Removido el recargar automático de los archivos porque incrementaría enormemente el tiempo de petición de información de los jugadores.
-	- v2.1.3:
+  - v2.1.3:
 	  - Arreglado cuando al usar el método `character()` de la clase **AssetFinder** e introducir la id de personaje de uno de los viajeros con su id de habilidad de elemento tiraraba un error.
 	  - Arreglado cuando el actualizador de contenido descargaba los archivos con el contenido incompleto, desembocando en errores.
 	  - Ahora no será necesario reiniciar la aplicación cuando los archivos de contenido se descarguen para leer su nuevo contenido.
 	  - Si algún archivo caché se corrompe se eliminará automáticamente y se creará uno nuevo con datos frescos.
 	  - Ahora puedes borrar el directorio del caché con `CacheHandler.deleteCacheDirectory()`.
-	- v2.1.2:
+  - v2.1.2:
 	  - Arreglado cuando el jugador tenía al Viajero/a en el perfil tiraba un error.
-	- v2.1.1:
+  - v2.1.1:
 	  - Arreglado el error que mostraba erróneamente el orden de las habilidades de los personajes.
 	  - Añadido un buscador de disfraces a `AssetFinder`.
 	  - Añadido el contenido de la versión 3.5.
-	- v2.1.0 ([Cambios rompedores](/BREAKING_CHANGES.md) desde <v2.0.2):
+  - v2.1.0 ([Cambios rompedores](/BREAKING_CHANGES.md) desde <v2.0.2):
 	  - Implementadas las nuevas rutas y los datos de los perfiles.
 	  - Cambia la estructura de los perfiles, revisé la [nueva estructura](/STRUCTURE.md).
 	  - Actualizado la estructura del jugador para añadir el campo `owner`.
 	  - Arreglado cuando buscas el nombre de un arma devuelve un string vacío.
 	  - Arreglados bugs y errores.
-	- v2.0.2:
+  - v2.0.2:
 	  - Arreglado cuando el arma del personaje no tiene refinamiento salta un error.
-	- v2.0.1:
+  - v2.0.1:
 	  - Cambiada la ruta de peticiones de información del jugador, ya que `/u/<UID>/__data.json` no se usará más y en 2 días dejará de existir.
 	  - Eliminado el parametro `key` de la clase **Wrapper** ya que no se necesita más.
 	  - Añadida la ruta del perfil del jugador (en caso de exista) a la estructura del jugador.
-	- v2.0.0:
+  - v2.0.0:
 	  - La estructura de los datos y alguna estructura del paquete han sido rediseñadas.
 	  - Se han juntado las clases `AssetNameFinder` y `AssetImageFinder` en `AssetFinder`.
 	  - Añadido un auto actualizador de contenido para el contenido de las nuevas versiones de Genshin Impact.
 	  - Añadido un sistema de caché (opcional) para reducir las peticiones a la API de Enka.
 	  - Arreglados algunos bugs y errores.
 	  - Añadido JSDoc.
-	- v1.3.10: 
+  - v1.3.10: 
 	  - Archivos del paquete reducidos.
-	- v1.3.9:
+  - v1.3.9:
 	  - Añadido el contenido de la versión 3.3 + los idiomas IT y TR.
-	- v1.3.6
+  - v1.3.6
 	  - Añadido el contenido de la versión 3.2.
 	  - Ahora puedes acceder a los nombres/imágenes de los assets directamente desde los objetos de personajes, tarjetas, etc.
-	- v1.3.0:
+  - v1.3.0:
 	  - Arreglados los talentos de Ayaka y Mona.
 	  - Añadido el proudSkillExtraLevelMap faltante.
 	  - Añadido soporte para User Agent personalizados en las solicitudes.
 	  - Añadido el contenido de la versión 3.1.
-	- v1.2.1:
+  - v1.2.1:
 	  - Mejorada la estructura de los datos para un mejor manejo.
 	  - Ahora los valores vacíos retornarán arreglos, objetos y strings vacíos en vez de null.
 	  - Solucionados algunos bugs.
 	  - Añadido soporte para la API de perfiles.
-	- v1.1.1:
+  - v1.1.1:
 	  - Añadido el contenido de la versión 3.0.
 	  - Añadidas las imágenes gacha de los personajes.
 	  - Cambiada la url del CDN de enka.
-	- v1.0.1:
+  - v1.0.1:
 	  - Cambiada la URL de peticiones para evitar códigos 301 innecesarios.
 </details>
 
