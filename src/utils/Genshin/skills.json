@@ -1487,6 +1487,22 @@
     "nameTextMapHash": 2928796237,
     "icon": "Skill_S_Liuyun_05"
   },
+  "10941": {
+    "nameTextMapHash": 914798901,
+    "icon": "Skill_A_01"
+  },
+  "10942": {
+    "nameTextMapHash": 2315821309,
+    "icon": "Skill_S_Chiori_01"
+  },
+  "10944": {
+    "nameTextMapHash": 2873692477,
+    "icon": "Skill_S_Chiori_03"
+  },
+  "10945": {
+    "nameTextMapHash": 373425821,
+    "icon": "Skill_E_Chiori_01"
+  },
   "11301": {
     "nameTextMapHash": 3802462781,
     "icon": "Skill_A_02"
@@ -1695,6 +1711,14 @@
     "nameTextMapHash": 682415765,
     "icon": "Skill_LanV4PartyLion_01"
   },
+  "20093": {
+    "nameTextMapHash": 3906587141,
+    "icon": "Btn_SlimeCannon_Fire_01"
+  },
+  "20094": {
+    "nameTextMapHash": 2428119293,
+    "icon": "Btn_SlimeCannon_Fire_04"
+  },
   "20100": {
     "nameTextMapHash": 4176490093,
     "icon": "Btn_HideAndSeek_Seeker_A_01"
@@ -1869,11 +1893,11 @@
   },
   "20400": {
     "nameTextMapHash": 2657714069,
-    "icon": "Btn_HideAndSeek_Seeker_A_01"
+    "icon": "Btn_HideAndSeekV4_Seeker_S"
   },
   "20401": {
     "nameTextMapHash": 66214933,
-    "icon": "Btn_HideAndSeek_Seeker_A_01"
+    "icon": "Btn_HideAndSeekV4_Seeker_S"
   },
   "20410": {
     "nameTextMapHash": 169502221,
@@ -1881,7 +1905,7 @@
   },
   "20411": {
     "nameTextMapHash": 1752388581,
-    "icon": "Btn_HideAndSeek_Seeker_S_02"
+    "icon": "Btn_HideAndSeekV4_Seeker_A_02"
   },
   "20420": {
     "nameTextMapHash": 816489501,
@@ -1889,11 +1913,11 @@
   },
   "20421": {
     "nameTextMapHash": 1050865533,
-    "icon": "Btn_HideAndSeek_Seeker_E_02"
+    "icon": "Btn_HideAndSeekV4_Seeker_E_02"
   },
   "20422": {
     "nameTextMapHash": 2689008917,
-    "icon": "Btn_HideAndSeek_Seeker_E_03"
+    "icon": "Btn_HideAndSeekV4_Seeker_E_01"
   },
   "20500": {
     "nameTextMapHash": 902040061,
@@ -1905,7 +1929,7 @@
   },
   "20510": {
     "nameTextMapHash": 2713313077,
-    "icon": "Btn_HideAndSeek_Hider_S_01"
+    "icon": "Btn_HideAndSeekV4_Hider_A_01"
   },
   "20511": {
     "nameTextMapHash": 1882966981,
@@ -1921,7 +1945,7 @@
   },
   "20520": {
     "nameTextMapHash": 2680677653,
-    "icon": "Btn_HideAndSeek_Hider_E_01"
+    "icon": "Btn_HideAndSeekV4_Hider_E"
   },
   "20521": {
     "nameTextMapHash": 2973812453,
@@ -1933,11 +1957,11 @@
   },
   "20523": {
     "nameTextMapHash": 2450340517,
-    "icon": "UI_Icon_Skill_Prey_Invisible_Bait"
+    "icon": "Btn_HideAndSeekV4_Hider_A_02"
   },
   "20524": {
     "nameTextMapHash": 1356540013,
-    "icon": "Btn_HideAndSeek_Seeker_S_01"
+    "icon": "Btn_HideAndSeekV4_Seeker_A_01"
   },
   "20525": {
     "nameTextMapHash": 3710444509,
@@ -2406,5 +2430,9 @@
   "5093010": {
     "nameTextMapHash": 345620165,
     "icon": "Skill_A_Catalyst_MD"
+  },
+  "5094010": {
+    "nameTextMapHash": 331992085,
+    "icon": "Skill_A_01"
   }
 }

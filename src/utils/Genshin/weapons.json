@@ -274,6 +274,11 @@
     "awakenIcon": "UI_EquipIcon_Sword_Regalis_Awaken",
     "nameTextMapHash": 1473399443
   },
+  "11514": {
+    "icon": "UI_EquipIcon_Sword_Needle",
+    "awakenIcon": "UI_EquipIcon_Sword_Needle_Awaken",
+    "nameTextMapHash": 1818340435
+  },
   "12101": {
     "icon": "UI_EquipIcon_Claymore_Aniki",
     "awakenIcon": "UI_EquipIcon_Claymore_Aniki_Awaken",
@@ -583,6 +588,11 @@
     "icon": "UI_EquipIcon_Pole_Vorpal",
     "awakenIcon": "UI_EquipIcon_Pole_Vorpal_Awaken",
     "nameTextMapHash": 4158971171
+  },
+  "13426": {
+    "icon": "UI_EquipIcon_Pole_Caduceus",
+    "awakenIcon": "UI_EquipIcon_Pole_Caduceus_Awaken",
+    "nameTextMapHash": 2847771107
   },
   "13427": {
     "icon": "UI_EquipIcon_Pole_Mechanic",

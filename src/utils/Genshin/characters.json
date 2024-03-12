@@ -2116,6 +2116,31 @@
       "10935"
     ]
   },
+  "10000094": {
+    "nameTextMapHash": 1944606922,
+    "element": "Geo",
+    "icon": "UI_AvatarIcon_Chiori",
+    "sideIcon": "UI_AvatarIcon_Side_Chiori",
+    "gachaIcon": "UI_Gacha_AvatarImg_Chiori",
+    "constellations": [
+      "UI_Talent_S_Chiori_01",
+      "UI_Talent_S_Chiori_03",
+      "UI_Talent_U_Chiori_01",
+      "UI_Talent_S_Chiori_02",
+      "UI_Talent_U_Chiori_02",
+      "UI_Talent_S_Chiori_04"
+    ],
+    "skills": {
+      "normalAttack": "Skill_A_01",
+      "elementalSkill": "Skill_S_Chiori_01",
+      "elementalBurst": "Skill_E_Chiori_01"
+    },
+    "skillOrder": [
+      "10941",
+      "10942",
+      "10945"
+    ]
+  },
   "10000005-501": {
     "nameTextMapHash": 3816664530,
     "icon": "UI_AvatarIcon_PlayerBoy",

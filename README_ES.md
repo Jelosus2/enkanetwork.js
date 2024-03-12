@@ -9,6 +9,8 @@ Un paquete para obetener datos de la API de enka, para Genshin y Star Rail, tamb
 <details>
   <summary>Haz click para expandir</summary>
 
+  - v2.7.3:
+    - Añadido el contenido de la versión 4.5 de Genshin.
   - v2.7.2:
     - Arreglado el error cuando un artefacto no tiene substats tira un error al intentar obtener la calidad del roll (Genshin).
   - v2.7.1:

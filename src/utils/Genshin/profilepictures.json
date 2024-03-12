@@ -484,6 +484,11 @@
     "oldIcon": "UI_AvatarIcon_Liuyun",
     "nameTextMapHash": 1294266220
   },
+  "7900": {
+    "icon": "UI_AvatarIcon_Chiori_Circle",
+    "oldIcon": "UI_AvatarIcon_Chiori",
+    "nameTextMapHash": 1057050268
+  },
   "99999": {
     "icon": "UI_AvatarIcon_Ambor_Circle",
     "oldIcon": "UI_AvatarIcon_Ambor",

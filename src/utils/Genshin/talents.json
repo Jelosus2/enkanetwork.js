@@ -1990,5 +1990,29 @@
   "936": {
     "nameTextMapHash": 3383313401,
     "icon": "UI_Talent_S_Liuyun_04"
+  },
+  "941": {
+    "nameTextMapHash": 689897337,
+    "icon": "UI_Talent_S_Chiori_01"
+  },
+  "942": {
+    "nameTextMapHash": 2112971153,
+    "icon": "UI_Talent_S_Chiori_03"
+  },
+  "943": {
+    "nameTextMapHash": 645847961,
+    "icon": "UI_Talent_U_Chiori_01"
+  },
+  "944": {
+    "nameTextMapHash": 6373505,
+    "icon": "UI_Talent_S_Chiori_02"
+  },
+  "945": {
+    "nameTextMapHash": 167855529,
+    "icon": "UI_Talent_U_Chiori_02"
+  },
+  "946": {
+    "nameTextMapHash": 94228129,
+    "icon": "UI_Talent_S_Chiori_04"
   }
 }
