@@ -14,6 +14,11 @@ export class WeaponAssets {
   name: string;
 
   /**
+   * The weapon's rank stars.
+   */
+  stars: number;
+
+  /**
    * The weapon assets.
    */
   assets: WeaponImages;
@@ -27,6 +32,7 @@ export class WeaponAssets {
     const weapon = weapons[weaponId];
 
     this.name = hashes[language][weapon?.nameTextMapHash] || "";
+    this.stars = weapon?.rarity || 0;
     this.assets = weapon
       ? new WeaponImages(weapon)
       : ({} as WeaponImages);

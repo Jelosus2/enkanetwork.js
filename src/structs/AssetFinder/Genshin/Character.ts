@@ -23,6 +23,11 @@ export class CharacterAssets {
   element: string;
 
   /**
+   * The character's rank stars.
+   */
+  stars: number;
+
+  /**
    * The assets of the character.
    */
   assets: CharacterImages;
@@ -36,8 +41,9 @@ export class CharacterAssets {
     const character = characters[characterId];
 
     this.name =
-      hashes[language]?.[character.nameTextMapHash] || "";
-    this.element = character.element;
+      hashes[language]?.[character?.nameTextMapHash] || "";
+    this.element = character?.element || "";
+    this.stars = character?.rarity || 0;
     this.assets = character
       ? new CharacterImages(character)
       : ({} as CharacterImages);

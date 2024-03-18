@@ -9,6 +9,9 @@ Un paquete para obetener datos de la API de enka, para Genshin y Star Rail, tamb
 <details>
   <summary>Haz click para expandir</summary>
 
+  - v2.7.4:
+	  - Añadida la rareza de los personajes y armas.
+	  - Estructura actualizada un poco.
   - v2.7.3:
     - Añadido el contenido de la versión 4.5 de Genshin.
   - v2.7.2:

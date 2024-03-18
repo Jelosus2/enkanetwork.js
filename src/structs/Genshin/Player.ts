@@ -142,13 +142,11 @@ class Namecard {
    * @param language - The language to get the name.
    */
   constructor(namecardId: number, genshinFinder: AssetFinder["genshin"]) {
+    const namecard = genshinFinder.namecard(namecardId || "0");
+
     this.id = namecardId || "";
-    this.assets = namecardId
-      ? genshinFinder.namecard(this.id).assets
-      : ({} as NamecardImages);
-    this.name = namecardId
-      ? genshinFinder.namecard(this.id).name
-      : "";
+    this.assets = namecard.assets;
+    this.name = namecard.name;
   }
 }
 
@@ -211,15 +209,13 @@ class Showcase {
    * @param language - The language to get the names.
    */
   constructor(data: ShowcaseAPI, genshinFinder: AssetFinder["genshin"]) {
+    const character = genshinFinder.character(data.avatarId || "0");
+
     this.characterId = data.avatarId || "";
     this.level = data.level || "";
     this.costumeId = data.costumeId || "";
-    this.assets = data.avatarId
-      ? genshinFinder.character(this.characterId).assets
-      : ({} as CharacterImages);
-    this.name = data.avatarId
-      ? genshinFinder.character(this.characterId).name
-      : "";
+    this.assets = character.assets;
+    this.name = character.name;
   }
 }
 
@@ -232,6 +228,9 @@ class ProfilePicture {
    */
   characterId: number | string;
 
+  /**
+   * The ID of the profile picture.
+   */
   id: number | string;
 
   /**
@@ -253,17 +252,15 @@ class ProfilePicture {
     data: ProfilePictureAPI,
     genshinFinder: AssetFinder["genshin"]
   ) {
+    const profilePicture = data.avatarId ?
+      genshinFinder.character(data.avatarId)
+      : data.id
+        ? genshinFinder.profilePicture(data.id)
+        : genshinFinder.profilePicture("0");
+
     this.characterId = data.avatarId || "";
     this.id = data.id || "";
-    this.assets = data.avatarId
-      ? genshinFinder.character(this.characterId).assets
-      : data.id
-        ? genshinFinder.profilePicture(data.id).assets
-        : ({} as CharacterImages | ProfilePictureImages);
-    this.name = data.avatarId
-      ? genshinFinder.character(this.characterId).name
-      : data.id
-        ? genshinFinder.profilePicture(data.id).name
-        : "";
+    this.assets = profilePicture.assets;
+    this.name = profilePicture.name;
   }
 }

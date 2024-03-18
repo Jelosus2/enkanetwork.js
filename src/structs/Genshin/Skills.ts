@@ -101,10 +101,11 @@ class Skill {
     language: AssetFinderOptions["language"]
   ) {
     const { genshin: genshinFinder } = new AssetFinder({ language });
+    const skill = genshinFinder.skill(id);
 
     this.level = level;
     this.id = id;
-    this.assets = genshinFinder.skill(id).assets;
-    this.name = genshinFinder.skill(id).name;
+    this.assets = skill.assets;
+    this.name = skill.name;
   }
 }

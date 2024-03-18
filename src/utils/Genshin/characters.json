@@ -3,6 +3,7 @@
     "nameTextMapHash": 1006042610,
     "element": "Cryo",
     "icon": "UI_AvatarIcon_Ayaka",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Ayaka",
     "gachaIcon": "UI_Gacha_AvatarImg_Ayaka",
     "constellations": [
@@ -35,6 +36,7 @@
     "nameTextMapHash": 3221566250,
     "element": "Anemo",
     "icon": "UI_AvatarIcon_Qin",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Qin",
     "gachaIcon": "UI_Gacha_AvatarImg_Qin",
     "constellations": [
@@ -72,6 +74,7 @@
     "nameTextMapHash": 1533656818,
     "element": "Anemo",
     "icon": "UI_AvatarIcon_PlayerBoy",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_PlayerBoy",
     "gachaIcon": "UI_Gacha_AvatarImg_PlayerBoy",
     "constellations": [
@@ -97,6 +100,7 @@
     "nameTextMapHash": 3344622722,
     "element": "Electro",
     "icon": "UI_AvatarIcon_Lisa",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Lisa",
     "gachaIcon": "UI_Gacha_AvatarImg_Lisa",
     "constellations": [
@@ -129,6 +133,7 @@
     "nameTextMapHash": 3816664530,
     "element": "Anemo",
     "icon": "UI_AvatarIcon_PlayerGirl",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_PlayerGirl",
     "gachaIcon": "UI_Gacha_AvatarImg_PlayerGirl",
     "constellations": [
@@ -154,6 +159,7 @@
     "nameTextMapHash": 3775299170,
     "element": "Hydro",
     "icon": "UI_AvatarIcon_Barbara",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Barbara",
     "gachaIcon": "UI_Gacha_AvatarImg_Barbara",
     "constellations": [
@@ -186,6 +192,7 @@
     "nameTextMapHash": 4119663210,
     "element": "Cryo",
     "icon": "UI_AvatarIcon_Kaeya",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Kaeya",
     "gachaIcon": "UI_Gacha_AvatarImg_Kaeya",
     "constellations": [
@@ -218,6 +225,7 @@
     "nameTextMapHash": 3608180322,
     "element": "Pyro",
     "icon": "UI_AvatarIcon_Diluc",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Diluc",
     "gachaIcon": "UI_Gacha_AvatarImg_Diluc",
     "constellations": [
@@ -250,6 +258,7 @@
     "nameTextMapHash": 4160147242,
     "element": "Electro",
     "icon": "UI_AvatarIcon_Razor",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Razor",
     "gachaIcon": "UI_Gacha_AvatarImg_Razor",
     "constellations": [
@@ -275,6 +284,7 @@
     "nameTextMapHash": 1966438658,
     "element": "Pyro",
     "icon": "UI_AvatarIcon_Ambor",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Ambor",
     "gachaIcon": "UI_Gacha_AvatarImg_Ambor",
     "constellations": [
@@ -307,6 +317,7 @@
     "nameTextMapHash": 2466140362,
     "element": "Anemo",
     "icon": "UI_AvatarIcon_Venti",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Venti",
     "gachaIcon": "UI_Gacha_AvatarImg_Venti",
     "constellations": [
@@ -332,6 +343,7 @@
     "nameTextMapHash": 1130996346,
     "element": "Pyro",
     "icon": "UI_AvatarIcon_Xiangling",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Xiangling",
     "gachaIcon": "UI_Gacha_AvatarImg_Xiangling",
     "constellations": [
@@ -357,6 +369,7 @@
     "nameTextMapHash": 2646367730,
     "element": "Electro",
     "icon": "UI_AvatarIcon_Beidou",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Beidou",
     "gachaIcon": "UI_Gacha_AvatarImg_Beidou",
     "constellations": [
@@ -382,6 +395,7 @@
     "nameTextMapHash": 4197635682,
     "element": "Hydro",
     "icon": "UI_AvatarIcon_Xingqiu",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Xingqiu",
     "gachaIcon": "UI_Gacha_AvatarImg_Xingqiu",
     "constellations": [
@@ -414,6 +428,7 @@
     "nameTextMapHash": 1021947690,
     "element": "Anemo",
     "icon": "UI_AvatarIcon_Xiao",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Xiao",
     "gachaIcon": "UI_Gacha_AvatarImg_Xiao",
     "constellations": [
@@ -439,6 +454,7 @@
     "nameTextMapHash": 4127888970,
     "element": "Geo",
     "icon": "UI_AvatarIcon_Ningguang",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Ningguang",
     "gachaIcon": "UI_Gacha_AvatarImg_Ningguang",
     "constellations": [
@@ -471,6 +487,7 @@
     "nameTextMapHash": 3339083250,
     "element": "Pyro",
     "icon": "UI_AvatarIcon_Klee",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Klee",
     "gachaIcon": "UI_Gacha_AvatarImg_Klee",
     "constellations": [
@@ -503,6 +520,7 @@
     "nameTextMapHash": 3862787418,
     "element": "Geo",
     "icon": "UI_AvatarIcon_Zhongli",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Zhongli",
     "gachaIcon": "UI_Gacha_AvatarImg_Zhongli",
     "constellations": [
@@ -528,6 +546,7 @@
     "nameTextMapHash": 3277782506,
     "element": "Electro",
     "icon": "UI_AvatarIcon_Fischl",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Fischl",
     "gachaIcon": "UI_Gacha_AvatarImg_Fischl",
     "constellations": [
@@ -560,6 +579,7 @@
     "nameTextMapHash": 968893378,
     "element": "Pyro",
     "icon": "UI_AvatarIcon_Bennett",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Bennett",
     "gachaIcon": "UI_Gacha_AvatarImg_Bennett",
     "constellations": [
@@ -585,6 +605,7 @@
     "nameTextMapHash": 3847143266,
     "element": "Hydro",
     "icon": "UI_AvatarIcon_Tartaglia",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Tartaglia",
     "gachaIcon": "UI_Gacha_AvatarImg_Tartaglia",
     "constellations": [
@@ -610,6 +631,7 @@
     "nameTextMapHash": 1921418842,
     "element": "Geo",
     "icon": "UI_AvatarIcon_Noel",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Noel",
     "gachaIcon": "UI_Gacha_AvatarImg_Noel",
     "constellations": [
@@ -635,6 +657,7 @@
     "nameTextMapHash": 168956722,
     "element": "Cryo",
     "icon": "UI_AvatarIcon_Qiqi",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Qiqi",
     "gachaIcon": "UI_Gacha_AvatarImg_Qiqi",
     "constellations": [
@@ -660,6 +683,7 @@
     "nameTextMapHash": 2876340530,
     "element": "Cryo",
     "icon": "UI_AvatarIcon_Chongyun",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Chongyun",
     "gachaIcon": "UI_Gacha_AvatarImg_Chongyun",
     "constellations": [
@@ -685,6 +709,7 @@
     "nameTextMapHash": 2679781122,
     "element": "Cryo",
     "icon": "UI_AvatarIcon_Ganyu",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Ganyu",
     "gachaIcon": "UI_Gacha_AvatarImg_Ganyu",
     "constellations": [
@@ -717,6 +742,7 @@
     "nameTextMapHash": 4108620722,
     "element": "Geo",
     "icon": "UI_AvatarIcon_Albedo",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Albedo",
     "gachaIcon": "UI_Gacha_AvatarImg_Albedo",
     "constellations": [
@@ -742,6 +768,7 @@
     "nameTextMapHash": 1468367538,
     "element": "Cryo",
     "icon": "UI_AvatarIcon_Diona",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Diona",
     "gachaIcon": "UI_Gacha_AvatarImg_Diona",
     "constellations": [
@@ -767,6 +794,7 @@
     "nameTextMapHash": 1113306282,
     "element": "Hydro",
     "icon": "UI_AvatarIcon_Mona",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Mona",
     "gachaIcon": "UI_Gacha_AvatarImg_Mona",
     "constellations": [
@@ -799,6 +827,7 @@
     "nameTextMapHash": 1864015138,
     "element": "Electro",
     "icon": "UI_AvatarIcon_Keqing",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Keqing",
     "gachaIcon": "UI_Gacha_AvatarImg_Keqing",
     "constellations": [
@@ -831,6 +860,7 @@
     "nameTextMapHash": 1053433018,
     "element": "Anemo",
     "icon": "UI_AvatarIcon_Sucrose",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Sucrose",
     "gachaIcon": "UI_Gacha_AvatarImg_Sucrose",
     "constellations": [
@@ -856,6 +886,7 @@
     "nameTextMapHash": 4273845410,
     "element": "Pyro",
     "icon": "UI_AvatarIcon_Xinyan",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Xinyan",
     "gachaIcon": "UI_Gacha_AvatarImg_Xinyan",
     "constellations": [
@@ -881,6 +912,7 @@
     "nameTextMapHash": 4260733330,
     "element": "Cryo",
     "icon": "UI_AvatarIcon_Rosaria",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Rosaria",
     "gachaIcon": "UI_Gacha_AvatarImg_Rosaria",
     "constellations": [
@@ -913,6 +945,7 @@
     "nameTextMapHash": 1940919994,
     "element": "Pyro",
     "icon": "UI_AvatarIcon_Hutao",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Hutao",
     "gachaIcon": "UI_Gacha_AvatarImg_Hutao",
     "constellations": [
@@ -938,6 +971,7 @@
     "nameTextMapHash": 88505754,
     "element": "Anemo",
     "icon": "UI_AvatarIcon_Kazuha",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Kazuha",
     "gachaIcon": "UI_Gacha_AvatarImg_Kazuha",
     "constellations": [
@@ -963,6 +997,7 @@
     "nameTextMapHash": 697277554,
     "element": "Pyro",
     "icon": "UI_AvatarIcon_Feiyan",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Feiyan",
     "gachaIcon": "UI_Gacha_AvatarImg_Feiyan",
     "constellations": [
@@ -988,6 +1023,7 @@
     "nameTextMapHash": 2504399314,
     "element": "Pyro",
     "icon": "UI_AvatarIcon_Yoimiya",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Yoimiya",
     "gachaIcon": "UI_Gacha_AvatarImg_Yoimiya",
     "constellations": [
@@ -1013,6 +1049,7 @@
     "nameTextMapHash": 3555115602,
     "element": "Pyro",
     "icon": "UI_AvatarIcon_Tohma",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Tohma",
     "gachaIcon": "UI_Gacha_AvatarImg_Tohma",
     "constellations": [
@@ -1038,6 +1075,7 @@
     "nameTextMapHash": 3717667418,
     "element": "Cryo",
     "icon": "UI_AvatarIcon_Eula",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Eula",
     "gachaIcon": "UI_Gacha_AvatarImg_Eula",
     "constellations": [
@@ -1063,6 +1101,7 @@
     "nameTextMapHash": 3024507506,
     "element": "Electro",
     "icon": "UI_AvatarIcon_Shougun",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Shougun",
     "gachaIcon": "UI_Gacha_AvatarImg_Shougun",
     "constellations": [
@@ -1088,6 +1127,7 @@
     "nameTextMapHash": 2388785242,
     "element": "Anemo",
     "icon": "UI_AvatarIcon_Sayu",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Sayu",
     "gachaIcon": "UI_Gacha_AvatarImg_Sayu",
     "constellations": [
@@ -1113,6 +1153,7 @@
     "nameTextMapHash": 3914045794,
     "element": "Hydro",
     "icon": "UI_AvatarIcon_Kokomi",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Kokomi",
     "gachaIcon": "UI_Gacha_AvatarImg_Kokomi",
     "constellations": [
@@ -1138,6 +1179,7 @@
     "nameTextMapHash": 3400133546,
     "element": "Geo",
     "icon": "UI_AvatarIcon_Gorou",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Gorou",
     "gachaIcon": "UI_Gacha_AvatarImg_Gorou",
     "constellations": [
@@ -1163,6 +1205,7 @@
     "nameTextMapHash": 1483922610,
     "element": "Electro",
     "icon": "UI_AvatarIcon_Sara",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Sara",
     "gachaIcon": "UI_Gacha_AvatarImg_Sara",
     "constellations": [
@@ -1188,6 +1231,7 @@
     "nameTextMapHash": 3068316954,
     "element": "Geo",
     "icon": "UI_AvatarIcon_Itto",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Itto",
     "gachaIcon": "UI_Gacha_AvatarImg_Itto",
     "constellations": [
@@ -1213,6 +1257,7 @@
     "nameTextMapHash": 2713453234,
     "element": "Electro",
     "icon": "UI_AvatarIcon_Yae",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Yae",
     "gachaIcon": "UI_Gacha_AvatarImg_Yae",
     "constellations": [
@@ -1238,6 +1283,7 @@
     "nameTextMapHash": 646032090,
     "element": "Anemo",
     "icon": "UI_AvatarIcon_Heizo",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Heizo",
     "gachaIcon": "UI_Gacha_AvatarImg_Heizo",
     "constellations": [
@@ -1263,6 +1309,7 @@
     "nameTextMapHash": 2848374378,
     "element": "Hydro",
     "icon": "UI_AvatarIcon_Yelan",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Yelan",
     "gachaIcon": "UI_Gacha_AvatarImg_Yelan",
     "constellations": [
@@ -1288,6 +1335,7 @@
     "nameTextMapHash": 1456643042,
     "element": "Dendro",
     "icon": "UI_AvatarIcon_Momoka",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Momoka",
     "gachaIcon": "UI_Gacha_AvatarImg_Momoka",
     "constellations": [
@@ -1313,6 +1361,7 @@
     "nameTextMapHash": 3689108098,
     "element": "Cryo",
     "icon": "UI_AvatarIcon_Aloy",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Aloy",
     "gachaIcon": "UI_Gacha_AvatarImg_Aloy",
     "constellations": [
@@ -1338,6 +1387,7 @@
     "nameTextMapHash": 334242634,
     "element": "Cryo",
     "icon": "UI_AvatarIcon_Shenhe",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Shenhe",
     "gachaIcon": "UI_Gacha_AvatarImg_Shenhe",
     "constellations": [
@@ -1370,6 +1420,7 @@
     "nameTextMapHash": 655825874,
     "element": "Geo",
     "icon": "UI_AvatarIcon_Yunjin",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Yunjin",
     "gachaIcon": "UI_Gacha_AvatarImg_Yunjin",
     "constellations": [
@@ -1395,6 +1446,7 @@
     "nameTextMapHash": 1940821986,
     "element": "Electro",
     "icon": "UI_AvatarIcon_Shinobu",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Shinobu",
     "gachaIcon": "UI_Gacha_AvatarImg_Shinobu",
     "constellations": [
@@ -1420,6 +1472,7 @@
     "nameTextMapHash": 1588620330,
     "element": "Hydro",
     "icon": "UI_AvatarIcon_Ayato",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Ayato",
     "gachaIcon": "UI_Gacha_AvatarImg_Ayato",
     "constellations": [
@@ -1445,6 +1498,7 @@
     "nameTextMapHash": 2948362178,
     "element": "Dendro",
     "icon": "UI_AvatarIcon_Collei",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Collei",
     "gachaIcon": "UI_Gacha_AvatarImg_Collei",
     "constellations": [
@@ -1470,6 +1524,7 @@
     "nameTextMapHash": 388272194,
     "element": "Electro",
     "icon": "UI_AvatarIcon_Dori",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Dori",
     "gachaIcon": "UI_Gacha_AvatarImg_Dori",
     "constellations": [
@@ -1495,6 +1550,7 @@
     "nameTextMapHash": 2506955778,
     "element": "Dendro",
     "icon": "UI_AvatarIcon_Tighnari",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Tighnari",
     "gachaIcon": "UI_Gacha_AvatarImg_Tighnari",
     "constellations": [
@@ -1520,6 +1576,7 @@
     "nameTextMapHash": 3850149970,
     "element": "Hydro",
     "icon": "UI_AvatarIcon_Nilou",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Nilou",
     "gachaIcon": "UI_Gacha_AvatarImg_Nilou",
     "constellations": [
@@ -1545,6 +1602,7 @@
     "nameTextMapHash": 1049891906,
     "element": "Electro",
     "icon": "UI_AvatarIcon_Cyno",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Cyno",
     "gachaIcon": "UI_Gacha_AvatarImg_Cyno",
     "constellations": [
@@ -1570,6 +1628,7 @@
     "nameTextMapHash": 3092975658,
     "element": "Hydro",
     "icon": "UI_AvatarIcon_Candace",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Candace",
     "gachaIcon": "UI_Gacha_AvatarImg_Candace",
     "constellations": [
@@ -1595,6 +1654,7 @@
     "nameTextMapHash": 712501082,
     "element": "Dendro",
     "icon": "UI_AvatarIcon_Nahida",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Nahida",
     "gachaIcon": "UI_Gacha_AvatarImg_Nahida",
     "constellations": [
@@ -1620,6 +1680,7 @@
     "nameTextMapHash": 2889777514,
     "element": "Cryo",
     "icon": "UI_AvatarIcon_Layla",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Layla",
     "gachaIcon": "UI_Gacha_AvatarImg_Layla",
     "constellations": [
@@ -1645,6 +1706,7 @@
     "nameTextMapHash": 3230559562,
     "element": "Anemo",
     "icon": "UI_AvatarIcon_Wanderer",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Wanderer",
     "gachaIcon": "UI_Gacha_AvatarImg_Wanderer",
     "constellations": [
@@ -1670,6 +1732,7 @@
     "nameTextMapHash": 2387711994,
     "element": "Anemo",
     "icon": "UI_AvatarIcon_Faruzan",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Faruzan",
     "gachaIcon": "UI_Gacha_AvatarImg_Faruzan",
     "constellations": [
@@ -1695,6 +1758,7 @@
     "nameTextMapHash": 1732418482,
     "element": "Dendro",
     "icon": "UI_AvatarIcon_Yaoyao",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Yaoyao",
     "gachaIcon": "UI_Gacha_AvatarImg_Yaoyao",
     "constellations": [
@@ -1720,6 +1784,7 @@
     "nameTextMapHash": 4002157418,
     "element": "Dendro",
     "icon": "UI_AvatarIcon_Alhatham",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Alhatham",
     "gachaIcon": "UI_Gacha_AvatarImg_Alhatham",
     "constellations": [
@@ -1745,6 +1810,7 @@
     "nameTextMapHash": 2360533154,
     "element": "Pyro",
     "icon": "UI_AvatarIcon_Dehya",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Dehya",
     "gachaIcon": "UI_Gacha_AvatarImg_Dehya",
     "constellations": [
@@ -1770,6 +1836,7 @@
     "nameTextMapHash": 231911858,
     "element": "Cryo",
     "icon": "UI_AvatarIcon_Mika",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Mika",
     "gachaIcon": "UI_Gacha_AvatarImg_Mika",
     "constellations": [
@@ -1795,6 +1862,7 @@
     "nameTextMapHash": 466355514,
     "element": "Dendro",
     "icon": "UI_AvatarIcon_Kaveh",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Kaveh",
     "gachaIcon": "UI_Gacha_AvatarImg_Kaveh",
     "constellations": [
@@ -1820,6 +1888,7 @@
     "nameTextMapHash": 2984815066,
     "element": "Dendro",
     "icon": "UI_AvatarIcon_Baizhuer",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Baizhuer",
     "gachaIcon": "UI_Gacha_AvatarImg_Baizhuer",
     "constellations": [
@@ -1845,6 +1914,7 @@
     "nameTextMapHash": 1225226258,
     "element": "Anemo",
     "icon": "UI_AvatarIcon_Linette",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Linette",
     "gachaIcon": "UI_Gacha_AvatarImg_Linette",
     "constellations": [
@@ -1870,6 +1940,7 @@
     "nameTextMapHash": 2472444970,
     "element": "Pyro",
     "icon": "UI_AvatarIcon_Liney",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Liney",
     "gachaIcon": "UI_Gacha_AvatarImg_Liney",
     "constellations": [
@@ -1895,6 +1966,7 @@
     "nameTextMapHash": 4201964354,
     "element": "Cryo",
     "icon": "UI_AvatarIcon_Freminet",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Freminet",
     "gachaIcon": "UI_Gacha_AvatarImg_Freminet",
     "constellations": [
@@ -1920,6 +1992,7 @@
     "nameTextMapHash": 370151050,
     "element": "Cryo",
     "icon": "UI_AvatarIcon_Wriothesley",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Wriothesley",
     "gachaIcon": "UI_Gacha_AvatarImg_Wriothesley",
     "constellations": [
@@ -1945,6 +2018,7 @@
     "nameTextMapHash": 1504902330,
     "element": "Hydro",
     "icon": "UI_AvatarIcon_Neuvillette",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Neuvillette",
     "gachaIcon": "UI_Gacha_AvatarImg_Neuvillette",
     "constellations": [
@@ -1970,6 +2044,7 @@
     "nameTextMapHash": 3831162130,
     "element": "Cryo",
     "icon": "UI_AvatarIcon_Charlotte",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Charlotte",
     "gachaIcon": "UI_Gacha_AvatarImg_Charlotte",
     "constellations": [
@@ -1995,6 +2070,7 @@
     "nameTextMapHash": 2180900234,
     "element": "Hydro",
     "icon": "UI_AvatarIcon_Furina",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Furina",
     "gachaIcon": "UI_Gacha_AvatarImg_Furina",
     "constellations": [
@@ -2020,6 +2096,7 @@
     "nameTextMapHash": 540313842,
     "element": "Pyro",
     "icon": "UI_AvatarIcon_Chevreuse",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Chevreuse",
     "gachaIcon": "UI_Gacha_AvatarImg_Chevreuse",
     "constellations": [
@@ -2045,6 +2122,7 @@
     "nameTextMapHash": 2877588578,
     "element": "Geo",
     "icon": "UI_AvatarIcon_Navia",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Navia",
     "gachaIcon": "UI_Gacha_AvatarImg_Navia",
     "constellations": [
@@ -2070,6 +2148,7 @@
     "nameTextMapHash": 2822240322,
     "element": "Pyro",
     "icon": "UI_AvatarIcon_Gaming",
+    "rarity": 4,
     "sideIcon": "UI_AvatarIcon_Side_Gaming",
     "gachaIcon": "UI_Gacha_AvatarImg_Gaming",
     "constellations": [
@@ -2095,6 +2174,7 @@
     "nameTextMapHash": 3648220770,
     "element": "Anemo",
     "icon": "UI_AvatarIcon_Liuyun",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Liuyun",
     "gachaIcon": "UI_Gacha_AvatarImg_Liuyun",
     "constellations": [
@@ -2120,6 +2200,7 @@
     "nameTextMapHash": 1944606922,
     "element": "Geo",
     "icon": "UI_AvatarIcon_Chiori",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_Chiori",
     "gachaIcon": "UI_Gacha_AvatarImg_Chiori",
     "constellations": [
@@ -2144,6 +2225,7 @@
   "10000005-501": {
     "nameTextMapHash": 3816664530,
     "icon": "UI_AvatarIcon_PlayerBoy",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_PlayerBoy",
     "gachaIcon": "UI_Gacha_AvatarImg_PlayerBoy",
     "constellations": [
@@ -2169,6 +2251,7 @@
     "nameTextMapHash": 1533656818,
     "element": "Hydro",
     "icon": "UI_AvatarIcon_PlayerBoy",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_PlayerBoy",
     "gachaIcon": "UI_Gacha_AvatarImg_PlayerBoy",
     "constellations": [
@@ -2194,6 +2277,7 @@
     "nameTextMapHash": 1533656818,
     "element": "Anemo",
     "icon": "UI_AvatarIcon_PlayerBoy",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_PlayerBoy",
     "gachaIcon": "UI_Gacha_AvatarImg_PlayerBoy",
     "constellations": [
@@ -2219,6 +2303,7 @@
     "nameTextMapHash": 1533656818,
     "element": "Geo",
     "icon": "UI_AvatarIcon_PlayerBoy",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_PlayerBoy",
     "gachaIcon": "UI_Gacha_AvatarImg_PlayerBoy",
     "constellations": [
@@ -2244,6 +2329,7 @@
     "nameTextMapHash": 1533656818,
     "element": "Electro",
     "icon": "UI_AvatarIcon_PlayerBoy",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_PlayerBoy",
     "gachaIcon": "UI_Gacha_AvatarImg_PlayerBoy",
     "constellations": [
@@ -2269,6 +2355,7 @@
     "nameTextMapHash": 1533656818,
     "element": "Dendro",
     "icon": "UI_AvatarIcon_PlayerBoy",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_PlayerBoy",
     "gachaIcon": "UI_Gacha_AvatarImg_PlayerBoy",
     "constellations": [
@@ -2293,6 +2380,7 @@
   "10000007-701": {
     "nameTextMapHash": 3816664530,
     "icon": "UI_AvatarIcon_PlayerGirl",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_PlayerGirl",
     "gachaIcon": "UI_Gacha_AvatarImg_PlayerGirl",
     "constellations": [
@@ -2318,6 +2406,7 @@
     "nameTextMapHash": 3816664530,
     "element": "Hydro",
     "icon": "UI_AvatarIcon_PlayerGirl",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_PlayerGirl",
     "gachaIcon": "UI_Gacha_AvatarImg_PlayerGirl",
     "constellations": [
@@ -2343,6 +2432,7 @@
     "nameTextMapHash": 3816664530,
     "element": "Anemo",
     "icon": "UI_AvatarIcon_PlayerGirl",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_PlayerGirl",
     "gachaIcon": "UI_Gacha_AvatarImg_PlayerGirl",
     "constellations": [
@@ -2368,6 +2458,7 @@
     "nameTextMapHash": 3816664530,
     "element": "Geo",
     "icon": "UI_AvatarIcon_PlayerGirl",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_PlayerGirl",
     "gachaIcon": "UI_Gacha_AvatarImg_PlayerGirl",
     "constellations": [
@@ -2393,6 +2484,7 @@
     "nameTextMapHash": 3816664530,
     "element": "Electro",
     "icon": "UI_AvatarIcon_PlayerGirl",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_PlayerGirl",
     "gachaIcon": "UI_Gacha_AvatarImg_PlayerGirl",
     "constellations": [
@@ -2418,6 +2510,7 @@
     "nameTextMapHash": 3816664530,
     "element": "Dendro",
     "icon": "UI_AvatarIcon_PlayerGirl",
+    "rarity": 5,
     "sideIcon": "UI_AvatarIcon_Side_PlayerGirl",
     "gachaIcon": "UI_Gacha_AvatarImg_PlayerGirl",
     "constellations": [

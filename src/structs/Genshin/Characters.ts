@@ -31,6 +31,11 @@ export class Characters {
   element: string;
 
   /**
+   * The character's rank stars.
+   */
+  stars: number;
+
+  /**
    * The maximum level by the current ascension.
    */
   maxLevel: number;
@@ -107,10 +112,11 @@ export class Characters {
     if (["10000005", "10000007"].includes(data.avatarId.toString()))
       charDepot = `${data.avatarId}-${data.skillDepotId}`;
 
+    const character = genshinFinder.character(charDepot || data.avatarId);
+
     this.characterId = data.avatarId;
-    this.element = genshinFinder.character(
-      charDepot || this.characterId
-    ).element;
+    this.element = character.element;
+    this.stars = character.stars;
     this.maxLevel = maxLevelMapping[+data.propMap[1002].val || 0];
     this.properties = new Properties(data.propMap);
     this.stats = new Stats(data.fightPropMap);
@@ -128,13 +134,9 @@ export class Characters {
     this.skillsExtraLevel = data.proudSkillExtraLevelMap || {};
     this.equipment = new Equipment(data.equipList, language);
     this.friendship = new Friendship(data.fetterInfo);
-    this.assets = genshinFinder.character(
-      charDepot || this.characterId
-    ).assets;
+    this.assets = character.assets;
     this.costumeId = data.costumeId || "";
-    this.name = genshinFinder.character(
-      charDepot || this.characterId
-    ).name;
+    this.name = character.name;
   }
 }
 
@@ -166,9 +168,11 @@ class Constellations {
     constellationId: number,
     genshinFinder: AssetFinder["genshin"]
   ) {
+    const constellation = genshinFinder.constellation(constellationId);
+
     this.id = constellationId;
-    this.assets = genshinFinder.constellation(this.id).assets;
-    this.name = genshinFinder.constellation(this.id).name;
+    this.assets = constellation.assets;
+    this.name = constellation.name;
   }
 }
 

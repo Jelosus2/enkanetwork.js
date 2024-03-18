@@ -30,7 +30,7 @@ export class ProfilePictureAssets {
     const profilepicture = profilepictures[profilePictureId];
 
     this.name =
-      hashes[language]?.[profilepicture.nameTextMapHash] ||
+      hashes[language]?.[profilepicture?.nameTextMapHash] ||
       "";
     this.assets = profilepicture
       ? new ProfilePictureImages(profilepicture)
