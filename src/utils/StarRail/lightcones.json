@@ -383,6 +383,12 @@
     "EquipmentName": -973364446,
     "ImagePath": "SpriteOutput/LightConeFigures/21042.png"
   },
+  "21043": {
+    "Rarity": 4,
+    "AvatarBaseType": "Knight",
+    "EquipmentName": -973364447,
+    "ImagePath": "SpriteOutput/LightConeFigures/21043.png"
+  },
   "22000": {
     "Rarity": 4,
     "AvatarBaseType": "Warlock",
@@ -532,6 +538,18 @@
     "AvatarBaseType": "Warlock",
     "EquipmentName": -92890034,
     "ImagePath": "SpriteOutput/LightConeFigures/23022.png"
+  },
+  "23023": {
+    "Rarity": 5,
+    "AvatarBaseType": "Knight",
+    "EquipmentName": -92890035,
+    "ImagePath": "SpriteOutput/LightConeFigures/23023.png"
+  },
+  "23024": {
+    "Rarity": 5,
+    "AvatarBaseType": "Warlock",
+    "EquipmentName": -92890040,
+    "ImagePath": "SpriteOutput/LightConeFigures/23024.png"
   },
   "24000": {
     "Rarity": 5,

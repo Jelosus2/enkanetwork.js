@@ -8,6 +8,8 @@ A package to get data from the Enka API, for both Genshin and Star Rail, it also
 <details>
 	<summary>Click to expand</summary>
 
+  - v2.7.5:
+	  - Added Star Rail 2.1 version content.
   - v2.7.4:
 	  - Added character and weapon rarity.
 	  - Updated a little the structure.
