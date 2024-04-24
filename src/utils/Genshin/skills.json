@@ -1503,6 +1503,30 @@
     "nameTextMapHash": 373425821,
     "icon": "Skill_E_Chiori_01"
   },
+  "10961": {
+    "nameTextMapHash": 3395884205,
+    "icon": "Skill_A_03"
+  },
+  "10962": {
+    "nameTextMapHash": 88213301,
+    "icon": "Skill_S_Arlecchino_01"
+  },
+  "10963": {
+    "nameTextMapHash": 1398698245,
+    "icon": "Skill_S_Arlecchino_01"
+  },
+  "10965": {
+    "nameTextMapHash": 2156811133,
+    "icon": "Skill_E_Arlecchino_01"
+  },
+  "10966": {
+    "nameTextMapHash": 3589496853,
+    "icon": "Skill_A_03"
+  },
+  "10967": {
+    "nameTextMapHash": 4257022253,
+    "icon": "Skill_A_03"
+  },
   "11301": {
     "nameTextMapHash": 3802462781,
     "icon": "Skill_A_02"
@@ -1703,6 +1727,10 @@
     "nameTextMapHash": 3018374477,
     "icon": "QuesteventSkillIcon_01"
   },
+  "20081": {
+    "nameTextMapHash": 845866237,
+    "icon": "Skill_Music"
+  },
   "20083": {
     "nameTextMapHash": 4248326901,
     "icon": "Skill_LanV4PartyLion_01"
@@ -1710,6 +1738,10 @@
   "20084": {
     "nameTextMapHash": 682415765,
     "icon": "Skill_LanV4PartyLion_01"
+  },
+  "20086": {
+    "nameTextMapHash": 4251923773,
+    "icon": "Skill_Music"
   },
   "20093": {
     "nameTextMapHash": 3906587141,
@@ -1855,6 +1887,10 @@
     "nameTextMapHash": 1316655253,
     "icon": "Btn_PacMan"
   },
+  "20346": {
+    "nameTextMapHash": 840915861,
+    "icon": "Btn_Whale_Interrupt"
+  },
   "20350": {
     "nameTextMapHash": 3206240077,
     "icon": "Skill_E_Klee_01"
@@ -1990,6 +2026,38 @@
   "20531": {
     "nameTextMapHash": 1873021445,
     "icon": "Btn_Fishing_Exit"
+  },
+  "20532": {
+    "nameTextMapHash": 1819872509,
+    "icon": "Btn_HideAndSeekV4_Seeker_A_03"
+  },
+  "20533": {
+    "nameTextMapHash": 4151065125,
+    "icon": "Btn_HideAndSeekV4_Seeker_E_03"
+  },
+  "20534": {
+    "nameTextMapHash": 1658286853,
+    "icon": "Btn_HideAndSeekV4_Hider_S"
+  },
+  "20535": {
+    "nameTextMapHash": 164728021,
+    "icon": "Btn_HideAndSeekV4_Hider_S"
+  },
+  "20538": {
+    "nameTextMapHash": 2797265765,
+    "icon": "Btn_HideAndSeekV4_Seeker_E_01"
+  },
+  "20539": {
+    "nameTextMapHash": 351406893,
+    "icon": "Btn_HideAndSeekV4_Seeker_S"
+  },
+  "20540": {
+    "nameTextMapHash": 1185389325,
+    "icon": "Btn_HideAndSeekV4_Seeker_S"
+  },
+  "20541": {
+    "nameTextMapHash": 3465751389,
+    "icon": "Btn_HideAndSeekV4_Seeker_A_01"
   },
   "100540": {
     "nameTextMapHash": 1952055533,
@@ -2434,5 +2502,9 @@
   "5094010": {
     "nameTextMapHash": 331992085,
     "icon": "Skill_A_01"
+  },
+  "5096010": {
+    "nameTextMapHash": 2699549653,
+    "icon": "Skill_A_03"
   }
 }

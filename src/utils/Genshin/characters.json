@@ -2222,6 +2222,32 @@
       "10945"
     ]
   },
+  "10000096": {
+    "nameTextMapHash": 167199474,
+    "element": "Pyro",
+    "icon": "UI_AvatarIcon_Arlecchino",
+    "rarity": 5,
+    "sideIcon": "UI_AvatarIcon_Side_Arlecchino",
+    "gachaIcon": "UI_Gacha_AvatarImg_Arlecchino",
+    "constellations": [
+      "UI_Talent_S_Arlecchino_01",
+      "UI_Talent_S_Arlecchino_02",
+      "UI_Talent_U_Arlecchino_01",
+      "UI_Talent_S_Arlecchino_03",
+      "UI_Talent_U_Arlecchino_02",
+      "UI_Talent_S_Arlecchino_04"
+    ],
+    "skills": {
+      "normalAttack": "Skill_A_03",
+      "elementalSkill": "Skill_S_Arlecchino_01",
+      "elementalBurst": "Skill_E_Arlecchino_01"
+    },
+    "skillOrder": [
+      "10961",
+      "10962",
+      "10965"
+    ]
+  },
   "10000005-501": {
     "nameTextMapHash": 3816664530,
     "icon": "UI_AvatarIcon_PlayerBoy",

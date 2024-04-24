@@ -489,9 +489,99 @@
     "oldIcon": "UI_AvatarIcon_Chiori",
     "nameTextMapHash": 1057050268
   },
+  "8000": {
+    "icon": "UI_AvatarIcon_Arlecchino_Circle",
+    "oldIcon": "UI_AvatarIcon_Arlecchino",
+    "nameTextMapHash": 3363124668
+  },
   "99999": {
     "icon": "UI_AvatarIcon_Ambor_Circle",
     "oldIcon": "UI_AvatarIcon_Ambor",
     "nameTextMapHash": 3995351756
+  },
+  "100010": {
+    "icon": "UI_AvatarIcon_72105_Circle",
+    "oldIcon": "UI_AvatarIcon_72105",
+    "nameTextMapHash": 4284320332
+  },
+  "100020": {
+    "icon": "UI_AvatarIcon_72158_Circle",
+    "oldIcon": "UI_AvatarIcon_72158",
+    "nameTextMapHash": 2115514524
+  },
+  "100030": {
+    "icon": "UI_AvatarIcon_72173_Circle",
+    "oldIcon": "UI_AvatarIcon_72173",
+    "nameTextMapHash": 537096092
+  },
+  "100040": {
+    "icon": "UI_AvatarIcon_72177_Circle",
+    "oldIcon": "UI_AvatarIcon_72177",
+    "nameTextMapHash": 2055558492
+  },
+  "100050": {
+    "icon": "UI_AvatarIcon_71045_Circle",
+    "oldIcon": "UI_AvatarIcon_71045",
+    "nameTextMapHash": 3628954484
+  },
+  "100060": {
+    "icon": "UI_AvatarIcon_73038_Circle",
+    "oldIcon": "UI_AvatarIcon_73038",
+    "nameTextMapHash": 2914387620
+  },
+  "100070": {
+    "icon": "UI_AvatarIcon_73055_Circle",
+    "oldIcon": "UI_AvatarIcon_73055",
+    "nameTextMapHash": 1698312916
+  },
+  "100080": {
+    "icon": "UI_AvatarIcon_73220_Circle",
+    "oldIcon": "UI_AvatarIcon_73220",
+    "nameTextMapHash": 1025414580
+  },
+  "100090": {
+    "icon": "UI_AvatarIcon_73232_Circle",
+    "oldIcon": "UI_AvatarIcon_73232",
+    "nameTextMapHash": 4204508124
+  },
+  "100100": {
+    "icon": "UI_AvatarIcon_74007_Circle",
+    "oldIcon": "UI_AvatarIcon_74007",
+    "nameTextMapHash": 423665740
+  },
+  "100110": {
+    "icon": "UI_AvatarIcon_74004_Circle",
+    "oldIcon": "UI_AvatarIcon_74004",
+    "nameTextMapHash": 1584610884
+  },
+  "100120": {
+    "icon": "UI_AvatarIcon_74028_Circle",
+    "oldIcon": "UI_AvatarIcon_74028",
+    "nameTextMapHash": 3637200084
+  },
+  "100130": {
+    "icon": "UI_AvatarIcon_74053_Circle",
+    "oldIcon": "UI_AvatarIcon_74053",
+    "nameTextMapHash": 1630051180
+  },
+  "100140": {
+    "icon": "UI_AvatarIcon_74078_Circle",
+    "oldIcon": "UI_AvatarIcon_74078",
+    "nameTextMapHash": 2732020044
+  },
+  "100150": {
+    "icon": "UI_AvatarIcon_74085_Circle",
+    "oldIcon": "UI_AvatarIcon_74085",
+    "nameTextMapHash": 131812372
+  },
+  "100160": {
+    "icon": "UI_AvatarIcon_71100_Circle",
+    "oldIcon": "UI_AvatarIcon_71100",
+    "nameTextMapHash": 1960492844
+  },
+  "100170": {
+    "icon": "UI_AvatarIcon_74196_Circle",
+    "oldIcon": "UI_AvatarIcon_74196",
+    "nameTextMapHash": 860131476
   }
 }

@@ -2014,5 +2014,29 @@
   "946": {
     "nameTextMapHash": 94228129,
     "icon": "UI_Talent_S_Chiori_04"
+  },
+  "961": {
+    "nameTextMapHash": 1931573609,
+    "icon": "UI_Talent_S_Arlecchino_01"
+  },
+  "962": {
+    "nameTextMapHash": 2743280569,
+    "icon": "UI_Talent_S_Arlecchino_02"
+  },
+  "963": {
+    "nameTextMapHash": 1222541609,
+    "icon": "UI_Talent_U_Arlecchino_01"
+  },
+  "964": {
+    "nameTextMapHash": 2103473001,
+    "icon": "UI_Talent_S_Arlecchino_03"
+  },
+  "965": {
+    "nameTextMapHash": 3475324945,
+    "icon": "UI_Talent_U_Arlecchino_02"
+  },
+  "966": {
+    "nameTextMapHash": 585561937,
+    "icon": "UI_Talent_S_Arlecchino_04"
   }
 }

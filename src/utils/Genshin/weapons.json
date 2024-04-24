@@ -773,6 +773,12 @@
     "nameTextMapHash": 4238339131,
     "rarity": 5
   },
+  "13512": {
+    "icon": "UI_EquipIcon_Pole_BloodMoon",
+    "awakenIcon": "UI_EquipIcon_Pole_BloodMoon_Awaken",
+    "nameTextMapHash": 2944936683,
+    "rarity": 5
+  },
   "14101": {
     "icon": "UI_EquipIcon_Catalyst_Apprentice",
     "awakenIcon": "UI_EquipIcon_Catalyst_Apprentice_Awaken",
