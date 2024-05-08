@@ -139,6 +139,31 @@ class SRRecordInfo {
   charactersObtained: number;
 
   /**
+   * The number of books obtained by the player.
+   */
+  booksCollected: number;
+
+  /**
+   * The number of relics owned by the player.
+   */
+  relicsOwned: number;
+
+  /**
+   * The number of music tracks collected by the player.
+   */
+  musicCollected: number;
+
+  /**
+   * Pure Fiction last finished stage.
+   */
+  pureFictionLastFinishedStage: number;
+
+  /**
+   * The amount of stars obtained in Pure Fiction.
+   */
+  pureFictionStarCount: number;
+
+  /**
    * Creates a new `SRRecodInfo` instance.
    * @param data - The data of the records.
    */
@@ -150,6 +175,11 @@ class SRRecordInfo {
     this.simulatedUniverseLastFinishedWorld = data.maxRogueChallengeScore || 0;
     this.achievementCount = data.achievementCount || 0;
     this.charactersObtained = data.avatarCount;
+    this.booksCollected = data.bookCount || 0;
+    this.relicsOwned = data.relicCount || 0;
+    this.musicCollected = data.musicCount || 0;
+    this.pureFictionLastFinishedStage = data.challengeInfo.abyssLevel || 0;
+    this.pureFictionStarCount = data.challengeInfo.abyssStarCount || 0;
   }
 }
 

@@ -41,12 +41,17 @@ export interface SRPlayerRecordInfoAPI {
   maxRogueChallengeScore: number
   achievementCount: number
   avatarCount: number
+  bookCount: number
+  relicCount: number
+  musicCount: number
 }
 
 export interface SRPlayerChallengeInfoAPI {
   scheduleGroupId: number
   scheduleMaxLevel: number 
   noneScheduleMaxLevel: number
+  abyssLevel: number
+  abyssStarCount: number
 }
 
 export interface SRLightConeAPI {

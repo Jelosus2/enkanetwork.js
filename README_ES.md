@@ -9,6 +9,9 @@ Un paquete para obetener datos de la API de enka, para Genshin y Star Rail, tamb
 <details>
   <summary>Haz click para expandir</summary>
 
+  - v2.7.8:
+	  - `booksCollected`, `relicsOwned`, `musicCollected`, `pureFictionLastFinishedStage` y `pureFictionStarCount` añadido a **\<request\>.player.recordInfo**.
+	  - Añadido el contenido de la versión 2.2 de Star Rail.
   - v2.7.6:
 	  - Añadido el contenido de la versión 4.6 de Genshin.
   - v2.7.5:
