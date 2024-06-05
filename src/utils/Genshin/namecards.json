@@ -1557,5 +1557,45 @@
       "UI_NameCardPic_GreatFestivalV2_Alpha",
       "UI_NameCardPic_GreatFestivalV2_P"
     ]
+  },
+  "210200": {
+    "nameTextMapHash": 1434145132,
+    "icon": "UI_NameCardIcon_Clorinde",
+    "picPath": [
+      "UI_NameCardPic_Clorinde_Alpha",
+      "UI_NameCardPic_Clorinde_P"
+    ]
+  },
+  "210201": {
+    "nameTextMapHash": 2519862828,
+    "icon": "UI_NameCardIcon_Sigewinne",
+    "picPath": [
+      "UI_NameCardPic_Sigewinne_Alpha",
+      "UI_NameCardPic_Sigewinne_P"
+    ]
+  },
+  "210202": {
+    "nameTextMapHash": 3809875516,
+    "icon": "UI_NameCardIcon_Sethos",
+    "picPath": [
+      "UI_NameCardPic_Sethos_Alpha",
+      "UI_NameCardPic_Sethos_P"
+    ]
+  },
+  "210203": {
+    "nameTextMapHash": 3545893804,
+    "icon": "UI_NameCardIcon_RoleCombat",
+    "picPath": [
+      "UI_NameCardPic_RoleCombat_Alpha",
+      "UI_NameCardPic_RoleCombat_P"
+    ]
+  },
+  "210204": {
+    "nameTextMapHash": 3965647636,
+    "icon": "UI_NameCardIcon_Bp33",
+    "picPath": [
+      "UI_NameCardPic_Bp33_Alpha",
+      "UI_NameCardPic_Bp33_P"
+    ]
   }
 }

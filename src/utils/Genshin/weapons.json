@@ -335,6 +335,12 @@
     "nameTextMapHash": 1818340435,
     "rarity": 5
   },
+  "11515": {
+    "icon": "UI_EquipIcon_Sword_Estoc",
+    "awakenIcon": "UI_EquipIcon_Sword_Estoc_Awaken",
+    "nameTextMapHash": 1009471939,
+    "rarity": 5
+  },
   "12101": {
     "icon": "UI_EquipIcon_Claymore_Aniki",
     "awakenIcon": "UI_EquipIcon_Claymore_Aniki_Awaken",
@@ -1199,6 +1205,12 @@
     "nameTextMapHash": 2600875323,
     "rarity": 4
   },
+  "15426": {
+    "icon": "UI_EquipIcon_Bow_Ultimatum",
+    "awakenIcon": "UI_EquipIcon_Bow_Ultimatum_Awaken",
+    "nameTextMapHash": 4038676067,
+    "rarity": 4
+  },
   "15427": {
     "icon": "UI_EquipIcon_Bow_Mechanic",
     "awakenIcon": "UI_EquipIcon_Bow_Mechanic_Awaken",
@@ -1269,6 +1281,12 @@
     "icon": "UI_EquipIcon_Bow_Pledge",
     "awakenIcon": "UI_EquipIcon_Bow_Pledge_Awaken",
     "nameTextMapHash": 2988480723,
+    "rarity": 5
+  },
+  "15513": {
+    "icon": "UI_EquipIcon_Bow_Arcdange",
+    "awakenIcon": "UI_EquipIcon_Bow_Arcdange_Awaken",
+    "nameTextMapHash": 1257396043,
     "rarity": 5
   },
   "20001": {

@@ -1,587 +1,585 @@
 {
   "1": {
     "icon": "UI_AvatarIcon_PlayerBoy_Circle",
-    "oldIcon": "UI_AvatarIcon_PlayerBoy",
-    "nameTextMapHash": 3604285884
+    "nameTextMapHash": 3604285884,
+    "oldIcon": "UI_AvatarIcon_PlayerBoy"
   },
   "2": {
     "icon": "UI_AvatarIcon_PlayerGirl_Circle",
-    "oldIcon": "UI_AvatarIcon_PlayerGirl",
-    "nameTextMapHash": 271219620
+    "nameTextMapHash": 271219620,
+    "oldIcon": "UI_AvatarIcon_PlayerGirl"
   },
   "100": {
     "icon": "UI_AvatarIcon_Ambor_Circle",
-    "oldIcon": "UI_AvatarIcon_Ambor",
-    "nameTextMapHash": 4129650764
+    "nameTextMapHash": 4129650764,
+    "oldIcon": "UI_AvatarIcon_Ambor"
   },
   "101": {
     "icon": "UI_AvatarIcon_AmborCostumeWic_Circle",
-    "oldIcon": "UI_AvatarIcon_AmborCostumeWic",
-    "nameTextMapHash": 4011886236
+    "nameTextMapHash": 4011886236,
+    "oldIcon": "UI_AvatarIcon_AmborCostumeWic"
   },
   "200": {
     "icon": "UI_AvatarIcon_Kaeya_Circle",
-    "oldIcon": "UI_AvatarIcon_Kaeya",
-    "nameTextMapHash": 4198292852
+    "nameTextMapHash": 4198292852,
+    "oldIcon": "UI_AvatarIcon_Kaeya"
   },
   "201": {
     "icon": "UI_AvatarIcon_KaeyaCostumeDancer_Circle",
-    "oldIcon": "UI_AvatarIcon_KaeyaCostumeDancer",
-    "nameTextMapHash": 2326024484
+    "nameTextMapHash": 2326024484,
+    "oldIcon": "UI_AvatarIcon_KaeyaCostumeDancer"
   },
   "300": {
     "icon": "UI_AvatarIcon_Lisa_Circle",
-    "oldIcon": "UI_AvatarIcon_Lisa",
-    "nameTextMapHash": 1430880228
+    "nameTextMapHash": 1430880228,
+    "oldIcon": "UI_AvatarIcon_Lisa"
   },
   "301": {
     "icon": "UI_AvatarIcon_LisaCostumeStudentin_Circle",
-    "oldIcon": "UI_AvatarIcon_LisaCostumeStudentin",
-    "nameTextMapHash": 1999891572
+    "nameTextMapHash": 1999891572,
+    "oldIcon": "UI_AvatarIcon_LisaCostumeStudentin"
   },
   "400": {
     "icon": "UI_AvatarIcon_Barbara_Circle",
-    "oldIcon": "UI_AvatarIcon_Barbara",
-    "nameTextMapHash": 1760985308
+    "nameTextMapHash": 1760985308,
+    "oldIcon": "UI_AvatarIcon_Barbara"
   },
   "401": {
     "icon": "UI_AvatarIcon_BarbaraCostumeSummertime_Circle",
-    "oldIcon": "UI_AvatarIcon_BarbaraCostumeSummertime",
-    "nameTextMapHash": 2943208916
+    "nameTextMapHash": 2943208916,
+    "oldIcon": "UI_AvatarIcon_BarbaraCostumeSummertime"
   },
   "500": {
     "icon": "UI_AvatarIcon_Razor_Circle",
-    "oldIcon": "UI_AvatarIcon_Razor",
-    "nameTextMapHash": 1324426164
+    "nameTextMapHash": 1324426164,
+    "oldIcon": "UI_AvatarIcon_Razor"
   },
   "600": {
     "icon": "UI_AvatarIcon_Xiangling_Circle",
-    "oldIcon": "UI_AvatarIcon_Xiangling",
-    "nameTextMapHash": 2206393084
+    "nameTextMapHash": 2206393084,
+    "oldIcon": "UI_AvatarIcon_Xiangling"
   },
   "700": {
     "icon": "UI_AvatarIcon_Beidou_Circle",
-    "oldIcon": "UI_AvatarIcon_Beidou",
-    "nameTextMapHash": 2755210500
+    "nameTextMapHash": 2755210500,
+    "oldIcon": "UI_AvatarIcon_Beidou"
   },
   "800": {
     "icon": "UI_AvatarIcon_Xingqiu_Circle",
-    "oldIcon": "UI_AvatarIcon_Xingqiu",
-    "nameTextMapHash": 2904405116
+    "nameTextMapHash": 2904405116,
+    "oldIcon": "UI_AvatarIcon_Xingqiu"
   },
   "801": {
     "icon": "UI_AvatarIcon_XingqiuCostumeBamboo_Circle",
-    "oldIcon": "UI_AvatarIcon_XingqiuCostumeBamboo",
-    "nameTextMapHash": 2018771404
+    "nameTextMapHash": 2018771404,
+    "oldIcon": "UI_AvatarIcon_XingqiuCostumeBamboo"
   },
   "900": {
     "icon": "UI_AvatarIcon_Ningguang_Circle",
-    "oldIcon": "UI_AvatarIcon_Ningguang",
-    "nameTextMapHash": 3467578556
+    "nameTextMapHash": 3467578556,
+    "oldIcon": "UI_AvatarIcon_Ningguang"
   },
   "901": {
     "icon": "UI_AvatarIcon_NingguangCostumeFloral_Circle",
-    "oldIcon": "UI_AvatarIcon_NingguangCostumeFloral",
-    "nameTextMapHash": 3049375396
+    "nameTextMapHash": 3049375396,
+    "oldIcon": "UI_AvatarIcon_NingguangCostumeFloral"
   },
   "1000": {
     "icon": "UI_AvatarIcon_Fischl_Circle",
-    "oldIcon": "UI_AvatarIcon_Fischl",
-    "nameTextMapHash": 2448248284
+    "nameTextMapHash": 2448248284,
+    "oldIcon": "UI_AvatarIcon_Fischl"
   },
   "1001": {
     "icon": "UI_AvatarIcon_FischlCostumeHighness_Circle",
-    "oldIcon": "UI_AvatarIcon_FischlCostumeHighness",
-    "nameTextMapHash": 1161026004
+    "nameTextMapHash": 1161026004,
+    "oldIcon": "UI_AvatarIcon_FischlCostumeHighness"
   },
   "1100": {
     "icon": "UI_AvatarIcon_Bennett_Circle",
-    "oldIcon": "UI_AvatarIcon_Bennett",
-    "nameTextMapHash": 3881895660
+    "nameTextMapHash": 3881895660,
+    "oldIcon": "UI_AvatarIcon_Bennett"
   },
   "1200": {
     "icon": "UI_AvatarIcon_Noel_Circle",
-    "oldIcon": "UI_AvatarIcon_Noel",
-    "nameTextMapHash": 2140800276
+    "nameTextMapHash": 2140800276,
+    "oldIcon": "UI_AvatarIcon_Noel"
   },
   "1300": {
     "icon": "UI_AvatarIcon_Chongyun_Circle",
-    "oldIcon": "UI_AvatarIcon_Chongyun",
-    "nameTextMapHash": 1589080740
+    "nameTextMapHash": 1589080740,
+    "oldIcon": "UI_AvatarIcon_Chongyun"
   },
   "1400": {
     "icon": "UI_AvatarIcon_Sucrose_Circle",
-    "oldIcon": "UI_AvatarIcon_Sucrose",
-    "nameTextMapHash": 3451600692
+    "nameTextMapHash": 3451600692,
+    "oldIcon": "UI_AvatarIcon_Sucrose"
   },
   "1500": {
     "icon": "UI_AvatarIcon_Qin_Circle",
-    "oldIcon": "UI_AvatarIcon_Qin",
-    "nameTextMapHash": 3076704084
+    "nameTextMapHash": 3076704084,
+    "oldIcon": "UI_AvatarIcon_Qin"
   },
   "1501": {
     "icon": "UI_AvatarIcon_QinCostumeWic_Circle",
-    "oldIcon": "UI_AvatarIcon_QinCostumeWic",
-    "nameTextMapHash": 1385160708
+    "nameTextMapHash": 1385160708,
+    "oldIcon": "UI_AvatarIcon_QinCostumeWic"
   },
   "1502": {
     "icon": "UI_AvatarIcon_QinCostumeSea_Circle",
-    "oldIcon": "UI_AvatarIcon_QinCostumeSea",
-    "nameTextMapHash": 106642220
+    "nameTextMapHash": 106642220,
+    "oldIcon": "UI_AvatarIcon_QinCostumeSea"
   },
   "1600": {
     "icon": "UI_AvatarIcon_Diluc_Circle",
-    "oldIcon": "UI_AvatarIcon_Diluc",
-    "nameTextMapHash": 2487288620
+    "nameTextMapHash": 2487288620,
+    "oldIcon": "UI_AvatarIcon_Diluc"
   },
   "1601": {
     "icon": "UI_AvatarIcon_DilucCostumeFlamme_Circle",
-    "oldIcon": "UI_AvatarIcon_DilucCostumeFlamme",
-    "nameTextMapHash": 2579470204
+    "nameTextMapHash": 2579470204,
+    "oldIcon": "UI_AvatarIcon_DilucCostumeFlamme"
   },
   "1700": {
     "icon": "UI_AvatarIcon_Qiqi_Circle",
-    "oldIcon": "UI_AvatarIcon_Qiqi",
-    "nameTextMapHash": 1651684028
+    "nameTextMapHash": 1651684028,
+    "oldIcon": "UI_AvatarIcon_Qiqi"
   },
   "1800": {
     "icon": "UI_AvatarIcon_Mona_Circle",
-    "oldIcon": "UI_AvatarIcon_Mona",
-    "nameTextMapHash": 580553172
+    "nameTextMapHash": 580553172,
+    "oldIcon": "UI_AvatarIcon_Mona"
   },
   "1801": {
     "icon": "UI_AvatarIcon_MonaCostumeWic_Circle",
-    "oldIcon": "UI_AvatarIcon_MonaCostumeWic",
-    "nameTextMapHash": 1859247892
+    "nameTextMapHash": 1859247892,
+    "oldIcon": "UI_AvatarIcon_MonaCostumeWic"
   },
   "1900": {
     "icon": "UI_AvatarIcon_Keqing_Circle",
-    "oldIcon": "UI_AvatarIcon_Keqing",
-    "nameTextMapHash": 2904482116
+    "nameTextMapHash": 2904482116,
+    "oldIcon": "UI_AvatarIcon_Keqing"
   },
   "1901": {
     "icon": "UI_AvatarIcon_KeqingCostumeFeather_Circle",
-    "oldIcon": "UI_AvatarIcon_KeqingCostumeFeather",
-    "nameTextMapHash": 2350549260
+    "nameTextMapHash": 2350549260,
+    "oldIcon": "UI_AvatarIcon_KeqingCostumeFeather"
   },
   "2000": {
     "icon": "UI_AvatarIcon_Venti_Circle",
-    "oldIcon": "UI_AvatarIcon_Venti",
-    "nameTextMapHash": 2636283300
+    "nameTextMapHash": 2636283300,
+    "oldIcon": "UI_AvatarIcon_Venti"
   },
   "2100": {
     "icon": "UI_AvatarIcon_Klee_Circle",
-    "oldIcon": "UI_AvatarIcon_Klee",
-    "nameTextMapHash": 2278572156
+    "nameTextMapHash": 2278572156,
+    "oldIcon": "UI_AvatarIcon_Klee"
   },
   "2101": {
     "icon": "UI_AvatarIcon_KleeCostumeWitch_Circle",
-    "oldIcon": "UI_AvatarIcon_KleeCostumeWitch",
-    "nameTextMapHash": 3797120244
+    "nameTextMapHash": 3797120244,
+    "oldIcon": "UI_AvatarIcon_KleeCostumeWitch"
   },
   "2200": {
     "icon": "UI_AvatarIcon_Diona_Circle",
-    "oldIcon": "UI_AvatarIcon_Diona",
-    "nameTextMapHash": 3452475956
+    "nameTextMapHash": 3452475956,
+    "oldIcon": "UI_AvatarIcon_Diona"
   },
   "2300": {
     "icon": "UI_AvatarIcon_Tartaglia_Circle",
-    "oldIcon": "UI_AvatarIcon_Tartaglia",
-    "nameTextMapHash": 66233604
+    "nameTextMapHash": 66233604,
+    "oldIcon": "UI_AvatarIcon_Tartaglia"
   },
   "2400": {
     "icon": "UI_AvatarIcon_Xinyan_Circle",
-    "oldIcon": "UI_AvatarIcon_Xinyan",
-    "nameTextMapHash": 2352103668
+    "nameTextMapHash": 2352103668,
+    "oldIcon": "UI_AvatarIcon_Xinyan"
   },
   "2500": {
     "icon": "UI_AvatarIcon_Zhongli_Circle",
-    "oldIcon": "UI_AvatarIcon_Zhongli",
-    "nameTextMapHash": 945047940
+    "nameTextMapHash": 945047940,
+    "oldIcon": "UI_AvatarIcon_Zhongli"
   },
   "2600": {
     "icon": "UI_AvatarIcon_Albedo_Circle",
-    "oldIcon": "UI_AvatarIcon_Albedo",
-    "nameTextMapHash": 4037900132
+    "nameTextMapHash": 4037900132,
+    "oldIcon": "UI_AvatarIcon_Albedo"
   },
   "2700": {
     "icon": "UI_AvatarIcon_Ganyu_Circle",
-    "oldIcon": "UI_AvatarIcon_Ganyu",
-    "nameTextMapHash": 1049883700
+    "nameTextMapHash": 1049883700,
+    "oldIcon": "UI_AvatarIcon_Ganyu"
   },
   "2701": {
     "icon": "UI_AvatarIcon_GanyuCostumeYu_Circle",
-    "oldIcon": "UI_AvatarIcon_GanyuCostumeYu",
-    "nameTextMapHash": 1365886372
+    "nameTextMapHash": 1365886372,
+    "oldIcon": "UI_AvatarIcon_GanyuCostumeYu"
   },
   "2800": {
     "icon": "UI_AvatarIcon_Xiao_Circle",
-    "oldIcon": "UI_AvatarIcon_Xiao",
-    "nameTextMapHash": 2799653588
+    "nameTextMapHash": 2799653588,
+    "oldIcon": "UI_AvatarIcon_Xiao"
   },
   "2900": {
     "icon": "UI_AvatarIcon_Hutao_Circle",
-    "oldIcon": "UI_AvatarIcon_Hutao",
-    "nameTextMapHash": 678944044
+    "nameTextMapHash": 678944044,
+    "oldIcon": "UI_AvatarIcon_Hutao"
   },
   "3000": {
     "icon": "UI_AvatarIcon_Rosaria_Circle",
-    "oldIcon": "UI_AvatarIcon_Rosaria",
-    "nameTextMapHash": 2851323220
+    "nameTextMapHash": 2851323220,
+    "oldIcon": "UI_AvatarIcon_Rosaria"
   },
   "3001": {
     "icon": "UI_AvatarIcon_RosariaCostumeWic_Circle",
-    "oldIcon": "UI_AvatarIcon_RosariaCostumeWic",
-    "nameTextMapHash": 300481684
+    "nameTextMapHash": 300481684,
+    "oldIcon": "UI_AvatarIcon_RosariaCostumeWic"
   },
   "3100": {
     "icon": "UI_AvatarIcon_Feiyan_Circle",
-    "oldIcon": "UI_AvatarIcon_Feiyan",
-    "nameTextMapHash": 2418667468
+    "nameTextMapHash": 2418667468,
+    "oldIcon": "UI_AvatarIcon_Feiyan"
   },
   "3200": {
     "icon": "UI_AvatarIcon_Eula_Circle",
-    "oldIcon": "UI_AvatarIcon_Eula",
-    "nameTextMapHash": 3544158164
+    "nameTextMapHash": 3544158164,
+    "oldIcon": "UI_AvatarIcon_Eula"
   },
   "3300": {
     "icon": "UI_AvatarIcon_Kazuha_Circle",
-    "oldIcon": "UI_AvatarIcon_Kazuha",
-    "nameTextMapHash": 3249781436
+    "nameTextMapHash": 3249781436,
+    "oldIcon": "UI_AvatarIcon_Kazuha"
   },
   "3400": {
     "icon": "UI_AvatarIcon_Ayaka_Circle",
-    "oldIcon": "UI_AvatarIcon_Ayaka",
-    "nameTextMapHash": 3187703364
+    "nameTextMapHash": 3187703364,
+    "oldIcon": "UI_AvatarIcon_Ayaka"
   },
   "3401": {
     "icon": "UI_AvatarIcon_AyakaCostumeFruhling_Circle",
-    "oldIcon": "UI_AvatarIcon_AyakaCostumeFruhling",
-    "nameTextMapHash": 376817380
+    "nameTextMapHash": 376817380,
+    "oldIcon": "UI_AvatarIcon_AyakaCostumeFruhling"
   },
   "3500": {
     "icon": "UI_AvatarIcon_Sayu_Circle",
-    "oldIcon": "UI_AvatarIcon_Sayu",
-    "nameTextMapHash": 4082960244
+    "nameTextMapHash": 4082960244,
+    "oldIcon": "UI_AvatarIcon_Sayu"
   },
   "3600": {
     "icon": "UI_AvatarIcon_Yoimiya_Circle",
-    "oldIcon": "UI_AvatarIcon_Yoimiya",
-    "nameTextMapHash": 2552836988
+    "nameTextMapHash": 2552836988,
+    "oldIcon": "UI_AvatarIcon_Yoimiya"
   },
   "3700": {
     "icon": "UI_AvatarIcon_Aloy_Circle",
-    "oldIcon": "UI_AvatarIcon_Aloy",
-    "nameTextMapHash": 762807356
+    "nameTextMapHash": 762807356,
+    "oldIcon": "UI_AvatarIcon_Aloy"
   },
   "3800": {
     "icon": "UI_AvatarIcon_Sara_Circle",
-    "oldIcon": "UI_AvatarIcon_Sara",
-    "nameTextMapHash": 3988675588
+    "nameTextMapHash": 3988675588,
+    "oldIcon": "UI_AvatarIcon_Sara"
   },
   "3900": {
     "icon": "UI_AvatarIcon_Shougun_Circle",
-    "oldIcon": "UI_AvatarIcon_Shougun",
-    "nameTextMapHash": 1384773420
+    "nameTextMapHash": 1384773420,
+    "oldIcon": "UI_AvatarIcon_Shougun"
   },
   "4000": {
     "icon": "UI_AvatarIcon_Kokomi_Circle",
-    "oldIcon": "UI_AvatarIcon_Kokomi",
-    "nameTextMapHash": 412156284
+    "nameTextMapHash": 412156284,
+    "oldIcon": "UI_AvatarIcon_Kokomi"
   },
   "4100": {
     "icon": "UI_AvatarIcon_Tohma_Circle",
-    "oldIcon": "UI_AvatarIcon_Tohma",
-    "nameTextMapHash": 4259359556
+    "nameTextMapHash": 4259359556,
+    "oldIcon": "UI_AvatarIcon_Tohma"
   },
   "4200": {
     "icon": "UI_AvatarIcon_Gorou_Circle",
-    "oldIcon": "UI_AvatarIcon_Gorou",
-    "nameTextMapHash": 2590272292
+    "nameTextMapHash": 2590272292,
+    "oldIcon": "UI_AvatarIcon_Gorou"
   },
   "4300": {
     "icon": "UI_AvatarIcon_Itto_Circle",
-    "oldIcon": "UI_AvatarIcon_Itto",
-    "nameTextMapHash": 1439449756
+    "nameTextMapHash": 1439449756,
+    "oldIcon": "UI_AvatarIcon_Itto"
   },
   "4400": {
     "icon": "UI_AvatarIcon_Yunjin_Circle",
-    "oldIcon": "UI_AvatarIcon_Yunjin",
-    "nameTextMapHash": 1748326324
+    "nameTextMapHash": 1748326324,
+    "oldIcon": "UI_AvatarIcon_Yunjin"
   },
   "4500": {
     "icon": "UI_AvatarIcon_Shenhe_Circle",
-    "oldIcon": "UI_AvatarIcon_Shenhe",
-    "nameTextMapHash": 1379338044
+    "nameTextMapHash": 1379338044,
+    "oldIcon": "UI_AvatarIcon_Shenhe"
   },
   "4501": {
     "icon": "UI_AvatarIcon_ShenheCostumeDai_Circle",
-    "oldIcon": "UI_AvatarIcon_ShenheCostumeDai",
-    "nameTextMapHash": 561207228
+    "nameTextMapHash": 561207228,
+    "oldIcon": "UI_AvatarIcon_ShenheCostumeDai"
   },
   "4600": {
     "icon": "UI_AvatarIcon_Yae_Circle",
-    "oldIcon": "UI_AvatarIcon_Yae",
-    "nameTextMapHash": 45847804
+    "nameTextMapHash": 45847804,
+    "oldIcon": "UI_AvatarIcon_Yae"
   },
   "4700": {
     "icon": "UI_AvatarIcon_Ayato_Circle",
-    "oldIcon": "UI_AvatarIcon_Ayato",
-    "nameTextMapHash": 2898090420
+    "nameTextMapHash": 2898090420,
+    "oldIcon": "UI_AvatarIcon_Ayato"
   },
   "4800": {
     "icon": "UI_AvatarIcon_Yelan_Circle",
-    "oldIcon": "UI_AvatarIcon_Yelan",
-    "nameTextMapHash": 1139213860
+    "nameTextMapHash": 1139213860,
+    "oldIcon": "UI_AvatarIcon_Yelan"
   },
   "4900": {
     "icon": "UI_AvatarIcon_Shinobu_Circle",
-    "oldIcon": "UI_AvatarIcon_Shinobu",
-    "nameTextMapHash": 3488543924
+    "nameTextMapHash": 3488543924,
+    "oldIcon": "UI_AvatarIcon_Shinobu"
   },
   "5000": {
     "icon": "UI_AvatarIcon_Heizo_Circle",
-    "oldIcon": "UI_AvatarIcon_Heizo",
-    "nameTextMapHash": 2814342260
+    "nameTextMapHash": 2814342260,
+    "oldIcon": "UI_AvatarIcon_Heizo"
   },
   "5100": {
     "icon": "UI_AvatarIcon_Collei_Circle",
-    "oldIcon": "UI_AvatarIcon_Collei",
-    "nameTextMapHash": 1985782300
+    "nameTextMapHash": 1985782300,
+    "oldIcon": "UI_AvatarIcon_Collei"
   },
   "5200": {
     "icon": "UI_AvatarIcon_Tighnari_Circle",
-    "oldIcon": "UI_AvatarIcon_Tighnari",
-    "nameTextMapHash": 2369699668
+    "nameTextMapHash": 2369699668,
+    "oldIcon": "UI_AvatarIcon_Tighnari"
   },
   "5300": {
     "icon": "UI_AvatarIcon_Dori_Circle",
-    "oldIcon": "UI_AvatarIcon_Dori",
-    "nameTextMapHash": 3746931452
+    "nameTextMapHash": 3746931452,
+    "oldIcon": "UI_AvatarIcon_Dori"
   },
   "5400": {
     "icon": "UI_AvatarIcon_Candace_Circle",
-    "oldIcon": "UI_AvatarIcon_Candace",
-    "nameTextMapHash": 3874523500
+    "nameTextMapHash": 3874523500,
+    "oldIcon": "UI_AvatarIcon_Candace"
   },
   "5500": {
     "icon": "UI_AvatarIcon_Cyno_Circle",
-    "oldIcon": "UI_AvatarIcon_Cyno",
-    "nameTextMapHash": 4170326540
+    "nameTextMapHash": 4170326540,
+    "oldIcon": "UI_AvatarIcon_Cyno"
   },
   "5600": {
     "icon": "UI_AvatarIcon_Nilou_Circle",
-    "oldIcon": "UI_AvatarIcon_Nilou",
-    "nameTextMapHash": 1598209428
+    "nameTextMapHash": 1598209428,
+    "oldIcon": "UI_AvatarIcon_Nilou"
   },
   "5700": {
     "icon": "UI_AvatarIcon_Nahida_Circle",
-    "oldIcon": "UI_AvatarIcon_Nahida",
-    "nameTextMapHash": 533361044
+    "nameTextMapHash": 533361044,
+    "oldIcon": "UI_AvatarIcon_Nahida"
   },
   "5800": {
     "icon": "UI_AvatarIcon_Layla_Circle",
-    "oldIcon": "UI_AvatarIcon_Layla",
-    "nameTextMapHash": 1540669524
+    "nameTextMapHash": 1540669524,
+    "oldIcon": "UI_AvatarIcon_Layla"
   },
   "5900": {
     "icon": "UI_AvatarIcon_Faruzan_Circle",
-    "oldIcon": "UI_AvatarIcon_Faruzan",
-    "nameTextMapHash": 1171845828
+    "nameTextMapHash": 1171845828,
+    "oldIcon": "UI_AvatarIcon_Faruzan"
   },
   "6000": {
     "icon": "UI_AvatarIcon_Wanderer_Circle",
-    "oldIcon": "UI_AvatarIcon_Wanderer",
-    "nameTextMapHash": 3210918732
+    "nameTextMapHash": 3210918732,
+    "oldIcon": "UI_AvatarIcon_Wanderer"
   },
   "6100": {
     "icon": "UI_AvatarIcon_Yaoyao_Circle",
-    "oldIcon": "UI_AvatarIcon_Yaoyao",
-    "nameTextMapHash": 196788628
+    "nameTextMapHash": 196788628,
+    "oldIcon": "UI_AvatarIcon_Yaoyao"
   },
   "6200": {
     "icon": "UI_AvatarIcon_Alhatham_Circle",
-    "oldIcon": "UI_AvatarIcon_Alhatham",
-    "nameTextMapHash": 984331444
+    "nameTextMapHash": 984331444,
+    "oldIcon": "UI_AvatarIcon_Alhatham"
   },
   "6300": {
     "icon": "UI_AvatarIcon_Dehya_Circle",
-    "oldIcon": "UI_AvatarIcon_Dehya",
-    "nameTextMapHash": 1497016220
+    "nameTextMapHash": 1497016220,
+    "oldIcon": "UI_AvatarIcon_Dehya"
   },
   "6400": {
     "icon": "UI_AvatarIcon_Mika_Circle",
-    "oldIcon": "UI_AvatarIcon_Mika",
-    "nameTextMapHash": 2186517540
+    "nameTextMapHash": 2186517540,
+    "oldIcon": "UI_AvatarIcon_Mika"
   },
   "6500": {
     "icon": "UI_AvatarIcon_Kaveh_Circle",
-    "oldIcon": "UI_AvatarIcon_Kaveh",
-    "nameTextMapHash": 1467637604
+    "nameTextMapHash": 1467637604,
+    "oldIcon": "UI_AvatarIcon_Kaveh"
   },
   "6600": {
     "icon": "UI_AvatarIcon_Baizhuer_Circle",
-    "oldIcon": "UI_AvatarIcon_Baizhuer",
-    "nameTextMapHash": 420768780
+    "nameTextMapHash": 420768780,
+    "oldIcon": "UI_AvatarIcon_Baizhuer"
   },
   "6700": {
     "icon": "UI_AvatarIcon_Momoka_Circle",
-    "oldIcon": "UI_AvatarIcon_Momoka",
-    "nameTextMapHash": 1129094484
+    "nameTextMapHash": 1129094484,
+    "oldIcon": "UI_AvatarIcon_Momoka"
   },
   "6800": {
     "icon": "UI_AvatarIcon_Linette_Circle",
-    "oldIcon": "UI_AvatarIcon_Linette",
-    "nameTextMapHash": 1586137212
+    "nameTextMapHash": 1586137212,
+    "oldIcon": "UI_AvatarIcon_Linette"
   },
   "6900": {
     "icon": "UI_AvatarIcon_Liney_Circle",
-    "oldIcon": "UI_AvatarIcon_Liney",
-    "nameTextMapHash": 907368204
+    "nameTextMapHash": 907368204,
+    "oldIcon": "UI_AvatarIcon_Liney"
   },
   "7000": {
     "icon": "UI_AvatarIcon_Freminet_Circle",
-    "oldIcon": "UI_AvatarIcon_Freminet",
-    "nameTextMapHash": 1821673276
+    "nameTextMapHash": 1821673276,
+    "oldIcon": "UI_AvatarIcon_Freminet"
   },
   "7100": {
     "icon": "UI_AvatarIcon_Neuvillette_Circle",
-    "oldIcon": "UI_AvatarIcon_Neuvillette",
-    "nameTextMapHash": 3752117636
+    "nameTextMapHash": 3752117636,
+    "oldIcon": "UI_AvatarIcon_Neuvillette"
   },
   "7200": {
     "icon": "UI_AvatarIcon_Wriothesley_Circle",
-    "oldIcon": "UI_AvatarIcon_Wriothesley",
-    "nameTextMapHash": 2892052
+    "nameTextMapHash": 2892052,
+    "oldIcon": "UI_AvatarIcon_Wriothesley"
   },
   "7300": {
     "icon": "UI_AvatarIcon_Charlotte_Circle",
-    "oldIcon": "UI_AvatarIcon_Charlotte",
-    "nameTextMapHash": 2782129108
+    "nameTextMapHash": 2782129108,
+    "oldIcon": "UI_AvatarIcon_Charlotte"
   },
   "7400": {
     "icon": "UI_AvatarIcon_Furina_Circle",
-    "oldIcon": "UI_AvatarIcon_Furina",
-    "nameTextMapHash": 3727373268
+    "nameTextMapHash": 3727373268,
+    "oldIcon": "UI_AvatarIcon_Furina"
   },
   "7500": {
     "icon": "UI_AvatarIcon_Navia_Circle",
-    "oldIcon": "UI_AvatarIcon_Navia",
-    "nameTextMapHash": 3420068796
+    "nameTextMapHash": 3420068796,
+    "oldIcon": "UI_AvatarIcon_Navia"
   },
   "7600": {
     "icon": "UI_AvatarIcon_Chevreuse_Circle",
-    "oldIcon": "UI_AvatarIcon_Chevreuse",
-    "nameTextMapHash": 241782844
+    "nameTextMapHash": 241782844,
+    "oldIcon": "UI_AvatarIcon_Chevreuse"
   },
   "7700": {
     "icon": "UI_AvatarIcon_Gaming_Circle",
-    "oldIcon": "UI_AvatarIcon_Gaming",
-    "nameTextMapHash": 4228481004
+    "nameTextMapHash": 4228481004,
+    "oldIcon": "UI_AvatarIcon_Gaming"
   },
   "7800": {
     "icon": "UI_AvatarIcon_Liuyun_Circle",
-    "oldIcon": "UI_AvatarIcon_Liuyun",
-    "nameTextMapHash": 1294266220
+    "nameTextMapHash": 1294266220,
+    "oldIcon": "UI_AvatarIcon_Liuyun"
   },
   "7900": {
     "icon": "UI_AvatarIcon_Chiori_Circle",
-    "oldIcon": "UI_AvatarIcon_Chiori",
-    "nameTextMapHash": 1057050268
+    "nameTextMapHash": 1057050268,
+    "oldIcon": "UI_AvatarIcon_Chiori"
   },
   "8000": {
     "icon": "UI_AvatarIcon_Arlecchino_Circle",
-    "oldIcon": "UI_AvatarIcon_Arlecchino",
-    "nameTextMapHash": 3363124668
+    "nameTextMapHash": 3363124668,
+    "oldIcon": "UI_AvatarIcon_Arlecchino"
+  },
+  "8100": {
+    "icon": "UI_AvatarIcon_Clorinde_Circle",
+    "nameTextMapHash": 1195616540,
+    "oldIcon": "UI_AvatarIcon_Clorinde"
+  },
+  "8200": {
+    "icon": "UI_AvatarIcon_Sethos_Circle",
+    "nameTextMapHash": 770768196,
+    "oldIcon": "UI_AvatarIcon_Sethos"
+  },
+  "8300": {
+    "icon": "UI_AvatarIcon_Sigewinne_Circle",
+    "nameTextMapHash": 3342848348,
+    "oldIcon": "UI_AvatarIcon_Sigewinne"
   },
   "99999": {
     "icon": "UI_AvatarIcon_Ambor_Circle",
-    "oldIcon": "UI_AvatarIcon_Ambor",
-    "nameTextMapHash": 3995351756
+    "nameTextMapHash": 3995351756,
+    "oldIcon": "UI_AvatarIcon_Ambor"
   },
   "100010": {
     "icon": "UI_AvatarIcon_72105_Circle",
-    "oldIcon": "UI_AvatarIcon_72105",
     "nameTextMapHash": 4284320332
   },
   "100020": {
     "icon": "UI_AvatarIcon_72158_Circle",
-    "oldIcon": "UI_AvatarIcon_72158",
     "nameTextMapHash": 2115514524
   },
   "100030": {
     "icon": "UI_AvatarIcon_72173_Circle",
-    "oldIcon": "UI_AvatarIcon_72173",
     "nameTextMapHash": 537096092
   },
   "100040": {
     "icon": "UI_AvatarIcon_72177_Circle",
-    "oldIcon": "UI_AvatarIcon_72177",
     "nameTextMapHash": 2055558492
   },
   "100050": {
     "icon": "UI_AvatarIcon_71045_Circle",
-    "oldIcon": "UI_AvatarIcon_71045",
     "nameTextMapHash": 3628954484
   },
   "100060": {
     "icon": "UI_AvatarIcon_73038_Circle",
-    "oldIcon": "UI_AvatarIcon_73038",
     "nameTextMapHash": 2914387620
   },
   "100070": {
     "icon": "UI_AvatarIcon_73055_Circle",
-    "oldIcon": "UI_AvatarIcon_73055",
     "nameTextMapHash": 1698312916
   },
   "100080": {
     "icon": "UI_AvatarIcon_73220_Circle",
-    "oldIcon": "UI_AvatarIcon_73220",
     "nameTextMapHash": 1025414580
   },
   "100090": {
     "icon": "UI_AvatarIcon_73232_Circle",
-    "oldIcon": "UI_AvatarIcon_73232",
     "nameTextMapHash": 4204508124
   },
   "100100": {
     "icon": "UI_AvatarIcon_74007_Circle",
-    "oldIcon": "UI_AvatarIcon_74007",
     "nameTextMapHash": 423665740
   },
   "100110": {
     "icon": "UI_AvatarIcon_74004_Circle",
-    "oldIcon": "UI_AvatarIcon_74004",
     "nameTextMapHash": 1584610884
   },
   "100120": {
     "icon": "UI_AvatarIcon_74028_Circle",
-    "oldIcon": "UI_AvatarIcon_74028",
     "nameTextMapHash": 3637200084
   },
   "100130": {
     "icon": "UI_AvatarIcon_74053_Circle",
-    "oldIcon": "UI_AvatarIcon_74053",
     "nameTextMapHash": 1630051180
   },
   "100140": {
     "icon": "UI_AvatarIcon_74078_Circle",
-    "oldIcon": "UI_AvatarIcon_74078",
     "nameTextMapHash": 2732020044
   },
   "100150": {
     "icon": "UI_AvatarIcon_74085_Circle",
-    "oldIcon": "UI_AvatarIcon_74085",
     "nameTextMapHash": 131812372
   },
   "100160": {
     "icon": "UI_AvatarIcon_71100_Circle",
-    "oldIcon": "UI_AvatarIcon_71100",
     "nameTextMapHash": 1960492844
   },
   "100170": {
     "icon": "UI_AvatarIcon_74196_Circle",
-    "oldIcon": "UI_AvatarIcon_74196",
     "nameTextMapHash": 860131476
   }
 }

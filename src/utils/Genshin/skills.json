@@ -1503,6 +1503,22 @@
     "nameTextMapHash": 373425821,
     "icon": "Skill_E_Chiori_01"
   },
+  "10951": {
+    "nameTextMapHash": 2933818773,
+    "icon": "Skill_A_02"
+  },
+  "10952": {
+    "nameTextMapHash": 4122008677,
+    "icon": "Skill_S_Sigewinne_01"
+  },
+  "10953": {
+    "nameTextMapHash": 4011525429,
+    "icon": "Skill_A_02"
+  },
+  "10955": {
+    "nameTextMapHash": 35144573,
+    "icon": "Skill_E_Sigewinne_01"
+  },
   "10961": {
     "nameTextMapHash": 3395884205,
     "icon": "Skill_A_03"
@@ -1526,6 +1542,42 @@
   "10967": {
     "nameTextMapHash": 4257022253,
     "icon": "Skill_A_03"
+  },
+  "10971": {
+    "nameTextMapHash": 4267851909,
+    "icon": "Skill_A_02"
+  },
+  "10972": {
+    "nameTextMapHash": 1391395133,
+    "icon": "Skill_S_Sethos_01"
+  },
+  "10974": {
+    "nameTextMapHash": 1447865853,
+    "icon": "Skill_A_02"
+  },
+  "10975": {
+    "nameTextMapHash": 4109522381,
+    "icon": "Skill_E_Sethos_01"
+  },
+  "10981": {
+    "nameTextMapHash": 3852547301,
+    "icon": "Skill_A_01"
+  },
+  "10982": {
+    "nameTextMapHash": 2915566557,
+    "icon": "Skill_S_Clorinde_01"
+  },
+  "10983": {
+    "nameTextMapHash": 2623451381,
+    "icon": "Skill_S_Clorinde_02"
+  },
+  "10984": {
+    "nameTextMapHash": 1688112725,
+    "icon": "Skill_A_03"
+  },
+  "10985": {
+    "nameTextMapHash": 2680644485,
+    "icon": "Skill_E_Clorinde_01"
   },
   "11301": {
     "nameTextMapHash": 3802462781,
@@ -1751,6 +1803,26 @@
     "nameTextMapHash": 2428119293,
     "icon": "Btn_SlimeCannon_Fire_04"
   },
+  "20095": {
+    "nameTextMapHash": 3618854373,
+    "icon": "UI_Img_MVM_Skill_Summon"
+  },
+  "20096": {
+    "nameTextMapHash": 2761936845,
+    "icon": "Btn_HideAndSeek_Seeker_E_01"
+  },
+  "20097": {
+    "nameTextMapHash": 664061237,
+    "icon": "UI_Img_MVM_Skill_01"
+  },
+  "20098": {
+    "nameTextMapHash": 1208879453,
+    "icon": "UI_Img_MVM_Skill_02"
+  },
+  "20099": {
+    "nameTextMapHash": 260918125,
+    "icon": "UI_Img_MVM_Skill_03"
+  },
   "20100": {
     "nameTextMapHash": 4176490093,
     "icon": "Btn_HideAndSeek_Seeker_A_01"
@@ -1926,6 +1998,10 @@
   "20366": {
     "nameTextMapHash": 2209588093,
     "icon": "Btn_Recon_Bait"
+  },
+  "20367": {
+    "nameTextMapHash": 609324397,
+    "icon": "Btn_Fishing_Exit"
   },
   "20400": {
     "nameTextMapHash": 2657714069,
@@ -2503,8 +2579,20 @@
     "nameTextMapHash": 331992085,
     "icon": "Skill_A_01"
   },
+  "5095010": {
+    "nameTextMapHash": 964083141,
+    "icon": "Skill_A_02"
+  },
   "5096010": {
     "nameTextMapHash": 2699549653,
     "icon": "Skill_A_03"
+  },
+  "5097010": {
+    "nameTextMapHash": 2875386373,
+    "icon": "Skill_A_02"
+  },
+  "5098010": {
+    "nameTextMapHash": 871423685,
+    "icon": "Skill_A_01"
   }
 }

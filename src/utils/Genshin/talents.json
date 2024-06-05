@@ -2015,6 +2015,30 @@
     "nameTextMapHash": 94228129,
     "icon": "UI_Talent_S_Chiori_04"
   },
+  "951": {
+    "nameTextMapHash": 2069380665,
+    "icon": "UI_Talent_S_Sigewinne_01"
+  },
+  "952": {
+    "nameTextMapHash": 2490532081,
+    "icon": "UI_Talent_S_Sigewinne_02"
+  },
+  "953": {
+    "nameTextMapHash": 2818554353,
+    "icon": "UI_Talent_U_Sigewinne_01"
+  },
+  "954": {
+    "nameTextMapHash": 952229337,
+    "icon": "UI_Talent_S_Sigewinne_03"
+  },
+  "955": {
+    "nameTextMapHash": 3412453553,
+    "icon": "UI_Talent_U_Sigewinne_02"
+  },
+  "956": {
+    "nameTextMapHash": 2161046649,
+    "icon": "UI_Talent_S_Sigewinne_04"
+  },
   "961": {
     "nameTextMapHash": 1931573609,
     "icon": "UI_Talent_S_Arlecchino_01"
@@ -2038,5 +2062,53 @@
   "966": {
     "nameTextMapHash": 585561937,
     "icon": "UI_Talent_S_Arlecchino_04"
+  },
+  "971": {
+    "nameTextMapHash": 2929346465,
+    "icon": "UI_Talent_S_Sethos_01"
+  },
+  "972": {
+    "nameTextMapHash": 4002600217,
+    "icon": "UI_Talent_S_Sethos_02"
+  },
+  "973": {
+    "nameTextMapHash": 3225646441,
+    "icon": "UI_Talent_U_Sethos_01"
+  },
+  "974": {
+    "nameTextMapHash": 1034621857,
+    "icon": "UI_Talent_S_Sethos_03"
+  },
+  "975": {
+    "nameTextMapHash": 1113819633,
+    "icon": "UI_Talent_U_Sethos_02"
+  },
+  "976": {
+    "nameTextMapHash": 1135303145,
+    "icon": "UI_Talent_S_Sethos_04"
+  },
+  "981": {
+    "nameTextMapHash": 3895585233,
+    "icon": "UI_Talent_S_Clorinde_01"
+  },
+  "982": {
+    "nameTextMapHash": 1056604337,
+    "icon": "UI_Talent_S_Clorinde_02"
+  },
+  "983": {
+    "nameTextMapHash": 808249241,
+    "icon": "UI_Talent_U_Clorinde_02"
+  },
+  "984": {
+    "nameTextMapHash": 3782829777,
+    "icon": "UI_Talent_S_Clorinde_03"
+  },
+  "985": {
+    "nameTextMapHash": 2786589217,
+    "icon": "UI_Talent_U_Clorinde_01"
+  },
+  "986": {
+    "nameTextMapHash": 2154723033,
+    "icon": "UI_Talent_S_Clorinde_04"
   }
 }

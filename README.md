@@ -8,6 +8,9 @@ A package to get data from the Enka API, for both Genshin and Star Rail, it also
 <details>
 	<summary>Click to expand</summary>
 
+  - v2.8.0:
+	  - Error displaying non-character profile pictures fixed (Genshin).
+	  - Added Genshin 4.7 version content.
   - v2.7.8:
 	  - Added `booksCollected`, `relicsOwned`, `musicCollected`, `pureFictionLastFinishedStage` and `pureFictionStarCount` under **\<request\>.player.recordInfo**.
 	  - Added Star Rail 2.2 version content.

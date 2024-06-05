@@ -2222,6 +2222,32 @@
       "10945"
     ]
   },
+  "10000095": {
+    "nameTextMapHash": 781488962,
+    "element": "Hydro",
+    "icon": "UI_AvatarIcon_Sigewinne",
+    "rarity": 5,
+    "sideIcon": "UI_AvatarIcon_Side_Sigewinne",
+    "gachaIcon": "UI_Gacha_AvatarImg_Sigewinne",
+    "constellations": [
+      "UI_Talent_S_Sigewinne_01",
+      "UI_Talent_S_Sigewinne_02",
+      "UI_Talent_U_Sigewinne_01",
+      "UI_Talent_S_Sigewinne_03",
+      "UI_Talent_U_Sigewinne_02",
+      "UI_Talent_S_Sigewinne_04"
+    ],
+    "skills": {
+      "normalAttack": "Skill_A_02",
+      "elementalSkill": "Skill_S_Sigewinne_01",
+      "elementalBurst": "Skill_E_Sigewinne_01"
+    },
+    "skillOrder": [
+      "10951",
+      "10952",
+      "10955"
+    ]
+  },
   "10000096": {
     "nameTextMapHash": 167199474,
     "element": "Pyro",
@@ -2246,6 +2272,58 @@
       "10961",
       "10962",
       "10965"
+    ]
+  },
+  "10000097": {
+    "nameTextMapHash": 1431322346,
+    "element": "Electro",
+    "icon": "UI_AvatarIcon_Sethos",
+    "rarity": 4,
+    "sideIcon": "UI_AvatarIcon_Side_Sethos",
+    "gachaIcon": "UI_Gacha_AvatarImg_Sethos",
+    "constellations": [
+      "UI_Talent_S_Sethos_01",
+      "UI_Talent_S_Sethos_02",
+      "UI_Talent_U_Sethos_01",
+      "UI_Talent_S_Sethos_03",
+      "UI_Talent_U_Sethos_02",
+      "UI_Talent_S_Sethos_04"
+    ],
+    "skills": {
+      "normalAttack": "Skill_A_02",
+      "elementalSkill": "Skill_S_Sethos_01",
+      "elementalBurst": "Skill_E_Sethos_01"
+    },
+    "skillOrder": [
+      "10971",
+      "10972",
+      "10975"
+    ]
+  },
+  "10000098": {
+    "nameTextMapHash": 2745369298,
+    "element": "Electro",
+    "icon": "UI_AvatarIcon_Clorinde",
+    "rarity": 5,
+    "sideIcon": "UI_AvatarIcon_Side_Clorinde",
+    "gachaIcon": "UI_Gacha_AvatarImg_Clorinde",
+    "constellations": [
+      "UI_Talent_S_Clorinde_01",
+      "UI_Talent_S_Clorinde_02",
+      "UI_Talent_U_Clorinde_02",
+      "UI_Talent_S_Clorinde_03",
+      "UI_Talent_U_Clorinde_01",
+      "UI_Talent_S_Clorinde_04"
+    ],
+    "skills": {
+      "normalAttack": "Skill_A_01",
+      "elementalSkill": "Skill_S_Clorinde_01",
+      "elementalBurst": "Skill_E_Clorinde_01"
+    },
+    "skillOrder": [
+      "10981",
+      "10982",
+      "10985"
     ]
   },
   "10000005-501": {
