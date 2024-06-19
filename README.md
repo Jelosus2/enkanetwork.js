@@ -8,6 +8,9 @@ A package to get data from the Enka API, for both Genshin and Star Rail, it also
 <details>
 	<summary>Click to expand</summary>
 
+  - v2.8.1:
+	  - `pureFictionLastFinishedStage` and `pureFictionStarCount` were changed to `currentRotatingEndgameContentLastFinishedStage` and `currentRotatingEndgameContentScore` since it's not only pure fiction but all the rotative end game contents like MoC.
+	  - Added Star Rail 2.3 version content.
   - v2.8.0:
 	  - Error displaying non-character profile pictures fixed (Genshin).
 	  - Added Genshin 4.7 version content.

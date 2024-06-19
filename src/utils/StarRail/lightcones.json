@@ -395,6 +395,12 @@
     "EquipmentName": -973364452,
     "ImagePath": "SpriteOutput/LightConeFigures/21044.png"
   },
+  "21045": {
+    "Rarity": 4,
+    "AvatarBaseType": "Mage",
+    "EquipmentName": -973364453,
+    "ImagePath": "SpriteOutput/LightConeFigures/21045.png"
+  },
   "22000": {
     "Rarity": 4,
     "AvatarBaseType": "Warlock",
@@ -563,6 +569,12 @@
     "EquipmentName": -92890040,
     "ImagePath": "SpriteOutput/LightConeFigures/23024.png"
   },
+  "23025": {
+    "Rarity": 5,
+    "AvatarBaseType": "Warrior",
+    "EquipmentName": -92890041,
+    "ImagePath": "SpriteOutput/LightConeFigures/23025.png"
+  },
   "23026": {
     "Rarity": 5,
     "AvatarBaseType": "Shaman",
@@ -574,6 +586,12 @@
     "AvatarBaseType": "Rogue",
     "EquipmentName": -92890039,
     "ImagePath": "SpriteOutput/LightConeFigures/23027.png"
+  },
+  "23028": {
+    "Rarity": 5,
+    "AvatarBaseType": "Mage",
+    "EquipmentName": -92890044,
+    "ImagePath": "SpriteOutput/LightConeFigures/23028.png"
   },
   "24000": {
     "Rarity": 5,
@@ -598,5 +616,11 @@
     "AvatarBaseType": "Warlock",
     "EquipmentName": 330597468,
     "ImagePath": "SpriteOutput/LightConeFigures/24003.png"
+  },
+  "24004": {
+    "Rarity": 5,
+    "AvatarBaseType": "Mage",
+    "EquipmentName": 330597463,
+    "ImagePath": "SpriteOutput/LightConeFigures/24004.png"
   }
 }

@@ -154,14 +154,14 @@ class SRRecordInfo {
   musicCollected: number;
 
   /**
-   * Pure Fiction last finished stage.
+   * The last finished stage in the current rotating endgame content..
    */
-  pureFictionLastFinishedStage: number;
+  currentRotatingEndgameContentLastFinishedStage: number;
 
   /**
-   * The amount of stars obtained in Pure Fiction.
+   * The score obtained in the current rotating endgame content.
    */
-  pureFictionStarCount: number;
+  currentRotatingEndgameContentScore: number;
 
   /**
    * Creates a new `SRRecodInfo` instance.
@@ -178,8 +178,8 @@ class SRRecordInfo {
     this.booksCollected = data.bookCount || 0;
     this.relicsOwned = data.relicCount || 0;
     this.musicCollected = data.musicCount || 0;
-    this.pureFictionLastFinishedStage = data.challengeInfo.abyssLevel || 0;
-    this.pureFictionStarCount = data.challengeInfo.abyssStarCount || 0;
+    this.currentRotatingEndgameContentLastFinishedStage = data.challengeInfo.abyssLevel || 0;
+    this.currentRotatingEndgameContentScore = data.challengeInfo.abyssStarCount || 0;
   }
 }
 
