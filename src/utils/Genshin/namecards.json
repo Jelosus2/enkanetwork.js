@@ -1597,5 +1597,29 @@
       "UI_NameCardPic_Bp33_Alpha",
       "UI_NameCardPic_Bp33_P"
     ]
+  },
+  "210205": {
+    "nameTextMapHash": 2842121124,
+    "icon": "UI_NameCardIcon_Emilie",
+    "picPath": [
+      "UI_NameCardPic_Emilie_Alpha",
+      "UI_NameCardPic_Emilie_P"
+    ]
+  },
+  "210206": {
+    "nameTextMapHash": 1026212828,
+    "icon": "UI_NameCardIcon_Bp34",
+    "picPath": [
+      "UI_NameCardPic_Bp34_Alpha",
+      "UI_NameCardPic_Bp34_P"
+    ]
+  },
+  "210207": {
+    "nameTextMapHash": 1919389884,
+    "icon": "UI_NameCardIcon_RedandWhite2",
+    "picPath": [
+      "UI_NameCardPic_RedandWhite2_Alpha",
+      "UI_NameCardPic_RedandWhite2_P"
+    ]
   }
 }

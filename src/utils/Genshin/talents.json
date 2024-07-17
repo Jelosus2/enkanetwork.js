@@ -2110,5 +2110,29 @@
   "986": {
     "nameTextMapHash": 2154723033,
     "icon": "UI_Talent_S_Clorinde_04"
+  },
+  "991": {
+    "nameTextMapHash": 740813377,
+    "icon": "UI_Talent_S_Emilie_01"
+  },
+  "992": {
+    "nameTextMapHash": 888272609,
+    "icon": "UI_Talent_S_Emilie_02"
+  },
+  "993": {
+    "nameTextMapHash": 1597660969,
+    "icon": "UI_Talent_U_Emilie_01"
+  },
+  "994": {
+    "nameTextMapHash": 349963729,
+    "icon": "UI_Talent_S_Emilie_03"
+  },
+  "995": {
+    "nameTextMapHash": 100927345,
+    "icon": "UI_Talent_U_Emilie_02"
+  },
+  "996": {
+    "nameTextMapHash": 1536750705,
+    "icon": "UI_Talent_S_Emilie_04"
   }
 }

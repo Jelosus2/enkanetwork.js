@@ -374,6 +374,11 @@
     "nameTextMapHash": 1598209428,
     "oldIcon": "UI_AvatarIcon_Nilou"
   },
+  "5601": {
+    "icon": "UI_AvatarIcon_NilouCostumeFairy_Circle",
+    "nameTextMapHash": 3251293852,
+    "oldIcon": "UI_AvatarIcon_NilouCostumeFairy"
+  },
   "5700": {
     "icon": "UI_AvatarIcon_Nahida_Circle",
     "nameTextMapHash": 533361044,
@@ -428,6 +433,11 @@
     "icon": "UI_AvatarIcon_Momoka_Circle",
     "nameTextMapHash": 1129094484,
     "oldIcon": "UI_AvatarIcon_Momoka"
+  },
+  "6701": {
+    "icon": "UI_AvatarIcon_MomokaCostumeErrantry_Circle",
+    "nameTextMapHash": 3602188772,
+    "oldIcon": "UI_AvatarIcon_MomokaCostumeErrantry"
   },
   "6800": {
     "icon": "UI_AvatarIcon_Linette_Circle",
@@ -508,6 +518,11 @@
     "icon": "UI_AvatarIcon_Sigewinne_Circle",
     "nameTextMapHash": 3342848348,
     "oldIcon": "UI_AvatarIcon_Sigewinne"
+  },
+  "8400": {
+    "icon": "UI_AvatarIcon_Emilie_Circle",
+    "nameTextMapHash": 2716554828,
+    "oldIcon": "UI_AvatarIcon_Emilie"
   },
   "99999": {
     "icon": "UI_AvatarIcon_Ambor_Circle",

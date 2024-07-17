@@ -79,9 +79,19 @@
     "icon": "UI_AvatarIcon_RosariaCostumeWic",
     "art": "UI_Costume_RosariaCostumeWic"
   },
+  "206101": {
+    "sideIconName": "UI_AvatarIcon_Side_MomokaCostumeErrantry",
+    "icon": "UI_AvatarIcon_MomokaCostumeErrantry",
+    "art": "UI_Costume_MomokaCostumeErrantry"
+  },
   "206301": {
     "sideIconName": "UI_AvatarIcon_Side_ShenheCostumeDai",
     "icon": "UI_AvatarIcon_ShenheCostumeDai",
     "art": "UI_Costume_ShenheCostumeDai"
+  },
+  "207001": {
+    "sideIconName": "UI_AvatarIcon_Side_NilouCostumeFairy",
+    "icon": "UI_AvatarIcon_NilouCostumeFairy",
+    "art": "UI_Costume_NilouCostumeFairy"
   }
 }

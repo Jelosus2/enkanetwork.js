@@ -1579,6 +1579,18 @@
     "nameTextMapHash": 2680644485,
     "icon": "Skill_E_Clorinde_01"
   },
+  "10991": {
+    "nameTextMapHash": 1813209645,
+    "icon": "Skill_A_03"
+  },
+  "10992": {
+    "nameTextMapHash": 1448975781,
+    "icon": "Skill_S_Emilie_01"
+  },
+  "10995": {
+    "nameTextMapHash": 1229406621,
+    "icon": "Skill_E_Emilie_01"
+  },
   "11301": {
     "nameTextMapHash": 3802462781,
     "icon": "Skill_A_02"
@@ -1771,9 +1783,37 @@
     "nameTextMapHash": 2208227565,
     "icon": "QuesteventSkillIcon_01"
   },
+  "20071": {
+    "nameTextMapHash": 834616645,
+    "icon": "Skill_E_Gagana_AimShoot"
+  },
+  "20072": {
+    "nameTextMapHash": 3177119709,
+    "icon": "Skill_E_Gagana_AimShoot"
+  },
+  "20073": {
+    "nameTextMapHash": 3732217821,
+    "icon": "Btn_Turn"
+  },
+  "20074": {
+    "nameTextMapHash": 2610913549,
+    "icon": "Btn_FairyBook_OrigamiSquirrel_01"
+  },
+  "20075": {
+    "nameTextMapHash": 376510565,
+    "icon": "Btn_FairyBook_OrigamiSquirrel_02"
+  },
   "20077": {
     "nameTextMapHash": 3494458077,
     "icon": "Skill_LanV4PartyLion_01"
+  },
+  "20078": {
+    "nameTextMapHash": 3024230189,
+    "icon": "Btn_FairyBook_ToyBrick"
+  },
+  "20079": {
+    "nameTextMapHash": 3252459661,
+    "icon": "Btn_FairyBook_OrigamiSquirrel_01"
   },
   "20080": {
     "nameTextMapHash": 3018374477,
@@ -1791,9 +1831,29 @@
     "nameTextMapHash": 682415765,
     "icon": "Skill_LanV4PartyLion_01"
   },
+  "20085": {
+    "nameTextMapHash": 253780373,
+    "icon": "Btn_FairyBook_OrigamiSquirrel_02"
+  },
   "20086": {
     "nameTextMapHash": 4251923773,
     "icon": "Skill_Music"
+  },
+  "20087": {
+    "nameTextMapHash": 353058109,
+    "icon": "Btn_FairyBook_OrigamFrog"
+  },
+  "20088": {
+    "nameTextMapHash": 580836933,
+    "icon": "Btn_FairyBook_OrigamFrog"
+  },
+  "20089": {
+    "nameTextMapHash": 2102186877,
+    "icon": "Btn_FairyBook_OrigamiAlpaca"
+  },
+  "20090": {
+    "nameTextMapHash": 1916995925,
+    "icon": "Btn_FairyBook_OrigamiAlpaca"
   },
   "20093": {
     "nameTextMapHash": 3906587141,
@@ -2118,6 +2178,14 @@
   "20535": {
     "nameTextMapHash": 164728021,
     "icon": "Btn_HideAndSeekV4_Hider_S"
+  },
+  "20536": {
+    "nameTextMapHash": 4291389717,
+    "icon": "Skill_FairyTalesCurrent_Normal"
+  },
+  "20537": {
+    "nameTextMapHash": 841274501,
+    "icon": "Skill_FairyTalesCurrent_Charge"
   },
   "20538": {
     "nameTextMapHash": 2797265765,
@@ -2594,5 +2662,9 @@
   "5098010": {
     "nameTextMapHash": 871423685,
     "icon": "Skill_A_01"
+  },
+  "5099010": {
+    "nameTextMapHash": 119766421,
+    "icon": "Skill_A_03"
   }
 }

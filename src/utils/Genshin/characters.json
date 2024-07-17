@@ -1355,6 +1355,13 @@
       "10611",
       "10612",
       "10615"
+    ],
+    "costumes": [
+      {
+        "sideIconName": "UI_AvatarIcon_Side_MomokaCostumeErrantry",
+        "icon": "UI_AvatarIcon_MomokaCostumeErrantry",
+        "art": "UI_Costume_MomokaCostumeErrantry"
+      }
     ]
   },
   "10000062": {
@@ -1596,6 +1603,13 @@
       "10701",
       "10702",
       "10705"
+    ],
+    "costumes": [
+      {
+        "sideIconName": "UI_AvatarIcon_Side_NilouCostumeFairy",
+        "icon": "UI_AvatarIcon_NilouCostumeFairy",
+        "art": "UI_Costume_NilouCostumeFairy"
+      }
     ]
   },
   "10000071": {
@@ -2324,6 +2338,32 @@
       "10981",
       "10982",
       "10985"
+    ]
+  },
+  "10000099": {
+    "nameTextMapHash": 1705786122,
+    "element": "Dendro",
+    "icon": "UI_AvatarIcon_Emilie",
+    "rarity": 5,
+    "sideIcon": "UI_AvatarIcon_Side_Emilie",
+    "gachaIcon": "UI_Gacha_AvatarImg_Emilie",
+    "constellations": [
+      "UI_Talent_S_Emilie_01",
+      "UI_Talent_S_Emilie_02",
+      "UI_Talent_U_Emilie_01",
+      "UI_Talent_S_Emilie_03",
+      "UI_Talent_U_Emilie_02",
+      "UI_Talent_S_Emilie_04"
+    ],
+    "skills": {
+      "normalAttack": "Skill_A_03",
+      "elementalSkill": "Skill_S_Emilie_01",
+      "elementalBurst": "Skill_E_Emilie_01"
+    },
+    "skillOrder": [
+      "10991",
+      "10992",
+      "10995"
     ]
   },
   "10000005-501": {
