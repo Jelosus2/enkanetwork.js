@@ -9,8 +9,10 @@ Un paquete para obetener datos de la API de enka, para Genshin y Star Rail, tamb
 <details>
   <summary>Haz click para expandir</summary>
 
+  - v2.8.3:
+	  - Añadido el contenido de la versión 2.4 de Star Rail.
   - v2.8.2:
-		- Añadido el contenido de la versión 4.8 de Genshin.
+	  - Añadido el contenido de la versión 4.8 de Genshin.
   - v2.8.1:
 	  - `pureFictionLastFinishedStage` y `pureFictionStarCount` fueron cambiados por `currentRotatingEndgameContentLastFinishedStage` y `currentRotatingEndgameContentScore` ya que no es solo pura ficción, sino todo el contenido del endgame que rota como la Memoria Caótica.
 	  - Añadido el contenido de la versión 2.3 de Star Rail.
