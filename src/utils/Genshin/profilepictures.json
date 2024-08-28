@@ -524,6 +524,21 @@
     "nameTextMapHash": 2716554828,
     "oldIcon": "UI_AvatarIcon_Emilie"
   },
+  "8500": {
+    "icon": "UI_AvatarIcon_Kachina_Circle",
+    "nameTextMapHash": 4043656188,
+    "oldIcon": "UI_AvatarIcon_Kachina"
+  },
+  "8600": {
+    "icon": "UI_AvatarIcon_Mualani_Circle",
+    "nameTextMapHash": 2031818676,
+    "oldIcon": "UI_AvatarIcon_Mualani"
+  },
+  "8700": {
+    "icon": "UI_AvatarIcon_Kinich_Circle",
+    "nameTextMapHash": 2188866820,
+    "oldIcon": "UI_AvatarIcon_Kinich"
+  },
   "99999": {
     "icon": "UI_AvatarIcon_Ambor_Circle",
     "nameTextMapHash": 3995351756,
@@ -596,5 +611,9 @@
   "100170": {
     "icon": "UI_AvatarIcon_74196_Circle",
     "nameTextMapHash": 860131476
+  },
+  "100180": {
+    "icon": "UI_AvatarIcon_75002_Circle",
+    "nameTextMapHash": 1280089932
   }
 }

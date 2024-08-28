@@ -20,12 +20,20 @@ export interface PlayerAPI {
   showAvatarInfoList: ShowcaseAPI[]
   showNameCardIdList: number[]
   profilePicture: ProfilePictureAPI
+  theaterActIndex: number
+  theaterModeIndex: number
+  theaterStarIndex: number
+  isShowAvatarTalent: boolean
+  fetterCount: number
+  towerStarIndex: number
 }
 
 export interface ShowcaseAPI {
   avatarId: number
   level: number
   costumeId: number
+  energyType: number
+  talentLevel: number
 }
 
 export interface ProfilePictureAPI {

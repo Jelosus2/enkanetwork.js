@@ -11,6 +11,24 @@ import {
   ShowcaseAPI,
 } from "../../types";
 
+const theaterModeMap: { [key: string]: string } = {
+  "5": "Easy",
+  "6": "Normal",
+  "7": "Hard"
+};
+
+const elementEnumMap = [
+  "No Element",
+  "Pyro",
+  "Hydro",
+  "Dendro",
+  "Electro",
+  "Cryo",
+  "",
+  "Anemo",
+  "Geo"
+];
+
 /**
  * A class that structures the data of the player.
  */
@@ -61,6 +79,36 @@ export class Player {
   profilePicture: ProfilePicture;
 
   /**
+   * The theater act (from 0 to 8).
+   */
+  theaterAct: number | string;
+
+  /**
+   * The current theater mode index (5 = easy, 6 = normal, 7 = hard).
+   */
+  theatherModeIndex: number | string;
+
+  /**
+   * The current theater mode in a parsed string (Easy, Normal or Hard).
+   */
+  theatherMode: string;
+
+  /**
+   * The count of the total current theater stars.
+   */
+  theaterStars: number;
+
+  /**
+   * Whether the player has public constellations in the showcase or not.
+   */
+  publicConstellations: boolean;
+
+  /**
+   * The count of characters with max friendship level.
+   */
+  maxFriendshipCount: number;
+
+  /**
    * Creates a new `Player` instance.
    * @param data - The data of the player.
    * @param language - The language to get the names.
@@ -90,6 +138,12 @@ export class Player {
     this.profilePicture = data.profilePicture
       ? new ProfilePicture(data.profilePicture, genshinFinder)
       : ({} as ProfilePicture);
+    this.theaterAct = data.theaterActIndex || "";
+    this.theatherModeIndex = data.theaterModeIndex || "";
+    this.theatherMode = theaterModeMap[`${data.theaterModeIndex}`] || "";
+    this.theaterStars = data.theaterStarIndex || 0;
+    this.publicConstellations = data.isShowAvatarTalent || false;
+    this.maxFriendshipCount = data.fetterCount || 0;
   }
 }
 
@@ -165,12 +219,18 @@ class Abyss {
   chamber: number | string;
 
   /**
+   * The count of total stars in the current abyss.
+   */
+  stars: number;
+
+  /**
    * Creates a new `Abyss` instance.
    * @param data - The data of the player.
    */
   constructor(data: PlayerAPI) {
     this.floor = data.towerFloorIndex || "";
     this.chamber = data.towerLevelIndex || "";
+    this.stars = data.towerStarIndex || 0;
   }
 }
 
@@ -192,6 +252,29 @@ class Showcase {
    * The ID of the character's costume.
    */
   costumeId: number | string;
+
+  /**
+   * The index for the element of the character.
+   * 0 = elementless
+   * 1 = pyro
+   * 2 = hydro
+   * 3 = dendro
+   * 4 = electro
+   * 5 = cryo
+   * 7 = anemo
+   * 8 = geo
+   */
+  elementIndex: number | string;
+
+  /**
+   * Parsed string with the element of the character.
+   */
+  element: string;
+
+  /**
+   * The count of the total constellations of the character.
+   */
+  constellations: number;
 
   /**
    * The assets of the character.
@@ -216,6 +299,9 @@ class Showcase {
     this.costumeId = data.costumeId || "";
     this.assets = character.assets;
     this.name = character.name;
+    this.elementIndex = data.energyType || "";
+    this.element = elementEnumMap[data.energyType] || "";
+    this.constellations = data.talentLevel || 0;
   }
 }
 

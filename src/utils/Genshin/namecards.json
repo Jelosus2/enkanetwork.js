@@ -1621,5 +1621,93 @@
       "UI_NameCardPic_RedandWhite2_Alpha",
       "UI_NameCardPic_RedandWhite2_P"
     ]
+  },
+  "210208": {
+    "nameTextMapHash": 1606225092,
+    "icon": "UI_NameCardIcon_Kinich",
+    "picPath": [
+      "UI_NameCardPic_Kinich_Alpha",
+      "UI_NameCardPic_Kinich_P"
+    ]
+  },
+  "210209": {
+    "nameTextMapHash": 3760846220,
+    "icon": "UI_NameCardIcon_Mualani",
+    "picPath": [
+      "UI_NameCardPic_Mualani_Alpha",
+      "UI_NameCardPic_Mualani_P"
+    ]
+  },
+  "210210": {
+    "nameTextMapHash": 2554912596,
+    "icon": "UI_NameCardIcon_Kachina",
+    "picPath": [
+      "UI_NameCardPic_Kachina_Alpha",
+      "UI_NameCardPic_Kachina_P"
+    ]
+  },
+  "210211": {
+    "nameTextMapHash": 2843734004,
+    "icon": "UI_NameCardIcon_NatlanSW1",
+    "picPath": [
+      "UI_NameCardPic_NatlanSW1_Alpha",
+      "UI_NameCardPic_NatlanSW1_P"
+    ]
+  },
+  "210212": {
+    "nameTextMapHash": 653393756,
+    "icon": "UI_NameCardIcon_NatlanSW2",
+    "picPath": [
+      "UI_NameCardPic_NatlanSW2_Alpha",
+      "UI_NameCardPic_NatlanSW2_P"
+    ]
+  },
+  "210213": {
+    "nameTextMapHash": 1305810940,
+    "icon": "UI_NameCardIcon_Ysxf5",
+    "picPath": [
+      "UI_NameCardPic_Ysxf5_Alpha",
+      "UI_NameCardPic_Ysxf5_P"
+    ]
+  },
+  "210214": {
+    "nameTextMapHash": 1070873436,
+    "icon": "UI_NameCardIcon_RoleCombat2",
+    "picPath": [
+      "UI_NameCardPic_RoleCombat2_Alpha",
+      "UI_NameCardPic_RoleCombat2_P"
+    ]
+  },
+  "210215": {
+    "nameTextMapHash": 3458103500,
+    "icon": "UI_NameCardIcon_Natlan1",
+    "picPath": [
+      "UI_NameCardPic_Natlan1_Alpha",
+      "UI_NameCardPic_Natlan1_P"
+    ]
+  },
+  "210216": {
+    "nameTextMapHash": 3849522924,
+    "icon": "UI_NameCardIcon_Dfcq1",
+    "picPath": [
+      "UI_NameCardPic_Dfcq1_Alpha",
+      "UI_NameCardPic_Dfcq1_P"
+    ]
+  },
+  "210217": {
+    "nameTextMapHash": 3285143108,
+    "icon": "UI_NameCardIcon_Bp35",
+    "picPath": [
+      "UI_NameCardPic_Bp35_Alpha",
+      "UI_NameCardPic_Bp35_P"
+    ]
+  },
+  "210218": {
+    "nameTextMapHash": 893559876,
+    "icon": "UI_NameCardIcon_Yellow",
+    "picPath": [
+      "UI_NameCardPic_Yellow_Alpha",
+      "UI_NameCardPic_Yellow_P"
+    ]
   }
 }

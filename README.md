@@ -8,10 +8,28 @@ A package to get data from the Enka API, for both Genshin and Star Rail, it also
 <details>
 	<summary>Click to expand</summary>
 
+  - v2.8.5:
+	  - Added Genshin 5.0 version content.
+	- Added new fields to the `Player` class. (Note: The fetched users who didn't login after the update won't have any info on this fields):
+		```
+		# property: type | value if empty or null
+		theaterAct: number | ""
+		theatherModeIndex: number | ""
+		theatherMode: string | ""
+		theaterStars: number | 0
+		publicConstellations: boolean | false
+		maxFriendshipCount: number | 0
+
+		abyss.stars: number | 0
+
+		showcase.elementIndex: number | ""
+		showcase.element: string | ""
+		showcase.constellations: number | 0
+		```
   - v2.8.3:
-	  - Added Star Rail 2.4 version content
+	  - Added Star Rail 2.4 version content.
   - v2.8.2:
-	  - Added Genshin 4.8 version content
+	  - Added Genshin 4.8 version content.
   - v2.8.1:
 	  - `pureFictionLastFinishedStage` and `pureFictionStarCount` were changed to `currentRotatingEndgameContentLastFinishedStage` and `currentRotatingEndgameContentScore` since it's not only pure fiction but all the rotative end game contents like MoC.
 	  - Added Star Rail 2.3 version content.

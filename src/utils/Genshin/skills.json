@@ -1591,6 +1591,74 @@
     "nameTextMapHash": 1229406621,
     "icon": "Skill_E_Emilie_01"
   },
+  "11001": {
+    "nameTextMapHash": 4116744293,
+    "icon": "Skill_A_03"
+  },
+  "11002": {
+    "nameTextMapHash": 534022181,
+    "icon": "Skill_S_Kachina_01"
+  },
+  "11003": {
+    "nameTextMapHash": 3992696989,
+    "icon": "Skill_S_Kachina_02"
+  },
+  "11004": {
+    "nameTextMapHash": 1905422629,
+    "icon": "Skill_S_Kachina_03"
+  },
+  "11005": {
+    "nameTextMapHash": 2707726997,
+    "icon": "Skill_E_Kachina_01"
+  },
+  "11006": {
+    "nameTextMapHash": 1021682229,
+    "icon": "Skill_S_Kachina_04"
+  },
+  "11007": {
+    "nameTextMapHash": 1569376461,
+    "icon": "Skill_S_Kachina_04"
+  },
+  "11008": {
+    "nameTextMapHash": 972115525,
+    "icon": "Skill_S_Kachina_01"
+  },
+  "11011": {
+    "nameTextMapHash": 535629773,
+    "icon": "Skill_A_04"
+  },
+  "11012": {
+    "nameTextMapHash": 2146107581,
+    "icon": "Skill_S_Kinich_01"
+  },
+  "11013": {
+    "nameTextMapHash": 1801717037,
+    "icon": "Skill_S_Kinich_03"
+  },
+  "11014": {
+    "nameTextMapHash": 786377381,
+    "icon": "Skill_S_Kinich_04"
+  },
+  "11015": {
+    "nameTextMapHash": 1181453621,
+    "icon": "Skill_E_Kinich_01"
+  },
+  "11016": {
+    "nameTextMapHash": 4277229853,
+    "icon": "Skill_S_Kinich_06"
+  },
+  "11017": {
+    "nameTextMapHash": 1415473637,
+    "icon": "Skill_S_Kinich_02"
+  },
+  "11018": {
+    "nameTextMapHash": 145263733,
+    "icon": "Skill_S_Kinich_05"
+  },
+  "11019": {
+    "nameTextMapHash": 1987358669,
+    "icon": "Skill_S_Kinich_07"
+  },
   "11301": {
     "nameTextMapHash": 3802462781,
     "icon": "Skill_A_02"
@@ -2203,6 +2271,66 @@
     "nameTextMapHash": 3465751389,
     "icon": "Btn_HideAndSeekV4_Seeker_A_01"
   },
+  "30000": {
+    "nameTextMapHash": 3235714597,
+    "icon": "Skill_A_Catalyst_MD"
+  },
+  "30002": {
+    "nameTextMapHash": 3723656973,
+    "icon": "Skill_S_Mualani_01"
+  },
+  "30003": {
+    "nameTextMapHash": 3579893013,
+    "icon": "Skill_S_Mualani_02"
+  },
+  "30004": {
+    "nameTextMapHash": 245977253,
+    "icon": "Skill_S_Mualani_05"
+  },
+  "30005": {
+    "nameTextMapHash": 3147184789,
+    "icon": "Skill_S_Mualani_04"
+  },
+  "30006": {
+    "nameTextMapHash": 1075711045,
+    "icon": "Skill_S_Mualani_01"
+  },
+  "30007": {
+    "nameTextMapHash": 1842584189,
+    "icon": "Skill_E_Mualani_01"
+  },
+  "30008": {
+    "nameTextMapHash": 3715641925,
+    "icon": "Skill_S_Mualani_02"
+  },
+  "30009": {
+    "nameTextMapHash": 2774902061,
+    "icon": "Skill_S_Mualani_01"
+  },
+  "30010": {
+    "nameTextMapHash": 1729684693,
+    "icon": "Skill_S_Mualani_02"
+  },
+  "30011": {
+    "nameTextMapHash": 2382336941,
+    "icon": "Skill_S_Mualani_02"
+  },
+  "30101": {
+    "nameTextMapHash": 889180221,
+    "icon": "Skill_A_Catalyst_MD"
+  },
+  "30201": {
+    "nameTextMapHash": 201474765,
+    "icon": "Skill_A_01"
+  },
+  "30202": {
+    "nameTextMapHash": 3040408877,
+    "icon": "Skill_S_Momoka_01"
+  },
+  "30206": {
+    "nameTextMapHash": 3468188821,
+    "icon": "Skill_S_Momoka_02"
+  },
   "100540": {
     "nameTextMapHash": 1952055533,
     "icon": "Skill_A_01"
@@ -2666,5 +2794,17 @@
   "5099010": {
     "nameTextMapHash": 119766421,
     "icon": "Skill_A_03"
+  },
+  "5100010": {
+    "nameTextMapHash": 1628146861,
+    "icon": "Skill_A_03"
+  },
+  "5101010": {
+    "nameTextMapHash": 3791613477,
+    "icon": "Skill_A_04"
+  },
+  "5102010": {
+    "nameTextMapHash": 3803106469,
+    "icon": "Skill_A_Catalyst_MD"
   }
 }

@@ -251,6 +251,12 @@
     "nameTextMapHash": 594850707,
     "rarity": 4
   },
+  "11431": {
+    "icon": "UI_EquipIcon_Sword_Isikhulu",
+    "awakenIcon": "UI_EquipIcon_Sword_Isikhulu_Awaken",
+    "nameTextMapHash": 3434743027,
+    "rarity": 4
+  },
   "11501": {
     "icon": "UI_EquipIcon_Sword_Falcon",
     "awakenIcon": "UI_EquipIcon_Sword_Falcon_Awaken",
@@ -515,6 +521,12 @@
     "nameTextMapHash": 3693117451,
     "rarity": 4
   },
+  "12431": {
+    "icon": "UI_EquipIcon_Claymore_Isikhulu",
+    "awakenIcon": "UI_EquipIcon_Claymore_Isikhulu_Awaken",
+    "nameTextMapHash": 2481464075,
+    "rarity": 4
+  },
   "12501": {
     "icon": "UI_EquipIcon_Claymore_Dvalin",
     "awakenIcon": "UI_EquipIcon_Claymore_Dvalin_Awaken",
@@ -579,6 +591,12 @@
     "icon": "UI_EquipIcon_Claymore_GoldenVerdict",
     "awakenIcon": "UI_EquipIcon_Claymore_GoldenVerdict_Awaken",
     "nameTextMapHash": 3812523339,
+    "rarity": 5
+  },
+  "12513": {
+    "icon": "UI_EquipIcon_Claymore_EmeraldSword",
+    "awakenIcon": "UI_EquipIcon_Claymore_EmeraldSword_Awaken",
+    "nameTextMapHash": 1183454019,
     "rarity": 5
   },
   "13101": {
@@ -723,6 +741,12 @@
     "icon": "UI_EquipIcon_Pole_Mechanic",
     "awakenIcon": "UI_EquipIcon_Pole_Mechanic_Awaken",
     "nameTextMapHash": 882305891,
+    "rarity": 4
+  },
+  "13431": {
+    "icon": "UI_EquipIcon_Pole_Isikhulu",
+    "awakenIcon": "UI_EquipIcon_Pole_Isikhulu_Awaken",
+    "nameTextMapHash": 415520051,
     "rarity": 4
   },
   "13501": {
@@ -959,6 +983,18 @@
     "nameTextMapHash": 2722902043,
     "rarity": 4
   },
+  "14427": {
+    "icon": "UI_EquipIcon_Catalyst_ConchSprayer",
+    "awakenIcon": "UI_EquipIcon_Catalyst_ConchSprayer_Awaken",
+    "nameTextMapHash": 422144187,
+    "rarity": 4
+  },
+  "14431": {
+    "icon": "UI_EquipIcon_Catalyst_Isikhulu",
+    "awakenIcon": "UI_EquipIcon_Catalyst_Isikhulu_Awaken",
+    "nameTextMapHash": 3092853059,
+    "rarity": 4
+  },
   "14501": {
     "icon": "UI_EquipIcon_Catalyst_Dvalin",
     "awakenIcon": "UI_EquipIcon_Catalyst_Dvalin_Awaken",
@@ -1035,6 +1071,12 @@
     "icon": "UI_EquipIcon_Catalyst_MountainGale",
     "awakenIcon": "UI_EquipIcon_Catalyst_MountainGale_Awaken",
     "nameTextMapHash": 3660626387,
+    "rarity": 5
+  },
+  "14516": {
+    "icon": "UI_EquipIcon_Catalyst_MechaPufferfish",
+    "awakenIcon": "UI_EquipIcon_Catalyst_MechaPufferfish_Awaken",
+    "nameTextMapHash": 1673987515,
     "rarity": 5
   },
   "15101": {
@@ -1221,6 +1263,12 @@
     "icon": "UI_EquipIcon_Bow_Mechanic",
     "awakenIcon": "UI_EquipIcon_Bow_Mechanic_Awaken",
     "nameTextMapHash": 1055195035,
+    "rarity": 4
+  },
+  "15431": {
+    "icon": "UI_EquipIcon_Bow_Isikhulu",
+    "awakenIcon": "UI_EquipIcon_Bow_Isikhulu_Awaken",
+    "nameTextMapHash": 565052971,
     "rarity": 4
   },
   "15501": {
