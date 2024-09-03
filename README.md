@@ -8,14 +8,17 @@ A package to get data from the Enka API, for both Genshin and Star Rail, it also
 <details>
 	<summary>Click to expand</summary>
 
+  - v2.8.6:
+	  - Fixed the value for the theater mode difficulty.
+	  - Corrected a typo in the properties `theaterModeIndex` and `theaterMode` (before was theat**h**erModeIndex and theat**h**erMode).
   - v2.8.5:
 	  - Added Genshin 5.0 version content.
 	- Added new fields to the `Player` class. (Note: The fetched users who didn't login after the update won't have any info on this fields):
 		```
 		# property: type | value if empty or null
 		theaterAct: number | ""
-		theatherModeIndex: number | ""
-		theatherMode: string | ""
+		theaterModeIndex: number | ""
+		theaterMode: string | ""
 		theaterStars: number | 0
 		publicConstellations: boolean | false
 		maxFriendshipCount: number | 0

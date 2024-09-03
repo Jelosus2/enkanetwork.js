@@ -1,3 +1,4 @@
+import { theaterDifficulty as tdContent } from '../../utils';
 import { AssetFinder } from "../../client";
 import {
   CharacterImages,
@@ -11,13 +12,16 @@ import {
   ShowcaseAPI,
 } from "../../types";
 
-const theaterModeMap: { [key: string]: string } = {
-  "5": "Easy",
-  "6": "Normal",
-  "7": "Hard"
-};
+const theaterDifficulty: { [key: string]: any } = tdContent;
 
-const elementEnumMap = [
+const theaterModeMap: string[] = [
+  "Easy",
+  "Normal",
+  "Hard",
+  "Visionary"
+];
+
+const elementEnumMap: string[] = [
   "No Element",
   "Pyro",
   "Hydro",
@@ -79,19 +83,19 @@ export class Player {
   profilePicture: ProfilePicture;
 
   /**
-   * The theater act (from 0 to 8).
+   * The theater act.
    */
   theaterAct: number | string;
 
   /**
-   * The current theater mode index (5 = easy, 6 = normal, 7 = hard).
+   * The current theater mode index.
    */
-  theatherModeIndex: number | string;
+  theaterModeIndex: number | string;
 
   /**
-   * The current theater mode in a parsed string (Easy, Normal or Hard).
+   * The current theater mode in a parsed string (Easy, Normal, Hard or Visionary).
    */
-  theatherMode: string;
+  theaterMode: string;
 
   /**
    * The count of the total current theater stars.
@@ -139,8 +143,8 @@ export class Player {
       ? new ProfilePicture(data.profilePicture, genshinFinder)
       : ({} as ProfilePicture);
     this.theaterAct = data.theaterActIndex || "";
-    this.theatherModeIndex = data.theaterModeIndex || "";
-    this.theatherMode = theaterModeMap[`${data.theaterModeIndex}`] || "";
+    this.theaterModeIndex = data.theaterModeIndex || "";
+    this.theaterMode = theaterModeMap[theaterDifficulty[`${data.theaterModeIndex}`].difficultyLevel - 1] || "";
     this.theaterStars = data.theaterStarIndex || 0;
     this.publicConstellations = data.isShowAvatarTalent || false;
     this.maxFriendshipCount = data.fetterCount || 0;

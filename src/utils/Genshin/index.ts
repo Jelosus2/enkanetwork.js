@@ -7,3 +7,4 @@ export { default as skills } from './skills.json';
 export { default as talents } from './talents.json';
 export { default as weapons } from './weapons.json';
 export { default as substats } from './substats.json';
+export { default as theaterDifficulty } from './theaterdifficulty.json';
