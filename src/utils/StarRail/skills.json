@@ -947,6 +947,42 @@
     "Name": -316103355,
     "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1218_Maze.png"
   },
+  "122001": {
+    "Name": -349602730,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1220_Normal.png"
+  },
+  "122002": {
+    "Name": 1216481211,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1220_BP.png"
+  },
+  "122003": {
+    "Name": -1512402144,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1220_Ultra.png"
+  },
+  "122004": {
+    "Name": 409912157,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1220_Passive.png"
+  },
+  "122006": {
+    "Name": -752887257,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1220_Normal.png"
+  },
+  "122007": {
+    "Name": 813196684,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1220_Maze.png"
+  },
+  "122008": {
+    "Name": -1559456311,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1220_Ultra_on_02.png"
+  },
+  "122009": {
+    "Name": 6627630,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1220_Ultra_on_03.png"
+  },
+  "122014": {
+    "Name": 409912156,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1220_Ultra.png"
+  },
   "122101": {
     "Name": -1895483695,
     "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1221_Normal.png"
@@ -970,6 +1006,54 @@
   "122107": {
     "Name": -732684281,
     "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1221_Maze.png"
+  },
+  "122201": {
+    "Name": -67277728,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1222_Normal.png"
+  },
+  "122202": {
+    "Name": -470562255,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1222_BP.png"
+  },
+  "122203": {
+    "Name": 1095521686,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1222_Ultra.png"
+  },
+  "122204": {
+    "Name": 692237159,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1222_Passive.png"
+  },
+  "122206": {
+    "Name": 1855036573,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1222_Normal.png"
+  },
+  "122207": {
+    "Name": -873846782,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1222_Maze.png"
+  },
+  "122301": {
+    "Name": -1613158693,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1223_Normal.png"
+  },
+  "122302": {
+    "Name": 1115724662,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1223_BP.png"
+  },
+  "122303": {
+    "Name": -450359279,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1223_Ultra.png"
+  },
+  "122304": {
+    "Name": -2016443220,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1223_Passive.png"
+  },
+  "122306": {
+    "Name": -853643806,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1223_Normal.png"
+  },
+  "122307": {
+    "Name": 1875239549,
+    "SkillIcon": "SpriteOutput/SkillIcons/SkillIcon_1223_Maze.png"
   },
   "122401": {
     "Name": -914252734,

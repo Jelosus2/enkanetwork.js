@@ -8,6 +8,8 @@ A package to get data from the Enka API, for both Genshin and Star Rail, it also
 <details>
 	<summary>Click to expand</summary>
 
+  - v2.8.7:
+	  - Added Star Rail 2.5 version content.
   - v2.8.6:
 	  - Fixed the value for the theater mode difficulty.
 	  - Corrected a typo in the properties `theaterModeIndex` and `theaterMode` (before was theat**h**erModeIndex and theat**h**erMode).

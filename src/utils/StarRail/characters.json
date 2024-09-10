@@ -920,6 +920,33 @@
       121807
     ]
   },
+  "1220": {
+    "AvatarName": 1914764700,
+    "Rarity": 5,
+    "Element": "Wind",
+    "AvatarBaseType": "Rogue",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/Avatar/1220.png",
+    "AvatarCutinFrontImgPath": "SpriteOutput/AvatarDrawCard/1220.png",
+    "RankIDList": [
+      122001,
+      122002,
+      122003,
+      122004,
+      122005,
+      122006
+    ],
+    "SkillList": [
+      122001,
+      122002,
+      122003,
+      122004,
+      122006,
+      122007,
+      122008,
+      122009,
+      122014
+    ]
+  },
   "1221": {
     "AvatarName": -814118655,
     "Rarity": 5,
@@ -942,6 +969,54 @@
       122104,
       122106,
       122107
+    ]
+  },
+  "1222": {
+    "AvatarName": 751965286,
+    "Rarity": 5,
+    "Element": "Fire",
+    "AvatarBaseType": "Priest",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/Avatar/1222.png",
+    "AvatarCutinFrontImgPath": "SpriteOutput/AvatarDrawCard/1222.png",
+    "RankIDList": [
+      122201,
+      122202,
+      122203,
+      122204,
+      122205,
+      122206
+    ],
+    "SkillList": [
+      122201,
+      122202,
+      122203,
+      122204,
+      122206,
+      122207
+    ]
+  },
+  "1223": {
+    "AvatarName": -1976918069,
+    "Rarity": 4,
+    "Element": "Thunder",
+    "AvatarBaseType": "Rogue",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/Avatar/1223.png",
+    "AvatarCutinFrontImgPath": "SpriteOutput/AvatarDrawCard/1223.png",
+    "RankIDList": [
+      122301,
+      122302,
+      122303,
+      122304,
+      122305,
+      122306
+    ],
+    "SkillList": [
+      122301,
+      122302,
+      122303,
+      122304,
+      122306,
+      122307
     ]
   },
   "1224": {
