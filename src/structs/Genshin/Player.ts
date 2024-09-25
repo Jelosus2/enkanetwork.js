@@ -144,7 +144,7 @@ export class Player {
       : ({} as ProfilePicture);
     this.theaterAct = data.theaterActIndex || "";
     this.theaterModeIndex = data.theaterModeIndex || "";
-    this.theaterMode = theaterModeMap[theaterDifficulty[`${data.theaterModeIndex}`].difficultyLevel - 1] || "";
+    this.theaterMode = theaterModeMap[theaterDifficulty[`${data.theaterModeIndex}`]?.difficultyLevel - 1] || "";
     this.theaterStars = data.theaterStarIndex || 0;
     this.publicConstellations = data.isShowAvatarTalent || false;
     this.maxFriendshipCount = data.fetterCount || 0;
