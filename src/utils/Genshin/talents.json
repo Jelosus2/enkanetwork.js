@@ -2206,5 +2206,29 @@
   "1026": {
     "nameTextMapHash": 2582545881,
     "icon": "UI_Talent_S_Mualani_04"
+  },
+  "1031": {
+    "nameTextMapHash": 440486569,
+    "icon": "UI_Talent_S_Xilonen_01"
+  },
+  "1032": {
+    "nameTextMapHash": 1513759721,
+    "icon": "UI_Talent_S_Xilonen_02"
+  },
+  "1033": {
+    "nameTextMapHash": 2144038849,
+    "icon": "UI_Talent_U_Xilonen_01"
+  },
+  "1034": {
+    "nameTextMapHash": 3939402377,
+    "icon": "UI_Talent_S_Xilonen_03"
+  },
+  "1035": {
+    "nameTextMapHash": 344656665,
+    "icon": "UI_Talent_U_Xilonen_02"
+  },
+  "1036": {
+    "nameTextMapHash": 132224481,
+    "icon": "UI_Talent_S_Xilonen_04"
   }
 }

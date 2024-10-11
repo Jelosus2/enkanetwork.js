@@ -9,6 +9,8 @@ Un paquete para obetener datos de la API de enka, para Genshin y Star Rail, tamb
 <details>
   <summary>Haz click para expandir</summary>
 
+  - v2.8.9:
+    - Añadido el contenido de la versión 5.1 de Genshin.
   - v2.8.8:
     - Añadido el último excel para el árbol de habilidades en Star Rail (parece que no lo incluí en la última actualización).
 	- Arreglada la propiedad `theaterMode` para las usuarios que no intentaron jugar el teatro.

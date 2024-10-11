@@ -1709,5 +1709,21 @@
       "UI_NameCardPic_Yellow_Alpha",
       "UI_NameCardPic_Yellow_P"
     ]
+  },
+  "210219": {
+    "nameTextMapHash": 1731853172,
+    "icon": "UI_NameCardIcon_Xilonen",
+    "picPath": [
+      "UI_NameCardPic_Xilonen_Alpha",
+      "UI_NameCardPic_Xilonen_P"
+    ]
+  },
+  "210220": {
+    "nameTextMapHash": 3875363388,
+    "icon": "UI_NameCardIcon_Bp36",
+    "picPath": [
+      "UI_NameCardPic_Bp36_Alpha",
+      "UI_NameCardPic_Bp36_P"
+    ]
   }
 }

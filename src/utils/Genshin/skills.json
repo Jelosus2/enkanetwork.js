@@ -1659,6 +1659,26 @@
     "nameTextMapHash": 1987358669,
     "icon": "Skill_S_Kinich_07"
   },
+  "11031": {
+    "nameTextMapHash": 1335063693,
+    "icon": "Skill_A_01"
+  },
+  "11032": {
+    "nameTextMapHash": 743563437,
+    "icon": "Skill_S_Xilonen_01"
+  },
+  "11035": {
+    "nameTextMapHash": 3155535173,
+    "icon": "Skill_E_Xilonen_01"
+  },
+  "11036": {
+    "nameTextMapHash": 847078933,
+    "icon": "Skill_S_Xilonen_02"
+  },
+  "11037": {
+    "nameTextMapHash": 888400989,
+    "icon": "Skill_S_Xilonen_01"
+  },
   "11301": {
     "nameTextMapHash": 3802462781,
     "icon": "Skill_A_02"
@@ -2271,6 +2291,10 @@
     "nameTextMapHash": 3465751389,
     "icon": "Btn_HideAndSeekV4_Seeker_A_01"
   },
+  "20580": {
+    "nameTextMapHash": 2472473013,
+    "icon": "Skill_A_DreamExplore"
+  },
   "30000": {
     "nameTextMapHash": 3235714597,
     "icon": "Skill_A_Catalyst_MD"
@@ -2806,5 +2830,9 @@
   "5102010": {
     "nameTextMapHash": 3803106469,
     "icon": "Skill_A_Catalyst_MD"
+  },
+  "5103010": {
+    "nameTextMapHash": 3095315005,
+    "icon": "Skill_A_01"
   }
 }

@@ -40,5 +40,17 @@
   },
   "15": {
     "difficultyLevel": 4
+  },
+  "16": {
+    "difficultyLevel": 1
+  },
+  "17": {
+    "difficultyLevel": 2
+  },
+  "18": {
+    "difficultyLevel": 3
+  },
+  "19": {
+    "difficultyLevel": 4
   }
 }

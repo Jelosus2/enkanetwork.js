@@ -2444,6 +2444,58 @@
       "30007"
     ]
   },
+  "10000103": {
+    "nameTextMapHash": 2515292882,
+    "element": "Geo",
+    "icon": "UI_AvatarIcon_Xilonen",
+    "rarity": 5,
+    "sideIcon": "UI_AvatarIcon_Side_Xilonen",
+    "gachaIcon": "UI_Gacha_AvatarImg_Xilonen",
+    "constellations": [
+      "UI_Talent_S_Xilonen_01",
+      "UI_Talent_S_Xilonen_02",
+      "UI_Talent_U_Xilonen_01",
+      "UI_Talent_S_Xilonen_03",
+      "UI_Talent_U_Xilonen_02",
+      "UI_Talent_S_Xilonen_04"
+    ],
+    "skills": {
+      "normalAttack": "Skill_A_01",
+      "elementalSkill": "Skill_S_Xilonen_01",
+      "elementalBurst": "Skill_E_Xilonen_01"
+    },
+    "skillOrder": [
+      "11031",
+      "11032",
+      "11035"
+    ]
+  },
+  "10000901": {
+    "nameTextMapHash": 3293134650,
+    "element": "Pyro",
+    "icon": "UI_AvatarIcon_Mavuika",
+    "rarity": 5,
+    "sideIcon": "UI_AvatarIcon_Side_Mavuika",
+    "gachaIcon": "UI_Gacha_AvatarImg_Mavuika",
+    "constellations": [
+      "UI_Talent_S_Xiangling_01",
+      "UI_Talent_S_Xiangling_02",
+      "UI_Talent_U_Xiangling_02",
+      "UI_Talent_S_Xiangling_03",
+      "UI_Talent_U_Xiangling_01",
+      "UI_Talent_S_Xiangling_04"
+    ],
+    "skills": {
+      "normalAttack": "Skill_A_03",
+      "elementalSkill": "Skill_S_Xiangling_01",
+      "elementalBurst": "Skill_E_Xiangling_01"
+    },
+    "skillOrder": [
+      "10231",
+      "10232",
+      "10235"
+    ]
+  },
   "11000046": {
     "nameTextMapHash": 3986000746,
     "element": "Cryo",

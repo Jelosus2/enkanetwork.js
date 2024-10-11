@@ -539,6 +539,11 @@
     "nameTextMapHash": 2188866820,
     "oldIcon": "UI_AvatarIcon_Kinich"
   },
+  "8800": {
+    "icon": "UI_AvatarIcon_Xilonen_Circle",
+    "nameTextMapHash": 4042358220,
+    "oldIcon": "UI_AvatarIcon_Xilonen"
+  },
   "99999": {
     "icon": "UI_AvatarIcon_Ambor_Circle",
     "nameTextMapHash": 3995351756,
