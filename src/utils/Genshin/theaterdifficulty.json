@@ -52,5 +52,29 @@
   },
   "19": {
     "difficultyLevel": 4
+  },
+  "20": {
+    "difficultyLevel": 1
+  },
+  "21": {
+    "difficultyLevel": 2
+  },
+  "22": {
+    "difficultyLevel": 3
+  },
+  "23": {
+    "difficultyLevel": 4
+  },
+  "24": {
+    "difficultyLevel": 1
+  },
+  "25": {
+    "difficultyLevel": 2
+  },
+  "26": {
+    "difficultyLevel": 3
+  },
+  "27": {
+    "difficultyLevel": 4
   }
 }

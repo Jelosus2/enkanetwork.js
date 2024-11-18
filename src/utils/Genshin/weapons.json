@@ -263,6 +263,12 @@
     "nameTextMapHash": 3434743027,
     "rarity": 4
   },
+  "11432": {
+    "icon": "UI_EquipIcon_Sword_SacrificialNgombe",
+    "awakenIcon": "UI_EquipIcon_Sword_SacrificialNgombe_Awaken",
+    "nameTextMapHash": 590019915,
+    "rarity": 4
+  },
   "11501": {
     "icon": "UI_EquipIcon_Sword_Falcon",
     "awakenIcon": "UI_EquipIcon_Sword_Falcon_Awaken",
@@ -1013,6 +1019,12 @@
     "nameTextMapHash": 422144187,
     "rarity": 4
   },
+  "14430": {
+    "icon": "UI_EquipIcon_Catalyst_Umpakati",
+    "awakenIcon": "UI_EquipIcon_Catalyst_Umpakati_Awaken",
+    "nameTextMapHash": 1445287979,
+    "rarity": 4
+  },
   "14431": {
     "icon": "UI_EquipIcon_Catalyst_Isikhulu",
     "awakenIcon": "UI_EquipIcon_Catalyst_Isikhulu_Awaken",
@@ -1289,6 +1301,12 @@
     "nameTextMapHash": 1055195035,
     "rarity": 4
   },
+  "15430": {
+    "icon": "UI_EquipIcon_Bow_Umpakati",
+    "awakenIcon": "UI_EquipIcon_Bow_Umpakati_Awaken",
+    "nameTextMapHash": 4019353779,
+    "rarity": 4
+  },
   "15431": {
     "icon": "UI_EquipIcon_Bow_Isikhulu",
     "awakenIcon": "UI_EquipIcon_Bow_Isikhulu_Awaken",
@@ -1365,6 +1383,12 @@
     "icon": "UI_EquipIcon_Bow_Arcdange",
     "awakenIcon": "UI_EquipIcon_Bow_Arcdange_Awaken",
     "nameTextMapHash": 1257396043,
+    "rarity": 5
+  },
+  "15514": {
+    "icon": "UI_EquipIcon_Bow_Qoyllorsnova",
+    "awakenIcon": "UI_EquipIcon_Bow_Qoyllorsnova_Awaken",
+    "nameTextMapHash": 1363661611,
     "rarity": 5
   },
   "20001": {

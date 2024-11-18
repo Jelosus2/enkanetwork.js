@@ -544,6 +544,16 @@
     "nameTextMapHash": 4042358220,
     "oldIcon": "UI_AvatarIcon_Xilonen"
   },
+  "8900": {
+    "icon": "UI_AvatarIcon_Olorun_Circle",
+    "nameTextMapHash": 1357596180,
+    "oldIcon": "UI_AvatarIcon_Olorun"
+  },
+  "9000": {
+    "icon": "UI_AvatarIcon_Chasca_Circle",
+    "nameTextMapHash": 126466380,
+    "oldIcon": "UI_AvatarIcon_Chasca"
+  },
   "99999": {
     "icon": "UI_AvatarIcon_Ambor_Circle",
     "nameTextMapHash": 3995351756,
@@ -620,5 +630,9 @@
   "100180": {
     "icon": "UI_AvatarIcon_75002_Circle",
     "nameTextMapHash": 1280089932
+  },
+  "100190": {
+    "icon": "UI_AvatarIcon_75048_Circle",
+    "nameTextMapHash": 481603884
   }
 }

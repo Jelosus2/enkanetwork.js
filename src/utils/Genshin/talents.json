@@ -2230,5 +2230,53 @@
   "1036": {
     "nameTextMapHash": 132224481,
     "icon": "UI_Talent_S_Xilonen_04"
+  },
+  "1041": {
+    "nameTextMapHash": 465486001,
+    "icon": "UI_Talent_S_Chasca_01"
+  },
+  "1042": {
+    "nameTextMapHash": 3910827289,
+    "icon": "UI_Talent_S_Chasca_02"
+  },
+  "1043": {
+    "nameTextMapHash": 1841740617,
+    "icon": "UI_Talent_U_Chasca_01"
+  },
+  "1044": {
+    "nameTextMapHash": 667354929,
+    "icon": "UI_Talent_S_Chasca_03"
+  },
+  "1045": {
+    "nameTextMapHash": 1459309345,
+    "icon": "UI_Talent_U_Chasca_02"
+  },
+  "1046": {
+    "nameTextMapHash": 1544162913,
+    "icon": "UI_Talent_S_Chasca_04"
+  },
+  "1051": {
+    "nameTextMapHash": 1374803489,
+    "icon": "UI_Talent_S_Olorun_01"
+  },
+  "1052": {
+    "nameTextMapHash": 770856089,
+    "icon": "UI_Talent_S_Olorun_02"
+  },
+  "1053": {
+    "nameTextMapHash": 3381007425,
+    "icon": "UI_Talent_U_Olorun_01"
+  },
+  "1054": {
+    "nameTextMapHash": 3603602561,
+    "icon": "UI_Talent_S_Olorun_03"
+  },
+  "1055": {
+    "nameTextMapHash": 2132163585,
+    "icon": "UI_Talent_U_Olorun_02"
+  },
+  "1056": {
+    "nameTextMapHash": 543450217,
+    "icon": "UI_Talent_S_Olorun_04"
   }
 }

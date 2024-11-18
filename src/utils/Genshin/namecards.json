@@ -1725,5 +1725,45 @@
       "UI_NameCardPic_Bp36_Alpha",
       "UI_NameCardPic_Bp36_P"
     ]
+  },
+  "210221": {
+    "nameTextMapHash": 4278710644,
+    "icon": "UI_NameCardIcon_Chasca",
+    "picPath": [
+      "UI_NameCardPic_Chasca_Alpha",
+      "UI_NameCardPic_Chasca_P"
+    ]
+  },
+  "210222": {
+    "nameTextMapHash": 142182812,
+    "icon": "UI_NameCardIcon_Olorun",
+    "picPath": [
+      "UI_NameCardPic_Olorun_Alpha",
+      "UI_NameCardPic_Olorun_P"
+    ]
+  },
+  "210223": {
+    "nameTextMapHash": 3119227452,
+    "icon": "UI_NameCardIcon_Natlan2",
+    "picPath": [
+      "UI_NameCardPic_Natlan2_Alpha",
+      "UI_NameCardPic_Natlan2_P"
+    ]
+  },
+  "210224": {
+    "nameTextMapHash": 1955675780,
+    "icon": "UI_NameCardIcon_Dfcq2",
+    "picPath": [
+      "UI_NameCardPic_Dfcq2_Alpha",
+      "UI_NameCardPic_Dfcq2_P"
+    ]
+  },
+  "210225": {
+    "nameTextMapHash": 141626612,
+    "icon": "UI_NameCardIcon_Bp37",
+    "picPath": [
+      "UI_NameCardPic_Bp37_Alpha",
+      "UI_NameCardPic_Bp37_P"
+    ]
   }
 }

@@ -1679,6 +1679,46 @@
     "nameTextMapHash": 888400989,
     "icon": "Skill_S_Xilonen_01"
   },
+  "11040": {
+    "nameTextMapHash": 1436528045,
+    "icon": "Skill_S_Chasca_04"
+  },
+  "11041": {
+    "nameTextMapHash": 894584245,
+    "icon": "Skill_A_02"
+  },
+  "11042": {
+    "nameTextMapHash": 3865567869,
+    "icon": "Skill_S_Chasca_01"
+  },
+  "11043": {
+    "nameTextMapHash": 1268888861,
+    "icon": "Skill_A_02"
+  },
+  "11044": {
+    "nameTextMapHash": 1324968837,
+    "icon": "Skill_S_Chasca_02"
+  },
+  "11045": {
+    "nameTextMapHash": 2189434621,
+    "icon": "Skill_E_Chasca_01"
+  },
+  "11046": {
+    "nameTextMapHash": 941383253,
+    "icon": "Skill_S_Chasca_03"
+  },
+  "11047": {
+    "nameTextMapHash": 2437002693,
+    "icon": "Skill_E_Chasca_01"
+  },
+  "11048": {
+    "nameTextMapHash": 2043776509,
+    "icon": "Skill_S_Chasca_01"
+  },
+  "11049": {
+    "nameTextMapHash": 1428043941,
+    "icon": "Skill_S_Chasca_05"
+  },
   "11301": {
     "nameTextMapHash": 3802462781,
     "icon": "Skill_A_02"
@@ -1942,6 +1982,10 @@
   "20090": {
     "nameTextMapHash": 1916995925,
     "icon": "Btn_FairyBook_OrigamiAlpaca"
+  },
+  "20092": {
+    "nameTextMapHash": 466607949,
+    "icon": "UI_Icon_Skill_ColoringSpirit"
   },
   "20093": {
     "nameTextMapHash": 3906587141,
@@ -2291,6 +2335,10 @@
     "nameTextMapHash": 3465751389,
     "icon": "Btn_HideAndSeekV4_Seeker_A_01"
   },
+  "20569": {
+    "nameTextMapHash": 2957024869,
+    "icon": "UI_Icon_Skill_ColoringSpirit"
+  },
   "20580": {
     "nameTextMapHash": 2472473013,
     "icon": "Skill_A_DreamExplore"
@@ -2354,6 +2402,30 @@
   "30206": {
     "nameTextMapHash": 3468188821,
     "icon": "Skill_S_Momoka_02"
+  },
+  "30501": {
+    "nameTextMapHash": 818975741,
+    "icon": "Skill_A_02"
+  },
+  "30502": {
+    "nameTextMapHash": 4286406381,
+    "icon": "Skill_S_Olorun_01"
+  },
+  "30503": {
+    "nameTextMapHash": 1798091005,
+    "icon": "Skill_E_Olorun_Create"
+  },
+  "30504": {
+    "nameTextMapHash": 4204895213,
+    "icon": "Skill_A_02"
+  },
+  "30505": {
+    "nameTextMapHash": 1558714933,
+    "icon": "Skill_E_Olorun_01"
+  },
+  "30506": {
+    "nameTextMapHash": 2526862789,
+    "icon": "Skill_E_Olorun_03"
   },
   "100540": {
     "nameTextMapHash": 1952055533,
@@ -2834,5 +2906,13 @@
   "5103010": {
     "nameTextMapHash": 3095315005,
     "icon": "Skill_A_01"
+  },
+  "5104010": {
+    "nameTextMapHash": 691938477,
+    "icon": "Skill_A_02"
+  },
+  "5105010": {
+    "nameTextMapHash": 2644426605,
+    "icon": "Skill_A_02"
   }
 }

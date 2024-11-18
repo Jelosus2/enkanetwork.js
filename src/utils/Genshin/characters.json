@@ -2470,6 +2470,58 @@
       "11035"
     ]
   },
+  "10000104": {
+    "nameTextMapHash": 3746229466,
+    "element": "Anemo",
+    "icon": "UI_AvatarIcon_Chasca",
+    "rarity": 5,
+    "sideIcon": "UI_AvatarIcon_Side_Chasca",
+    "gachaIcon": "UI_Gacha_AvatarImg_Chasca",
+    "constellations": [
+      "UI_Talent_S_Chasca_01",
+      "UI_Talent_S_Chasca_02",
+      "UI_Talent_U_Chasca_01",
+      "UI_Talent_S_Chasca_03",
+      "UI_Talent_U_Chasca_02",
+      "UI_Talent_S_Chasca_04"
+    ],
+    "skills": {
+      "normalAttack": "Skill_A_02",
+      "elementalSkill": "Skill_S_Chasca_01",
+      "elementalBurst": "Skill_E_Chasca_01"
+    },
+    "skillOrder": [
+      "11041",
+      "11042",
+      "11045"
+    ]
+  },
+  "10000105": {
+    "nameTextMapHash": 1198350762,
+    "element": "Electro",
+    "icon": "UI_AvatarIcon_Olorun",
+    "rarity": 4,
+    "sideIcon": "UI_AvatarIcon_Side_Olorun",
+    "gachaIcon": "UI_Gacha_AvatarImg_Olorun",
+    "constellations": [
+      "UI_Talent_S_Olorun_01",
+      "UI_Talent_S_Olorun_02",
+      "UI_Talent_U_Olorun_01",
+      "UI_Talent_S_Olorun_03",
+      "UI_Talent_U_Olorun_02",
+      "UI_Talent_S_Olorun_04"
+    ],
+    "skills": {
+      "normalAttack": "Skill_A_02",
+      "elementalSkill": "Skill_S_Olorun_01",
+      "elementalBurst": "Skill_E_Olorun_01"
+    },
+    "skillOrder": [
+      "30501",
+      "30502",
+      "30505"
+    ]
+  },
   "10000901": {
     "nameTextMapHash": 3293134650,
     "element": "Pyro",
