@@ -1044,6 +1044,31 @@
       122408
     ]
   },
+  "1225": {
+    "AvatarName": 1511480173,
+    "Rarity": 5,
+    "Element": "Fire",
+    "AvatarBaseType": "Warlock",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/Avatar/1225.png",
+    "AvatarCutinFrontImgPath": "SpriteOutput/AvatarDrawCard/1225.png",
+    "RankIDList": [
+      122501,
+      122502,
+      122503,
+      122504,
+      122505,
+      122506
+    ],
+    "SkillList": [
+      122501,
+      122502,
+      122503,
+      122504,
+      122506,
+      122507,
+      122508
+    ]
+  },
   "1301": {
     "AvatarName": 1934967678,
     "Rarity": 4,
@@ -1314,6 +1339,30 @@
       131204,
       131206,
       131207
+    ]
+  },
+  "1313": {
+    "AvatarName": 772168265,
+    "Rarity": 5,
+    "Element": "Imaginary",
+    "AvatarBaseType": "Shaman",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/Avatar/1313.png",
+    "AvatarCutinFrontImgPath": "SpriteOutput/AvatarDrawCard/1313.png",
+    "RankIDList": [
+      131301,
+      131302,
+      131303,
+      131304,
+      131305,
+      131306
+    ],
+    "SkillList": [
+      131301,
+      131302,
+      131303,
+      131304,
+      131306,
+      131307
     ]
   },
   "1314": {

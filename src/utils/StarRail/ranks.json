@@ -1559,6 +1559,43 @@
     "Name": 2018441980,
     "SkillAddLevelList": {}
   },
+  "122501": {
+    "IconPath": "SpriteOutput/SkillIcons/SkillIcon_1225_Rank1.png",
+    "Name": 2018442074,
+    "SkillAddLevelList": {}
+  },
+  "122502": {
+    "IconPath": "SpriteOutput/SkillIcons/SkillIcon_1225_Rank2.png",
+    "Name": 2018442073,
+    "SkillAddLevelList": {}
+  },
+  "122503": {
+    "IconPath": "SpriteOutput/SkillIcons/SkillIcon_1225_BP.png",
+    "Name": 2018442072,
+    "SkillAddLevelList": {
+      "122501": 1,
+      "122502": 2,
+      "122508": 1
+    }
+  },
+  "122504": {
+    "IconPath": "SpriteOutput/SkillIcons/SkillIcon_1225_Rank4.png",
+    "Name": 2018442079,
+    "SkillAddLevelList": {}
+  },
+  "122505": {
+    "IconPath": "SpriteOutput/SkillIcons/SkillIcon_1225_Ultra.png",
+    "Name": 2018442078,
+    "SkillAddLevelList": {
+      "122503": 2,
+      "122504": 2
+    }
+  },
+  "122506": {
+    "IconPath": "SpriteOutput/SkillIcons/SkillIcon_1225_Rank6.png",
+    "Name": 2018442077,
+    "SkillAddLevelList": {}
+  },
   "130101": {
     "IconPath": "SpriteOutput/SkillIcons/SkillIcon_1301_Rank1.png",
     "Name": -1994201175,
@@ -1961,6 +1998,42 @@
   "131206": {
     "IconPath": "SpriteOutput/SkillIcons/SkillIcon_1312_Rank6.png",
     "Name": -407914358,
+    "SkillAddLevelList": {}
+  },
+  "131301": {
+    "IconPath": "SpriteOutput/SkillIcons/SkillIcon_1313_Rank1.png",
+    "Name": -407914324,
+    "SkillAddLevelList": {}
+  },
+  "131302": {
+    "IconPath": "SpriteOutput/SkillIcons/SkillIcon_1313_Rank2.png",
+    "Name": -407914323,
+    "SkillAddLevelList": {}
+  },
+  "131303": {
+    "IconPath": "SpriteOutput/SkillIcons/SkillIcon_1313_Ultra.png",
+    "Name": -407914322,
+    "SkillAddLevelList": {
+      "131301": 1,
+      "131303": 2
+    }
+  },
+  "131304": {
+    "IconPath": "SpriteOutput/SkillIcons/SkillIcon_1313_Rank4.png",
+    "Name": -407914329,
+    "SkillAddLevelList": {}
+  },
+  "131305": {
+    "IconPath": "SpriteOutput/SkillIcons/SkillIcon_1313_BP.png",
+    "Name": -407914328,
+    "SkillAddLevelList": {
+      "131302": 2,
+      "131304": 2
+    }
+  },
+  "131306": {
+    "IconPath": "SpriteOutput/SkillIcons/SkillIcon_1313_Rank6.png",
+    "Name": -407914327,
     "SkillAddLevelList": {}
   },
   "131401": {
