@@ -17,6 +17,6 @@ export class SRHash {
    * @param language - The language to get the name.
    */
   constructor(hash: string | number, language: string) {
-    this.value = hashes[language][hash] || "";
+    this.value = hashes[language]?.[hash] || "";
   }
 }

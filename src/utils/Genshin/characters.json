@@ -363,6 +363,13 @@
       "10231",
       "10232",
       "10235"
+    ],
+    "costumes": [
+      {
+        "sideIconName": "UI_AvatarIcon_Side_XianglingCostumeWinter",
+        "icon": "UI_AvatarIcon_XianglingCostumeWinter",
+        "art": "UI_Costume_XianglingCostumeWinter"
+      }
     ]
   },
   "10000024": {
@@ -965,6 +972,13 @@
       "10461",
       "10462",
       "10463"
+    ],
+    "costumes": [
+      {
+        "sideIconName": "UI_AvatarIcon_Side_HutaoCostumeWinter",
+        "icon": "UI_AvatarIcon_HutaoCostumeWinter",
+        "art": "UI_Costume_HutaoCostumeWinter"
+      }
     ]
   },
   "10000047": {
@@ -2522,6 +2536,84 @@
       "30505"
     ]
   },
+  "10000106": {
+    "nameTextMapHash": 113398050,
+    "element": "Pyro",
+    "icon": "UI_AvatarIcon_Mavuika",
+    "rarity": 5,
+    "sideIcon": "UI_AvatarIcon_Side_Mavuika",
+    "gachaIcon": "UI_Gacha_AvatarImg_Mavuika",
+    "constellations": [
+      "UI_Talent_S_Mavuika_01",
+      "UI_Talent_S_Mavuika_02",
+      "UI_Talent_U_Mavuika_01",
+      "UI_Talent_S_Mavuika_03",
+      "UI_Talent_U_Mavuika_02",
+      "UI_Talent_S_Mavuika_04"
+    ],
+    "skills": {
+      "normalAttack": "Skill_A_04",
+      "elementalSkill": "Skill_S_Mavuika_01",
+      "elementalBurst": "Skill_E_Mavuika_01"
+    },
+    "skillOrder": [
+      "11061",
+      "11062",
+      "11065"
+    ]
+  },
+  "10000107": {
+    "nameTextMapHash": 1197975042,
+    "element": "Cryo",
+    "icon": "UI_AvatarIcon_Citlali",
+    "rarity": 5,
+    "sideIcon": "UI_AvatarIcon_Side_Citlali",
+    "gachaIcon": "UI_Gacha_AvatarImg_Citlali",
+    "constellations": [
+      "UI_Talent_S_Citlali_01",
+      "UI_Talent_S_Citlali_02",
+      "UI_Talent_U_Citlali_01",
+      "UI_Talent_S_Citlali_03",
+      "UI_Talent_U_Citlali_02",
+      "UI_Talent_S_Citlali_04"
+    ],
+    "skills": {
+      "normalAttack": "Skill_A_Catalyst_MD",
+      "elementalSkill": "Skill_S_Citlali_01",
+      "elementalBurst": "Skill_E_Citlali_01"
+    },
+    "skillOrder": [
+      "11071",
+      "11072",
+      "11075"
+    ]
+  },
+  "10000108": {
+    "nameTextMapHash": 1888132250,
+    "element": "Anemo",
+    "icon": "UI_AvatarIcon_Lanyan",
+    "rarity": 4,
+    "sideIcon": "UI_AvatarIcon_Side_Lanyan",
+    "gachaIcon": "UI_Gacha_AvatarImg_Lanyan",
+    "constellations": [
+      "UI_Talent_S_Lanyan_01",
+      "UI_Talent_S_Lanyan_02",
+      "UI_Talent_U_Lanyan_01",
+      "UI_Talent_S_Lanyan_03",
+      "UI_Talent_U_Lanyan_02",
+      "UI_Talent_S_Lanyan_04"
+    ],
+    "skills": {
+      "normalAttack": "Skill_A_Catalyst_MD",
+      "elementalSkill": "Skill_S_Lanyan_01",
+      "elementalBurst": "Skill_E_Lanyan_01"
+    },
+    "skillOrder": [
+      "11081",
+      "11082",
+      "11085"
+    ]
+  },
   "10000901": {
     "nameTextMapHash": 3293134650,
     "element": "Pyro",
@@ -2546,6 +2638,32 @@
       "10231",
       "10232",
       "10235"
+    ]
+  },
+  "10000902": {
+    "nameTextMapHash": 853394138,
+    "element": "Pyro",
+    "icon": "UI_AvatarIcon_Hutao",
+    "rarity": 5,
+    "sideIcon": "UI_AvatarIcon_Side_Hutao",
+    "gachaIcon": "UI_Gacha_AvatarImg_Hutao",
+    "constellations": [
+      "UI_Talent_S_Hutao_03",
+      "UI_Talent_S_Hutao_01",
+      "UI_Talent_U_Hutao_01",
+      "UI_Talent_S_Hutao_02",
+      "UI_Talent_U_Hutao_02",
+      "UI_Talent_S_Hutao_04"
+    ],
+    "skills": {
+      "normalAttack": "Skill_A_03",
+      "elementalSkill": "Skill_S_Hutao_01",
+      "elementalBurst": "Skill_E_Hutao_01"
+    },
+    "skillOrder": [
+      "10461",
+      "10462",
+      "10463"
     ]
   },
   "11000046": {
@@ -2597,6 +2715,32 @@
       "100540",
       "10067",
       "10068"
+    ]
+  },
+  "10000005-502": {
+    "nameTextMapHash": 1533656818,
+    "element": "Pyro",
+    "icon": "UI_AvatarIcon_PlayerBoy",
+    "rarity": 5,
+    "sideIcon": "UI_AvatarIcon_Side_PlayerBoy",
+    "gachaIcon": "UI_Gacha_AvatarImg_PlayerBoy",
+    "constellations": [
+      "UI_Talent_S_PlayerFire_01",
+      "UI_Talent_S_PlayerFire_02",
+      "UI_Talent_U_PlayerFire_01",
+      "UI_Talent_S_PlayerFire_03",
+      "UI_Talent_U_PlayerFire_02",
+      "UI_Talent_S_PlayerFire_04"
+    ],
+    "skills": {
+      "normalAttack": "Skill_A_01",
+      "elementalSkill": "Skill_S_PlayerFire_01",
+      "elementalBurst": "Skill_E_PlayerFire_01"
+    },
+    "skillOrder": [
+      "100541",
+      "10097",
+      "10098"
     ]
   },
   "10000005-503": {
@@ -2752,6 +2896,32 @@
       "100550",
       "10067",
       "10068"
+    ]
+  },
+  "10000007-702": {
+    "nameTextMapHash": 3816664530,
+    "element": "Pyro",
+    "icon": "UI_AvatarIcon_PlayerGirl",
+    "rarity": 5,
+    "sideIcon": "UI_AvatarIcon_Side_PlayerGirl",
+    "gachaIcon": "UI_Gacha_AvatarImg_PlayerGirl",
+    "constellations": [
+      "UI_Talent_S_PlayerFire_01",
+      "UI_Talent_S_PlayerFire_02",
+      "UI_Talent_U_PlayerFire_01",
+      "UI_Talent_S_PlayerFire_03",
+      "UI_Talent_U_PlayerFire_02",
+      "UI_Talent_S_PlayerFire_04"
+    ],
+    "skills": {
+      "normalAttack": "Skill_A_01",
+      "elementalSkill": "Skill_S_PlayerFire_01",
+      "elementalBurst": "Skill_E_PlayerFire_01"
+    },
+    "skillOrder": [
+      "100551",
+      "10097",
+      "10098"
     ]
   },
   "10000007-703": {

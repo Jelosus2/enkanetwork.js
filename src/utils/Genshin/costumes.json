@@ -39,6 +39,11 @@
     "icon": "UI_AvatarIcon_AmborCostumeWic",
     "art": "UI_Costume_AmborCostumeWic"
   },
+  "202301": {
+    "sideIconName": "UI_AvatarIcon_Side_XianglingCostumeWinter",
+    "icon": "UI_AvatarIcon_XianglingCostumeWinter",
+    "art": "UI_Costume_XianglingCostumeWinter"
+  },
   "202501": {
     "sideIconName": "UI_AvatarIcon_Side_XingqiuCostumeBamboo",
     "icon": "UI_AvatarIcon_XingqiuCostumeBamboo",
@@ -78,6 +83,11 @@
     "sideIconName": "UI_AvatarIcon_Side_RosariaCostumeWic",
     "icon": "UI_AvatarIcon_RosariaCostumeWic",
     "art": "UI_Costume_RosariaCostumeWic"
+  },
+  "204601": {
+    "sideIconName": "UI_AvatarIcon_Side_HutaoCostumeWinter",
+    "icon": "UI_AvatarIcon_HutaoCostumeWinter",
+    "art": "UI_Costume_HutaoCostumeWinter"
   },
   "206101": {
     "sideIconName": "UI_AvatarIcon_Side_MomokaCostumeErrantry",

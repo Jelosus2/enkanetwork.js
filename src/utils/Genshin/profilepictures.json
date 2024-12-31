@@ -59,6 +59,11 @@
     "nameTextMapHash": 2206393084,
     "oldIcon": "UI_AvatarIcon_Xiangling"
   },
+  "601": {
+    "icon": "UI_AvatarIcon_XianglingCostumeWinter_Circle",
+    "nameTextMapHash": 1178901364,
+    "oldIcon": "UI_AvatarIcon_XianglingCostumeWinter"
+  },
   "700": {
     "icon": "UI_AvatarIcon_Beidou_Circle",
     "nameTextMapHash": 2755210500,
@@ -223,6 +228,11 @@
     "icon": "UI_AvatarIcon_Hutao_Circle",
     "nameTextMapHash": 678944044,
     "oldIcon": "UI_AvatarIcon_Hutao"
+  },
+  "2901": {
+    "icon": "UI_AvatarIcon_HutaoCostumeWinter_Circle",
+    "nameTextMapHash": 1034360652,
+    "oldIcon": "UI_AvatarIcon_HutaoCostumeWinter"
   },
   "3000": {
     "icon": "UI_AvatarIcon_Rosaria_Circle",
@@ -553,6 +563,21 @@
     "icon": "UI_AvatarIcon_Chasca_Circle",
     "nameTextMapHash": 126466380,
     "oldIcon": "UI_AvatarIcon_Chasca"
+  },
+  "9100": {
+    "icon": "UI_AvatarIcon_Citlali_Circle",
+    "nameTextMapHash": 2700612516,
+    "oldIcon": "UI_AvatarIcon_Citlali"
+  },
+  "9200": {
+    "icon": "UI_AvatarIcon_Mavuika_Circle",
+    "nameTextMapHash": 2502300308,
+    "oldIcon": "UI_AvatarIcon_Mavuika"
+  },
+  "9300": {
+    "icon": "UI_AvatarIcon_Lanyan_Circle",
+    "nameTextMapHash": 722604652,
+    "oldIcon": "UI_AvatarIcon_Lanyan"
   },
   "99999": {
     "icon": "UI_AvatarIcon_Ambor_Circle",

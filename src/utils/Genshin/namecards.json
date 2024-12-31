@@ -1765,5 +1765,61 @@
       "UI_NameCardPic_Bp37_Alpha",
       "UI_NameCardPic_Bp37_P"
     ]
+  },
+  "210226": {
+    "nameTextMapHash": 4132784100,
+    "icon": "UI_NameCardIcon_Mavuika",
+    "picPath": [
+      "UI_NameCardPic_Mavuika_Alpha",
+      "UI_NameCardPic_Mavuika_P"
+    ]
+  },
+  "210227": {
+    "nameTextMapHash": 653858276,
+    "icon": "UI_NameCardIcon_Citlali",
+    "picPath": [
+      "UI_NameCardPic_Citlali_Alpha",
+      "UI_NameCardPic_Citlali_P"
+    ]
+  },
+  "210228": {
+    "nameTextMapHash": 12824332,
+    "icon": "UI_NameCardIcon_Lanyan",
+    "picPath": [
+      "UI_NameCardPic_Lanyan_Alpha",
+      "UI_NameCardPic_Lanyan_P"
+    ]
+  },
+  "210229": {
+    "nameTextMapHash": 2492545436,
+    "icon": "UI_NameCardIcon_Csxy5",
+    "picPath": [
+      "UI_NameCardPic_Csxy5_Alpha",
+      "UI_NameCardPic_Csxy5_P"
+    ]
+  },
+  "210230": {
+    "nameTextMapHash": 893797092,
+    "icon": "UI_NameCardIcon_Tzz10",
+    "picPath": [
+      "UI_NameCardPic_Tzz10_Alpha",
+      "UI_NameCardPic_Tzz10_P"
+    ]
+  },
+  "210231": {
+    "nameTextMapHash": 1556804276,
+    "icon": "UI_NameCardIcon_MusicGame01",
+    "picPath": [
+      "UI_NameCardPic_MusicGame01_Alpha",
+      "UI_NameCardPic_MusicGame01_P"
+    ]
+  },
+  "210232": {
+    "nameTextMapHash": 526870476,
+    "icon": "UI_NameCardIcon_Bp38",
+    "picPath": [
+      "UI_NameCardPic_Bp38_Alpha",
+      "UI_NameCardPic_Bp38_P"
+    ]
   }
 }

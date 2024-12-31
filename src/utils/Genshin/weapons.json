@@ -623,6 +623,12 @@
     "nameTextMapHash": 1183454019,
     "rarity": 5
   },
+  "12514": {
+    "icon": "UI_EquipIcon_Claymore_RadianceSword",
+    "awakenIcon": "UI_EquipIcon_Claymore_RadianceSword_Awaken",
+    "nameTextMapHash": 1876377995,
+    "rarity": 5
+  },
   "13101": {
     "icon": "UI_EquipIcon_Pole_Gewalt",
     "awakenIcon": "UI_EquipIcon_Pole_Gewalt_Awaken",
@@ -1113,6 +1119,12 @@
     "icon": "UI_EquipIcon_Catalyst_MechaPufferfish",
     "awakenIcon": "UI_EquipIcon_Catalyst_MechaPufferfish_Awaken",
     "nameTextMapHash": 1673987515,
+    "rarity": 5
+  },
+  "14517": {
+    "icon": "UI_EquipIcon_Catalyst_Figurines",
+    "awakenIcon": "UI_EquipIcon_Catalyst_Figurines_Awaken",
+    "nameTextMapHash": 2466897131,
     "rarity": 5
   },
   "15101": {
