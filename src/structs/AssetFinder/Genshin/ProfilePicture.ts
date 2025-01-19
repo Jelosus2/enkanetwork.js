@@ -1,11 +1,7 @@
 import { ProfilePictureImage } from "../../../types";
-import {
-  profilepictures as pContent,
-  hashes as hContent,
-} from "../../../utils";
+import { genshinFinder, profilepictures as pContent} from "../../../utils";
 
 const profilepictures: { [key: string]: any } = pContent;
-const hashes: { [key: string]: any } = hContent;
 
 /**
  * A class that structures the profile pictures assets and names
@@ -29,9 +25,7 @@ export class ProfilePictureAssets {
   constructor(profilePictureId: string | number, language: string) {
     const profilepicture = profilepictures[profilePictureId];
 
-    this.name =
-      hashes[language]?.[profilepicture?.nameTextMapHash] ||
-      "";
+    this.name = genshinFinder[language].hash(profilepicture?.nameTextMapHash).value;
     this.assets = profilepicture
       ? new ProfilePictureImages(profilepicture)
       : ({} as ProfilePictureImages);

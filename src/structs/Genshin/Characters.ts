@@ -1,6 +1,6 @@
-import { AssetFinder } from "../../client";
 import { AssetFinderOptions, CharactersAPI, FriendshipAPI } from "../../types";
 import { CharacterImages, ConstellationImages } from "../AssetFinder";
+import { genshinFinder } from "../../utils";
 import { Equipment } from "./Equipment";
 import { Stats } from "./Stats";
 import { Properties } from "./Properties";
@@ -106,13 +106,11 @@ export class Characters {
    * @param language - The language to get the name.
    */
   constructor(data: CharactersAPI, language: AssetFinderOptions["language"]) {
-    const { genshin: genshinFinder } = new AssetFinder({ language });
-
     let charDepot = "";
     if (["10000005", "10000007"].includes(data.avatarId.toString()))
       charDepot = `${data.avatarId}-${data.skillDepotId}`;
 
-    const character = genshinFinder.character(charDepot || data.avatarId);
+    const character = genshinFinder[`${language}`].character(charDepot || data.avatarId);
 
     this.characterId = data.avatarId;
     this.element = character.element;
@@ -121,7 +119,7 @@ export class Characters {
     this.properties = new Properties(data.propMap);
     this.stats = new Stats(data.fightPropMap);
     this.constellationsList = data.talentIdList
-      ? data.talentIdList.map((data) => new Constellations(data, genshinFinder))
+      ? data.talentIdList.map((data) => new Constellations(data, language))
       : [];
     this.skillDepotId = data.skillDepotId;
     this.inherentProudSkillList = data.inherentProudSkillList || [];
@@ -164,11 +162,8 @@ class Constellations {
    * @param constellationId - The ID of the constellation.
    * @param language - The language to get the name.
    */
-  constructor(
-    constellationId: number,
-    genshinFinder: AssetFinder["genshin"]
-  ) {
-    const constellation = genshinFinder.constellation(constellationId);
+  constructor(constellationId: number, language: AssetFinderOptions["language"]) {
+    const constellation = genshinFinder[`${language}`].constellation(constellationId);
 
     this.id = constellationId;
     this.assets = constellation.assets;

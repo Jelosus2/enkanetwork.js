@@ -1,4 +1,4 @@
-import { AssetFinder } from "../../client";
+import { genshinFinder } from "../../utils";
 import { WeaponImages } from "../AssetFinder";
 import { AssetFinderOptions, WeaponAPI, WeaponStatsAPI } from "../../types";
 
@@ -62,7 +62,7 @@ export class Weapon {
    * @param language - The language to get the name.
    */
   constructor(data: WeaponAPI, language: AssetFinderOptions["language"]) {
-    const { genshin: genshinFinder } = new AssetFinder({ language });
+    const weapon = genshinFinder[`${language}`].weapon(data.itemId);
 
     this.weaponId = data.itemId;
     this.level = data.weapon.level;
@@ -74,10 +74,8 @@ export class Weapon {
       (data) => new WeaponStats(data)
     );
     this.itemType = data.flat.itemType;
-    this.assets = genshinFinder.weapon(this.weaponId).assets;
-    this.name = genshinFinder.weapon(
-      this.weaponId
-    ).name;
+    this.assets = weapon.assets;
+    this.name = weapon.name;
   }
 }
 

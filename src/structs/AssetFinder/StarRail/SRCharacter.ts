@@ -1,14 +1,11 @@
 import { SRCharacterImage } from "../../../types";
 import {
+  starrailFinder,
   srcharacters as sContent,
-  srhashes as shContent,
-  ranks as rContent,
-  srskills as ssContent,
+  srskills as ssContent
 } from "../../../utils";
 
 const characters: { [key: string]: any } = sContent;
-const hashes: { [key: string]: any } = shContent;
-const ranks: { [key: string]: any } = rContent;
 const skills: { [key: string]: any } = ssContent;
 
 /**
@@ -33,9 +30,9 @@ export class SRCharacterAssets {
   constructor(characterId: string | number, language: string) {
     const character = characters[characterId];
 
-    this.name = hashes[language]?.[character?.AvatarName] || "";
+    this.name = starrailFinder[language].hash(character?.AvatarName).value;
     this.assets = character
-      ? new SRCharacterImages(character)
+      ? new SRCharacterImages(character, language)
       : ({} as SRCharacterImages);
   }
 }
@@ -62,14 +59,22 @@ export class SRCharacterImages {
   skills: SRCharacterSkills;
 
   /**
+   * The name and paths of the character skins assets.
+   */
+  skins: SRCharacterSkins[];
+
+  /**
    * Creates a new `SRCharacterImages` instance.
    * @param data - The data of the character assets.
    */
-  constructor(data: SRCharacterImage) {
+  constructor(data: SRCharacterImage, language: string) {
     this.icon = data.AvatarSideIconPath;
     this.gachaIcon = data.AvatarCutinFrontImgPath;
-    this.eidolons = data.RankIDList.map((id) => ranks[id].IconPath);
+    this.eidolons = data.RankIDList.map((id) => starrailFinder.en.eidolon(id).icon);
     this.skills = new SRCharacterSkills(data.SkillList);
+    this.skins = data.Skins
+      ? data.Skins.map((data) => new SRCharacterSkins(data, language))
+      : [];
   }
 }
 
@@ -109,5 +114,34 @@ export class SRCharacterSkills {
     this.ultimate = skills[data[2]].SkillIcon;
     this.talent = skills[data[3]].SkillIcon;
     this.technique = skills[data[5]].SkillIcon;
+  }
+}
+
+class SRCharacterSkins {
+  /**
+   * The ID of the skin.
+   */
+  id: number;
+
+  /**
+   * The name of the skin.
+   */
+  name: string;
+
+  /**
+   * The path to the full image of the skin.
+   */
+  fullImage: string;
+
+  /**
+   * The path to the icon of the skin.
+   */
+  icon: string;
+
+  constructor(data: SRCharacterImage["Skins"][0], language: string) {
+    this.id = data.ID;
+    this.name = starrailFinder[language].hash(data.AvatarSkinName).value;
+    this.fullImage = data.AvatarCutinFrontImgPath;
+    this.icon = data.AvatarSideIconPath;
   }
 }

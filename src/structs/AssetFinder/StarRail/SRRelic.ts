@@ -1,10 +1,9 @@
 import { 
-  relics as rContent,
-  srhashes as sContent 
+  starrailFinder,
+  relics as rContent
 } from "../../../utils";
 
 const relics: { [key: string]: any } = rContent;
-const hashes: { [key: string]: any } = sContent;
 
 export class SRRelic {
   /**
@@ -41,7 +40,7 @@ export class SRRelic {
     this.type = relics[relicId]?.Type || "";
     this.setId = relics[relicId]?.SetID || 0;
     this.icon = relics[relicId]?.Icon || "";
-    this.name = hashes[language]?.[relics[relicId]?.Name] || "";
-    this.setName = hashes[language]?.[relics[relicId]?.SetName] || "";
+    this.name = starrailFinder[language].hash(relics[relicId]?.Name).value;
+    this.setName = starrailFinder[language].hash(relics[relicId]?.SetName).value;
   }
 }

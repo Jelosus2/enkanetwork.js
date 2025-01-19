@@ -1,4 +1,4 @@
-import { characters as cContent, hashes as hContent } from "../../../utils";
+import { genshinFinder, characters as cContent } from "../../../utils";
 import {
   CharacterCostume,
   CharacterImage,
@@ -6,7 +6,6 @@ import {
 } from "../../../types";
 
 const characters: { [key: string]: any } = cContent;
-const hashes: { [key: string]: any } = hContent;
 
 /**
  * A class that structures the character assets and name.
@@ -40,8 +39,7 @@ export class CharacterAssets {
   constructor(characterId: string | number, language: string) {
     const character = characters[characterId];
 
-    this.name =
-      hashes[language]?.[character?.nameTextMapHash] || "";
+    this.name = genshinFinder[language].hash(character?.nameTextMapHash).value;
     this.element = character?.element || "";
     this.stars = character?.rarity || 0;
     this.assets = character

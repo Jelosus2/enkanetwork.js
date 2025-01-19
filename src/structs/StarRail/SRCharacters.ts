@@ -1,15 +1,16 @@
 import { SRLightCone } from "./SRLightCone";
 import { SRRelics } from "./SRRelics";
 import { SRSkillTreeList } from "./SRSkillTreeList";
-import { AssetFinder } from "../../client";
-import { srcharacters as sContent, lightcones as lContent, types as tContent } from "../../utils";
 import { SRCharacterImages } from "../AssetFinder";
-import {
-  AssetFinderOptions,
-  SRShowcaseAPI,
-} from "../../types";
+import { SRShowcaseAPI } from "../../types";
 import { LayerGenerator, PropState } from "../../handlers";
 import { SRStats } from "./SRStats";
+import { 
+  starrailFinder, 
+  srcharacters as sContent, 
+  lightcones as lContent, 
+  types as tContent 
+} from "../../utils";
 
 const characters: { [key: string]: any } = sContent;
 const lightcones: { [key: string]: any } = lContent;
@@ -100,6 +101,11 @@ export class SRCharacters {
   eidolons: number;
 
   /**
+   * The ID of the skin the character is using if any.
+   */
+  skinId: number | string;
+
+  /**
    * Tells if the character is the support character.
    */
   _assist: boolean;
@@ -115,14 +121,11 @@ export class SRCharacters {
    * @param language - The language to get the names.
    */
   constructor(data: SRShowcaseAPI, language: string) {
+    const characterAssets = starrailFinder[language].character(data.avatarId);
     const character = characters[data.avatarId];
 
-    const { starrail: finder } = new AssetFinder({
-      language: language as AssetFinderOptions["language"],
-    });
-
     this.characterId = data.avatarId;
-    this.name = finder.character(data.avatarId).name;
+    this.name = characterAssets.name;
     this.rarity = character.Rarity;
     this.element = character.Element;
     this.path = types[language][character.AvatarBaseType].name;
@@ -142,8 +145,9 @@ export class SRCharacters {
     this.level = data.level;
     this.maxLevel = maxLevelMapping[data.promotion || 0];
     this.eidolons = data.rank || 0;
+    this.skinId = data.dressedSkinId || "";
     this._assist = data._assist || false;
-    this.assets = finder.character(data.avatarId).assets;
+    this.assets = characterAssets.assets;
   }
 
   stats(): SRStats[] {

@@ -31,8 +31,8 @@ export interface SRShowcaseAPI {
   relicList: SRRelicList[]
   level: number
   rank: number
+  dressedSkinId: number
   _assist: boolean
-  _flat: object
 }
 
 export interface SRPlayerRecordInfoAPI {
@@ -44,6 +44,14 @@ export interface SRPlayerRecordInfoAPI {
   bookCount: number
   relicCount: number
   musicCount: number
+}
+
+export interface SRPlayerPrivacySettingInfoAPI {
+  displayCollection: boolean
+  displayRecord: boolean
+  displayRecordTeam: boolean
+  displayOnlineStatus: boolean
+  displayDiary: boolean
 }
 
 export interface SRPlayerChallengeInfoAPI {

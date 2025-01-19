@@ -1,8 +1,7 @@
-import { weapons as wContent, hashes as hContent } from "../../../utils";
+import { genshinFinder, weapons as wContent } from "../../../utils";
 import { WeaponImage } from "../../../types";
 
 const weapons: { [key: string]: any } = wContent;
-const hashes: { [key: string]: any } = hContent;
 
 /**
  * A class that structures the weapon assets and name.
@@ -31,7 +30,7 @@ export class WeaponAssets {
   constructor(weaponId: string | number, language: string) {
     const weapon = weapons[weaponId];
 
-    this.name = hashes[language][weapon?.nameTextMapHash] || "";
+    this.name = genshinFinder[language].hash(weapon?.nameTextMapHash).value;
     this.stars = weapon?.rarity || 0;
     this.assets = weapon
       ? new WeaponImages(weapon)

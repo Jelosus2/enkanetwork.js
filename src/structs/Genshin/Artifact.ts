@@ -1,5 +1,4 @@
-import { AssetFinder } from "../../client";
-import { substats as sContent } from "../../utils";
+import { genshinFinder, substats as sContent } from "../../utils";
 import {
   AssetFinderOptions,
   ArtifactAPI,
@@ -88,8 +87,6 @@ export class Artifact {
    * @param language - The language to get the name.
    */
   constructor(data: ArtifactAPI, language: AssetFinderOptions["language"]) {
-    const { genshin: genshinFinder } = new AssetFinder({ language });
-
     this.artifactId = data.itemId;
     this.level = data.reliquary.level;
     this.nameTextMapHash = data.flat.nameTextMapHash;
@@ -106,10 +103,10 @@ export class Artifact {
     this.itemType = data.flat.itemType;
     this.icon = data.flat.icon;
     this.equipType = data.flat.equipType;
-    this.name = genshinFinder.hash(
+    this.name = genshinFinder[`${language}`].hash(
       this.nameTextMapHash
     ).value;
-    this.setName = genshinFinder.hash(
+    this.setName = genshinFinder[`${language}`].hash(
       this.setNameTextMapHash
     ).value;
   }

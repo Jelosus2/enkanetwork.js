@@ -1,8 +1,7 @@
-import { skills as sContent, hashes as hContent } from "../../../utils";
+import { genshinFinder, skills as sContent } from "../../../utils";
 import { SkillImage } from "../../../types";
 
 const skills: { [key: string]: any } = sContent;
-const hashes: { [key: string]: any } = hContent;
 
 /**
  * A class that structures the skill assets and names.
@@ -24,7 +23,7 @@ export class SkillAssets {
    * @param language - The language to get the name.
    */
   constructor(skillId: string | number, language: string) {
-    this.name = hashes[language][skills[skillId]?.nameTextMapHash] || "";
+    this.name = genshinFinder[language].hash(skills[skillId]?.nameTextMapHash).value;
     this.assets = skills[skillId]
       ? new SkillImages(skills[skillId])
       : ({} as SkillImages);

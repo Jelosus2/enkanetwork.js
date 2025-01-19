@@ -1,11 +1,10 @@
 import {
+  starrailFinder,
   lightcones as lContent,
-  srhashes as sContent,
   types as tContent,
 } from "../../../utils";
 
 const lightcones: { [key: string]: any } = lContent;
-const hashes: { [key: string]: any } = sContent;
 const types: { [key: string]: any } = tContent;
 
 export class SRLightcone {
@@ -31,10 +30,8 @@ export class SRLightcone {
   constructor(lightconeId: string | number, language: string) {
     const lightcone = lightcones[lightconeId];
 
-    this.path =
-      types[language]?.[lightcone?.AvatarBaseType]?.name || "";
-    this.name =
-      hashes[language]?.[lightcone?.EquipmentName] || "";
+    this.path = types[language][lightcone?.AvatarBaseType]?.name || "";
+    this.name = starrailFinder[language].hash(lightcone?.EquipmentName).value;
     this.icon = lightcone?.ImagePath || "";
   }
 }

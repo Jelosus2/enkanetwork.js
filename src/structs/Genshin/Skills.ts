@@ -1,6 +1,5 @@
-import { AssetFinder } from "../../client";
 import { AssetFinderOptions } from "../../types";
-import { characters as cContent } from "../../utils";
+import { genshinFinder, characters as cContent } from "../../utils";
 import { SkillImages } from "../AssetFinder";
 
 const characters: { [key: string]: any } = cContent;
@@ -100,8 +99,7 @@ class Skill {
     id: number,
     language: AssetFinderOptions["language"]
   ) {
-    const { genshin: genshinFinder } = new AssetFinder({ language });
-    const skill = genshinFinder.skill(id);
+    const skill = genshinFinder[`${language}`].skill(id);
 
     this.level = level;
     this.id = id;

@@ -1,4 +1,4 @@
-import { AssetFinder } from "../../client";
+import { genshinFinder, starrailFinder } from "../../utils";
 import { Characters } from "../Genshin";
 import { SRCharacters } from "../StarRail";
 import {
@@ -73,15 +73,13 @@ export class HoyoBuilds {
    * @param language - The language to get the names.
    */
   constructor(data: HoyoBuildsAPI, language: AssetFinderOptions["language"]) {
-    const { genshin: genshinFinder, starrail: starrailFinder } = new AssetFinder();
-
     this.id = data.id;
     this.name = data.name;
     this.characterId = data.avatar_id;
     this.characterName =
       data.hoyo_type == 0
-        ? genshinFinder.character(this.characterId).name
-        : starrailFinder.character(this.characterId).name;
+        ? genshinFinder[`${language}`].character(this.characterId).name
+        : starrailFinder[`${language}`].character(this.characterId).name;
     this.characterInfo =
       data.hoyo_type == 0
         ? new Characters(data.avatar_data as CharactersAPI, language)

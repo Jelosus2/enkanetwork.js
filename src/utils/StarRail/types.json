@@ -21,6 +21,9 @@
     "Priest": {
       "name": "丰饶"
     },
+    "Memory": {
+      "name": "记忆"
+    },
     "Unknown": {
       "name": "通用"
     }
@@ -46,6 +49,9 @@
     },
     "Priest": {
       "name": "豐饒"
+    },
+    "Memory": {
+      "name": "記憶"
     },
     "Unknown": {
       "name": "通用"
@@ -73,6 +79,9 @@
     "Priest": {
       "name": "Abundance"
     },
+    "Memory": {
+      "name": "Remembrance"
+    },
     "Unknown": {
       "name": "General"
     }
@@ -98,6 +107,9 @@
     },
     "Priest": {
       "name": "Der Überfluss"
+    },
+    "Memory": {
+      "name": "Das Gedenken"
     },
     "Unknown": {
       "name": "Universal"
@@ -125,6 +137,9 @@
     "Priest": {
       "name": "Abundancia"
     },
+    "Memory": {
+      "name": "Reminiscencia"
+    },
     "Unknown": {
       "name": "General"
     }
@@ -150,6 +165,9 @@
     },
     "Priest": {
       "name": "L'Abondance"
+    },
+    "Memory": {
+      "name": "Le Souvenir"
     },
     "Unknown": {
       "name": "Général"
@@ -177,6 +195,9 @@
     "Priest": {
       "name": "Abundance"
     },
+    "Memory": {
+      "name": "Remembrance"
+    },
     "Unknown": {
       "name": "Umum"
     }
@@ -202,6 +223,9 @@
     },
     "Priest": {
       "name": "豊穣"
+    },
+    "Memory": {
+      "name": "記憶"
     },
     "Unknown": {
       "name": "共用"
@@ -229,6 +253,9 @@
     "Priest": {
       "name": "풍요"
     },
+    "Memory": {
+      "name": "기억"
+    },
     "Unknown": {
       "name": "범용"
     }
@@ -254,6 +281,9 @@
     },
     "Priest": {
       "name": "A Abundância"
+    },
+    "Memory": {
+      "name": "A Recordação"
     },
     "Unknown": {
       "name": "Geral"
@@ -281,6 +311,9 @@
     "Priest": {
       "name": "Изобилие"
     },
+    "Memory": {
+      "name": "Память"
+    },
     "Unknown": {
       "name": "Обычный"
     }
@@ -307,6 +340,9 @@
     "Priest": {
       "name": "เฟื่องฟู"
     },
+    "Memory": {
+      "name": "ความทรงจำ"
+    },
     "Unknown": {
       "name": "ทั่วไป"
     }
@@ -332,6 +368,9 @@
     },
     "Priest": {
       "name": "Trù Phú"
+    },
+    "Memory": {
+      "name": "Ký Ức"
     },
     "Unknown": {
       "name": "Thông Dụng"

@@ -8,6 +8,7 @@ import {
   SRProfilePicture,
   SRRelic,
   SRSkillTree,
+  SRSkin
 } from "../../structs";
 
 /**
@@ -170,6 +171,24 @@ export class StarRailFinder {
       throw new AssetFinderError("The hash must be a valid integer or string");
 
     return new SRHash(hash, language);
+  }
+
+  /**
+   * Finds and returns the name, ID of the associated character and the assets of a skin with the given ID and language.
+   * @param skinId - The ID of the skin.
+   * @param language - The language to get the name. If not specified, the default language will be used.
+   * @returns The name, ID of the associated character and the assets of the skin.
+   */
+  skin(
+    skinId: string | number,
+    language: string = this.language
+  ): SRSkin {
+    if (!skinId)
+      throw new AssetFinderError("You must provide a skin id");
+    if (isNaN(+skinId))
+      throw new AssetFinderError("The skin id must be a valid integer or string");
+
+    return new SRSkin(skinId, language);
   }
 
   /**

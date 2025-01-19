@@ -8,6 +8,11 @@ A package to get data from the Enka API, for both Genshin and Star Rail, it also
 <details>
 	<summary>Click to expand</summary>
 
+  - v2.10.3:
+	  - Added Star Rail 3.0 version content.
+	  - Optimized the performance a bit.
+	  - Removed the `name` property of `player.characters[].traces[].baseSkill` (Star Rail) since it's now present on the `traces` object.
+	  - Added skins for characters and the missing privacy setting properties in Star Rail.
   - v2.9.3:
 	  - Happy new year! :)
 	  - Added Genshin 5.3 version content.

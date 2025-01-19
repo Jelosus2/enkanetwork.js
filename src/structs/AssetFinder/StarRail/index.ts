@@ -5,3 +5,4 @@ export * from './SRLightcone';
 export * from './SRProfilePicture';
 export * from './SRRelic';
 export * from './SRSkillTree';
+export * from './SRSkin';

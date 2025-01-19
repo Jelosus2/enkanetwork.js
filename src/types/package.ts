@@ -61,4 +61,14 @@ export interface SRCharacterImage {
   AvatarCutinFrontImgPath: string
   RankIDList: number[]
   SkillList: number[]
+  Skins: (Omit<SRCharacterSkin, 'AvatarID'> & {
+    ID: number
+  })[]
+}
+
+export interface SRCharacterSkin {
+  AvatarID: number
+  AvatarSkinName: number
+  AvatarCutinFrontImgPath: string
+  AvatarSideIconPath: string
 }

@@ -1,8 +1,7 @@
-import { namecards as nContent, hashes as hContent } from "../../../utils";
+import { genshinFinder, namecards as nContent } from "../../../utils";
 import { NamecardImage } from "../../../types";
 
 const namecards: { [key: string]: any } = nContent;
-const hashes: { [key: string]: any } = hContent;
 
 /**
  * A class that structures the namecard assets and name.
@@ -26,7 +25,7 @@ export class NamecardAssets {
   constructor(namecardId: string | number, language: string) {
     const namecard = namecards[namecardId];
 
-    this.name = hashes[language][namecard?.nameTextMapHash] || "";
+    this.name = genshinFinder[language].hash(namecard?.nameTextMapHash).value;
     this.assets = namecard
       ? new NamecardImages(namecard)
       : ({} as NamecardImages);

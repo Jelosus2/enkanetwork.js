@@ -1,5 +1,7 @@
-import { theaterDifficulty as tdContent } from '../../utils';
-import { AssetFinder } from "../../client";
+import { 
+  genshinFinder,
+  theaterDifficulty as tdContent
+} from '../../utils';
 import {
   CharacterImages,
   NamecardImages,
@@ -118,15 +120,13 @@ export class Player {
    * @param language - The language to get the names.
    */
   constructor(data: PlayerAPI, language: AssetFinderOptions["language"]) {
-    const { genshin: genshinFinder } = new AssetFinder({ language });
-
     this.username = data.nickname || "";
     this.levels = data.level 
       ? new PlayerLevels(data) 
       : ({} as PlayerLevels);
     this.signature = data.signature || "";
     this.namecard = data.nameCardId
-      ? new Namecard(data.nameCardId, genshinFinder)
+      ? new Namecard(data.nameCardId, language)
       : ({} as Namecard);
     this.achievements = data.finishAchievementNum || 0;
     this.abyss =
@@ -134,13 +134,13 @@ export class Player {
         ? new Abyss(data)
         : ({} as Abyss);
     this.showcase = data.showAvatarInfoList
-      ? data.showAvatarInfoList.map((data) => new Showcase(data, genshinFinder))
+      ? data.showAvatarInfoList.map((data) => new Showcase(data, language))
       : [];
     this.namecardsList = data.showNameCardIdList
-      ? data.showNameCardIdList.map((data) => new Namecard(data, genshinFinder))
+      ? data.showNameCardIdList.map((data) => new Namecard(data, language))
       : [];
     this.profilePicture = data.profilePicture
-      ? new ProfilePicture(data.profilePicture, genshinFinder)
+      ? new ProfilePicture(data.profilePicture, language)
       : ({} as ProfilePicture);
     this.theaterAct = data.theaterActIndex || "";
     this.theaterModeIndex = data.theaterModeIndex || "";
@@ -199,8 +199,8 @@ class Namecard {
    * @param namecardId - The ID of the namecard.
    * @param language - The language to get the name.
    */
-  constructor(namecardId: number, genshinFinder: AssetFinder["genshin"]) {
-    const namecard = genshinFinder.namecard(namecardId || "0");
+  constructor(namecardId: number, language: AssetFinderOptions["language"]) {
+    const namecard = genshinFinder[`${language}`].namecard(namecardId || "0");
 
     this.id = namecardId || "";
     this.assets = namecard.assets;
@@ -295,8 +295,8 @@ class Showcase {
    * @param data - The data of the player's showcase.
    * @param language - The language to get the names.
    */
-  constructor(data: ShowcaseAPI, genshinFinder: AssetFinder["genshin"]) {
-    const character = genshinFinder.character(data.avatarId || "0");
+  constructor(data: ShowcaseAPI, language: AssetFinderOptions["language"]) {
+    const character = genshinFinder[`${language}`].character(data.avatarId || "0");
 
     this.characterId = data.avatarId || "";
     this.level = data.level || "";
@@ -338,15 +338,10 @@ class ProfilePicture {
    * @param data - The data of the profile picture.
    * @param language - The language to get the name.
    */
-  constructor(
-    data: ProfilePictureAPI,
-    genshinFinder: AssetFinder["genshin"]
-  ) {
-    const profilePicture = data.avatarId ?
-      genshinFinder.character(data.avatarId)
-      : data.id
-        ? genshinFinder.profilePicture(data.id)
-        : genshinFinder.profilePicture("0");
+  constructor(data: ProfilePictureAPI, language: AssetFinderOptions["language"]) {
+    const profilePicture = data.avatarId 
+      ? genshinFinder[`${language}`].character(data.avatarId)
+      : genshinFinder[`${language}`].profilePicture(data.id || "0");
 
     this.characterId = data.avatarId || "";
     this.id = data.id || "";

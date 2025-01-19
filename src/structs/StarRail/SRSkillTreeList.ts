@@ -1,14 +1,11 @@
-import { AssetFinderOptions, SRSkillTreeListAPI } from "../../types";
-import { AssetFinder } from "../../client";
-import { skilltree as sContent, srhashes as hContent } from "../../utils";
+import { starrailFinder, skilltree as sContent } from "../../utils";
+import { SRSkillTreeListAPI } from "../../types";
 import { ifProp } from "../../handlers";
 
 const skillTree: { [key: string]: any } = sContent;
-const hashes: { [key: string]: any } = hContent;
 
 interface BaseSkill {
   Id: number;
-  Name: string;
 }
 
 interface Status {
@@ -66,24 +63,21 @@ export class SRSkillTreeList {
    * @param language - The language to get the name.
    */
   constructor(data: SRSkillTreeListAPI, language: string) {
+    const traceAssets = starrailFinder[language].trace(data.pointId);
     const trace = skillTree[language][data.pointId];
-
-    const { starrail: finder } = new AssetFinder({
-      language: language as AssetFinderOptions["language"],
-    });
 
     this.traceId = data.pointId;
     this.level = data.level;
-    this.type = +finder.trace(data.pointId).type;
-    this.pos = finder.trace(data.pointId).pos;
-    this.icon = finder.trace(data.pointId).icon;
+    this.type = +traceAssets.type;
+    this.pos = traceAssets.pos;
+    this.icon = traceAssets.icon;
     this.baseSkill = trace.baseSkill.Id
-      ? new SRBaseSkill(trace.baseSkill, language)
+      ? new SRBaseSkill(trace.baseSkill)
       : ({} as SRBaseSkill);
     this.status = trace.status.Value
       ? new SRStatus(trace.status)
       : ({} as SRStatus);
-    this.name = finder.trace(data.pointId).name;
+    this.name = traceAssets.name;
   }
 }
 
@@ -97,18 +91,12 @@ class SRBaseSkill {
   id: number;
 
   /**
-   * The name of the base skill.
-   */
-  name: string;
-
-  /**
    * Creates a new `SRBaseSkill` instance.
    * @param data - The data of the base skill.
    * @param language - The language to get the name.
    */
-  constructor(data: BaseSkill, language: string) {
+  constructor(data: BaseSkill) {
     this.id = data.Id;
-    this.name = hashes[language][data.Name];
   }
 }
 

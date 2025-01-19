@@ -1,7 +1,6 @@
-import { ranks as rContent, srhashes as sContent } from "../../../utils";
+import { starrailFinder, ranks as rContent } from "../../../utils";
 
 const ranks: { [key: string]: any } = rContent;
-const hashes: { [key: string]: any } = sContent;
 
 /**
  * A class that structures the eidolons assets and name.
@@ -25,7 +24,7 @@ export class SREidolon {
   constructor(eidolonId: string | number, language: string) {
     const eidolon = ranks[eidolonId];
 
-    this.name = hashes[language]?.[eidolon?.Name] || "";
+    this.name = starrailFinder[language].hash(eidolon?.Name).value;
     this.icon = eidolon?.IconPath || "";
   }
 }

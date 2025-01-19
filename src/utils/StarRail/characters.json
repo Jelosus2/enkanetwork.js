@@ -21,6 +21,14 @@
       100104,
       100106,
       100107
+    ],
+    "Skins": [
+      {
+        "ID": 1100101,
+        "AvatarSkinName": -1331071473,
+        "AvatarCutinFrontImgPath": "SpriteOutput/AvatarDrawCard/AvatarSkin/1100101.png",
+        "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/AvatarSkin/1100101.png"
+      }
     ]
   },
   "1002": {
@@ -1442,6 +1450,57 @@
       131718
     ]
   },
+  "1401": {
+    "AvatarName": -1096443655,
+    "Rarity": 5,
+    "Element": "Ice",
+    "AvatarBaseType": "Mage",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/Avatar/1401.png",
+    "AvatarCutinFrontImgPath": "SpriteOutput/AvatarDrawCard/1401.png",
+    "RankIDList": [
+      140101,
+      140102,
+      140103,
+      140104,
+      140105,
+      140106
+    ],
+    "SkillList": [
+      140101,
+      140102,
+      140103,
+      140104,
+      140106,
+      140107,
+      140109
+    ]
+  },
+  "1402": {
+    "AvatarName": -1499728182,
+    "Rarity": 5,
+    "Element": "Thunder",
+    "AvatarBaseType": "Memory",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/Avatar/1402.png",
+    "AvatarCutinFrontImgPath": "SpriteOutput/AvatarDrawCard/1402.png",
+    "RankIDList": [
+      140201,
+      140202,
+      140203,
+      140204,
+      140205,
+      140206
+    ],
+    "SkillList": [
+      140201,
+      140202,
+      140203,
+      140204,
+      140206,
+      140207,
+      140208,
+      140209
+    ]
+  },
   "8001": {
     "AvatarName": -531793818,
     "Rarity": 5,
@@ -1590,6 +1649,56 @@
       800604,
       800606,
       800607
+    ]
+  },
+  "8007": {
+    "AvatarName": -1338362872,
+    "Rarity": 5,
+    "Element": "Ice",
+    "AvatarBaseType": "Memory",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/Avatar/8007.png",
+    "AvatarCutinFrontImgPath": "SpriteOutput/AvatarDrawCard/8007.png",
+    "RankIDList": [
+      800701,
+      800702,
+      800703,
+      800704,
+      800705,
+      800706
+    ],
+    "SkillList": [
+      800701,
+      800702,
+      800703,
+      800704,
+      800706,
+      800707,
+      800709
+    ]
+  },
+  "8008": {
+    "AvatarName": 1840859177,
+    "Rarity": 5,
+    "Element": "Ice",
+    "AvatarBaseType": "Memory",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/Avatar/8008.png",
+    "AvatarCutinFrontImgPath": "SpriteOutput/AvatarDrawCard/8008.png",
+    "RankIDList": [
+      800801,
+      800802,
+      800803,
+      800804,
+      800805,
+      800806
+    ],
+    "SkillList": [
+      800801,
+      800802,
+      800803,
+      800804,
+      800806,
+      800807,
+      800809
     ]
   }
 }

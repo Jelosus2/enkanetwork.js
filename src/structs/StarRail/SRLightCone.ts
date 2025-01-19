@@ -1,7 +1,6 @@
-import { AssetFinder } from "../../client";
-import { lightcones as lContent } from "../../utils";
+
+import { starrailFinder, lightcones as lContent } from "../../utils";
 import {
-  AssetFinderOptions,
   SRLightConeAPI,
   SRLightConePropsAPI,
 } from "../../types";
@@ -69,15 +68,13 @@ export class SRLightCone {
    * @param language - The language to get then name.
    */
   constructor(data: SRLightConeAPI, language: string) {
-    const { starrail: finder } = new AssetFinder({
-      language: language as AssetFinderOptions["language"],
-    });
+    const lightcone = starrailFinder[language].lightcone(data.tid);
 
     this.lightConeId = data.tid;
-    this.name = finder.lightcone(data.tid).name;
+    this.name = lightcone.name;
     this.rarity = lightcones[data.tid].Rarity;
-    this.path = finder.lightcone(data.tid).path;
-    this.icon = finder.lightcone(data.tid).icon;
+    this.path = lightcone.path;
+    this.icon = lightcone.icon;
     this.level = data.level;
     this.ascension = data.promotion;
     this.superImposition = data.rank;

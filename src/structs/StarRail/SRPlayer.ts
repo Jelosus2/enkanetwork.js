@@ -1,5 +1,5 @@
-import { SRPlayerDetails, SRPlayerRecordInfoAPI } from "../../types";
-import { AssetFinder } from "../../client";
+import { SRPlayerDetails, SRPlayerRecordInfoAPI, SRPlayerPrivacySettingInfoAPI } from "../../types";
+import { starrailFinder } from "../../utils";
 
 /**
  * A class that structures the player's data.
@@ -92,10 +92,8 @@ class SRProfilePicture {
    * @param id - The id of the profile picture.
    */
   constructor(id: number) {
-    const { starrail: finder } = new AssetFinder();
-
     this.id = id;
-    this.icon = finder.profilePicture(id).icon;
+    this.icon = starrailFinder.en.profilePicture(id).icon;
   }
 }
 
@@ -197,5 +195,40 @@ class SRFHInfo {
   constructor(fhLastFinishedFloor: number) {
     this.jarilo = fhLastFinishedFloor > 15 ? 15 : (fhLastFinishedFloor || 0);
     this.xianzhou = fhLastFinishedFloor > 15 ? fhLastFinishedFloor - 15 : 0;
+  }
+}
+
+class SRPrivacySettings {
+  /**
+   * Whether or not the player's profile collection is public.
+   */
+  displayCollection: boolean;
+
+  /**
+   * Whether ot not the player's battle records are public.
+   */
+  displayBattleRecords: boolean;
+
+  /**
+   * Whether or not the player's treasure lightward's clearance lineup is public to their friends.
+   */
+  displayBattleTeamRecords: boolean;
+
+  /**
+   * Whether or not the player's online status is public.
+   */
+  displayOnlineStatus: boolean;
+
+  /**
+   * Whether or not the player's activity is public.
+   */
+  displayActivity: boolean;
+
+  constructor(data: SRPlayerPrivacySettingInfoAPI) {
+    this.displayCollection = data?.displayCollection;
+    this.displayBattleRecords = data?.displayRecord;
+    this.displayBattleTeamRecords = data?.displayRecordTeam;
+    this.displayOnlineStatus = data?.displayOnlineStatus;
+    this.displayActivity = data?.displayDiary;
   }
 }

@@ -1,8 +1,7 @@
-import { talents as tContent, hashes as hContent } from "../../../utils";
+import { genshinFinder, talents as tContent } from "../../../utils";
 import { ConstellationImage } from "../../../types";
 
 const talents: { [key: string]: any } = tContent;
-const hashes: { [key: string]: any } = hContent;
 
 /**
  * A class that structures the constellation assets and name.
@@ -26,8 +25,7 @@ export class ConstellationAssets {
   constructor(constellationId: string | number, language: string) {
     const constellation = talents[constellationId];
 
-    this.name =
-      hashes[language][constellation?.nameTextMapHash] || "";
+    this.name = genshinFinder[language].hash(constellation?.nameTextMapHash).value;
     this.assets = constellation
       ? new ConstellationImages(constellation)
       : ({} as ConstellationImages);

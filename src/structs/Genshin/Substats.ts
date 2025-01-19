@@ -1,9 +1,7 @@
-import { substats as sContent } from "../../utils";
-import { hashes as hContent } from "../../utils";
+import { genshinFinder, substats as sContent } from "../../utils";
 import { AssetFinderOptions } from "../../types";
 
 const substats: { [key: number]: any } = sContent;
-const hashes: { [key: string]: any } = hContent;
 
 /**
  * A class that structures the parsed substats
@@ -49,8 +47,7 @@ export class Substats {
 
     this.propType = substat?.propType || "";
     this.propValue = substat?.propValue || 0;
-    this.parsedPropType =
-      hashes[language as string]?.[substat?.propType] || "";
+    this.parsedPropType = genshinFinder[`${language}`].hash(substat?.propType).value;
     this.parsedPropValue = substat?.propValue
       ? isPercent
         ? Math.round((substat.propValue * 100 + 0.0001) * 10) / 10

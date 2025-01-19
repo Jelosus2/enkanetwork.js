@@ -9,6 +9,11 @@ Un paquete para obetener datos de la API de enka, para Genshin y Star Rail, tamb
 <details>
   <summary>Haz click para expandir</summary>
 
+  - v2.10.3:
+	  - Añadido el contenido de la versión 3.0 de Star Rail.
+	  - Optimizado el rendimiento un poco.
+	  - Eliminada la propiedad `name` de `player.characters[].traces[].baseSkill` (Star Rail) ya que ahora esta está presente el objeto `traces`.
+	  - Añadidas las skins de personaje y las propiedades sobre los ajuste de privacidad de Star Rail.
   - v2.9.3:
 	  - Feliz año nuevo! :)
 	  - Añadido el contenido de la versión 5.3 de Genshin.

@@ -58,7 +58,7 @@ export class SRRelics {
    * @param data - The data of the relics.
    */
   constructor(data: SRRelicList) {
-    this.level = data.level;
+    this.level = data.level || 0;
     this.substatList =
       data.subAffixList && data.subAffixList.length > 0
         ? data.subAffixList.map((data) => new SRSubAffixList(data))
