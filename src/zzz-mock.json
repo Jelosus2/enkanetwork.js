@@ -1,0 +1,1751 @@
+{
+  "PlayerInfo": {
+    "ShowcaseDetail": {
+      "AvatarList": [
+        {
+          "WeaponEffectState": 0,
+          "EquippedList": [
+            {
+              "Slot": 1,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 20103,
+                    "PropertyLevel": 4,
+                    "PropertyValue": 240
+                  },
+                  {
+                    "PropertyId": 11102,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 300
+                  },
+                  {
+                    "PropertyId": 13102,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 480
+                  },
+                  {
+                    "PropertyId": 12102,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 300
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 11103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 550
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": true,
+                "IsTrash": false,
+                "Id": 31041,
+                "Uid": 535,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            },
+            {
+              "Slot": 2,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 13102,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 480
+                  },
+                  {
+                    "PropertyId": 23203,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 9
+                  },
+                  {
+                    "PropertyId": 11102,
+                    "PropertyLevel": 3,
+                    "PropertyValue": 300
+                  },
+                  {
+                    "PropertyId": 21103,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 480
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 12103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 79
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": false,
+                "IsTrash": false,
+                "Id": 32542,
+                "Uid": 463,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            },
+            {
+              "Slot": 3,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 31203,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 9
+                  },
+                  {
+                    "PropertyId": 20103,
+                    "PropertyLevel": 4,
+                    "PropertyValue": 240
+                  },
+                  {
+                    "PropertyId": 21103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 480
+                  },
+                  {
+                    "PropertyId": 11102,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 300
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 13103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 46
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": true,
+                "IsTrash": false,
+                "Id": 31043,
+                "Uid": 1046,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            },
+            {
+              "Slot": 4,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 20103,
+                    "PropertyLevel": 3,
+                    "PropertyValue": 240
+                  },
+                  {
+                    "PropertyId": 11102,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 300
+                  },
+                  {
+                    "PropertyId": 31203,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 9
+                  },
+                  {
+                    "PropertyId": 13103,
+                    "PropertyLevel": 3,
+                    "PropertyValue": 15
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 21103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 1200
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": true,
+                "IsTrash": false,
+                "Id": 32544,
+                "Uid": 1441,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            },
+            {
+              "Slot": 5,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 20103,
+                    "PropertyLevel": 3,
+                    "PropertyValue": 240
+                  },
+                  {
+                    "PropertyId": 13103,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 15
+                  },
+                  {
+                    "PropertyId": 11103,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 112
+                  },
+                  {
+                    "PropertyId": 23203,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 9
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 31703,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 750
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": true,
+                "IsTrash": false,
+                "Id": 32545,
+                "Uid": 498,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            },
+            {
+              "Slot": 6,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 21103,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 480
+                  },
+                  {
+                    "PropertyId": 20103,
+                    "PropertyLevel": 3,
+                    "PropertyValue": 240
+                  },
+                  {
+                    "PropertyId": 31203,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 9
+                  },
+                  {
+                    "PropertyId": 13102,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 480
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 12102,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 750
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": true,
+                "IsTrash": false,
+                "Id": 32546,
+                "Uid": 3453,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            }
+          ],
+          "SkillLevelList": [
+            { "Level": 12, "Index": 0 },
+            { "Level": 12, "Index": 1 },
+            { "Level": 9, "Index": 2 },
+            { "Level": 12, "Index": 3 },
+            { "Level": 7, "Index": 5 },
+            { "Level": 6, "Index": 6 }
+          ],
+          "TalentToggleList": [false, false, false, false, false, false],
+          "ClaimedRewardList": [1, 3, 5],
+          "IsHidden": false,
+          "Id": 1191,
+          "Level": 60,
+          "PromotionLevel": 6,
+          "Exp": 0,
+          "SkinId": 0,
+          "TalentLevel": 0,
+          "CoreSkillEnhancement": 6,
+          "WeaponUid": 338,
+          "ObtainmentTimestamp": 1720335144,
+          "Weapon": {
+            "IsAvailable": false,
+            "IsLocked": true,
+            "Id": 14104,
+            "Uid": 338,
+            "Level": 60,
+            "BreakLevel": 5,
+            "Exp": 0,
+            "UpgradeLevel": 1
+          }
+        },
+        {
+          "WeaponEffectState": 0,
+          "EquippedList": [
+            {
+              "Slot": 1,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 21103,
+                    "PropertyLevel": 3,
+                    "PropertyValue": 480
+                  },
+                  {
+                    "PropertyId": 20103,
+                    "PropertyLevel": 3,
+                    "PropertyValue": 240
+                  },
+                  {
+                    "PropertyId": 23203,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 9
+                  },
+                  {
+                    "PropertyId": 13102,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 480
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 11103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 550
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": true,
+                "IsTrash": false,
+                "Id": 32341,
+                "Uid": 788,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            },
+            {
+              "Slot": 2,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 23203,
+                    "PropertyLevel": 3,
+                    "PropertyValue": 9
+                  },
+                  {
+                    "PropertyId": 21103,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 480
+                  },
+                  {
+                    "PropertyId": 12102,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 300
+                  },
+                  {
+                    "PropertyId": 13103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 15
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 12103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 79
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": true,
+                "IsTrash": false,
+                "Id": 31042,
+                "Uid": 977,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            },
+            {
+              "Slot": 3,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 11102,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 300
+                  },
+                  {
+                    "PropertyId": 20103,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 240
+                  },
+                  {
+                    "PropertyId": 12102,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 300
+                  },
+                  {
+                    "PropertyId": 21103,
+                    "PropertyLevel": 3,
+                    "PropertyValue": 480
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 13103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 46
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": true,
+                "IsTrash": false,
+                "Id": 32343,
+                "Uid": 597,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            },
+            {
+              "Slot": 4,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 11103,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 112
+                  },
+                  {
+                    "PropertyId": 23203,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 9
+                  },
+                  {
+                    "PropertyId": 11102,
+                    "PropertyLevel": 3,
+                    "PropertyValue": 300
+                  },
+                  {
+                    "PropertyId": 12102,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 300
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 20103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 600
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": false,
+                "IsTrash": false,
+                "Id": 31044,
+                "Uid": 832,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            },
+            {
+              "Slot": 5,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 12103,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 19
+                  },
+                  {
+                    "PropertyId": 11102,
+                    "PropertyLevel": 3,
+                    "PropertyValue": 300
+                  },
+                  {
+                    "PropertyId": 31203,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 9
+                  },
+                  {
+                    "PropertyId": 13102,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 480
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 31903,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 750
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": true,
+                "IsTrash": false,
+                "Id": 32345,
+                "Uid": 833,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            },
+            {
+              "Slot": 6,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 12103,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 19
+                  },
+                  {
+                    "PropertyId": 13102,
+                    "PropertyLevel": 3,
+                    "PropertyValue": 480
+                  },
+                  {
+                    "PropertyId": 21103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 480
+                  },
+                  {
+                    "PropertyId": 11103,
+                    "PropertyLevel": 3,
+                    "PropertyValue": 112
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 12102,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 750
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": false,
+                "IsTrash": false,
+                "Id": 32346,
+                "Uid": 855,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            }
+          ],
+          "SkillLevelList": [
+            { "Level": 12, "Index": 0 },
+            { "Level": 9, "Index": 1 },
+            { "Level": 7, "Index": 2 },
+            { "Level": 12, "Index": 3 },
+            { "Level": 7, "Index": 5 },
+            { "Level": 7, "Index": 6 }
+          ],
+          "TalentToggleList": [false, false, false, false, false, false],
+          "ClaimedRewardList": [1, 3, 5],
+          "IsHidden": false,
+          "Id": 1241,
+          "Level": 60,
+          "PromotionLevel": 6,
+          "Exp": 0,
+          "SkinId": 0,
+          "TalentLevel": 0,
+          "CoreSkillEnhancement": 6,
+          "WeaponUid": 99,
+          "ObtainmentTimestamp": 1721890810,
+          "Weapon": {
+            "IsAvailable": false,
+            "IsLocked": true,
+            "Id": 13004,
+            "Uid": 99,
+            "Level": 50,
+            "BreakLevel": 4,
+            "Exp": 0,
+            "UpgradeLevel": 5
+          }
+        },
+        {
+          "WeaponEffectState": 1,
+          "EquippedList": [
+            {
+              "Slot": 1,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 11102,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 300
+                  },
+                  {
+                    "PropertyId": 21103,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 480
+                  },
+                  {
+                    "PropertyId": 13103,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 15
+                  },
+                  {
+                    "PropertyId": 31203,
+                    "PropertyLevel": 4,
+                    "PropertyValue": 9
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 11103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 550
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": false,
+                "IsTrash": false,
+                "Id": 31241,
+                "Uid": 1028,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            },
+            {
+              "Slot": 2,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 12102,
+                    "PropertyLevel": 3,
+                    "PropertyValue": 300
+                  },
+                  {
+                    "PropertyId": 21103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 480
+                  },
+                  {
+                    "PropertyId": 20103,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 240
+                  },
+                  {
+                    "PropertyId": 11102,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 300
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 12103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 79
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": true,
+                "IsTrash": false,
+                "Id": 31242,
+                "Uid": 1074,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            },
+            {
+              "Slot": 3,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 23203,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 9
+                  },
+                  {
+                    "PropertyId": 13102,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 480
+                  },
+                  {
+                    "PropertyId": 21103,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 480
+                  },
+                  {
+                    "PropertyId": 31203,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 9
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 13103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 46
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": false,
+                "IsTrash": false,
+                "Id": 31643,
+                "Uid": 827,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            },
+            {
+              "Slot": 4,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 12103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 19
+                  },
+                  {
+                    "PropertyId": 12102,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 300
+                  },
+                  {
+                    "PropertyId": 23203,
+                    "PropertyLevel": 3,
+                    "PropertyValue": 9
+                  },
+                  {
+                    "PropertyId": 31203,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 9
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 20103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 600
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": false,
+                "IsTrash": false,
+                "Id": 31644,
+                "Uid": 700,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            },
+            {
+              "Slot": 5,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 23203,
+                    "PropertyLevel": 3,
+                    "PropertyValue": 9
+                  },
+                  {
+                    "PropertyId": 11102,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 300
+                  },
+                  {
+                    "PropertyId": 12102,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 300
+                  },
+                  {
+                    "PropertyId": 12103,
+                    "PropertyLevel": 3,
+                    "PropertyValue": 19
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 31803,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 750
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": true,
+                "IsTrash": false,
+                "Id": 31245,
+                "Uid": 1274,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            },
+            {
+              "Slot": 6,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 13103,
+                    "PropertyLevel": 3,
+                    "PropertyValue": 15
+                  },
+                  {
+                    "PropertyId": 11103,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 112
+                  },
+                  {
+                    "PropertyId": 31203,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 9
+                  },
+                  {
+                    "PropertyId": 21103,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 480
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 12202,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 450
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": true,
+                "IsTrash": false,
+                "Id": 31246,
+                "Uid": 1087,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            }
+          ],
+          "SkillLevelList": [
+            { "Level": 12, "Index": 0 },
+            { "Level": 12, "Index": 1 },
+            { "Level": 10, "Index": 2 },
+            { "Level": 7, "Index": 3 },
+            { "Level": 7, "Index": 5 },
+            { "Level": 7, "Index": 6 }
+          ],
+          "TalentToggleList": [false, false, false, false, false, false],
+          "ClaimedRewardList": [1, 3, 5],
+          "IsHidden": true,
+          "Id": 1251,
+          "Level": 60,
+          "PromotionLevel": 6,
+          "Exp": 0,
+          "SkinId": 0,
+          "TalentLevel": 0,
+          "CoreSkillEnhancement": 6,
+          "WeaponUid": 1271,
+          "ObtainmentTimestamp": 1723605470,
+          "Weapon": {
+            "IsAvailable": false,
+            "IsLocked": true,
+            "Id": 14125,
+            "Uid": 1271,
+            "Level": 60,
+            "BreakLevel": 5,
+            "Exp": 0,
+            "UpgradeLevel": 1
+          }
+        },
+        {
+          "WeaponEffectState": 0,
+          "EquippedList": [
+            {
+              "Slot": 1,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 13102,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 480
+                  },
+                  {
+                    "PropertyId": 21103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 480
+                  },
+                  {
+                    "PropertyId": 20103,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 240
+                  },
+                  {
+                    "PropertyId": 31203,
+                    "PropertyLevel": 3,
+                    "PropertyValue": 9
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 11103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 550
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": true,
+                "IsTrash": false,
+                "Id": 32641,
+                "Uid": 1874,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            },
+            {
+              "Slot": 2,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 31203,
+                    "PropertyLevel": 3,
+                    "PropertyValue": 9
+                  },
+                  {
+                    "PropertyId": 13102,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 480
+                  },
+                  {
+                    "PropertyId": 11103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 112
+                  },
+                  {
+                    "PropertyId": 13103,
+                    "PropertyLevel": 3,
+                    "PropertyValue": 15
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 12103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 79
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": true,
+                "IsTrash": false,
+                "Id": 32642,
+                "Uid": 1866,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            },
+            {
+              "Slot": 3,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 31203,
+                    "PropertyLevel": 4,
+                    "PropertyValue": 9
+                  },
+                  {
+                    "PropertyId": 12102,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 300
+                  },
+                  {
+                    "PropertyId": 12103,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 19
+                  },
+                  {
+                    "PropertyId": 11103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 112
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 13103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 46
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": true,
+                "IsTrash": false,
+                "Id": 31343,
+                "Uid": 2095,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            },
+            {
+              "Slot": 4,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 20103,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 240
+                  },
+                  {
+                    "PropertyId": 12102,
+                    "PropertyLevel": 4,
+                    "PropertyValue": 300
+                  },
+                  {
+                    "PropertyId": 13102,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 480
+                  },
+                  {
+                    "PropertyId": 13103,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 15
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 31203,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 23
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": true,
+                "IsTrash": false,
+                "Id": 31344,
+                "Uid": 1323,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            },
+            {
+              "Slot": 5,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 12102,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 300
+                  },
+                  {
+                    "PropertyId": 31203,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 9
+                  },
+                  {
+                    "PropertyId": 13102,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 480
+                  },
+                  {
+                    "PropertyId": 11102,
+                    "PropertyLevel": 3,
+                    "PropertyValue": 300
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 31503,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 750
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": true,
+                "IsTrash": false,
+                "Id": 32645,
+                "Uid": 1564,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            },
+            {
+              "Slot": 6,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 11103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 112
+                  },
+                  {
+                    "PropertyId": 12103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 19
+                  },
+                  {
+                    "PropertyId": 11102,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 300
+                  },
+                  {
+                    "PropertyId": 13102,
+                    "PropertyLevel": 4,
+                    "PropertyValue": 480
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 31402,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 750
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": true,
+                "IsTrash": false,
+                "Id": 32646,
+                "Uid": 1569,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            }
+          ],
+          "SkillLevelList": [
+            { "Level": 12, "Index": 0 },
+            { "Level": 10, "Index": 1 },
+            { "Level": 7, "Index": 2 },
+            { "Level": 7, "Index": 3 },
+            { "Level": 7, "Index": 5 },
+            { "Level": 1, "Index": 6 }
+          ],
+          "TalentToggleList": [false, false, false, false, false, false],
+          "ClaimedRewardList": [1, 3, 5],
+          "IsHidden": false,
+          "Id": 1261,
+          "Level": 60,
+          "PromotionLevel": 6,
+          "Exp": 0,
+          "SkinId": 0,
+          "TalentLevel": 0,
+          "CoreSkillEnhancement": 6,
+          "WeaponUid": 519,
+          "ObtainmentTimestamp": 1725469438,
+          "Weapon": {
+            "IsAvailable": false,
+            "IsLocked": true,
+            "Id": 13009,
+            "Uid": 519,
+            "Level": 60,
+            "BreakLevel": 5,
+            "Exp": 0,
+            "UpgradeLevel": 1
+          }
+        },
+        {
+          "WeaponEffectState": 1,
+          "EquippedList": [
+            {
+              "Slot": 1,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 13103,
+                    "PropertyLevel": 3,
+                    "PropertyValue": 15
+                  },
+                  {
+                    "PropertyId": 20103,
+                    "PropertyLevel": 4,
+                    "PropertyValue": 240
+                  },
+                  {
+                    "PropertyId": 11102,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 300
+                  },
+                  {
+                    "PropertyId": 21103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 480
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 11103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 550
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": true,
+                "IsTrash": false,
+                "Id": 32741,
+                "Uid": 3790,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            },
+            {
+              "Slot": 2,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 21103,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 480
+                  },
+                  {
+                    "PropertyId": 23203,
+                    "PropertyLevel": 3,
+                    "PropertyValue": 9
+                  },
+                  {
+                    "PropertyId": 11103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 112
+                  },
+                  {
+                    "PropertyId": 20103,
+                    "PropertyLevel": 3,
+                    "PropertyValue": 240
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 12103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 79
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": true,
+                "IsTrash": false,
+                "Id": 32742,
+                "Uid": 3886,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            },
+            {
+              "Slot": 3,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 13102,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 480
+                  },
+                  {
+                    "PropertyId": 20103,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 240
+                  },
+                  {
+                    "PropertyId": 11102,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 300
+                  },
+                  {
+                    "PropertyId": 21103,
+                    "PropertyLevel": 3,
+                    "PropertyValue": 480
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 13103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 46
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": true,
+                "IsTrash": false,
+                "Id": 32743,
+                "Uid": 3871,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            },
+            {
+              "Slot": 4,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 13102,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 480
+                  },
+                  {
+                    "PropertyId": 12103,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 19
+                  },
+                  {
+                    "PropertyId": 31203,
+                    "PropertyLevel": 3,
+                    "PropertyValue": 9
+                  },
+                  {
+                    "PropertyId": 21103,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 480
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 20103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 600
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": true,
+                "IsTrash": false,
+                "Id": 32744,
+                "Uid": 3781,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            },
+            {
+              "Slot": 5,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 11102,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 300
+                  },
+                  {
+                    "PropertyId": 20103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 240
+                  },
+                  {
+                    "PropertyId": 21103,
+                    "PropertyLevel": 3,
+                    "PropertyValue": 480
+                  },
+                  {
+                    "PropertyId": 31203,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 9
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 12102,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 750
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": true,
+                "IsTrash": false,
+                "Id": 32545,
+                "Uid": 2782,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            },
+            {
+              "Slot": 6,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 20103,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 240
+                  },
+                  {
+                    "PropertyId": 12103,
+                    "PropertyLevel": 3,
+                    "PropertyValue": 19
+                  },
+                  {
+                    "PropertyId": 11103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 112
+                  },
+                  {
+                    "PropertyId": 21103,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 480
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 12102,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 750
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": true,
+                "IsTrash": false,
+                "Id": 32546,
+                "Uid": 3190,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            }
+          ],
+          "SkillLevelList": [
+            { "Level": 12, "Index": 0 },
+            { "Level": 12, "Index": 1 },
+            { "Level": 7, "Index": 2 },
+            { "Level": 12, "Index": 3 },
+            { "Level": 7, "Index": 5 },
+            { "Level": 7, "Index": 6 }
+          ],
+          "TalentToggleList": [false, false, false, false, false, false],
+          "ClaimedRewardList": [1, 3, 5],
+          "IsHidden": true,
+          "Id": 1091,
+          "Level": 60,
+          "PromotionLevel": 6,
+          "Exp": 0,
+          "SkinId": 0,
+          "TalentLevel": 0,
+          "CoreSkillEnhancement": 6,
+          "WeaponUid": 3732,
+          "ObtainmentTimestamp": 1734488184,
+          "Weapon": {
+            "IsAvailable": false,
+            "IsLocked": true,
+            "Id": 14109,
+            "Uid": 3732,
+            "Level": 60,
+            "BreakLevel": 5,
+            "Exp": 0,
+            "UpgradeLevel": 1
+          }
+        },
+        {
+          "WeaponEffectState": 0,
+          "EquippedList": [
+            {
+              "Slot": 1,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 20103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 240
+                  },
+                  {
+                    "PropertyId": 12103,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 19
+                  },
+                  {
+                    "PropertyId": 21103,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 480
+                  },
+                  {
+                    "PropertyId": 31203,
+                    "PropertyLevel": 3,
+                    "PropertyValue": 9
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 11103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 550
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": true,
+                "IsTrash": false,
+                "Id": 31841,
+                "Uid": 2988,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            },
+            {
+              "Slot": 2,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 12102,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 300
+                  },
+                  {
+                    "PropertyId": 23203,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 9
+                  },
+                  {
+                    "PropertyId": 11102,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 300
+                  },
+                  {
+                    "PropertyId": 31203,
+                    "PropertyLevel": 4,
+                    "PropertyValue": 9
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 12103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 79
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": true,
+                "IsTrash": false,
+                "Id": 31842,
+                "Uid": 2622,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            },
+            {
+              "Slot": 3,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 11102,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 300
+                  },
+                  {
+                    "PropertyId": 31203,
+                    "PropertyLevel": 3,
+                    "PropertyValue": 9
+                  },
+                  {
+                    "PropertyId": 13102,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 480
+                  },
+                  {
+                    "PropertyId": 12102,
+                    "PropertyLevel": 3,
+                    "PropertyValue": 300
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 13103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 46
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": true,
+                "IsTrash": false,
+                "Id": 31843,
+                "Uid": 2320,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            },
+            {
+              "Slot": 4,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 23203,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 9
+                  },
+                  {
+                    "PropertyId": 20103,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 240
+                  },
+                  {
+                    "PropertyId": 13103,
+                    "PropertyLevel": 3,
+                    "PropertyValue": 15
+                  },
+                  {
+                    "PropertyId": 11102,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 300
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 31203,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 23
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": true,
+                "IsTrash": false,
+                "Id": 31344,
+                "Uid": 2031,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            },
+            {
+              "Slot": 5,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 12102,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 300
+                  },
+                  {
+                    "PropertyId": 31203,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 9
+                  },
+                  {
+                    "PropertyId": 13103,
+                    "PropertyLevel": 3,
+                    "PropertyValue": 15
+                  },
+                  {
+                    "PropertyId": 11102,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 300
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 31803,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 750
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": false,
+                "IsTrash": false,
+                "Id": 31345,
+                "Uid": 500,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            },
+            {
+              "Slot": 6,
+              "Equipment": {
+                "RandomPropertyList": [
+                  {
+                    "PropertyId": 12103,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 19
+                  },
+                  {
+                    "PropertyId": 20103,
+                    "PropertyLevel": 3,
+                    "PropertyValue": 240
+                  },
+                  {
+                    "PropertyId": 21103,
+                    "PropertyLevel": 2,
+                    "PropertyValue": 480
+                  },
+                  {
+                    "PropertyId": 31203,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 9
+                  }
+                ],
+                "MainPropertyList": [
+                  {
+                    "PropertyId": 31402,
+                    "PropertyLevel": 1,
+                    "PropertyValue": 750
+                  }
+                ],
+                "IsAvailable": false,
+                "IsLocked": true,
+                "IsTrash": false,
+                "Id": 31846,
+                "Uid": 2984,
+                "Level": 15,
+                "BreakLevel": 5,
+                "Exp": 0
+              }
+            }
+          ],
+          "SkillLevelList": [
+            { "Level": 11, "Index": 0 },
+            { "Level": 11, "Index": 1 },
+            { "Level": 1, "Index": 2 },
+            { "Level": 11, "Index": 3 },
+            { "Level": 6, "Index": 5 },
+            { "Level": 8, "Index": 6 }
+          ],
+          "TalentToggleList": [false, false, false, false, false, false],
+          "ClaimedRewardList": [1, 3, 5],
+          "IsHidden": false,
+          "Id": 1221,
+          "Level": 60,
+          "PromotionLevel": 6,
+          "Exp": 0,
+          "SkinId": 0,
+          "TalentLevel": 0,
+          "CoreSkillEnhancement": 5,
+          "WeaponUid": 2941,
+          "ObtainmentTimestamp": 1731076351,
+          "Weapon": {
+            "IsAvailable": false,
+            "IsLocked": true,
+            "Id": 13128,
+            "Uid": 2941,
+            "Level": 60,
+            "BreakLevel": 5,
+            "Exp": 0,
+            "UpgradeLevel": 3
+          }
+        }
+      ]
+    },
+    "SocialDetail": {
+      "MedalList": [
+        { "Value": 0, "MedalType": 3, "MedalIcon": 3001 },
+        { "Value": 2, "MedalType": 1, "MedalIcon": 1002 },
+        { "Value": 0, "MedalType": 2, "MedalIcon": 2001 }
+      ],
+      "ProfileDetail": {
+        "Nickname": "Uber",
+        "AvatarId": 2021,
+        "Uid": 1000024021,
+        "Level": 57,
+        "Title": 3800139,
+        "ProfileId": 3231091,
+        "PlatformType": 3,
+        "CallingCardId": 3321151
+      },
+      "Desc": "good meowning"
+    },
+    "Desc": ""
+  },
+  "uid": "1000024021",
+  "ttl": 60
+}

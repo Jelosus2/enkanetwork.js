@@ -5,6 +5,8 @@ import { APIError, PackageError } from "../errors";
 import { version } from "../../package.json";
 import axios, { AxiosRequestConfig } from "axios";
 
+import zzzMock from "../zzz-mock.json";
+
 /**
  * A class that handles the requests to the APIs.
  */
@@ -30,8 +32,11 @@ export class RequestHandler {
    */
   async player(
     uid: string | number,
-    type: "genshin" | "starrail"
+    type: "genshin" | "starrail" | "zzz"
   ): Promise<any> {
+    if (type === "zzz")
+      return zzzMock;
+
     const url =
       type == "genshin"
         ? `https://enka.network/api/uid/${uid}`

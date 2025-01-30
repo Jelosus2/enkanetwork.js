@@ -1,6 +1,7 @@
 import { WrapperOptions } from "../types";
 import { GenshinClient } from "./Genshin/GenshinClient";
 import { StarRailClient } from "./StarRail/StarRailClient";
+import { ZenlessClient } from "./Zenless/ZenlessClient";
 
 /**
  * A class for building the Wrapper.
@@ -16,6 +17,8 @@ export class Wrapper {
    */
   readonly starrail: StarRailClient;
 
+  readonly zenless: ZenlessClient;
+
   /**
    * Creates a new `Wrapper` instance.
    * @param options - The options for the wrapper.
@@ -26,5 +29,6 @@ export class Wrapper {
   constructor(options?: WrapperOptions) {
     this.genshin = new GenshinClient(options);
     this.starrail = new StarRailClient(options);
+    this.zenless = new ZenlessClient(options);
   }
 }
