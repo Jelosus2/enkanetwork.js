@@ -5,7 +5,7 @@ export interface ZZZPlayerDataAPI {
 }
 
 export interface ZZZPlayerInfoAPI {
-  ShowCaseDetail: ZZZShowCaseDetailAPI;
+  ShowcaseDetail: ZZZShowCaseDetailAPI;
   SocialDetail: ZZZSocialDetailAPI;
 }
 
@@ -14,7 +14,7 @@ export interface ZZZShowCaseDetailAPI {
 }
 
 export interface ZZZAvatarListAPI {
-  WeaponEffectState: 0 | 1;
+  WeaponEffectState: 0 | 1 | 2;
   EquippedList: ZZZEquippedListAPI[];
   SkillLevelList: ZZZSkillLevelListAPI[];
   TalentToggleList: boolean[];
@@ -27,7 +27,6 @@ export interface ZZZAvatarListAPI {
   SkinId: number;
   TalentLevel: number;
   CoreSkillEnhancement: number;
-  WeaponUid: number;
   ObtainmentTimestamp: number;
   Weapon: ZZZWeaponAPI;
 }

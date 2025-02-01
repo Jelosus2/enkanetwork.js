@@ -7,7 +7,7 @@ export class ZZZPlayerInfo {
     socialDetails: ZZZSocialDetail;
 
     constructor(data: ZZZPlayerInfoAPI) {
-        this.showcase = data.ShowCaseDetail.AvatarList.map((data) => new ZZZShowcase(data));
+        this.showcase = data.ShowcaseDetail.AvatarList.map((data) => new ZZZShowcase(data));
         this.socialDetails = new ZZZSocialDetail(data.SocialDetail);
     }
 }

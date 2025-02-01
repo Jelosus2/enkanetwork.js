@@ -1,9 +1,10 @@
 import { ZZZAvatarListAPI } from "../../types/zenless";
 import { ZZZDiscDrive } from "./ZZZDiscDrive";
 import { ZZZSkill } from "./ZZZSkill";
+import { ZZZWeapon } from "./ZZZWeapon";
 
 export class ZZZShowcase {
-    weaponEffectState: 0 | 1;
+    weaponEffectState: 0 | 1 | 2;
     discDrives: ZZZDiscDrive[];
     skills: ZZZSkill[];
     cinemaVisualToggles: boolean[];
@@ -16,10 +17,8 @@ export class ZZZShowcase {
     skinId: number;
     mindscapeLevel: number;
     coreSkillEnhancement: number;
-    weaponUid: number;
     obtainmentTimestamp: number;
-    // TODO: Make a class for this
-    weapon: unknown;
+    weapon: ZZZWeapon;
 
     constructor(data: ZZZAvatarListAPI) {
         this.weaponEffectState = data.WeaponEffectState;
@@ -35,7 +34,7 @@ export class ZZZShowcase {
         this.skinId = data.SkinId;
         this.mindscapeLevel = data.TalentLevel;
         this.coreSkillEnhancement = data.CoreSkillEnhancement;
-        this.weaponUid = data.WeaponUid;
         this.obtainmentTimestamp = data.ObtainmentTimestamp;
+        this.weapon = new ZZZWeapon(data.Weapon);
     }
 }
