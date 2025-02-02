@@ -6,6 +6,7 @@ import { version } from "../../package.json";
 import axios, { AxiosRequestConfig } from "axios";
 
 import zzzMock from "../zzz-mock.json";
+import myZZZData from "../my-data.json";
 
 /**
  * A class that handles the requests to the APIs.
@@ -34,7 +35,9 @@ export class RequestHandler {
     uid: string | number,
     type: "genshin" | "starrail" | "zzz"
   ): Promise<any> {
-    if (type === "zzz")
+    if (type === "zzz" && uid == 1)
+      return myZZZData;
+    else if (type === "zzz")
       return zzzMock;
 
     const url =

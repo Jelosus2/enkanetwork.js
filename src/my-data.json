@@ -1,0 +1,175 @@
+{
+  "PlayerInfo": {
+    "ShowcaseDetail": {
+      "AvatarList": [
+        {
+          "WeaponEffectState": 0,
+          "EquippedList": [],
+          "SkillLevelList": [
+            { "Level": 3, "Index": 0 },
+            { "Level": 3, "Index": 1 },
+            { "Level": 3, "Index": 2 },
+            { "Level": 3, "Index": 3 },
+            { "Level": 2, "Index": 5 },
+            { "Level": 3, "Index": 6 }
+          ],
+          "TalentToggleList": [false, false, false, false, false, false],
+          "ClaimedRewardList": [1],
+          "IsHidden": false,
+          "Id": 1031,
+          "Level": 30,
+          "PromotionLevel": 3,
+          "Exp": 0,
+          "SkinId": 0,
+          "TalentLevel": 0,
+          "CoreSkillEnhancement": 1,
+          "WeaponUid": 2,
+          "ObtainmentTimestamp": 1737661908,
+          "Weapon": {
+            "IsAvailable": false,
+            "IsLocked": false,
+            "Id": 12005,
+            "Uid": 2,
+            "Level": 20,
+            "BreakLevel": 1,
+            "Exp": 0,
+            "UpgradeLevel": 2
+          }
+        },
+        {
+          "WeaponEffectState": 0,
+          "EquippedList": [],
+          "SkillLevelList": [
+            { "Level": 3, "Index": 0 },
+            { "Level": 3, "Index": 1 },
+            { "Level": 3, "Index": 2 },
+            { "Level": 3, "Index": 3 },
+            { "Level": 2, "Index": 5 },
+            { "Level": 3, "Index": 6 }
+          ],
+          "TalentToggleList": [false, false, false, false, false, false],
+          "ClaimedRewardList": [1],
+          "IsHidden": false,
+          "Id": 1201,
+          "Level": 20,
+          "PromotionLevel": 2,
+          "Exp": 0,
+          "SkinId": 0,
+          "TalentLevel": 0,
+          "CoreSkillEnhancement": 1,
+          "WeaponUid": 4,
+          "ObtainmentTimestamp": 1737836789,
+          "Weapon": {
+            "IsAvailable": false,
+            "IsLocked": false,
+            "Id": 12001,
+            "Uid": 4,
+            "Level": 20,
+            "BreakLevel": 1,
+            "Exp": 0,
+            "UpgradeLevel": 4
+          }
+        },
+        {
+          "WeaponEffectState": 0,
+          "EquippedList": [],
+          "SkillLevelList": [
+            { "Level": 1, "Index": 0 },
+            { "Level": 1, "Index": 1 },
+            { "Level": 1, "Index": 2 },
+            { "Level": 1, "Index": 3 },
+            { "Level": 1, "Index": 5 },
+            { "Level": 1, "Index": 6 }
+          ],
+          "TalentToggleList": [false, false, false, false, false, false],
+          "ClaimedRewardList": [1],
+          "IsHidden": false,
+          "Id": 1211,
+          "Level": 20,
+          "PromotionLevel": 2,
+          "Exp": 0,
+          "SkinId": 0,
+          "TalentLevel": 0,
+          "CoreSkillEnhancement": 0,
+          "WeaponUid": 0,
+          "ObtainmentTimestamp": 1737836915
+        },
+        {
+          "WeaponEffectState": 1,
+          "EquippedList": [],
+          "SkillLevelList": [
+            { "Level": 3, "Index": 0 },
+            { "Level": 3, "Index": 1 },
+            { "Level": 2, "Index": 2 },
+            { "Level": 3, "Index": 3 },
+            { "Level": 2, "Index": 5 },
+            { "Level": 3, "Index": 6 }
+          ],
+          "TalentToggleList": [true, true, true, false, false, false],
+          "ClaimedRewardList": [1],
+          "IsHidden": false,
+          "Id": 1011,
+          "Level": 20,
+          "PromotionLevel": 2,
+          "Exp": 0,
+          "SkinId": 0,
+          "TalentLevel": 3,
+          "CoreSkillEnhancement": 1,
+          "WeaponUid": 1,
+          "ObtainmentTimestamp": 1737657712,
+          "Weapon": {
+            "IsAvailable": false,
+            "IsLocked": true,
+            "Id": 13101,
+            "Uid": 1,
+            "Level": 1,
+            "BreakLevel": 0,
+            "Exp": 60,
+            "UpgradeLevel": 1
+          }
+        },
+        {
+          "WeaponEffectState": 0,
+          "EquippedList": [],
+          "SkillLevelList": [
+            { "Level": 1, "Index": 0 },
+            { "Level": 1, "Index": 1 },
+            { "Level": 1, "Index": 2 },
+            { "Level": 1, "Index": 3 },
+            { "Level": 1, "Index": 5 },
+            { "Level": 1, "Index": 6 }
+          ],
+          "TalentToggleList": [false, false, false, false, false, false],
+          "ClaimedRewardList": [1],
+          "IsHidden": false,
+          "Id": 1081,
+          "Level": 10,
+          "PromotionLevel": 2,
+          "Exp": 0,
+          "SkinId": 0,
+          "TalentLevel": 0,
+          "CoreSkillEnhancement": 0,
+          "WeaponUid": 0,
+          "ObtainmentTimestamp": 1737657712
+        }
+      ]
+    },
+    "SocialDetail": {
+      "MedalList": [],
+      "ProfileDetail": {
+        "Nickname": "Jelosus1",
+        "AvatarId": 2021,
+        "Uid": 1505067250,
+        "Level": 26,
+        "Title": 3800100,
+        "ProfileId": 3211031,
+        "PlatformType": 3,
+        "CallingCardId": 3311011
+      },
+      "Desc": ""
+    },
+    "BirthDateMonth": 0
+  },
+  "uid": "1505067250",
+  "ttl": 60
+}

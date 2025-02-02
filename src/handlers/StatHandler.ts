@@ -1,9 +1,10 @@
 /**	BASE CODE PROVIDED BY ALGOINDE, CREATOR OF ENKA.NETWORK **/
 
 import { SRLightCone, SRRelics, SRSkillTreeList } from "../structs";
-import { meta } from "../utils";
+import { meta, zzzcharacters } from "../utils";
 
 const Meta: { [key: string]: any } = meta;
+const ZZZCharacters: { [key: string]: any } = zzzcharacters;
 
 export class LayerGenerator {
 	
@@ -95,6 +96,21 @@ export class LayerGenerator {
 				layer[prop] += ref.props[prop];
 			};
 		});
+		return layer;
+	}
+}
+
+export class ZZZLayerGenerator {
+
+	constructor() { }
+
+	static character(c: { avatarId: number, level: number, promotion: number, coreSkillEnhancement: number  }) {
+		const ref = ZZZCharacters[c.avatarId];
+		const layer = new ZZZPropLayer("character");
+		layer.BaseHP = ref.BaseProps["11101"] + Math.floor((ref.GrowthProps["11101"] * (c.level - 1)) / 10000) + ref.PromotionProps[c.promotion - 1]["11101"] + (ref.CoreEnhancementProps[c.coreSkillEnhancement]["11101"] || 0);
+		layer.BaseAttack = ref.BaseProps["12101"] + Math.floor((ref.GrowthProps["12101"] * (c.level - 1)) / 10000) + ref.PromotionProps[c.promotion - 1]["12101"] + (ref.CoreEnhancementProps[c.coreSkillEnhancement]["12101"] || 0);
+		layer.BaseDefence = ref.BaseProps["13101"] + Math.floor((ref.GrowthProps["13101"] * (c.level - 1)) / 10000) + ref.PromotionProps[c.promotion - 1]["13101"] + (ref.CoreEnhancementProps[c.coreSkillEnhancement]["13101"] || 0);
+		layer.BaseImpact = ref.BaseProps["12201"] + (ref.CoreEnhancementProps[c.coreSkillEnhancement]["12201"] || 0);
 		return layer;
 	}
 }
@@ -370,6 +386,52 @@ export class PropLayer {
 	}
 	set StatusResistanceBase(v) {
 		this.StatusResistance = v;
+	}
+}
+
+export class ZZZPropLayer {
+	id: string;
+	BaseHP: number;
+	BaseAttack: number;
+	BaseDefence: number;
+	BaseImpact: number;
+
+	constructor(id?: string) {
+		this.id = id || "";
+
+		this.BaseHP = 0;
+		
+		this.BaseAttack = 0;
+
+		this.BaseDefence = 0;
+
+		this.BaseImpact = 0;
+	}
+
+	get props() {
+		return [
+			PropLayer.toProp("MaxHP", this.HP, this.BaseHP),
+			PropLayer.toProp("Attack", this.Attack, this.BaseAttack),
+			PropLayer.toProp("Defence", this.Defence, this.BaseDefence),
+			PropLayer.toProp("Impact", this.Impact, this.BaseImpact)
+		];
+	}
+
+	// TODO: change this
+	get HP() {
+		return this.BaseHP;
+	}
+
+	get Attack() {
+		return this.BaseAttack;
+	}
+
+	get Defence() {
+		return this.BaseDefence;
+	}
+
+	get Impact() {
+		return this.BaseImpact;
 	}
 }
 

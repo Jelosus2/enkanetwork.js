@@ -1,0 +1,1 @@
+export { default as zzzcharacters } from './avatars.json';

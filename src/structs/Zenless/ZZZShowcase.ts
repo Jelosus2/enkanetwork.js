@@ -1,3 +1,4 @@
+import { ZZZLayerGenerator } from "../../handlers";
 import { ZZZAvatarListAPI } from "../../types/zenless";
 import { ZZZDiscDrive } from "./ZZZDiscDrive";
 import { ZZZSkill } from "./ZZZSkill";
@@ -35,6 +36,12 @@ export class ZZZShowcase {
         this.mindscapeLevel = data.TalentLevel;
         this.coreSkillEnhancement = data.CoreSkillEnhancement;
         this.obtainmentTimestamp = data.ObtainmentTimestamp;
-        this.weapon = new ZZZWeapon(data.Weapon);
+        this.weapon = data.Weapon
+            ? new ZZZWeapon(data.Weapon)
+            : ({} as ZZZWeapon);
+    }
+
+    stats() {
+        return ZZZLayerGenerator.character({ avatarId: this.id, level: this.level, promotion: this.promotion, coreSkillEnhancement: this.coreSkillEnhancement }).props;
     }
 }
