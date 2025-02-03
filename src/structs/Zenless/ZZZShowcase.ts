@@ -1,4 +1,4 @@
-import { ZZZLayerGenerator } from "../../handlers";
+import { PropState, ZZZLayerGenerator } from "../../handlers";
 import { ZZZAvatarListAPI } from "../../types/zenless";
 import { ZZZDiscDrive } from "./ZZZDiscDrive";
 import { ZZZSkill } from "./ZZZSkill";
@@ -42,6 +42,10 @@ export class ZZZShowcase {
     }
 
     stats() {
-        return ZZZLayerGenerator.weapon({ weaponId: this.weapon.id, level: this.weapon.level, breakLevel: this.weapon.phaseLevel });
+        const propState = new PropState();
+        propState.add(ZZZLayerGenerator.character({ avatarId: this.id, level: this.level, promotion: this.promotion, coreSkillEnhancement: this.coreSkillEnhancement }));
+        propState.add(ZZZLayerGenerator.weapon({ weaponId: this.weapon.id, level: this.weapon.level, breakLevel: this.weapon.modificationLevel }));
+
+        return propState.sum("zzz").props;
     }
 }

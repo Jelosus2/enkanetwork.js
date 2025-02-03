@@ -30,10 +30,10 @@
             "IsLocked": false,
             "Id": 12005,
             "Uid": 2,
-            "Level": 20,
-            "BreakLevel": 1,
+            "Level": 30,
+            "BreakLevel": 2,
             "Exp": 0,
-            "UpgradeLevel": 2
+            "UpgradeLevel": 5
           }
         },
         {

@@ -113,26 +113,34 @@ export class ZZZLayerGenerator {
 		layer.BaseAttack = ref.BaseProps["12101"] + Math.floor((ref.GrowthProps["12101"] * (c.level - 1)) / 10000) + ref.PromotionProps[c.promotion - 1]["12101"] + (ref.CoreEnhancementProps[c.coreSkillEnhancement]["12101"] || 0);
 		layer.BaseDefence = ref.BaseProps["13101"] + Math.floor((ref.GrowthProps["13101"] * (c.level - 1)) / 10000) + ref.PromotionProps[c.promotion - 1]["13101"] + (ref.CoreEnhancementProps[c.coreSkillEnhancement]["13101"] || 0);
 		layer.BaseImpact = ref.BaseProps["12201"] + (ref.CoreEnhancementProps[c.coreSkillEnhancement]["12201"] || 0);
-		layer.CriticalChance = (ref.BaseProps["20101"] + (ref.CoreEnhancementProps[c.coreSkillEnhancement]["20101"] || 0)) / 10000;
-		layer.CriticalDamage = (ref.BaseProps["21101"] + (ref.CoreEnhancementProps[c.coreSkillEnhancement]["21101"] || 0)) / 10000;
+		layer.CriticalChance = (ref.BaseProps["20101"] + (ref.CoreEnhancementProps[c.coreSkillEnhancement]["20101"] || 0));
+		layer.CriticalDamage = (ref.BaseProps["21101"] + (ref.CoreEnhancementProps[c.coreSkillEnhancement]["21101"] || 0));
 		layer.AnomalyMastery = ref.BaseProps["31401"] + (ref.CoreEnhancementProps[c.coreSkillEnhancement]["31401"] || 0);
 		layer.AnomalyProficiency = ref.BaseProps["31201"] + (ref.CoreEnhancementProps[c.coreSkillEnhancement]["31201"] || 0);
-		layer.EnergyRecharge = (ref.BaseProps["30501"] + (ref.CoreEnhancementProps[c.coreSkillEnhancement]["30501"] || 0)) / 100;
-		layer.PenRatio = (ref.CoreEnhancementProps[c.coreSkillEnhancement]["23101"] || 0) / 10000;
+		layer.BaseEnergyRegen = (ref.BaseProps["30501"] + (ref.CoreEnhancementProps[c.coreSkillEnhancement]["30501"] || 0));
+		layer.PenRatio = (ref.CoreEnhancementProps[c.coreSkillEnhancement]["23101"] || 0);
 		return layer;
 	}
 
 	static weapon(w: { weaponId: number, level: number, breakLevel: number }) {
 		const ref = ZZZWeapon[w.weaponId];
 		const layer = new ZZZPropLayer("weapon");
+		const mainStatName = propIdToName(ref.MainStat.PropertyId);
+		const subStatName = propIdToName(ref.SecondaryStat.PropertyId);
 		// @ts-ignore
-		layer[propIdToName(ref.MainStat.PropertyId)] = ref.MainStat.PropertyValue * (1 + ZZZWeaponMeta.levels.find((ml) => ml.Rarity == ref.Rarity && ml.Level == w.level).Field_XXX / 10000 + ZZZWeaponMeta.breakLevels.find((mb) => mb.Rarity == ref.Rarity && ref.BreakLevel == w.breakLevel).Field_YYY / 10000)
+		layer[mainStatName] = ["Critical", "Ratio"].some((r) => mainStatName.includes(r))
+			? ref.MainStat.PropertyValue * (1 + ZZZWeaponMeta.levels[ref.Rarity][w.level] / 10000 + ZZZWeaponMeta.breakLevels[ref.Rarity][w.breakLevel].Field_YYY / 10000)
+			: Math.floor(ref.MainStat.PropertyValue * (1 + ZZZWeaponMeta.levels[ref.Rarity][w.level] / 10000 + ZZZWeaponMeta.breakLevels[ref.Rarity][w.breakLevel].Field_YYY / 10000));
+		// @ts-ignore	
+		layer[subStatName] = ["Critical", "Ratio"].some((r) => subStatName.includes(r))
+			? ref.SecondaryStat.PropertyValue * (1 + ZZZWeaponMeta.breakLevels[ref.Rarity][w.breakLevel].Field_ZZZ / 10000)
+			: Math.floor(ref.SecondaryStat.PropertyValue * (1 + ZZZWeaponMeta.breakLevels[ref.Rarity][w.breakLevel].Field_ZZZ / 10000));
+		return layer;
 	}
 }
 
 export class PropLayer {
 	id: string;
-	disabled: boolean;
 	BaseHP: number;
 	HPAddedRatio: number;
 	HPDelta: number;
@@ -206,7 +214,6 @@ export class PropLayer {
 
 	constructor(id?: string) {
 		this.id = id || "";
-		this.disabled = false;
 
 		// HP = HP_BASE * (1 + HP_AddedRatio) + HP_Delta + HP_CONVERT
 		this.BaseHP = 0;
@@ -418,8 +425,8 @@ export class ZZZPropLayer {
 	CriticalDamage: number;
 	AnomalyMastery: number;
 	AnomalyProficiency: number;
-	EnergyRecharge: number;
-	EnergyRechargeRatio: number;
+	BaseEnergyRegen: number;
+	EnergyRegenRatio: number;
 	PenRatio: number;
 	Pen: number;
 	AddedPhysicalDamageRatio: number;
@@ -449,8 +456,8 @@ export class ZZZPropLayer {
 		this.AnomalyMastery = 0;
 		this.AnomalyProficiency = 0;
 
-		this.EnergyRecharge = 0;
-		this.EnergyRechargeRatio = 0;
+		this.BaseEnergyRegen = 0;
+		this.EnergyRegenRatio = 0;
 
 		this.PenRatio = 0;
 		this.Pen = 0;
@@ -468,11 +475,11 @@ export class ZZZPropLayer {
 			PropLayer.toProp("Attack", this.Attack, this.BaseAttack),
 			PropLayer.toProp("Defence", this.Defence, this.BaseDefence),
 			PropLayer.toProp("Impact", this.Impact, this.BaseImpact),
-			PropLayer.toProp("CriticalChance", this.CriticalChance, this.CriticalChance),
-			PropLayer.toProp("CriticalDamage", this.CriticalDamage, this.CriticalDamage),
+			PropLayer.toProp("CriticalChance", this.CriticalChance / 10000, this.CriticalChance / 10000),
+			PropLayer.toProp("CriticalDamage", this.CriticalDamage / 10000, this.CriticalDamage / 10000),
 			PropLayer.toProp("AnomalyMastery", this.AnomalyMastery, this.AnomalyMastery),
 			PropLayer.toProp("AnomalyProficiency", this.AnomalyProficiency, this.AnomalyProficiency),
-			PropLayer.toProp("EnergyRecharge", this.EnergyRecharge, this.EnergyRecharge),
+			PropLayer.toProp("EnergyRegen", this.EnergyRegen / 100, this.BaseEnergyRegen / 100),
 			PropLayer.toProp("PenRatio", this.PenRatio, this.PenRatio),
 			PropLayer.toProp("Pen", this.Pen, this.Pen),
 			PropLayer.toProp("AddedPhysicalDamageRatio", this.AddedPhysicalDamageRatio, this.AddedPhysicalDamageRatio),
@@ -499,19 +506,22 @@ export class ZZZPropLayer {
 	get Impact() {
 		return this.BaseImpact;
 	}
+
+	get EnergyRegen() {
+		return this.BaseEnergyRegen * (1 + this.EnergyRegenRatio / 10000);
+	}
 }
 
 export class PropState {
-	layers: Map<string, PropLayer>;
+	layers: Map<string, PropLayer | ZZZPropLayer>;
 
 	constructor() {
 		this.layers = new Map();
 	}
 
-	sum(...layerNames: string[]) {
-		let sum = new PropLayer();
+	sum(type: "sr" | "zzz" = "sr", ...layerNames: string[]) {
+		let sum = type === "sr" ? new PropLayer() : new ZZZPropLayer();
 		this.layers.forEach((layer) => {
-			if (layer.disabled) return;
 			if (layerNames.length && !layerNames.includes(layer.id)) return;
 			for (let prop in layer) {
 				if (prop === 'id' || prop === 'disabled') continue;
@@ -522,7 +532,7 @@ export class PropState {
 		return sum;
 	}
 
-	add(layer: PropLayer) {
+	add(layer: PropLayer | ZZZPropLayer) {
 		this.layers.set(layer.id, layer);
 	}
 
@@ -567,9 +577,9 @@ function propIdToName(propertyId: number) {
 		23103: "PenRatio",
 		23201: "Pen",
 		23203: "Pen",
-		30501: "EnergyRecharge",
-		30502: "EnergyRechargeRatio",
-		30503: "EnergyRecharge",
+		30501: "EnergyRegen",
+		30502: "EnergyRegenRatio",
+		30503: "EnergyRegen",
 		31201: "AnomalyProficiency",
 		31203: "AnomalyProficiency",
 		31401: "AnomalyMastery",
