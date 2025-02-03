@@ -1,10 +1,12 @@
 /**	BASE CODE PROVIDED BY ALGOINDE, CREATOR OF ENKA.NETWORK **/
 
 import { SRLightCone, SRRelics, SRSkillTreeList } from "../structs";
-import { meta, zzzcharacters } from "../utils";
+import { meta, zzzcharacters, zzzweaponmeta, zzzweapon } from "../utils";
 
 const Meta: { [key: string]: any } = meta;
 const ZZZCharacters: { [key: string]: any } = zzzcharacters;
+const ZZZWeaponMeta: { [key: string]: any } = zzzweaponmeta;
+const ZZZWeapon: { [key: string]: any } = zzzweapon;
 
 export class LayerGenerator {
 	
@@ -111,7 +113,20 @@ export class ZZZLayerGenerator {
 		layer.BaseAttack = ref.BaseProps["12101"] + Math.floor((ref.GrowthProps["12101"] * (c.level - 1)) / 10000) + ref.PromotionProps[c.promotion - 1]["12101"] + (ref.CoreEnhancementProps[c.coreSkillEnhancement]["12101"] || 0);
 		layer.BaseDefence = ref.BaseProps["13101"] + Math.floor((ref.GrowthProps["13101"] * (c.level - 1)) / 10000) + ref.PromotionProps[c.promotion - 1]["13101"] + (ref.CoreEnhancementProps[c.coreSkillEnhancement]["13101"] || 0);
 		layer.BaseImpact = ref.BaseProps["12201"] + (ref.CoreEnhancementProps[c.coreSkillEnhancement]["12201"] || 0);
+		layer.CriticalChance = (ref.BaseProps["20101"] + (ref.CoreEnhancementProps[c.coreSkillEnhancement]["20101"] || 0)) / 10000;
+		layer.CriticalDamage = (ref.BaseProps["21101"] + (ref.CoreEnhancementProps[c.coreSkillEnhancement]["21101"] || 0)) / 10000;
+		layer.AnomalyMastery = ref.BaseProps["31401"] + (ref.CoreEnhancementProps[c.coreSkillEnhancement]["31401"] || 0);
+		layer.AnomalyProficiency = ref.BaseProps["31201"] + (ref.CoreEnhancementProps[c.coreSkillEnhancement]["31201"] || 0);
+		layer.EnergyRecharge = (ref.BaseProps["30501"] + (ref.CoreEnhancementProps[c.coreSkillEnhancement]["30501"] || 0)) / 100;
+		layer.PenRatio = (ref.CoreEnhancementProps[c.coreSkillEnhancement]["23101"] || 0) / 10000;
 		return layer;
+	}
+
+	static weapon(w: { weaponId: number, level: number, breakLevel: number }) {
+		const ref = ZZZWeapon[w.weaponId];
+		const layer = new ZZZPropLayer("weapon");
+		// @ts-ignore
+		layer[propIdToName(ref.MainStat.PropertyId)] = ref.MainStat.PropertyValue * (1 + ZZZWeaponMeta.levels.find((ml) => ml.Rarity == ref.Rarity && ml.Level == w.level).Field_XXX / 10000 + ZZZWeaponMeta.breakLevels.find((mb) => mb.Rarity == ref.Rarity && ref.BreakLevel == w.breakLevel).Field_YYY / 10000)
 	}
 }
 
@@ -392,20 +407,59 @@ export class PropLayer {
 export class ZZZPropLayer {
 	id: string;
 	BaseHP: number;
+	HPRatio: number;
 	BaseAttack: number;
+	AttackRatio: number;
 	BaseDefence: number;
+	DefenceRatio: number;
 	BaseImpact: number;
+	ImpactRatio: number;
+	CriticalChance: number;
+	CriticalDamage: number;
+	AnomalyMastery: number;
+	AnomalyProficiency: number;
+	EnergyRecharge: number;
+	EnergyRechargeRatio: number;
+	PenRatio: number;
+	Pen: number;
+	AddedPhysicalDamageRatio: number;
+	AddedFireDamageRatio: number;
+	AddedIceDamageRatio: number;
+	AddedElectricDamageRatio: number;
+	AddedEtherDamageRatio: number;
 
 	constructor(id?: string) {
 		this.id = id || "";
 
 		this.BaseHP = 0;
+		this.HPRatio = 0;
 		
 		this.BaseAttack = 0;
+		this.AttackRatio = 0;
 
 		this.BaseDefence = 0;
+		this.DefenceRatio = 0;
 
 		this.BaseImpact = 0;
+		this.ImpactRatio = 0;
+
+		this.CriticalChance = 0;
+		this.CriticalDamage = 0;
+
+		this.AnomalyMastery = 0;
+		this.AnomalyProficiency = 0;
+
+		this.EnergyRecharge = 0;
+		this.EnergyRechargeRatio = 0;
+
+		this.PenRatio = 0;
+		this.Pen = 0;
+
+		this.AddedPhysicalDamageRatio = 0;
+		this.AddedFireDamageRatio = 0;
+		this.AddedIceDamageRatio = 0;
+		this.AddedElectricDamageRatio = 0;
+		this.AddedEtherDamageRatio = 0;
 	}
 
 	get props() {
@@ -413,7 +467,19 @@ export class ZZZPropLayer {
 			PropLayer.toProp("MaxHP", this.HP, this.BaseHP),
 			PropLayer.toProp("Attack", this.Attack, this.BaseAttack),
 			PropLayer.toProp("Defence", this.Defence, this.BaseDefence),
-			PropLayer.toProp("Impact", this.Impact, this.BaseImpact)
+			PropLayer.toProp("Impact", this.Impact, this.BaseImpact),
+			PropLayer.toProp("CriticalChance", this.CriticalChance, this.CriticalChance),
+			PropLayer.toProp("CriticalDamage", this.CriticalDamage, this.CriticalDamage),
+			PropLayer.toProp("AnomalyMastery", this.AnomalyMastery, this.AnomalyMastery),
+			PropLayer.toProp("AnomalyProficiency", this.AnomalyProficiency, this.AnomalyProficiency),
+			PropLayer.toProp("EnergyRecharge", this.EnergyRecharge, this.EnergyRecharge),
+			PropLayer.toProp("PenRatio", this.PenRatio, this.PenRatio),
+			PropLayer.toProp("Pen", this.Pen, this.Pen),
+			PropLayer.toProp("AddedPhysicalDamageRatio", this.AddedPhysicalDamageRatio, this.AddedPhysicalDamageRatio),
+			PropLayer.toProp("AddedFireDamageRatio", this.AddedFireDamageRatio, this.AddedFireDamageRatio),
+			PropLayer.toProp("AddedIceDamageRatio", this.AddedIceDamageRatio, this.AddedIceDamageRatio),
+			PropLayer.toProp("AddedElectricDamageRatio", this.AddedElectricDamageRatio, this.AddedElectricDamageRatio),
+			PropLayer.toProp("AddedEtherDamageRatio", this.AddedEtherDamageRatio, this.AddedEtherDamageRatio)
 		];
 	}
 
@@ -478,4 +544,47 @@ export function ifProp(pr: any, type: string): number | string {
 		return (Math.floor(pr.value * 1000) / 10).toFixed(1) + '%';
 	}
 	return Math.floor(pr.value);
+}
+
+function propIdToName(propertyId: number) {
+	const map: { [key: number]: string } = {
+		11101: "BaseHP",
+		11102: "HPRatio",
+		11103: "BaseHP",
+		12101: "BaseAttack",
+		12102: "AttackRatio",
+		12103: "BaseAttack",
+		12201: "BaseImpact",
+		12202: "ImpactRatio",
+		13101: "BaseDefence",
+		13102: "DefenceRatio",
+		13103: "BaseDefence",
+		20101: "CriticalChance",
+		20103: "CriticalChance",
+		21101: "CriticalDamage",
+		21103: "CriticalDamage",
+		23101: "PenRatio",
+		23103: "PenRatio",
+		23201: "Pen",
+		23203: "Pen",
+		30501: "EnergyRecharge",
+		30502: "EnergyRechargeRatio",
+		30503: "EnergyRecharge",
+		31201: "AnomalyProficiency",
+		31203: "AnomalyProficiency",
+		31401: "AnomalyMastery",
+		31403: "AnomalyMastery",
+		31501: "AddedPhysicalDamageRatio",
+		31503: "AddedPhysicalDamageRatio",
+		31601: "AddedFireDamageRatio",
+		31603: "AddedFireDamageRatio",
+		31701: "AddedIceDamageRatio",
+		31703: "AddedIceDamageRatio",
+		31801: "AddedElectricDamageRatio",
+		31803: "AddedElectricDamageRatio",
+		31901: "AddedEtherDamageRatio",
+		31903: "AddedEtherDamageRatio",
+	};
+
+	return map[propertyId] || "";
 }

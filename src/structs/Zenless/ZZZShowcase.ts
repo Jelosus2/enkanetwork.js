@@ -42,6 +42,6 @@ export class ZZZShowcase {
     }
 
     stats() {
-        return ZZZLayerGenerator.character({ avatarId: this.id, level: this.level, promotion: this.promotion, coreSkillEnhancement: this.coreSkillEnhancement }).props;
+        return ZZZLayerGenerator.weapon({ weaponId: this.weapon.id, level: this.weapon.level, breakLevel: this.weapon.phaseLevel });
     }
 }

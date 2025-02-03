@@ -1,0 +1,1029 @@
+{
+  "levels": [
+    {
+      "Rarity": 2,
+      "Level": 0,
+      "Field_XXX": 0
+    },
+    {
+      "Rarity": 2,
+      "Level": 1,
+      "Field_XXX": 1568
+    },
+    {
+      "Rarity": 2,
+      "Level": 2,
+      "Field_XXX": 3136
+    },
+    {
+      "Rarity": 2,
+      "Level": 3,
+      "Field_XXX": 4705
+    },
+    {
+      "Rarity": 2,
+      "Level": 4,
+      "Field_XXX": 6273
+    },
+    {
+      "Rarity": 2,
+      "Level": 5,
+      "Field_XXX": 7841
+    },
+    {
+      "Rarity": 2,
+      "Level": 6,
+      "Field_XXX": 9409
+    },
+    {
+      "Rarity": 2,
+      "Level": 7,
+      "Field_XXX": 10977
+    },
+    {
+      "Rarity": 2,
+      "Level": 8,
+      "Field_XXX": 12545
+    },
+    {
+      "Rarity": 2,
+      "Level": 9,
+      "Field_XXX": 14114
+    },
+    {
+      "Rarity": 2,
+      "Level": 10,
+      "Field_XXX": 15682
+    },
+    {
+      "Rarity": 2,
+      "Level": 11,
+      "Field_XXX": 17250
+    },
+    {
+      "Rarity": 2,
+      "Level": 12,
+      "Field_XXX": 18818
+    },
+    {
+      "Rarity": 2,
+      "Level": 13,
+      "Field_XXX": 20386
+    },
+    {
+      "Rarity": 2,
+      "Level": 14,
+      "Field_XXX": 21954
+    },
+    {
+      "Rarity": 2,
+      "Level": 15,
+      "Field_XXX": 23523
+    },
+    {
+      "Rarity": 2,
+      "Level": 16,
+      "Field_XXX": 25091
+    },
+    {
+      "Rarity": 2,
+      "Level": 17,
+      "Field_XXX": 26659
+    },
+    {
+      "Rarity": 2,
+      "Level": 18,
+      "Field_XXX": 28227
+    },
+    {
+      "Rarity": 2,
+      "Level": 19,
+      "Field_XXX": 29795
+    },
+    {
+      "Rarity": 2,
+      "Level": 20,
+      "Field_XXX": 31363
+    },
+    {
+      "Rarity": 2,
+      "Level": 21,
+      "Field_XXX": 32932
+    },
+    {
+      "Rarity": 2,
+      "Level": 22,
+      "Field_XXX": 34500
+    },
+    {
+      "Rarity": 2,
+      "Level": 23,
+      "Field_XXX": 36068
+    },
+    {
+      "Rarity": 2,
+      "Level": 24,
+      "Field_XXX": 37636
+    },
+    {
+      "Rarity": 2,
+      "Level": 25,
+      "Field_XXX": 39204
+    },
+    {
+      "Rarity": 2,
+      "Level": 26,
+      "Field_XXX": 40772
+    },
+    {
+      "Rarity": 2,
+      "Level": 27,
+      "Field_XXX": 42341
+    },
+    {
+      "Rarity": 2,
+      "Level": 28,
+      "Field_XXX": 43909
+    },
+    {
+      "Rarity": 2,
+      "Level": 29,
+      "Field_XXX": 45477
+    },
+    {
+      "Rarity": 2,
+      "Level": 30,
+      "Field_XXX": 47045
+    },
+    {
+      "Rarity": 2,
+      "Level": 31,
+      "Field_XXX": 48613
+    },
+    {
+      "Rarity": 2,
+      "Level": 32,
+      "Field_XXX": 50181
+    },
+    {
+      "Rarity": 2,
+      "Level": 33,
+      "Field_XXX": 51750
+    },
+    {
+      "Rarity": 2,
+      "Level": 34,
+      "Field_XXX": 53318
+    },
+    {
+      "Rarity": 2,
+      "Level": 35,
+      "Field_XXX": 54886
+    },
+    {
+      "Rarity": 2,
+      "Level": 36,
+      "Field_XXX": 56454
+    },
+    {
+      "Rarity": 2,
+      "Level": 37,
+      "Field_XXX": 58022
+    },
+    {
+      "Rarity": 2,
+      "Level": 38,
+      "Field_XXX": 59590
+    },
+    {
+      "Rarity": 2,
+      "Level": 39,
+      "Field_XXX": 61159
+    },
+    {
+      "Rarity": 2,
+      "Level": 40,
+      "Field_XXX": 62727
+    },
+    {
+      "Rarity": 2,
+      "Level": 41,
+      "Field_XXX": 64295
+    },
+    {
+      "Rarity": 2,
+      "Level": 42,
+      "Field_XXX": 65863
+    },
+    {
+      "Rarity": 2,
+      "Level": 43,
+      "Field_XXX": 67431
+    },
+    {
+      "Rarity": 2,
+      "Level": 44,
+      "Field_XXX": 68999
+    },
+    {
+      "Rarity": 2,
+      "Level": 45,
+      "Field_XXX": 70568
+    },
+    {
+      "Rarity": 2,
+      "Level": 46,
+      "Field_XXX": 72136
+    },
+    {
+      "Rarity": 2,
+      "Level": 47,
+      "Field_XXX": 73704
+    },
+    {
+      "Rarity": 2,
+      "Level": 48,
+      "Field_XXX": 75272
+    },
+    {
+      "Rarity": 2,
+      "Level": 49,
+      "Field_XXX": 76840
+    },
+    {
+      "Rarity": 2,
+      "Level": 50,
+      "Field_XXX": 78408
+    },
+    {
+      "Rarity": 2,
+      "Level": 51,
+      "Field_XXX": 79977
+    },
+    {
+      "Rarity": 2,
+      "Level": 52,
+      "Field_XXX": 81545
+    },
+    {
+      "Rarity": 2,
+      "Level": 53,
+      "Field_XXX": 83113
+    },
+    {
+      "Rarity": 2,
+      "Level": 54,
+      "Field_XXX": 84681
+    },
+    {
+      "Rarity": 2,
+      "Level": 55,
+      "Field_XXX": 86249
+    },
+    {
+      "Rarity": 2,
+      "Level": 56,
+      "Field_XXX": 87817
+    },
+    {
+      "Rarity": 2,
+      "Level": 57,
+      "Field_XXX": 89386
+    },
+    {
+      "Rarity": 2,
+      "Level": 58,
+      "Field_XXX": 90954
+    },
+    {
+      "Rarity": 2,
+      "Level": 59,
+      "Field_XXX": 92522
+    },
+    {
+      "Rarity": 2,
+      "Level": 60,
+      "Field_XXX": 94090
+    },
+    {
+      "Rarity": 3,
+      "Level": 0,
+      "Field_XXX": 0
+    },
+    {
+      "Rarity": 3,
+      "Level": 1,
+      "Field_XXX": 1568
+    },
+    {
+      "Rarity": 3,
+      "Level": 2,
+      "Field_XXX": 3136
+    },
+    {
+      "Rarity": 3,
+      "Level": 3,
+      "Field_XXX": 4705
+    },
+    {
+      "Rarity": 3,
+      "Level": 4,
+      "Field_XXX": 6273
+    },
+    {
+      "Rarity": 3,
+      "Level": 5,
+      "Field_XXX": 7841
+    },
+    {
+      "Rarity": 3,
+      "Level": 6,
+      "Field_XXX": 9409
+    },
+    {
+      "Rarity": 3,
+      "Level": 7,
+      "Field_XXX": 10977
+    },
+    {
+      "Rarity": 3,
+      "Level": 8,
+      "Field_XXX": 12545
+    },
+    {
+      "Rarity": 3,
+      "Level": 9,
+      "Field_XXX": 14114
+    },
+    {
+      "Rarity": 3,
+      "Level": 10,
+      "Field_XXX": 15682
+    },
+    {
+      "Rarity": 3,
+      "Level": 11,
+      "Field_XXX": 17250
+    },
+    {
+      "Rarity": 3,
+      "Level": 12,
+      "Field_XXX": 18818
+    },
+    {
+      "Rarity": 3,
+      "Level": 13,
+      "Field_XXX": 20386
+    },
+    {
+      "Rarity": 3,
+      "Level": 14,
+      "Field_XXX": 21954
+    },
+    {
+      "Rarity": 3,
+      "Level": 15,
+      "Field_XXX": 23523
+    },
+    {
+      "Rarity": 3,
+      "Level": 16,
+      "Field_XXX": 25091
+    },
+    {
+      "Rarity": 3,
+      "Level": 17,
+      "Field_XXX": 26659
+    },
+    {
+      "Rarity": 3,
+      "Level": 18,
+      "Field_XXX": 28227
+    },
+    {
+      "Rarity": 3,
+      "Level": 19,
+      "Field_XXX": 29795
+    },
+    {
+      "Rarity": 3,
+      "Level": 20,
+      "Field_XXX": 31363
+    },
+    {
+      "Rarity": 3,
+      "Level": 21,
+      "Field_XXX": 32932
+    },
+    {
+      "Rarity": 3,
+      "Level": 22,
+      "Field_XXX": 34500
+    },
+    {
+      "Rarity": 3,
+      "Level": 23,
+      "Field_XXX": 36068
+    },
+    {
+      "Rarity": 3,
+      "Level": 24,
+      "Field_XXX": 37636
+    },
+    {
+      "Rarity": 3,
+      "Level": 25,
+      "Field_XXX": 39204
+    },
+    {
+      "Rarity": 3,
+      "Level": 26,
+      "Field_XXX": 40772
+    },
+    {
+      "Rarity": 3,
+      "Level": 27,
+      "Field_XXX": 42341
+    },
+    {
+      "Rarity": 3,
+      "Level": 28,
+      "Field_XXX": 43909
+    },
+    {
+      "Rarity": 3,
+      "Level": 29,
+      "Field_XXX": 45477
+    },
+    {
+      "Rarity": 3,
+      "Level": 30,
+      "Field_XXX": 47045
+    },
+    {
+      "Rarity": 3,
+      "Level": 31,
+      "Field_XXX": 48613
+    },
+    {
+      "Rarity": 3,
+      "Level": 32,
+      "Field_XXX": 50181
+    },
+    {
+      "Rarity": 3,
+      "Level": 33,
+      "Field_XXX": 51750
+    },
+    {
+      "Rarity": 3,
+      "Level": 34,
+      "Field_XXX": 53318
+    },
+    {
+      "Rarity": 3,
+      "Level": 35,
+      "Field_XXX": 54886
+    },
+    {
+      "Rarity": 3,
+      "Level": 36,
+      "Field_XXX": 56454
+    },
+    {
+      "Rarity": 3,
+      "Level": 37,
+      "Field_XXX": 58022
+    },
+    {
+      "Rarity": 3,
+      "Level": 38,
+      "Field_XXX": 59590
+    },
+    {
+      "Rarity": 3,
+      "Level": 39,
+      "Field_XXX": 61159
+    },
+    {
+      "Rarity": 3,
+      "Level": 40,
+      "Field_XXX": 62727
+    },
+    {
+      "Rarity": 3,
+      "Level": 41,
+      "Field_XXX": 64295
+    },
+    {
+      "Rarity": 3,
+      "Level": 42,
+      "Field_XXX": 65863
+    },
+    {
+      "Rarity": 3,
+      "Level": 43,
+      "Field_XXX": 67431
+    },
+    {
+      "Rarity": 3,
+      "Level": 44,
+      "Field_XXX": 68999
+    },
+    {
+      "Rarity": 3,
+      "Level": 45,
+      "Field_XXX": 70568
+    },
+    {
+      "Rarity": 3,
+      "Level": 46,
+      "Field_XXX": 72136
+    },
+    {
+      "Rarity": 3,
+      "Level": 47,
+      "Field_XXX": 73704
+    },
+    {
+      "Rarity": 3,
+      "Level": 48,
+      "Field_XXX": 75272
+    },
+    {
+      "Rarity": 3,
+      "Level": 49,
+      "Field_XXX": 76840
+    },
+    {
+      "Rarity": 3,
+      "Level": 50,
+      "Field_XXX": 78408
+    },
+    {
+      "Rarity": 3,
+      "Level": 51,
+      "Field_XXX": 79977
+    },
+    {
+      "Rarity": 3,
+      "Level": 52,
+      "Field_XXX": 81545
+    },
+    {
+      "Rarity": 3,
+      "Level": 53,
+      "Field_XXX": 83113
+    },
+    {
+      "Rarity": 3,
+      "Level": 54,
+      "Field_XXX": 84681
+    },
+    {
+      "Rarity": 3,
+      "Level": 55,
+      "Field_XXX": 86249
+    },
+    {
+      "Rarity": 3,
+      "Level": 56,
+      "Field_XXX": 87817
+    },
+    {
+      "Rarity": 3,
+      "Level": 57,
+      "Field_XXX": 89386
+    },
+    {
+      "Rarity": 3,
+      "Level": 58,
+      "Field_XXX": 90954
+    },
+    {
+      "Rarity": 3,
+      "Level": 59,
+      "Field_XXX": 92522
+    },
+    {
+      "Rarity": 3,
+      "Level": 60,
+      "Field_XXX": 94090
+    },
+    {
+      "Rarity": 4,
+      "Level": 0,
+      "Field_XXX": 0
+    },
+    {
+      "Rarity": 4,
+      "Level": 1,
+      "Field_XXX": 1568
+    },
+    {
+      "Rarity": 4,
+      "Level": 2,
+      "Field_XXX": 3136
+    },
+    {
+      "Rarity": 4,
+      "Level": 3,
+      "Field_XXX": 4705
+    },
+    {
+      "Rarity": 4,
+      "Level": 4,
+      "Field_XXX": 6273
+    },
+    {
+      "Rarity": 4,
+      "Level": 5,
+      "Field_XXX": 7841
+    },
+    {
+      "Rarity": 4,
+      "Level": 6,
+      "Field_XXX": 9409
+    },
+    {
+      "Rarity": 4,
+      "Level": 7,
+      "Field_XXX": 10977
+    },
+    {
+      "Rarity": 4,
+      "Level": 8,
+      "Field_XXX": 12545
+    },
+    {
+      "Rarity": 4,
+      "Level": 9,
+      "Field_XXX": 14114
+    },
+    {
+      "Rarity": 4,
+      "Level": 10,
+      "Field_XXX": 15682
+    },
+    {
+      "Rarity": 4,
+      "Level": 11,
+      "Field_XXX": 17250
+    },
+    {
+      "Rarity": 4,
+      "Level": 12,
+      "Field_XXX": 18818
+    },
+    {
+      "Rarity": 4,
+      "Level": 13,
+      "Field_XXX": 20386
+    },
+    {
+      "Rarity": 4,
+      "Level": 14,
+      "Field_XXX": 21954
+    },
+    {
+      "Rarity": 4,
+      "Level": 15,
+      "Field_XXX": 23523
+    },
+    {
+      "Rarity": 4,
+      "Level": 16,
+      "Field_XXX": 25091
+    },
+    {
+      "Rarity": 4,
+      "Level": 17,
+      "Field_XXX": 26659
+    },
+    {
+      "Rarity": 4,
+      "Level": 18,
+      "Field_XXX": 28227
+    },
+    {
+      "Rarity": 4,
+      "Level": 19,
+      "Field_XXX": 29795
+    },
+    {
+      "Rarity": 4,
+      "Level": 20,
+      "Field_XXX": 31363
+    },
+    {
+      "Rarity": 4,
+      "Level": 21,
+      "Field_XXX": 32932
+    },
+    {
+      "Rarity": 4,
+      "Level": 22,
+      "Field_XXX": 34500
+    },
+    {
+      "Rarity": 4,
+      "Level": 23,
+      "Field_XXX": 36068
+    },
+    {
+      "Rarity": 4,
+      "Level": 24,
+      "Field_XXX": 37636
+    },
+    {
+      "Rarity": 4,
+      "Level": 25,
+      "Field_XXX": 39204
+    },
+    {
+      "Rarity": 4,
+      "Level": 26,
+      "Field_XXX": 40772
+    },
+    {
+      "Rarity": 4,
+      "Level": 27,
+      "Field_XXX": 42341
+    },
+    {
+      "Rarity": 4,
+      "Level": 28,
+      "Field_XXX": 43909
+    },
+    {
+      "Rarity": 4,
+      "Level": 29,
+      "Field_XXX": 45477
+    },
+    {
+      "Rarity": 4,
+      "Level": 30,
+      "Field_XXX": 47045
+    },
+    {
+      "Rarity": 4,
+      "Level": 31,
+      "Field_XXX": 48613
+    },
+    {
+      "Rarity": 4,
+      "Level": 32,
+      "Field_XXX": 50181
+    },
+    {
+      "Rarity": 4,
+      "Level": 33,
+      "Field_XXX": 51750
+    },
+    {
+      "Rarity": 4,
+      "Level": 34,
+      "Field_XXX": 53318
+    },
+    {
+      "Rarity": 4,
+      "Level": 35,
+      "Field_XXX": 54886
+    },
+    {
+      "Rarity": 4,
+      "Level": 36,
+      "Field_XXX": 56454
+    },
+    {
+      "Rarity": 4,
+      "Level": 37,
+      "Field_XXX": 58022
+    },
+    {
+      "Rarity": 4,
+      "Level": 38,
+      "Field_XXX": 59590
+    },
+    {
+      "Rarity": 4,
+      "Level": 39,
+      "Field_XXX": 61159
+    },
+    {
+      "Rarity": 4,
+      "Level": 40,
+      "Field_XXX": 62727
+    },
+    {
+      "Rarity": 4,
+      "Level": 41,
+      "Field_XXX": 64295
+    },
+    {
+      "Rarity": 4,
+      "Level": 42,
+      "Field_XXX": 65863
+    },
+    {
+      "Rarity": 4,
+      "Level": 43,
+      "Field_XXX": 67431
+    },
+    {
+      "Rarity": 4,
+      "Level": 44,
+      "Field_XXX": 68999
+    },
+    {
+      "Rarity": 4,
+      "Level": 45,
+      "Field_XXX": 70568
+    },
+    {
+      "Rarity": 4,
+      "Level": 46,
+      "Field_XXX": 72136
+    },
+    {
+      "Rarity": 4,
+      "Level": 47,
+      "Field_XXX": 73704
+    },
+    {
+      "Rarity": 4,
+      "Level": 48,
+      "Field_XXX": 75272
+    },
+    {
+      "Rarity": 4,
+      "Level": 49,
+      "Field_XXX": 76840
+    },
+    {
+      "Rarity": 4,
+      "Level": 50,
+      "Field_XXX": 78408
+    },
+    {
+      "Rarity": 4,
+      "Level": 51,
+      "Field_XXX": 79977
+    },
+    {
+      "Rarity": 4,
+      "Level": 52,
+      "Field_XXX": 81545
+    },
+    {
+      "Rarity": 4,
+      "Level": 53,
+      "Field_XXX": 83113
+    },
+    {
+      "Rarity": 4,
+      "Level": 54,
+      "Field_XXX": 84681
+    },
+    {
+      "Rarity": 4,
+      "Level": 55,
+      "Field_XXX": 86249
+    },
+    {
+      "Rarity": 4,
+      "Level": 56,
+      "Field_XXX": 87817
+    },
+    {
+      "Rarity": 4,
+      "Level": 57,
+      "Field_XXX": 89386
+    },
+    {
+      "Rarity": 4,
+      "Level": 58,
+      "Field_XXX": 90954
+    },
+    {
+      "Rarity": 4,
+      "Level": 59,
+      "Field_XXX": 92522
+    },
+    {
+      "Rarity": 4,
+      "Level": 60,
+      "Field_XXX": 94090
+    }
+  ],
+  "breakLevels": [
+    {
+      "Rarity": 2,
+      "BreakLevel": 0,
+      "Field_YYY": 0,
+      "Field_ZZZ": 0
+    },
+    {
+      "Rarity": 2,
+      "BreakLevel": 1,
+      "Field_YYY": 8922,
+      "Field_ZZZ": 3000
+    },
+    {
+      "Rarity": 2,
+      "BreakLevel": 2,
+      "Field_YYY": 17844,
+      "Field_ZZZ": 6000
+    },
+    {
+      "Rarity": 2,
+      "BreakLevel": 3,
+      "Field_YYY": 26766,
+      "Field_ZZZ": 9000
+    },
+    {
+      "Rarity": 2,
+      "BreakLevel": 4,
+      "Field_YYY": 35688,
+      "Field_ZZZ": 12000
+    },
+    {
+      "Rarity": 2,
+      "BreakLevel": 5,
+      "Field_YYY": 44610,
+      "Field_ZZZ": 15000
+    },
+    {
+      "Rarity": 3,
+      "BreakLevel": 0,
+      "Field_YYY": 0,
+      "Field_ZZZ": 0
+    },
+    {
+      "Rarity": 3,
+      "BreakLevel": 1,
+      "Field_YYY": 8922,
+      "Field_ZZZ": 3000
+    },
+    {
+      "Rarity": 3,
+      "BreakLevel": 2,
+      "Field_YYY": 17844,
+      "Field_ZZZ": 6000
+    },
+    {
+      "Rarity": 3,
+      "BreakLevel": 3,
+      "Field_YYY": 26766,
+      "Field_ZZZ": 9000
+    },
+    {
+      "Rarity": 3,
+      "BreakLevel": 4,
+      "Field_YYY": 35688,
+      "Field_ZZZ": 12000
+    },
+    {
+      "Rarity": 3,
+      "BreakLevel": 5,
+      "Field_YYY": 44610,
+      "Field_ZZZ": 15000
+    },
+    {
+      "Rarity": 4,
+      "BreakLevel": 0,
+      "Field_YYY": 0,
+      "Field_ZZZ": 0
+    },
+    {
+      "Rarity": 4,
+      "BreakLevel": 1,
+      "Field_YYY": 8922,
+      "Field_ZZZ": 3000
+    },
+    {
+      "Rarity": 4,
+      "BreakLevel": 2,
+      "Field_YYY": 17844,
+      "Field_ZZZ": 6000
+    },
+    {
+      "Rarity": 4,
+      "BreakLevel": 3,
+      "Field_YYY": 26766,
+      "Field_ZZZ": 9000
+    },
+    {
+      "Rarity": 4,
+      "BreakLevel": 4,
+      "Field_YYY": 35688,
+      "Field_ZZZ": 12000
+    },
+    {
+      "Rarity": 4,
+      "BreakLevel": 5,
+      "Field_YYY": 44610,
+      "Field_ZZZ": 15000
+    }
+  ]
+}
