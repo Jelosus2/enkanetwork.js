@@ -45,6 +45,8 @@ export class ZZZShowcase {
         const propState = new PropState();
         propState.add(ZZZLayerGenerator.character({ avatarId: this.id, level: this.level, promotion: this.promotion, coreSkillEnhancement: this.coreSkillEnhancement }));
         propState.add(ZZZLayerGenerator.weapon({ weaponId: this.weapon.id, level: this.weapon.level, breakLevel: this.weapon.modificationLevel }));
+        propState.add(ZZZLayerGenerator.discDrives(this.discDrives));
+        propState.add(ZZZLayerGenerator.discDrivesSet(this.discDrives));
 
         return propState.sum("zzz").props;
     }

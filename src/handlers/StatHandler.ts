@@ -1,12 +1,15 @@
 /**	BASE CODE PROVIDED BY ALGOINDE, CREATOR OF ENKA.NETWORK **/
 
+import { meta, zzzcharacters, zzzweaponmeta, zzzweapon, zzzequipment, zzzdiscdrivemeta } from "../utils";
 import { SRLightCone, SRRelics, SRSkillTreeList } from "../structs";
-import { meta, zzzcharacters, zzzweaponmeta, zzzweapon } from "../utils";
+import { ZZZDiscDrive } from "../structs/Zenless/ZZZDiscDrive";
 
-const Meta: { [key: string]: any } = meta;
+const DiscDriveMeta: { [key: string]: any } = zzzdiscdrivemeta;
 const ZZZCharacters: { [key: string]: any } = zzzcharacters;
 const ZZZWeaponMeta: { [key: string]: any } = zzzweaponmeta;
+const DiscDrive: { [key: string]: any } = zzzequipment;
 const ZZZWeapon: { [key: string]: any } = zzzweapon;
+const Meta: { [key: string]: any } = meta;
 
 export class LayerGenerator {
 	
@@ -128,13 +131,59 @@ export class ZZZLayerGenerator {
 		const mainStatName = propIdToName(ref.MainStat.PropertyId);
 		const subStatName = propIdToName(ref.SecondaryStat.PropertyId);
 		// @ts-ignore
-		layer[mainStatName] = ["Critical", "Ratio"].some((r) => mainStatName.includes(r))
+		layer[mainStatName] = isPercentage(mainStatName)
 			? ref.MainStat.PropertyValue * (1 + ZZZWeaponMeta.levels[ref.Rarity][w.level] / 10000 + ZZZWeaponMeta.breakLevels[ref.Rarity][w.breakLevel].Field_YYY / 10000)
 			: Math.floor(ref.MainStat.PropertyValue * (1 + ZZZWeaponMeta.levels[ref.Rarity][w.level] / 10000 + ZZZWeaponMeta.breakLevels[ref.Rarity][w.breakLevel].Field_YYY / 10000));
 		// @ts-ignore	
-		layer[subStatName] = ["Critical", "Ratio"].some((r) => subStatName.includes(r))
+		layer[subStatName] = isPercentage(subStatName)
 			? ref.SecondaryStat.PropertyValue * (1 + ZZZWeaponMeta.breakLevels[ref.Rarity][w.breakLevel].Field_ZZZ / 10000)
 			: Math.floor(ref.SecondaryStat.PropertyValue * (1 + ZZZWeaponMeta.breakLevels[ref.Rarity][w.breakLevel].Field_ZZZ / 10000));
+		return layer;
+	}
+
+	static discDrives(dd: ZZZDiscDrive[]) {
+		const layer = new ZZZPropLayer("discDrive");
+		dd?.forEach((discdrive) => {
+			const ref = DiscDrive.Items[discdrive.id];
+			const mainStatName = propIdToName(discdrive.mainStat.id);
+			// @ts-ignore
+			layer[mainStatName] += isPercentage(mainStatName)
+				? discdrive.mainStat.baseValue * (1 + DiscDriveMeta[ref.Rarity][discdrive.level] / 10000)
+				: Math.floor(discdrive.mainStat.baseValue * (1 + DiscDriveMeta[ref.Rarity][discdrive.level] / 10000));
+
+			discdrive.substats.forEach((prop) => {
+				const propName = propIdToName(prop.id);
+				// @ts-ignore
+				layer[propName] += isPercentage(propName)
+					? prop.baseValue * prop.rolls
+					: Math.floor(prop.baseValue * prop.rolls);
+			});
+		});
+		return layer;
+	}
+
+	static discDrivesSet(dd: ZZZDiscDrive[]) {
+		const layer = new ZZZPropLayer("discDriveSet");
+		const sets = dd?.map((discdrive) => DiscDrive.Items[discdrive.id].SuitId);
+		const setNames: { [key: number]: number } = {};
+		sets.forEach((set: number) => {
+			if (!setNames[set])
+				setNames[set] = 0;
+
+			setNames[set]++;
+		});
+		const setList = Object.entries(setNames)
+			.map(([id, count]) => ({ id, count }))
+			.filter((s) => s.count > 1);
+		setList.forEach((set) => {
+			const { id, count } = set;
+			const ref = DiscDrive.Suits[id];
+			for (const prop in ref.SetBonusProps) {
+				const propName = propIdToName(+prop);
+				// @ts-ignore
+				layer[propName] += ref.SetBonusProps[prop]; 
+			}
+		});
 		return layer;
 	}
 }
@@ -482,29 +531,29 @@ export class ZZZPropLayer {
 			PropLayer.toProp("EnergyRegen", this.EnergyRegen / 100, this.BaseEnergyRegen / 100),
 			PropLayer.toProp("PenRatio", this.PenRatio, this.PenRatio),
 			PropLayer.toProp("Pen", this.Pen, this.Pen),
-			PropLayer.toProp("AddedPhysicalDamageRatio", this.AddedPhysicalDamageRatio, this.AddedPhysicalDamageRatio),
-			PropLayer.toProp("AddedFireDamageRatio", this.AddedFireDamageRatio, this.AddedFireDamageRatio),
-			PropLayer.toProp("AddedIceDamageRatio", this.AddedIceDamageRatio, this.AddedIceDamageRatio),
-			PropLayer.toProp("AddedElectricDamageRatio", this.AddedElectricDamageRatio, this.AddedElectricDamageRatio),
-			PropLayer.toProp("AddedEtherDamageRatio", this.AddedEtherDamageRatio, this.AddedEtherDamageRatio)
+			PropLayer.toProp("AddedPhysicalDamageRatio", this.AddedPhysicalDamageRatio / 10000, this.AddedPhysicalDamageRatio / 10000),
+			PropLayer.toProp("AddedFireDamageRatio", this.AddedFireDamageRatio / 10000, this.AddedFireDamageRatio / 10000),
+			PropLayer.toProp("AddedIceDamageRatio", this.AddedIceDamageRatio / 10000, this.AddedIceDamageRatio / 10000),
+			PropLayer.toProp("AddedElectricDamageRatio", this.AddedElectricDamageRatio / 10000, this.AddedElectricDamageRatio / 10000),
+			PropLayer.toProp("AddedEtherDamageRatio", this.AddedEtherDamageRatio / 10000, this.AddedEtherDamageRatio / 10000)
 		];
 	}
 
 	// TODO: change this
 	get HP() {
-		return this.BaseHP;
+		return this.BaseHP * (1 + this.HPRatio / 10000);
 	}
 
 	get Attack() {
-		return this.BaseAttack;
+		return this.BaseAttack * (1 + this.AttackRatio / 10000);
 	}
 
 	get Defence() {
-		return this.BaseDefence;
+		return this.BaseDefence * (1 + this.DefenceRatio  / 10000);
 	}
 
 	get Impact() {
-		return this.BaseImpact;
+		return this.BaseImpact * (1 + this.ImpactRatio / 10000);
 	}
 
 	get EnergyRegen() {
@@ -549,7 +598,7 @@ export function ifProp(pr: any, type: string): number | string {
 		}
 	}
 	if (pr.type.includes('Speed')) return pr.value?.toFixed(1)
-	const p = ['Ratio', 'Rate', 'Chance', 'Probability', 'Resistance', 'Damage'].some((r) => pr.type.includes(r));
+	const p = isPercentage(pr.type);
 	if (p) {
 		return (Math.floor(pr.value * 1000) / 10).toFixed(1) + '%';
 	}
@@ -597,4 +646,8 @@ function propIdToName(propertyId: number) {
 	};
 
 	return map[propertyId] || "";
+}
+
+function isPercentage(property: string): boolean {
+	return ['Ratio', 'Rate', 'Chance', 'Probability', 'Resistance', 'Damage'].some((r) => property.includes(r));
 }
