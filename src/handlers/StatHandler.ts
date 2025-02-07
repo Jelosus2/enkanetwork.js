@@ -118,7 +118,7 @@ export class ZZZLayerGenerator {
 		layer.BaseImpact = ref.BaseProps["12201"] + (ref.CoreEnhancementProps[c.coreSkillEnhancement]["12201"] || 0);
 		layer.CriticalChance = (ref.BaseProps["20101"] + (ref.CoreEnhancementProps[c.coreSkillEnhancement]["20101"] || 0));
 		layer.CriticalDamage = (ref.BaseProps["21101"] + (ref.CoreEnhancementProps[c.coreSkillEnhancement]["21101"] || 0));
-		layer.AnomalyMastery = ref.BaseProps["31401"] + (ref.CoreEnhancementProps[c.coreSkillEnhancement]["31401"] || 0);
+		layer.BaseAnomalyMastery = ref.BaseProps["31401"] + (ref.CoreEnhancementProps[c.coreSkillEnhancement]["31401"] || 0);
 		layer.AnomalyProficiency = ref.BaseProps["31201"] + (ref.CoreEnhancementProps[c.coreSkillEnhancement]["31201"] || 0);
 		layer.BaseEnergyRegen = (ref.BaseProps["30501"] + (ref.CoreEnhancementProps[c.coreSkillEnhancement]["30501"] || 0));
 		layer.PenRatio = (ref.CoreEnhancementProps[c.coreSkillEnhancement]["23101"] || 0);
@@ -464,18 +464,24 @@ export class ZZZPropLayer {
 	id: string;
 	BaseHP: number;
 	HPRatio: number;
+	FlatHP: number;
 	BaseAttack: number;
 	AttackRatio: number;
+	FlatAttack: number;
 	BaseDefence: number;
 	DefenceRatio: number;
+	FlatDefence: number;
 	BaseImpact: number;
 	ImpactRatio: number;
 	CriticalChance: number;
 	CriticalDamage: number;
-	AnomalyMastery: number;
+	BaseAnomalyMastery: number;
+	AnomalyMasteryRatio: number;
+	FlatAnomalyMastery: number;
 	AnomalyProficiency: number;
 	BaseEnergyRegen: number;
 	EnergyRegenRatio: number;
+	FlatEnergyRegen: number;
 	PenRatio: number;
 	Pen: number;
 	AddedPhysicalDamageRatio: number;
@@ -489,12 +495,15 @@ export class ZZZPropLayer {
 
 		this.BaseHP = 0;
 		this.HPRatio = 0;
+		this.FlatHP = 0;
 		
 		this.BaseAttack = 0;
 		this.AttackRatio = 0;
+		this.FlatAttack = 0;
 
 		this.BaseDefence = 0;
 		this.DefenceRatio = 0;
+		this.FlatDefence = 0;
 
 		this.BaseImpact = 0;
 		this.ImpactRatio = 0;
@@ -502,11 +511,14 @@ export class ZZZPropLayer {
 		this.CriticalChance = 0;
 		this.CriticalDamage = 0;
 
-		this.AnomalyMastery = 0;
+		this.BaseAnomalyMastery = 0;
+		this.AnomalyMasteryRatio = 0;
+		this.FlatAnomalyMastery = 0;
 		this.AnomalyProficiency = 0;
 
 		this.BaseEnergyRegen = 0;
 		this.EnergyRegenRatio = 0;
+		this.FlatEnergyRegen = 0;
 
 		this.PenRatio = 0;
 		this.Pen = 0;
@@ -526,7 +538,7 @@ export class ZZZPropLayer {
 			PropLayer.toProp("Impact", this.Impact, this.BaseImpact),
 			PropLayer.toProp("CriticalChance", this.CriticalChance / 10000, this.CriticalChance / 10000),
 			PropLayer.toProp("CriticalDamage", this.CriticalDamage / 10000, this.CriticalDamage / 10000),
-			PropLayer.toProp("AnomalyMastery", this.AnomalyMastery, this.AnomalyMastery),
+			PropLayer.toProp("AnomalyMastery", this.AnomalyMastery, this.BaseAnomalyMastery),
 			PropLayer.toProp("AnomalyProficiency", this.AnomalyProficiency, this.AnomalyProficiency),
 			PropLayer.toProp("EnergyRegen", this.EnergyRegen / 100, this.BaseEnergyRegen / 100),
 			PropLayer.toProp("PenRatio", this.PenRatio, this.PenRatio),
@@ -539,17 +551,16 @@ export class ZZZPropLayer {
 		];
 	}
 
-	// TODO: change this
 	get HP() {
-		return this.BaseHP * (1 + this.HPRatio / 10000);
+		return this.BaseHP * (1 + this.HPRatio / 10000) + this.FlatHP;
 	}
 
 	get Attack() {
-		return this.BaseAttack * (1 + this.AttackRatio / 10000);
+		return this.BaseAttack * (1 + this.AttackRatio / 10000) + this.FlatAttack;
 	}
 
 	get Defence() {
-		return this.BaseDefence * (1 + this.DefenceRatio  / 10000);
+		return this.BaseDefence * (1 + this.DefenceRatio  / 10000) + this.FlatDefence;
 	}
 
 	get Impact() {
@@ -557,7 +568,11 @@ export class ZZZPropLayer {
 	}
 
 	get EnergyRegen() {
-		return this.BaseEnergyRegen * (1 + this.EnergyRegenRatio / 10000);
+		return this.BaseEnergyRegen * (1 + this.EnergyRegenRatio / 10000) + this.FlatEnergyRegen;
+	}
+
+	get AnomalyMastery() {
+		return this.BaseAnomalyMastery * (1 + this.AnomalyMasteryRatio / 10000) + this.FlatAnomalyMastery;
 	}
 }
 
@@ -609,15 +624,15 @@ function propIdToName(propertyId: number) {
 	const map: { [key: number]: string } = {
 		11101: "BaseHP",
 		11102: "HPRatio",
-		11103: "BaseHP",
+		11103: "FlatHP",
 		12101: "BaseAttack",
 		12102: "AttackRatio",
-		12103: "BaseAttack",
+		12103: "FlatAttack",
 		12201: "BaseImpact",
 		12202: "ImpactRatio",
 		13101: "BaseDefence",
 		13102: "DefenceRatio",
-		13103: "BaseDefence",
+		13103: "FlatDefence",
 		20101: "CriticalChance",
 		20103: "CriticalChance",
 		21101: "CriticalDamage",
@@ -626,13 +641,14 @@ function propIdToName(propertyId: number) {
 		23103: "PenRatio",
 		23201: "Pen",
 		23203: "Pen",
-		30501: "EnergyRegen",
+		30501: "BaseEnergyRegen",
 		30502: "EnergyRegenRatio",
-		30503: "EnergyRegen",
+		30503: "FlatEnergyRegen",
 		31201: "AnomalyProficiency",
 		31203: "AnomalyProficiency",
-		31401: "AnomalyMastery",
-		31403: "AnomalyMastery",
+		31401: "BaseAnomalyMastery",
+		31402: "AnomalyMasteryRatio",
+		31403: "FlatAnomalyMastery",
 		31501: "AddedPhysicalDamageRatio",
 		31503: "AddedPhysicalDamageRatio",
 		31601: "AddedFireDamageRatio",
