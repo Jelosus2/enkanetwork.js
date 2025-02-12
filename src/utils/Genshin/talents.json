@@ -2374,5 +2374,29 @@
   "1086": {
     "nameTextMapHash": 759718953,
     "icon": "UI_Talent_S_Lanyan_04"
+  },
+  "1091": {
+    "nameTextMapHash": 3847762265,
+    "icon": "UI_Talent_S_Mizuki_01"
+  },
+  "1092": {
+    "nameTextMapHash": 2812066713,
+    "icon": "UI_Talent_S_Mizuki_02"
+  },
+  "1093": {
+    "nameTextMapHash": 3158765361,
+    "icon": "UI_Talent_U_Mizuki_01"
+  },
+  "1094": {
+    "nameTextMapHash": 646613513,
+    "icon": "UI_Talent_S_Mizuki_03"
+  },
+  "1095": {
+    "nameTextMapHash": 270821217,
+    "icon": "UI_Talent_U_Mizuki_02"
+  },
+  "1096": {
+    "nameTextMapHash": 2997427569,
+    "icon": "UI_Talent_S_Mizuki_04"
   }
 }

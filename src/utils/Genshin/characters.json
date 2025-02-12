@@ -2614,6 +2614,32 @@
       "11085"
     ]
   },
+  "10000109": {
+    "nameTextMapHash": 3784387538,
+    "element": "Anemo",
+    "icon": "UI_AvatarIcon_Mizuki",
+    "rarity": 5,
+    "sideIcon": "UI_AvatarIcon_Side_Mizuki",
+    "gachaIcon": "UI_Gacha_AvatarImg_Mizuki",
+    "constellations": [
+      "UI_Talent_S_Mizuki_01",
+      "UI_Talent_S_Mizuki_02",
+      "UI_Talent_U_Mizuki_01",
+      "UI_Talent_S_Mizuki_03",
+      "UI_Talent_U_Mizuki_02",
+      "UI_Talent_S_Mizuki_04"
+    ],
+    "skills": {
+      "normalAttack": "Skill_A_Catalyst_MD",
+      "elementalSkill": "Skill_S_Mizuki_01",
+      "elementalBurst": "Skill_E_Mizuki_01"
+    },
+    "skillOrder": [
+      "11091",
+      "11092",
+      "11095"
+    ]
+  },
   "10000901": {
     "nameTextMapHash": 3293134650,
     "element": "Pyro",

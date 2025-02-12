@@ -1807,6 +1807,30 @@
     "nameTextMapHash": 955135885,
     "icon": "Skill_E_Lanyan_01"
   },
+  "11091": {
+    "nameTextMapHash": 2187131877,
+    "icon": "Skill_A_Catalyst_MD"
+  },
+  "11092": {
+    "nameTextMapHash": 477826669,
+    "icon": "Skill_S_Mizuki_01"
+  },
+  "11093": {
+    "nameTextMapHash": 3283827149,
+    "icon": "Skill_S_Mizuki_02"
+  },
+  "11094": {
+    "nameTextMapHash": 3946945869,
+    "icon": "Skill_S_Mizuki_03"
+  },
+  "11095": {
+    "nameTextMapHash": 61788325,
+    "icon": "Skill_E_Mizuki_01"
+  },
+  "11096": {
+    "nameTextMapHash": 576585125,
+    "icon": "Skill_S_Mizuki_03"
+  },
   "11301": {
     "nameTextMapHash": 3802462781,
     "icon": "Skill_A_02"
@@ -2215,6 +2239,14 @@
     "nameTextMapHash": 638351709,
     "icon": "Btn_Blocking_Burst03"
   },
+  "20324": {
+    "nameTextMapHash": 3507642365,
+    "icon": "Btn_Blocking"
+  },
+  "20325": {
+    "nameTextMapHash": 692330325,
+    "icon": "Btn_Blocking_Burst04"
+  },
   "20330": {
     "nameTextMapHash": 1226553101,
     "icon": "Btn_Arana_Shoot"
@@ -2286,6 +2318,26 @@
   "20368": {
     "nameTextMapHash": 3016949661,
     "icon": "Btn_SpecialFocusAttack01"
+  },
+  "20370": {
+    "nameTextMapHash": 2151770221,
+    "icon": "Btn_MikawaFlower_Badminton_Racket"
+  },
+  "20371": {
+    "nameTextMapHash": 2637703269,
+    "icon": "Btn_MikawaFlower_Badminton_Ult"
+  },
+  "20372": {
+    "nameTextMapHash": 1597421109,
+    "icon": "Btn_BounceConjuring_Bomb_S_01"
+  },
+  "20373": {
+    "nameTextMapHash": 1223919101,
+    "icon": "Skill_PoetryFestival_PitchPot_Icon01"
+  },
+  "20374": {
+    "nameTextMapHash": 2300637645,
+    "icon": "Btn_FishingJoy_CatchFish_04"
   },
   "20400": {
     "nameTextMapHash": 2657714069,
@@ -3017,6 +3069,10 @@
   },
   "5108010": {
     "nameTextMapHash": 3111177309,
+    "icon": "Skill_A_Catalyst_MD"
+  },
+  "5109010": {
+    "nameTextMapHash": 3398462341,
     "icon": "Skill_A_Catalyst_MD"
   }
 }

@@ -8,6 +8,8 @@ A package to get data from the Enka API, for both Genshin and Star Rail, it also
 <details>
 	<summary>Click to expand</summary>
 
+  - v2.10.4:
+    - Added Genshin 5.4 version content.
   - v2.10.3:
 	  - Added Star Rail 3.0 version content.
 	  - Optimized the performance a bit.

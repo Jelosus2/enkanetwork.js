@@ -1821,5 +1821,29 @@
       "UI_NameCardPic_Bp38_Alpha",
       "UI_NameCardPic_Bp38_P"
     ]
+  },
+  "210233": {
+    "nameTextMapHash": 881031116,
+    "icon": "UI_NameCardIcon_Mizuki",
+    "picPath": [
+      "UI_NameCardPic_Mizuki_Alpha",
+      "UI_NameCardPic_Mizuki_P"
+    ]
+  },
+  "210234": {
+    "nameTextMapHash": 3271574436,
+    "icon": "UI_NameCardIcon_TowerChallenge",
+    "picPath": [
+      "UI_NameCardPic_TowerChallenge_Alpha",
+      "UI_NameCardPic_TowerChallenge_P"
+    ]
+  },
+  "210235": {
+    "nameTextMapHash": 3501907004,
+    "icon": "UI_NameCardIcon_Bp39",
+    "picPath": [
+      "UI_NameCardPic_Bp39_Alpha",
+      "UI_NameCardPic_Bp39_P"
+    ]
   }
 }

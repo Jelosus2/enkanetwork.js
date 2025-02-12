@@ -579,6 +579,11 @@
     "nameTextMapHash": 722604652,
     "oldIcon": "UI_AvatarIcon_Lanyan"
   },
+  "9400": {
+    "icon": "UI_AvatarIcon_Mizuki_Circle",
+    "nameTextMapHash": 3917183188,
+    "oldIcon": "UI_AvatarIcon_Mizuki"
+  },
   "99999": {
     "icon": "UI_AvatarIcon_Ambor_Circle",
     "nameTextMapHash": 3995351756,

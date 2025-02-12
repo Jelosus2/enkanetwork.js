@@ -785,6 +785,12 @@
     "nameTextMapHash": 415520051,
     "rarity": 4
   },
+  "13432": {
+    "icon": "UI_EquipIcon_Pole_Aoandon",
+    "awakenIcon": "UI_EquipIcon_Pole_Aoandon_Awaken",
+    "nameTextMapHash": 486513155,
+    "rarity": 4
+  },
   "13501": {
     "icon": "UI_EquipIcon_Pole_Homa",
     "awakenIcon": "UI_EquipIcon_Pole_Homa_Awaken",
@@ -1125,6 +1131,12 @@
     "icon": "UI_EquipIcon_Catalyst_Figurines",
     "awakenIcon": "UI_EquipIcon_Catalyst_Figurines_Awaken",
     "nameTextMapHash": 2466897131,
+    "rarity": 5
+  },
+  "14518": {
+    "icon": "UI_EquipIcon_Catalyst_SakuraFan",
+    "awakenIcon": "UI_EquipIcon_Catalyst_SakuraFan_Awaken",
+    "nameTextMapHash": 3790622667,
     "rarity": 5
   },
   "15101": {

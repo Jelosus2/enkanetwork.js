@@ -88,5 +88,17 @@
   },
   "31": {
     "difficultyLevel": 4
+  },
+  "32": {
+    "difficultyLevel": 1
+  },
+  "33": {
+    "difficultyLevel": 2
+  },
+  "34": {
+    "difficultyLevel": 3
+  },
+  "35": {
+    "difficultyLevel": 4
   }
 }
