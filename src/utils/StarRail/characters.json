@@ -1,6 +1,6 @@
 {
   "1001": {
-    "AvatarName": -531793651,
+    "AvatarName": "6186714091647966180",
     "Rarity": 4,
     "Element": "Ice",
     "AvatarBaseType": "Knight",
@@ -25,14 +25,14 @@
     "Skins": [
       {
         "ID": 1100101,
-        "AvatarSkinName": -1331071473,
+        "AvatarSkinName": "7417070089411963951",
         "AvatarCutinFrontImgPath": "SpriteOutput/AvatarDrawCard/AvatarSkin/1100101.png",
         "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/AvatarSkin/1100101.png"
       }
     ]
   },
   "1002": {
-    "AvatarName": -935078178,
+    "AvatarName": "10239807114774791393",
     "Rarity": 4,
     "Element": "Wind",
     "AvatarBaseType": "Rogue",
@@ -56,7 +56,7 @@
     ]
   },
   "1003": {
-    "AvatarName": 631005763,
+    "AvatarName": "17590286599225097191",
     "Rarity": 5,
     "Element": "Fire",
     "AvatarBaseType": "Mage",
@@ -80,7 +80,7 @@
     ]
   },
   "1004": {
-    "AvatarName": 227721236,
+    "AvatarName": "2178816269909174781",
     "Rarity": 5,
     "Element": "Imaginary",
     "AvatarBaseType": "Warlock",
@@ -104,7 +104,7 @@
     ]
   },
   "1005": {
-    "AvatarName": 1793805177,
+    "AvatarName": "831482934451783913",
     "Rarity": 5,
     "Element": "Thunder",
     "AvatarBaseType": "Warlock",
@@ -128,7 +128,7 @@
     ]
   },
   "1006": {
-    "AvatarName": 1390520650,
+    "AvatarName": "12437709666645057337",
     "Rarity": 5,
     "Element": "Quantum",
     "AvatarBaseType": "Warlock",
@@ -152,7 +152,7 @@
     ]
   },
   "1008": {
-    "AvatarName": 1840859344,
+    "AvatarName": "4959846561380667115",
     "Rarity": 4,
     "Element": "Thunder",
     "AvatarBaseType": "Warrior",
@@ -176,7 +176,7 @@
     ]
   },
   "1009": {
-    "AvatarName": -888024011,
+    "AvatarName": "1893706111363255403",
     "Rarity": 4,
     "Element": "Fire",
     "AvatarBaseType": "Shaman",
@@ -200,7 +200,7 @@
     ]
   },
   "1013": {
-    "AvatarName": 631005764,
+    "AvatarName": "6548832256366079839",
     "Rarity": 4,
     "Element": "Ice",
     "AvatarBaseType": "Mage",
@@ -224,7 +224,7 @@
     ]
   },
   "1101": {
-    "AvatarName": -2077674616,
+    "AvatarName": "12577335996298259768",
     "Rarity": 5,
     "Element": "Wind",
     "AvatarBaseType": "Shaman",
@@ -248,7 +248,7 @@
     ]
   },
   "1102": {
-    "AvatarName": 651208739,
+    "AvatarName": "11512502346378460564",
     "Rarity": 5,
     "Element": "Quantum",
     "AvatarBaseType": "Rogue",
@@ -272,7 +272,7 @@
     ]
   },
   "1103": {
-    "AvatarName": -914875202,
+    "AvatarName": "5848201789834711118",
     "Rarity": 4,
     "Element": "Thunder",
     "AvatarBaseType": "Mage",
@@ -296,7 +296,7 @@
     ]
   },
   "1104": {
-    "AvatarName": 1814008153,
+    "AvatarName": "4662720147964902997",
     "Rarity": 5,
     "Element": "Ice",
     "AvatarBaseType": "Knight",
@@ -320,7 +320,7 @@
     ]
   },
   "1105": {
-    "AvatarName": 247924212,
+    "AvatarName": "12514207603391426951",
     "Rarity": 4,
     "Element": "Physical",
     "AvatarBaseType": "Priest",
@@ -344,7 +344,7 @@
     ]
   },
   "1106": {
-    "AvatarName": -1318159729,
+    "AvatarName": "3030343134428618721",
     "Rarity": 4,
     "Element": "Ice",
     "AvatarBaseType": "Warlock",
@@ -368,7 +368,7 @@
     ]
   },
   "1107": {
-    "AvatarName": 1410723626,
+    "AvatarName": "4657497849737059681",
     "Rarity": 5,
     "Element": "Physical",
     "AvatarBaseType": "Warrior",
@@ -392,7 +392,7 @@
     ]
   },
   "1108": {
-    "AvatarName": -867821035,
+    "AvatarName": "3797624834743983017",
     "Rarity": 4,
     "Element": "Wind",
     "AvatarBaseType": "Warlock",
@@ -416,7 +416,7 @@
     ]
   },
   "1109": {
-    "AvatarName": 1861062320,
+    "AvatarName": "8885814719909498250",
     "Rarity": 4,
     "Element": "Fire",
     "AvatarBaseType": "Warrior",
@@ -441,7 +441,7 @@
     ]
   },
   "1110": {
-    "AvatarName": -511590674,
+    "AvatarName": "6300665444027651453",
     "Rarity": 4,
     "Element": "Quantum",
     "AvatarBaseType": "Priest",
@@ -465,7 +465,7 @@
     ]
   },
   "1111": {
-    "AvatarName": -2077674615,
+    "AvatarName": "5638032823797991781",
     "Rarity": 4,
     "Element": "Physical",
     "AvatarBaseType": "Warlock",
@@ -490,7 +490,7 @@
     ]
   },
   "1112": {
-    "AvatarName": 651208740,
+    "AvatarName": "11869199815763640258",
     "Rarity": 5,
     "Element": "Fire",
     "AvatarBaseType": "Rogue",
@@ -514,7 +514,7 @@
     ]
   },
   "1201": {
-    "AvatarName": -814118653,
+    "AvatarName": "16637763514010100144",
     "Rarity": 4,
     "Element": "Quantum",
     "AvatarBaseType": "Mage",
@@ -539,7 +539,7 @@
     ]
   },
   "1202": {
-    "AvatarName": 751965288,
+    "AvatarName": "8701250082145497679",
     "Rarity": 4,
     "Element": "Thunder",
     "AvatarBaseType": "Shaman",
@@ -563,7 +563,7 @@
     ]
   },
   "1203": {
-    "AvatarName": -1976918067,
+    "AvatarName": "2482429559561780479",
     "Rarity": 5,
     "Element": "Imaginary",
     "AvatarBaseType": "Priest",
@@ -587,7 +587,7 @@
     ]
   },
   "1204": {
-    "AvatarName": -54603766,
+    "AvatarName": "330404745587936068",
     "Rarity": 5,
     "Element": "Thunder",
     "AvatarBaseType": "Mage",
@@ -611,7 +611,7 @@
     ]
   },
   "1205": {
-    "AvatarName": 1511480175,
+    "AvatarName": "4951589951007146550",
     "Rarity": 5,
     "Element": "Wind",
     "AvatarBaseType": "Warrior",
@@ -636,7 +636,7 @@
     ]
   },
   "1206": {
-    "AvatarName": -1217403180,
+    "AvatarName": "4806955196389400116",
     "Rarity": 4,
     "Element": "Physical",
     "AvatarBaseType": "Rogue",
@@ -660,7 +660,7 @@
     ]
   },
   "1207": {
-    "AvatarName": 348680761,
+    "AvatarName": "1140041957738323619",
     "Rarity": 4,
     "Element": "Imaginary",
     "AvatarBaseType": "Shaman",
@@ -684,7 +684,7 @@
     ]
   },
   "1208": {
-    "AvatarName": 1558534342,
+    "AvatarName": "10351737015595052238",
     "Rarity": 5,
     "Element": "Quantum",
     "AvatarBaseType": "Knight",
@@ -708,7 +708,7 @@
     ]
   },
   "1209": {
-    "AvatarName": -1170349013,
+    "AvatarName": "1960800194395687973",
     "Rarity": 5,
     "Element": "Ice",
     "AvatarBaseType": "Rogue",
@@ -732,7 +732,7 @@
     ]
   },
   "1210": {
-    "AvatarName": 1914764703,
+    "AvatarName": "13845204571586703663",
     "Rarity": 4,
     "Element": "Fire",
     "AvatarBaseType": "Warlock",
@@ -756,7 +756,7 @@
     ]
   },
   "1211": {
-    "AvatarName": -814118652,
+    "AvatarName": "13619135324463789256",
     "Rarity": 5,
     "Element": "Thunder",
     "AvatarBaseType": "Priest",
@@ -780,7 +780,7 @@
     ]
   },
   "1212": {
-    "AvatarName": 751965289,
+    "AvatarName": "940795027444042330",
     "Rarity": 5,
     "Element": "Ice",
     "AvatarBaseType": "Warrior",
@@ -805,7 +805,7 @@
     ]
   },
   "1213": {
-    "AvatarName": -1976918066,
+    "AvatarName": "12834585016341721411",
     "Rarity": 5,
     "Element": "Imaginary",
     "AvatarBaseType": "Warrior",
@@ -833,7 +833,7 @@
     ]
   },
   "1214": {
-    "AvatarName": -54603765,
+    "AvatarName": "11495763016926788582",
     "Rarity": 4,
     "Element": "Quantum",
     "AvatarBaseType": "Warrior",
@@ -857,7 +857,7 @@
     ]
   },
   "1215": {
-    "AvatarName": 1511480176,
+    "AvatarName": "8944718300027499818",
     "Rarity": 4,
     "Element": "Physical",
     "AvatarBaseType": "Shaman",
@@ -881,7 +881,7 @@
     ]
   },
   "1217": {
-    "AvatarName": 348680762,
+    "AvatarName": "12871454551122846403",
     "Rarity": 5,
     "Element": "Wind",
     "AvatarBaseType": "Priest",
@@ -905,7 +905,7 @@
     ]
   },
   "1218": {
-    "AvatarName": 1558534343,
+    "AvatarName": "8300000119407817972",
     "Rarity": 5,
     "Element": "Fire",
     "AvatarBaseType": "Warlock",
@@ -929,7 +929,7 @@
     ]
   },
   "1220": {
-    "AvatarName": 1914764700,
+    "AvatarName": "640945362161159110",
     "Rarity": 5,
     "Element": "Wind",
     "AvatarBaseType": "Rogue",
@@ -956,7 +956,7 @@
     ]
   },
   "1221": {
-    "AvatarName": -814118655,
+    "AvatarName": "15084362025105138520",
     "Rarity": 5,
     "Element": "Physical",
     "AvatarBaseType": "Warrior",
@@ -980,7 +980,7 @@
     ]
   },
   "1222": {
-    "AvatarName": 751965286,
+    "AvatarName": "1890772581194122354",
     "Rarity": 5,
     "Element": "Fire",
     "AvatarBaseType": "Priest",
@@ -1004,7 +1004,7 @@
     ]
   },
   "1223": {
-    "AvatarName": -1976918069,
+    "AvatarName": "581825062468630609",
     "Rarity": 4,
     "Element": "Thunder",
     "AvatarBaseType": "Rogue",
@@ -1028,7 +1028,7 @@
     ]
   },
   "1224": {
-    "AvatarName": -54603768,
+    "AvatarName": "16417870574330506928",
     "Rarity": 4,
     "Element": "Imaginary",
     "AvatarBaseType": "Rogue",
@@ -1053,7 +1053,7 @@
     ]
   },
   "1225": {
-    "AvatarName": 1511480173,
+    "AvatarName": "3056810111125476882",
     "Rarity": 5,
     "Element": "Fire",
     "AvatarBaseType": "Warlock",
@@ -1078,7 +1078,7 @@
     ]
   },
   "1301": {
-    "AvatarName": 1934967678,
+    "AvatarName": "6816343973270607908",
     "Rarity": 4,
     "Element": "Fire",
     "AvatarBaseType": "Priest",
@@ -1103,7 +1103,7 @@
     ]
   },
   "1302": {
-    "AvatarName": -1956715091,
+    "AvatarName": "16607369145002760691",
     "Rarity": 5,
     "Element": "Physical",
     "AvatarBaseType": "Mage",
@@ -1128,7 +1128,7 @@
     ]
   },
   "1303": {
-    "AvatarName": 772168264,
+    "AvatarName": "6427183216833446662",
     "Rarity": 5,
     "Element": "Ice",
     "AvatarBaseType": "Shaman",
@@ -1152,7 +1152,7 @@
     ]
   },
   "1304": {
-    "AvatarName": 1531683151,
+    "AvatarName": "1512189965928596940",
     "Rarity": 5,
     "Element": "Imaginary",
     "AvatarBaseType": "Knight",
@@ -1176,7 +1176,7 @@
     ]
   },
   "1305": {
-    "AvatarName": -34400790,
+    "AvatarName": "5574869376996182732",
     "Rarity": 5,
     "Element": "Imaginary",
     "AvatarBaseType": "Rogue",
@@ -1200,7 +1200,7 @@
     ]
   },
   "1306": {
-    "AvatarName": 368883737,
+    "AvatarName": "1154772689835031402",
     "Rarity": 5,
     "Element": "Quantum",
     "AvatarBaseType": "Shaman",
@@ -1224,7 +1224,7 @@
     ]
   },
   "1307": {
-    "AvatarName": -1197200204,
+    "AvatarName": "5006907115971129934",
     "Rarity": 5,
     "Element": "Wind",
     "AvatarBaseType": "Warlock",
@@ -1248,7 +1248,7 @@
     ]
   },
   "1308": {
-    "AvatarName": -1150146037,
+    "AvatarName": "15302882570557665677",
     "Rarity": 5,
     "Element": "Thunder",
     "AvatarBaseType": "Warlock",
@@ -1276,7 +1276,7 @@
     ]
   },
   "1309": {
-    "AvatarName": 1578737318,
+    "AvatarName": "16319070348582555665",
     "Rarity": 5,
     "Element": "Physical",
     "AvatarBaseType": "Shaman",
@@ -1300,7 +1300,7 @@
     ]
   },
   "1310": {
-    "AvatarName": -793915676,
+    "AvatarName": "17277451216686117891",
     "Rarity": 5,
     "Element": "Fire",
     "AvatarBaseType": "Warrior",
@@ -1326,7 +1326,7 @@
     ]
   },
   "1312": {
-    "AvatarName": -1956715090,
+    "AvatarName": "15577682837980439839",
     "Rarity": 4,
     "Element": "Ice",
     "AvatarBaseType": "Warrior",
@@ -1350,7 +1350,7 @@
     ]
   },
   "1313": {
-    "AvatarName": 772168265,
+    "AvatarName": "7913253176711977067",
     "Rarity": 5,
     "Element": "Imaginary",
     "AvatarBaseType": "Shaman",
@@ -1374,7 +1374,7 @@
     ]
   },
   "1314": {
-    "AvatarName": 1531683152,
+    "AvatarName": "2887610941167968962",
     "Rarity": 5,
     "Element": "Quantum",
     "AvatarBaseType": "Mage",
@@ -1398,7 +1398,7 @@
     ]
   },
   "1315": {
-    "AvatarName": -34400789,
+    "AvatarName": "6424512602058263868",
     "Rarity": 5,
     "Element": "Physical",
     "AvatarBaseType": "Rogue",
@@ -1423,7 +1423,7 @@
     ]
   },
   "1317": {
-    "AvatarName": -1197200203,
+    "AvatarName": "9807064938372011036",
     "Rarity": 5,
     "Element": "Imaginary",
     "AvatarBaseType": "Mage",
@@ -1451,7 +1451,7 @@
     ]
   },
   "1401": {
-    "AvatarName": -1096443655,
+    "AvatarName": "4559632095226063367",
     "Rarity": 5,
     "Element": "Ice",
     "AvatarBaseType": "Mage",
@@ -1476,7 +1476,7 @@
     ]
   },
   "1402": {
-    "AvatarName": -1499728182,
+    "AvatarName": "764283421684818925",
     "Rarity": 5,
     "Element": "Thunder",
     "AvatarBaseType": "Memory",
@@ -1501,8 +1501,58 @@
       140209
     ]
   },
+  "1403": {
+    "AvatarName": "15410848306228341212",
+    "Rarity": 5,
+    "Element": "Quantum",
+    "AvatarBaseType": "Shaman",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/Avatar/1403.png",
+    "AvatarCutinFrontImgPath": "SpriteOutput/AvatarDrawCard/1403.png",
+    "RankIDList": [
+      140301,
+      140302,
+      140303,
+      140304,
+      140305,
+      140306
+    ],
+    "SkillList": [
+      140301,
+      140302,
+      140303,
+      140304,
+      140306,
+      140307
+    ]
+  },
+  "1404": {
+    "AvatarName": "13777984539817850592",
+    "Rarity": 5,
+    "Element": "Imaginary",
+    "AvatarBaseType": "Warrior",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/Avatar/1404.png",
+    "AvatarCutinFrontImgPath": "SpriteOutput/AvatarDrawCard/1404.png",
+    "RankIDList": [
+      140401,
+      140402,
+      140403,
+      140404,
+      140405,
+      140406
+    ],
+    "SkillList": [
+      140401,
+      140402,
+      140403,
+      140404,
+      140406,
+      140407,
+      140409,
+      140411
+    ]
+  },
   "8001": {
-    "AvatarName": -531793818,
+    "AvatarName": "15351791685587679468",
     "Rarity": 5,
     "Element": "Physical",
     "AvatarBaseType": "Warrior",
@@ -1528,7 +1578,7 @@
     ]
   },
   "8002": {
-    "AvatarName": -935078345,
+    "AvatarName": "915414112326692585",
     "Rarity": 5,
     "Element": "Physical",
     "AvatarBaseType": "Warrior",
@@ -1554,7 +1604,7 @@
     ]
   },
   "8003": {
-    "AvatarName": 631005596,
+    "AvatarName": "1401066943349888144",
     "Rarity": 5,
     "Element": "Fire",
     "AvatarBaseType": "Knight",
@@ -1579,7 +1629,7 @@
     ]
   },
   "8004": {
-    "AvatarName": 227721069,
+    "AvatarName": "12002536695852490847",
     "Rarity": 5,
     "Element": "Fire",
     "AvatarBaseType": "Knight",
@@ -1604,7 +1654,7 @@
     ]
   },
   "8005": {
-    "AvatarName": 1793805010,
+    "AvatarName": "10447948767909792082",
     "Rarity": 5,
     "Element": "Imaginary",
     "AvatarBaseType": "Shaman",
@@ -1628,7 +1678,7 @@
     ]
   },
   "8006": {
-    "AvatarName": 1390520483,
+    "AvatarName": "10393121115260878389",
     "Rarity": 5,
     "Element": "Imaginary",
     "AvatarBaseType": "Shaman",
@@ -1652,7 +1702,7 @@
     ]
   },
   "8007": {
-    "AvatarName": -1338362872,
+    "AvatarName": "16176654588635246657",
     "Rarity": 5,
     "Element": "Ice",
     "AvatarBaseType": "Memory",
@@ -1677,7 +1727,7 @@
     ]
   },
   "8008": {
-    "AvatarName": 1840859177,
+    "AvatarName": "4088185837206355760",
     "Rarity": 5,
     "Element": "Ice",
     "AvatarBaseType": "Memory",

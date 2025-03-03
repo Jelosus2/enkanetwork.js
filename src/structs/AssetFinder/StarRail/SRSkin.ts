@@ -1,7 +1,7 @@
 import { SRCharacterSkin } from "../../../types";
 import { starrailFinder, skins as sContent } from "../../../utils";
 
-const skins: { [key: string]: SRCharacterSkin } = sContent;
+const skins: { [key: string]: SRCharacterSkin } = sContent as any;
 
 /**
  * A class that structures the character skin assets.
