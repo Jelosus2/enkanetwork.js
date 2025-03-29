@@ -1831,6 +1831,66 @@
     "nameTextMapHash": 576585125,
     "icon": "Skill_S_Mizuki_03"
   },
+  "11101": {
+    "nameTextMapHash": 622065069,
+    "icon": "Skill_A_03"
+  },
+  "11102": {
+    "nameTextMapHash": 1283395933,
+    "icon": "Skill_S_Iansan_01"
+  },
+  "11103": {
+    "nameTextMapHash": 3504960925,
+    "icon": "Skill_S_Iansan_01"
+  },
+  "11104": {
+    "nameTextMapHash": 3948833789,
+    "icon": "Skill_S_Iansan_02"
+  },
+  "11105": {
+    "nameTextMapHash": 1618656357,
+    "icon": "Skill_E_Iansan_01"
+  },
+  "11106": {
+    "nameTextMapHash": 3518010109,
+    "icon": "Skill_A_03"
+  },
+  "11107": {
+    "nameTextMapHash": 4172701821,
+    "icon": "Skill_S_Iansan_03"
+  },
+  "11108": {
+    "nameTextMapHash": 507264525,
+    "icon": "Skill_S_Iansan_04"
+  },
+  "11111": {
+    "nameTextMapHash": 2845699173,
+    "icon": "Skill_A_Catalyst_MD"
+  },
+  "11112": {
+    "nameTextMapHash": 3483880861,
+    "icon": "Skill_S_Varesa_01"
+  },
+  "11115": {
+    "nameTextMapHash": 3751137453,
+    "icon": "Skill_E_Varesa_01"
+  },
+  "11116": {
+    "nameTextMapHash": 1590892533,
+    "icon": "Skill_E_Varesa_01"
+  },
+  "11117": {
+    "nameTextMapHash": 1690545613,
+    "icon": "Skill_S_Varesa_02"
+  },
+  "11118": {
+    "nameTextMapHash": 2441544661,
+    "icon": "Skill_S_Varesa_01"
+  },
+  "11119": {
+    "nameTextMapHash": 272134381,
+    "icon": "Skill_S_Varesa_01"
+  },
   "11301": {
     "nameTextMapHash": 3802462781,
     "icon": "Skill_A_02"
@@ -2257,7 +2317,7 @@
   },
   "20340": {
     "nameTextMapHash": 3940661125,
-    "icon": "Btn_BrickBreaker_Launch"
+    "icon": "Btn_BrickBreakerV2_Launch"
   },
   "20341": {
     "nameTextMapHash": 1126378797,
@@ -2478,6 +2538,22 @@
   "20541": {
     "nameTextMapHash": 3465751389,
     "icon": "Btn_HideAndSeekV4_Seeker_A_01"
+  },
+  "20565": {
+    "nameTextMapHash": 1447309893,
+    "icon": "Skill_CarpJump_01"
+  },
+  "20566": {
+    "nameTextMapHash": 1376838525,
+    "icon": "Btn_Fishing_Exit"
+  },
+  "20567": {
+    "nameTextMapHash": 3416458741,
+    "icon": "Btn_Fishing_Exit"
+  },
+  "20568": {
+    "nameTextMapHash": 3666474037,
+    "icon": "Btn_Fishing_Exit"
   },
   "20569": {
     "nameTextMapHash": 2957024869,
@@ -3073,6 +3149,14 @@
   },
   "5109010": {
     "nameTextMapHash": 3398462341,
+    "icon": "Skill_A_Catalyst_MD"
+  },
+  "5110010": {
+    "nameTextMapHash": 3255825741,
+    "icon": "Skill_A_03"
+  },
+  "5111010": {
+    "nameTextMapHash": 2053063149,
     "icon": "Skill_A_Catalyst_MD"
   }
 }

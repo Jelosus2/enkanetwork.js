@@ -584,6 +584,16 @@
     "nameTextMapHash": 3917183188,
     "oldIcon": "UI_AvatarIcon_Mizuki"
   },
+  "9500": {
+    "icon": "UI_AvatarIcon_Iansan_Circle",
+    "nameTextMapHash": 1556759108,
+    "oldIcon": "UI_AvatarIcon_Iansan"
+  },
+  "9600": {
+    "icon": "UI_AvatarIcon_Varesa_Circle",
+    "nameTextMapHash": 1196917500,
+    "oldIcon": "UI_AvatarIcon_Varesa"
+  },
   "99999": {
     "icon": "UI_AvatarIcon_Ambor_Circle",
     "nameTextMapHash": 3995351756,
@@ -664,5 +674,13 @@
   "100190": {
     "icon": "UI_AvatarIcon_75048_Circle",
     "nameTextMapHash": 481603884
+  },
+  "100200": {
+    "icon": "UI_AvatarIcon_75151_Circle",
+    "nameTextMapHash": 2507956356
+  },
+  "100210": {
+    "icon": "UI_AvatarIcon_75177_Circle",
+    "nameTextMapHash": 1465870260
   }
 }

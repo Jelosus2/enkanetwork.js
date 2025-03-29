@@ -2398,5 +2398,53 @@
   "1096": {
     "nameTextMapHash": 2997427569,
     "icon": "UI_Talent_S_Mizuki_04"
+  },
+  "1101": {
+    "nameTextMapHash": 2256667785,
+    "icon": "UI_Talent_S_Iansan_01"
+  },
+  "1102": {
+    "nameTextMapHash": 587053929,
+    "icon": "UI_Talent_S_Iansan_02"
+  },
+  "1103": {
+    "nameTextMapHash": 1214735625,
+    "icon": "UI_Talent_U_Iansan_01"
+  },
+  "1104": {
+    "nameTextMapHash": 432086121,
+    "icon": "UI_Talent_S_Iansan_03"
+  },
+  "1105": {
+    "nameTextMapHash": 2367612865,
+    "icon": "UI_Talent_U_Iansan_02"
+  },
+  "1106": {
+    "nameTextMapHash": 916377537,
+    "icon": "UI_Talent_S_Iansan_04"
+  },
+  "1111": {
+    "nameTextMapHash": 2869313281,
+    "icon": "UI_Talent_S_Varesa_01"
+  },
+  "1112": {
+    "nameTextMapHash": 4263704577,
+    "icon": "UI_Talent_S_Varesa_02"
+  },
+  "1113": {
+    "nameTextMapHash": 595030209,
+    "icon": "UI_Talent_U_Varesa_01"
+  },
+  "1114": {
+    "nameTextMapHash": 2869666793,
+    "icon": "UI_Talent_S_Varesa_03"
+  },
+  "1115": {
+    "nameTextMapHash": 1174459249,
+    "icon": "UI_Talent_U_Varesa_02"
+  },
+  "1116": {
+    "nameTextMapHash": 1661118537,
+    "icon": "UI_Talent_S_Varesa_04"
   }
 }

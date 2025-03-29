@@ -1845,5 +1845,45 @@
       "UI_NameCardPic_Bp39_Alpha",
       "UI_NameCardPic_Bp39_P"
     ]
+  },
+  "210236": {
+    "nameTextMapHash": 1843453484,
+    "icon": "UI_NameCardIcon_Varesa",
+    "picPath": [
+      "UI_NameCardPic_Varesa_Alpha",
+      "UI_NameCardPic_Varesa_P"
+    ]
+  },
+  "210237": {
+    "nameTextMapHash": 211293332,
+    "icon": "UI_NameCardIcon_Iansan",
+    "picPath": [
+      "UI_NameCardPic_Iansan_Alpha",
+      "UI_NameCardPic_Iansan_P"
+    ]
+  },
+  "210238": {
+    "nameTextMapHash": 3534009820,
+    "icon": "UI_NameCardIcon_Natlan3",
+    "picPath": [
+      "UI_NameCardPic_Natlan3_Alpha",
+      "UI_NameCardPic_Natlan3_P"
+    ]
+  },
+  "210239": {
+    "nameTextMapHash": 1139221932,
+    "icon": "UI_NameCardIcon_Dfcq3",
+    "picPath": [
+      "UI_NameCardPic_Dfcq3_Alpha",
+      "UI_NameCardPic_Dfcq3_P"
+    ]
+  },
+  "210240": {
+    "nameTextMapHash": 3539964212,
+    "icon": "UI_NameCardIcon_Bp40",
+    "picPath": [
+      "UI_NameCardPic_Bp40_Alpha",
+      "UI_NameCardPic_Bp40_P"
+    ]
   }
 }

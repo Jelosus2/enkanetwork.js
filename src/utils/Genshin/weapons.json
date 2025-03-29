@@ -1139,6 +1139,12 @@
     "nameTextMapHash": 3790622667,
     "rarity": 5
   },
+  "14519": {
+    "icon": "UI_EquipIcon_Catalyst_VaresaTransformer",
+    "awakenIcon": "UI_EquipIcon_Catalyst_VaresaTransformer_Awaken",
+    "nameTextMapHash": 2559426851,
+    "rarity": 5
+  },
   "15101": {
     "icon": "UI_EquipIcon_Bow_Hunters",
     "awakenIcon": "UI_EquipIcon_Bow_Hunters_Awaken",

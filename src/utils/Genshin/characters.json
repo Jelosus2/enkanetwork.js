@@ -2640,107 +2640,56 @@
       "11095"
     ]
   },
-  "10000901": {
-    "nameTextMapHash": 3293134650,
-    "element": "Pyro",
-    "icon": "UI_AvatarIcon_Mavuika",
-    "rarity": 5,
-    "sideIcon": "UI_AvatarIcon_Side_Mavuika",
-    "gachaIcon": "UI_Gacha_AvatarImg_Mavuika",
-    "constellations": [
-      "UI_Talent_S_Xiangling_01",
-      "UI_Talent_S_Xiangling_02",
-      "UI_Talent_U_Xiangling_02",
-      "UI_Talent_S_Xiangling_03",
-      "UI_Talent_U_Xiangling_01",
-      "UI_Talent_S_Xiangling_04"
-    ],
-    "skills": {
-      "normalAttack": "Skill_A_03",
-      "elementalSkill": "Skill_S_Xiangling_01",
-      "elementalBurst": "Skill_E_Xiangling_01"
-    },
-    "skillOrder": [
-      "10231",
-      "10232",
-      "10235"
-    ]
-  },
-  "10000902": {
-    "nameTextMapHash": 853394138,
-    "element": "Pyro",
-    "icon": "UI_AvatarIcon_Hutao",
-    "rarity": 5,
-    "sideIcon": "UI_AvatarIcon_Side_Hutao",
-    "gachaIcon": "UI_Gacha_AvatarImg_Hutao",
-    "constellations": [
-      "UI_Talent_S_Hutao_03",
-      "UI_Talent_S_Hutao_01",
-      "UI_Talent_U_Hutao_01",
-      "UI_Talent_S_Hutao_02",
-      "UI_Talent_U_Hutao_02",
-      "UI_Talent_S_Hutao_04"
-    ],
-    "skills": {
-      "normalAttack": "Skill_A_03",
-      "elementalSkill": "Skill_S_Hutao_01",
-      "elementalBurst": "Skill_E_Hutao_01"
-    },
-    "skillOrder": [
-      "10461",
-      "10462",
-      "10463"
-    ]
-  },
-  "11000046": {
-    "nameTextMapHash": 3986000746,
-    "element": "Cryo",
-    "icon": "UI_AvatarIcon_Qin",
+  "10000110": {
+    "nameTextMapHash": 3120492514,
+    "element": "Electro",
+    "icon": "UI_AvatarIcon_Iansan",
     "rarity": 4,
-    "sideIcon": "UI_AvatarIcon_Side_Qin",
-    "gachaIcon": "UI_Gacha_AvatarImg_Qin",
+    "sideIcon": "UI_AvatarIcon_Side_Iansan",
+    "gachaIcon": "UI_Gacha_AvatarImg_Iansan",
     "constellations": [
-      "UI_Talent_S_Kaeya_01",
-      "UI_Talent_S_Kaeya_02",
-      "UI_Talent_U_Kaeya_01",
-      "UI_Talent_S_Kaeya_03",
-      "UI_Talent_U_Kaeya_02",
-      "UI_Talent_S_Kaeya_04"
+      "UI_Talent_S_Iansan_01",
+      "UI_Talent_S_Iansan_02",
+      "UI_Talent_U_Iansan_01",
+      "UI_Talent_S_Iansan_03",
+      "UI_Talent_U_Iansan_02",
+      "UI_Talent_S_Iansan_04"
     ],
     "skills": {
-      "normalAttack": "Skill_A_01",
-      "elementalSkill": "Skill_S_Kaeya_01",
-      "elementalBurst": "Skill_E_Kaeya_01"
+      "normalAttack": "Skill_A_03",
+      "elementalSkill": "Skill_S_Iansan_01",
+      "elementalBurst": "Skill_E_Iansan_01"
     },
     "skillOrder": [
-      "10073",
-      "10074",
-      "10075"
+      "11101",
+      "11102",
+      "11105"
     ]
   },
-  "10000005-501": {
-    "nameTextMapHash": 3816664530,
-    "icon": "UI_AvatarIcon_PlayerBoy",
+  "10000111": {
+    "nameTextMapHash": 283438874,
+    "element": "Electro",
+    "icon": "UI_AvatarIcon_Varesa",
     "rarity": 5,
-    "sideIcon": "UI_AvatarIcon_Side_PlayerBoy",
-    "gachaIcon": "UI_Gacha_AvatarImg_PlayerBoy",
+    "sideIcon": "UI_AvatarIcon_Side_Varesa",
+    "gachaIcon": "UI_Gacha_AvatarImg_Varesa",
     "constellations": [
-      "None",
-      "None",
-      "None",
-      "None",
-      "None",
-      "None"
+      "UI_Talent_S_Varesa_01",
+      "UI_Talent_S_Varesa_02",
+      "UI_Talent_U_Varesa_01",
+      "UI_Talent_S_Varesa_03",
+      "UI_Talent_U_Varesa_02",
+      "UI_Talent_S_Varesa_04"
     ],
     "skills": {
-      "normalAttack": "Skill_A_01",
-      "elementalSkill": "None",
-      "elementalBurst": "None"
+      "normalAttack": "Skill_A_Catalyst_MD",
+      "elementalSkill": "Skill_S_Varesa_01",
+      "elementalBurst": "Skill_E_Varesa_01"
     },
     "skillOrder": [
-      "100540",
-      "10067",
-      "10068"
+      "11111",
+      "11112",
+      "11115"
     ]
   },
   "10000005-502": {
@@ -2897,6 +2846,31 @@
       "100547",
       "10117",
       "10118"
+    ]
+  },
+  "10000005-501": {
+    "nameTextMapHash": 3816664530,
+    "icon": "UI_AvatarIcon_PlayerBoy",
+    "rarity": 5,
+    "sideIcon": "UI_AvatarIcon_Side_PlayerBoy",
+    "gachaIcon": "UI_Gacha_AvatarImg_PlayerBoy",
+    "constellations": [
+      "None",
+      "None",
+      "None",
+      "None",
+      "None",
+      "None"
+    ],
+    "skills": {
+      "normalAttack": "Skill_A_01",
+      "elementalSkill": "None",
+      "elementalBurst": "None"
+    },
+    "skillOrder": [
+      "100540",
+      "10067",
+      "10068"
     ]
   },
   "10000007-701": {
