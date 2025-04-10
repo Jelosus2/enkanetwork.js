@@ -1,6 +1,6 @@
 {
   "name": "enkanetwork.js",
-  "version": "2.10.6",
+  "version": "2.10.7",
   "description": "An API wrapper for the API of the Enka.Network website",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

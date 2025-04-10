@@ -1551,6 +1551,55 @@
       140411
     ]
   },
+  "1405": {
+    "AvatarName": "14399225845844956184",
+    "Rarity": 5,
+    "Element": "Wind",
+    "AvatarBaseType": "Mage",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/Avatar/1405.png",
+    "AvatarCutinFrontImgPath": "SpriteOutput/AvatarDrawCard/1405.png",
+    "RankIDList": [
+      140501,
+      140502,
+      140503,
+      140504,
+      140505,
+      140506
+    ],
+    "SkillList": [
+      140501,
+      140502,
+      140503,
+      140504,
+      140506,
+      140507
+    ]
+  },
+  "1407": {
+    "AvatarName": "6284038990417808171",
+    "Rarity": 5,
+    "Element": "Quantum",
+    "AvatarBaseType": "Memory",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/Avatar/1407.png",
+    "AvatarCutinFrontImgPath": "SpriteOutput/AvatarDrawCard/1407.png",
+    "RankIDList": [
+      140701,
+      140702,
+      140703,
+      140704,
+      140705,
+      140706
+    ],
+    "SkillList": [
+      140701,
+      140702,
+      140703,
+      140704,
+      140706,
+      140707,
+      140709
+    ]
+  },
   "8001": {
     "AvatarName": "15351791685587679468",
     "Rarity": 5,

@@ -473,6 +473,12 @@
     "EquipmentName": "3181001684884320491",
     "ImagePath": "SpriteOutput/LightConeFigures/22003.png"
   },
+  "22004": {
+    "Rarity": 4,
+    "AvatarBaseType": "Mage",
+    "EquipmentName": "14528966166175872583",
+    "ImagePath": "SpriteOutput/LightConeFigures/22004.png"
+  },
   "23000": {
     "Rarity": 5,
     "AvatarBaseType": "Mage",
@@ -712,6 +718,18 @@
     "AvatarBaseType": "Warrior",
     "EquipmentName": "10640455180150177057",
     "ImagePath": "SpriteOutput/LightConeFigures/23039.png"
+  },
+  "23040": {
+    "Rarity": 5,
+    "AvatarBaseType": "Memory",
+    "EquipmentName": "17921507779222204537",
+    "ImagePath": "SpriteOutput/LightConeFigures/23040.png"
+  },
+  "23041": {
+    "Rarity": 5,
+    "AvatarBaseType": "Mage",
+    "EquipmentName": "12290078682480906936",
+    "ImagePath": "SpriteOutput/LightConeFigures/23041.png"
   },
   "24000": {
     "Rarity": 5,
