@@ -857,6 +857,12 @@
     "nameTextMapHash": 1948935171,
     "rarity": 5
   },
+  "13514": {
+    "icon": "UI_EquipIcon_Pole_Trident",
+    "awakenIcon": "UI_EquipIcon_Pole_Trident_Awaken",
+    "nameTextMapHash": 518077587,
+    "rarity": 5
+  },
   "14101": {
     "icon": "UI_EquipIcon_Catalyst_Apprentice",
     "awakenIcon": "UI_EquipIcon_Catalyst_Apprentice_Awaken",
@@ -1341,6 +1347,12 @@
     "icon": "UI_EquipIcon_Bow_Isikhulu",
     "awakenIcon": "UI_EquipIcon_Bow_Isikhulu_Awaken",
     "nameTextMapHash": 565052971,
+    "rarity": 4
+  },
+  "15432": {
+    "icon": "UI_EquipIcon_Bow_Stinger",
+    "awakenIcon": "UI_EquipIcon_Bow_Stinger_Awaken",
+    "nameTextMapHash": 2846112523,
     "rarity": 4
   },
   "15501": {

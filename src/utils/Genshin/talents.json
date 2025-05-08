@@ -2446,5 +2446,53 @@
   "1116": {
     "nameTextMapHash": 1661118537,
     "icon": "UI_Talent_S_Varesa_04"
+  },
+  "1121": {
+    "nameTextMapHash": 811894161,
+    "icon": "UI_Talent_S_Escoffier_01"
+  },
+  "1122": {
+    "nameTextMapHash": 2812705417,
+    "icon": "UI_Talent_S_Escoffier_02"
+  },
+  "1123": {
+    "nameTextMapHash": 4179118993,
+    "icon": "UI_Talent_U_Escoffier_01"
+  },
+  "1124": {
+    "nameTextMapHash": 1564362409,
+    "icon": "UI_Talent_S_Escoffier_03"
+  },
+  "1125": {
+    "nameTextMapHash": 193982321,
+    "icon": "UI_Talent_U_Escoffier_02"
+  },
+  "1126": {
+    "nameTextMapHash": 2361530849,
+    "icon": "UI_Talent_S_Escoffier_04"
+  },
+  "1131": {
+    "nameTextMapHash": 2814486121,
+    "icon": "UI_Talent_S_Ifa_01"
+  },
+  "1132": {
+    "nameTextMapHash": 343417985,
+    "icon": "UI_Talent_S_Ifa_02"
+  },
+  "1133": {
+    "nameTextMapHash": 3301468921,
+    "icon": "UI_Talent_U_Ifa_01"
+  },
+  "1134": {
+    "nameTextMapHash": 2541029529,
+    "icon": "UI_Talent_S_Ifa_03"
+  },
+  "1135": {
+    "nameTextMapHash": 1988960393,
+    "icon": "UI_Talent_U_Ifa_02"
+  },
+  "1136": {
+    "nameTextMapHash": 1817396705,
+    "icon": "UI_Talent_S_Ifa_04"
   }
 }

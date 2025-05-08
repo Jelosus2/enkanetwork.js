@@ -1885,5 +1885,29 @@
       "UI_NameCardPic_Bp40_Alpha",
       "UI_NameCardPic_Bp40_P"
     ]
+  },
+  "210241": {
+    "nameTextMapHash": 2893999940,
+    "icon": "UI_NameCardIcon_Escoffier",
+    "picPath": [
+      "UI_NameCardPic_Escoffier_Alpha",
+      "UI_NameCardPic_Escoffier_P"
+    ]
+  },
+  "210242": {
+    "nameTextMapHash": 1147391812,
+    "icon": "UI_NameCardIcon_Ifa",
+    "picPath": [
+      "UI_NameCardPic_Ifa_Alpha",
+      "UI_NameCardPic_Ifa_P"
+    ]
+  },
+  "210243": {
+    "nameTextMapHash": 2935535900,
+    "icon": "UI_NameCardIcon_Bp41",
+    "picPath": [
+      "UI_NameCardPic_Bp41_Alpha",
+      "UI_NameCardPic_Bp41_P"
+    ]
   }
 }

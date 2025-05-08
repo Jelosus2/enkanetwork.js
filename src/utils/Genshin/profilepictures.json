@@ -594,6 +594,16 @@
     "nameTextMapHash": 1196917500,
     "oldIcon": "UI_AvatarIcon_Varesa"
   },
+  "9700": {
+    "icon": "UI_AvatarIcon_Ifa_Circle",
+    "nameTextMapHash": 408855124,
+    "oldIcon": "UI_AvatarIcon_Ifa"
+  },
+  "9800": {
+    "icon": "UI_AvatarIcon_Escoffier_Circle",
+    "nameTextMapHash": 4080923388,
+    "oldIcon": "UI_AvatarIcon_Escoffier"
+  },
   "99999": {
     "icon": "UI_AvatarIcon_Ambor_Circle",
     "nameTextMapHash": 3995351756,

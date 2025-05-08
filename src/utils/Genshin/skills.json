@@ -1891,6 +1891,50 @@
     "nameTextMapHash": 272134381,
     "icon": "Skill_S_Varesa_01"
   },
+  "11121": {
+    "nameTextMapHash": 3071263197,
+    "icon": "Skill_A_03"
+  },
+  "11122": {
+    "nameTextMapHash": 178961941,
+    "icon": "Skill_S_Escoffier_01"
+  },
+  "11125": {
+    "nameTextMapHash": 2856512381,
+    "icon": "Skill_E_Escoffier_01"
+  },
+  "11131": {
+    "nameTextMapHash": 907147565,
+    "icon": "Skill_A_Catalyst_MD"
+  },
+  "11132": {
+    "nameTextMapHash": 2541439133,
+    "icon": "Skill_S_Ifa_01"
+  },
+  "11133": {
+    "nameTextMapHash": 972060861,
+    "icon": "Skill_E_Ifa_01"
+  },
+  "11135": {
+    "nameTextMapHash": 3589770781,
+    "icon": "Skill_E_Ifa_01"
+  },
+  "11136": {
+    "nameTextMapHash": 3292283365,
+    "icon": "Skill_S_Ifa_02"
+  },
+  "11137": {
+    "nameTextMapHash": 3113434509,
+    "icon": "Skill_S_Ifa_03"
+  },
+  "11138": {
+    "nameTextMapHash": 285391957,
+    "icon": "Skill_S_Ifa_05"
+  },
+  "11139": {
+    "nameTextMapHash": 3350710037,
+    "icon": "Skill_S_Ifa_01"
+  },
   "11301": {
     "nameTextMapHash": 3802462781,
     "icon": "Skill_A_02"
@@ -2399,6 +2443,10 @@
     "nameTextMapHash": 2300637645,
     "icon": "Btn_FishingJoy_CatchFish_04"
   },
+  "20375": {
+    "nameTextMapHash": 2460222389,
+    "icon": "Btn_Recon_Bait_Beans"
+  },
   "20400": {
     "nameTextMapHash": 2657714069,
     "icon": "Btn_HideAndSeekV4_Seeker_S"
@@ -2562,6 +2610,22 @@
   "20580": {
     "nameTextMapHash": 2472473013,
     "icon": "Skill_A_DreamExplore"
+  },
+  "20601": {
+    "nameTextMapHash": 2308638789,
+    "icon": "UI_Img_MVM_Skill_Summon"
+  },
+  "20602": {
+    "nameTextMapHash": 1916867485,
+    "icon": "Btn_HideAndSeek_Seeker_E_01"
+  },
+  "20603": {
+    "nameTextMapHash": 1440843589,
+    "icon": "Skill_SprintCircle"
+  },
+  "20604": {
+    "nameTextMapHash": 3448552405,
+    "icon": "Skill_SprintCircle"
   },
   "30000": {
     "nameTextMapHash": 3235714597,
@@ -3157,6 +3221,14 @@
   },
   "5111010": {
     "nameTextMapHash": 2053063149,
+    "icon": "Skill_A_Catalyst_MD"
+  },
+  "5112010": {
+    "nameTextMapHash": 4143430253,
+    "icon": "Skill_A_03"
+  },
+  "5113010": {
+    "nameTextMapHash": 3705389565,
     "icon": "Skill_A_Catalyst_MD"
   }
 }
