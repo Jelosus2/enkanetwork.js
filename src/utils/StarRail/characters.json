@@ -1575,6 +1575,30 @@
       140507
     ]
   },
+  "1406": {
+    "AvatarName": "1283986297634256167",
+    "Rarity": 5,
+    "Element": "Quantum",
+    "AvatarBaseType": "Warlock",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/Avatar/1406.png",
+    "AvatarCutinFrontImgPath": "SpriteOutput/AvatarDrawCard/1406.png",
+    "RankIDList": [
+      140601,
+      140602,
+      140603,
+      140604,
+      140605,
+      140606
+    ],
+    "SkillList": [
+      140601,
+      140602,
+      140603,
+      140604,
+      140606,
+      140607
+    ]
+  },
   "1407": {
     "AvatarName": "6284038990417808171",
     "Rarity": 5,
@@ -1598,6 +1622,30 @@
       140706,
       140707,
       140709
+    ]
+  },
+  "1409": {
+    "AvatarName": "14193361837482662840",
+    "Rarity": 5,
+    "Element": "Wind",
+    "AvatarBaseType": "Memory",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/Avatar/1409.png",
+    "AvatarCutinFrontImgPath": "SpriteOutput/AvatarDrawCard/1409.png",
+    "RankIDList": [
+      140901,
+      140902,
+      140903,
+      140904,
+      140905,
+      140906
+    ],
+    "SkillList": [
+      140901,
+      140902,
+      140903,
+      140904,
+      140906,
+      140907
     ]
   },
   "8001": {

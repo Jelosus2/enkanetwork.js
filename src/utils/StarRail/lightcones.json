@@ -731,6 +731,18 @@
     "EquipmentName": "12290078682480906936",
     "ImagePath": "SpriteOutput/LightConeFigures/23041.png"
   },
+  "23042": {
+    "Rarity": 5,
+    "AvatarBaseType": "Memory",
+    "EquipmentName": "1992513852031797087",
+    "ImagePath": "SpriteOutput/LightConeFigures/23042.png"
+  },
+  "23043": {
+    "Rarity": 5,
+    "AvatarBaseType": "Warlock",
+    "EquipmentName": "17437100551828055817",
+    "ImagePath": "SpriteOutput/LightConeFigures/23043.png"
+  },
   "24000": {
     "Rarity": 5,
     "AvatarBaseType": "Warrior",
