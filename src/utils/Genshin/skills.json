@@ -1935,6 +1935,42 @@
     "nameTextMapHash": 3350710037,
     "icon": "Skill_S_Ifa_01"
   },
+  "11141": {
+    "nameTextMapHash": 3714723941,
+    "icon": "Skill_A_01"
+  },
+  "11142": {
+    "nameTextMapHash": 3456500781,
+    "icon": "Skill_S_SkirkNew_01"
+  },
+  "11145": {
+    "nameTextMapHash": 55552885,
+    "icon": "Skill_E_SkirkNew_01"
+  },
+  "11146": {
+    "nameTextMapHash": 2251774613,
+    "icon": "Skill_S_SkirkNew_02"
+  },
+  "11147": {
+    "nameTextMapHash": 418975405,
+    "icon": "Skill_E_SkirkNew_02"
+  },
+  "11151": {
+    "nameTextMapHash": 3970842309,
+    "icon": "Skill_A_01"
+  },
+  "11152": {
+    "nameTextMapHash": 142283893,
+    "icon": "Skill_S_Dahlia_01"
+  },
+  "11155": {
+    "nameTextMapHash": 2193809541,
+    "icon": "Skill_E_Dahlia_01"
+  },
+  "11156": {
+    "nameTextMapHash": 618412717,
+    "icon": "Skill_E_Dahlia_01"
+  },
   "11301": {
     "nameTextMapHash": 3802462781,
     "icon": "Skill_A_02"
@@ -3230,5 +3266,13 @@
   "5113010": {
     "nameTextMapHash": 3705389565,
     "icon": "Skill_A_Catalyst_MD"
+  },
+  "5114010": {
+    "nameTextMapHash": 1440187477,
+    "icon": "Skill_A_01"
+  },
+  "5115010": {
+    "nameTextMapHash": 2311517709,
+    "icon": "Skill_A_01"
   }
 }

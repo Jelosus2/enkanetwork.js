@@ -2744,6 +2744,58 @@
       "11135"
     ]
   },
+  "10000114": {
+    "nameTextMapHash": 123650890,
+    "element": "Cryo",
+    "icon": "UI_AvatarIcon_SkirkNew",
+    "rarity": 5,
+    "sideIcon": "UI_AvatarIcon_Side_SkirkNew",
+    "gachaIcon": "UI_Gacha_AvatarImg_SkirkNew",
+    "constellations": [
+      "UI_Talent_S_SkirkNew_01",
+      "UI_Talent_S_SkirkNew_02",
+      "UI_Talent_U_SkirkNew_01",
+      "UI_Talent_S_SkirkNew_03",
+      "UI_Talent_U_SkirkNew_02",
+      "UI_Talent_S_SkirkNew_04"
+    ],
+    "skills": {
+      "normalAttack": "Skill_A_01",
+      "elementalSkill": "Skill_S_SkirkNew_01",
+      "elementalBurst": "Skill_E_SkirkNew_01"
+    },
+    "skillOrder": [
+      "11141",
+      "11142",
+      "11145"
+    ]
+  },
+  "10000115": {
+    "nameTextMapHash": 2332664426,
+    "element": "Hydro",
+    "icon": "UI_AvatarIcon_Dahlia",
+    "rarity": 4,
+    "sideIcon": "UI_AvatarIcon_Side_Dahlia",
+    "gachaIcon": "UI_Gacha_AvatarImg_Dahlia",
+    "constellations": [
+      "UI_Talent_S_Dahlia_01",
+      "UI_Talent_S_Dahlia_02",
+      "UI_Talent_U_Dahlia_01",
+      "UI_Talent_S_Dahlia_03",
+      "UI_Talent_U_Dahlia_02",
+      "UI_Talent_S_Dahlia_04"
+    ],
+    "skills": {
+      "normalAttack": "Skill_A_01",
+      "elementalSkill": "Skill_S_Dahlia_01",
+      "elementalBurst": "Skill_E_Dahlia_01"
+    },
+    "skillOrder": [
+      "11151",
+      "11152",
+      "11155"
+    ]
+  },
   "10000901": {
     "nameTextMapHash": 3293134650,
     "element": "Pyro",

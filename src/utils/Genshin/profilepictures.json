@@ -604,6 +604,16 @@
     "nameTextMapHash": 4080923388,
     "oldIcon": "UI_AvatarIcon_Escoffier"
   },
+  "9900": {
+    "icon": "UI_AvatarIcon_Dahlia_Circle",
+    "nameTextMapHash": 3542297084,
+    "oldIcon": "UI_AvatarIcon_Dahlia"
+  },
+  "10000": {
+    "icon": "UI_AvatarIcon_SkirkNew_Circle",
+    "nameTextMapHash": 62039628,
+    "oldIcon": "UI_AvatarIcon_SkirkNew"
+  },
   "99999": {
     "icon": "UI_AvatarIcon_Ambor_Circle",
     "nameTextMapHash": 3995351756,
@@ -692,5 +702,9 @@
   "100210": {
     "icon": "UI_AvatarIcon_75177_Circle",
     "nameTextMapHash": 1465870260
+  },
+  "200010": {
+    "icon": "UI_AvatarIcon_Activity_01_Circle",
+    "nameTextMapHash": 495143276
   }
 }

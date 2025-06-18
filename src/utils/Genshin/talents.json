@@ -2494,5 +2494,53 @@
   "1136": {
     "nameTextMapHash": 1817396705,
     "icon": "UI_Talent_S_Ifa_04"
+  },
+  "1141": {
+    "nameTextMapHash": 1457353817,
+    "icon": "UI_Talent_S_SkirkNew_01"
+  },
+  "1142": {
+    "nameTextMapHash": 3069934217,
+    "icon": "UI_Talent_S_SkirkNew_02"
+  },
+  "1143": {
+    "nameTextMapHash": 1540870457,
+    "icon": "UI_Talent_U_SkirkNew_01"
+  },
+  "1144": {
+    "nameTextMapHash": 1525981953,
+    "icon": "UI_Talent_S_SkirkNew_03"
+  },
+  "1145": {
+    "nameTextMapHash": 814493897,
+    "icon": "UI_Talent_U_SkirkNew_02"
+  },
+  "1146": {
+    "nameTextMapHash": 1189601753,
+    "icon": "UI_Talent_S_SkirkNew_04"
+  },
+  "1151": {
+    "nameTextMapHash": 4261646841,
+    "icon": "UI_Talent_S_Dahlia_01"
+  },
+  "1152": {
+    "nameTextMapHash": 1170775449,
+    "icon": "UI_Talent_S_Dahlia_02"
+  },
+  "1153": {
+    "nameTextMapHash": 1743485281,
+    "icon": "UI_Talent_U_Dahlia_01"
+  },
+  "1154": {
+    "nameTextMapHash": 759556217,
+    "icon": "UI_Talent_S_Dahlia_03"
+  },
+  "1155": {
+    "nameTextMapHash": 458606633,
+    "icon": "UI_Talent_U_Dahlia_02"
+  },
+  "1156": {
+    "nameTextMapHash": 41248361,
+    "icon": "UI_Talent_S_Dahlia_04"
   }
 }

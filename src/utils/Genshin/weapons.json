@@ -365,6 +365,12 @@
     "nameTextMapHash": 3432339555,
     "rarity": 5
   },
+  "11517": {
+    "icon": "UI_EquipIcon_Sword_OuterSword",
+    "awakenIcon": "UI_EquipIcon_Sword_OuterSword_Awaken",
+    "nameTextMapHash": 1479741275,
+    "rarity": 5
+  },
   "12101": {
     "icon": "UI_EquipIcon_Claymore_Aniki",
     "awakenIcon": "UI_EquipIcon_Claymore_Aniki_Awaken",
